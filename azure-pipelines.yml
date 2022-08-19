@@ -45,6 +45,6 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: Publish CSV Builder Artifacts (Wiki XL)
   inputs:
-    PathtoPublish: '$(Pipeline.Workspace)\Output\csv'
+    PathtoPublish: '$(Pipeline.Workspace)\Output'
     FileCopyOptions: '**/*'
     ArtifactName: CSV-Bestanden
