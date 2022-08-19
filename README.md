@@ -1,2 +1,2 @@
 # vera-referentiedata
-Referentiedata
+Referentiedata.
