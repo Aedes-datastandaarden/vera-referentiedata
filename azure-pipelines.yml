@@ -33,7 +33,7 @@ steps:
   inputs:
     script: |
       echo 'Building Wiki CSV import files ...'
-      mkdir  $(Pipeline.Workspace)\Output\csv
+      mkdir  ..\Output\csv
       $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Pipeline.Workspace)\Output\csv
       IF %errorlevel% NEQ 0 GOTO :error
       GOTO :end
