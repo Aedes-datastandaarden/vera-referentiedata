@@ -4,8 +4,47 @@
 # https://aka.ms/yaml
 name: $(Date:yyMMdd)$(Rev:.r)
 
+
 pool:
   vmImage: 'windows-latest'
 
 steps:
 - checkout: self
+
+- task: DownloadPipelineArtifact@2
+  displayName: Download CSV RefBuilder
+  inputs:
+    buildType: 'specific'
+    project: '76c69267-2225-485e-81df-1cbc0e68039d'
+    definition: '19'
+    buildVersionToDownload: 'latest'
+    targetPath: '$(Pipeline.Workspace)'
+
+- task: ExtractFiles@1
+  displayName: Extract CSV RefBuilder Artifact
+  inputs:
+    archiveFilePatterns: '$(Pipeline.Workspace)/vera-csvrefbuilder/vera-csvrefbuilder.7z'
+    destinationFolder: '$(Pipeline.Workspace)/vera-csvrefbuilder/bin'
+    cleanDestinationFolder: true
+    overwriteExistingFiles: true
+
+- task: CmdLine@2
+  displayName: Run CSV Builder
+  inputs:
+    script: |
+      echo 'Building Wiki CSV import files ...'
+      $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Pipeline.Workspace)\Output\csv
+      IF %errorlevel% NEQ 0 GOTO :error
+      GOTO :end
+      :error
+        echo vera-csvrefbuilder.exe failed with exitcode %errorlevel%
+        EXIT 1
+      :end
+        echo 'Done'
+
+- task: PublishBuildArtifacts@1
+  displayName: Publish CSV Builder Artifacts (Wiki XL)
+  inputs:
+    PathtoPublish: '$(Pipeline.Workspace)\Output\csv'
+    FileCopyOptions: '**/*'
+    ArtifactName: CSV-Bestanden
