@@ -33,7 +33,7 @@ steps:
   inputs:
     script: |
       echo 'Building Wiki CSV import files ...'
-      $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Build.ArtifactStagingDirectory)
+      $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Pipeline.Workspace)\Output\wiki-referentiedata.csv
       IF %errorlevel% NEQ 0 GOTO :error
       GOTO :end
       :error
@@ -45,6 +45,6 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: Publish CSV Builder Artifacts (Wiki XL)
   inputs:
-    PathtoPublish: $(Build.ArtifactStagingDirectory)
+    PathtoPublish: '$(Pipeline.Workspace)\Output\csv'
     FileCopyOptions: '**/*'
     ArtifactName: CSV-Bestanden
