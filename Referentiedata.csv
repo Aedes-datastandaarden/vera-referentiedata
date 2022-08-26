@@ -1424,3 +1424,6 @@ MEDEWERKERSOORT;OPR;oproepkracht;;26-08-2022;;;Organisatie
 MEDEWERKERSOORT;INH;inhuur: zzp / payroll / detachering;;26-08-2022;;;Organisatie
 MEDEWERKERSOORT;STA;stagair;;26-08-2022;;;Organisatie
 MEDEWERKERSOORT;FAM;meewerkende partner;;26-08-2022;;;Organisatie
+DAGDEEL;OCH;Ochtend;Tussen 8 en 12 uur.;26-08-2022;;;Relaties
+DAGDEEL;MID;Middag;Tussen 12 en 18 uur.;26-08-2022;;;Relaties
+DAGDEEL;AVO;Avond;Tussen 18 en 24 uur.;26-08-2022;;;Relaties
