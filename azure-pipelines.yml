@@ -80,6 +80,17 @@ steps:
 
         echo Create and push tag v%RELEASENO%
         git tag v%RELEASENO%
+        IF %errorlevel% NEQ 0 GOTO :error
+
         git push origin v%RELEASENO%
+        IF %errorlevel% NEQ 0 GOTO :error
+        GOTO :end
+
+        :error
+          echo git failed with exitcode %errorlevel%
+          EXIT 1
+        :end
+          echo 'Done'
+
     displayName: Create and push tag
     workingDirectory: '$(Build.Repository.LocalPath)'
