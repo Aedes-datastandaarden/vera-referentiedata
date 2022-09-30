@@ -22,6 +22,7 @@ parameters:
 
 steps:
 - checkout: self
+  persistCredentials: true
 
 - ${{ if ne(parameters.BuildType,'Release') }}:
   - task: DownloadPipelineArtifact@2
