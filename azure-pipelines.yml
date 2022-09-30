@@ -71,10 +71,7 @@ steps:
             write-host "##vso[task.setvariable variable=ReleaseNo]$ReleaseNo"
             $ReleaseNo
 
-  - task: CmdLine@2
-    displayName: Create and push tag
-    inputs:
-      script: |
+  - script: |
         echo Change git config
         git config --global user.email "devops@stichting-vera.nl"
         git config --global user.name "devops"
@@ -82,4 +79,7 @@ steps:
         echo Create and push tag v%RELEASENO%
         git tag v%RELEASENO%
         git push origin v%RELEASENO%
-      workingDirectory: '$(Build.Repository.LocalPath)'
+    displayName: Create and push tag
+    workingDirectory: '$(Build.Repository.LocalPath)'
+    env:
+      SYSTEM_ACCESSTOKEN: $(System.AccessToken)
