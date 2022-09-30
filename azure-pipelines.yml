@@ -23,6 +23,7 @@ parameters:
   - name: ReleaseNotes
     displayName: Releasenotes
     type: string
+    default: ' '
 
 steps:
 - checkout: self
