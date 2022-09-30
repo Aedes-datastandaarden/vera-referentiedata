@@ -9,7 +9,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  ReleaseNo: '4.0.$(Date:yyMMdd)'
+  ReleaseNo: '4.0.{Date}'
 
 parameters:
   - name: BuildType
@@ -62,6 +62,15 @@ steps:
     ArtifactName: CSV-Bestanden
 
 - ${{ if eq(parameters.BuildType,'Release') }}:
+  - task: PowerShell@2
+    displayName: Set release number
+    inputs:
+      targetType: inline
+      script: |
+            $ReleaseNo = ($ENV:RELEASENO -replace "{Date}",(get-date -format 'yyMMdd'))
+            write-host "##vso[task.setvariable variable=ReleaseNo]$ReleaseNo"
+            $ReleaseNo
+
   - task: CmdLine@2
     displayName: Create and push tag
     inputs:
