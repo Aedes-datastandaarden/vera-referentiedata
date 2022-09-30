@@ -75,6 +75,10 @@ steps:
     displayName: Create and push tag
     inputs:
       script: |
+        echo Change git config
+        git config --global user.email "devops@stichting-vera.nl"
+        git config --global user.name "devops"
+
         echo Create and push tag v%RELEASENO%
         git tag v%RELEASENO%
         git push origin v%RELEASENO%
