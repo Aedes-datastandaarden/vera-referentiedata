@@ -78,8 +78,11 @@ steps:
         git config --global user.email "devops@stichting-vera.nl"
         git config --global user.name "devops"
 
+        echo Remove tag from remote
+        git push origin :refs/tags/v%RELEASENO%
+
         echo Create and push tag v%RELEASENO%
-        git tag v%RELEASENO% -f
+        git tag -fa v%RELEASENO%
         IF %errorlevel% NEQ 0 GOTO :error
 
         git push origin v%RELEASENO%
