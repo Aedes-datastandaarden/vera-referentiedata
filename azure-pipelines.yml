@@ -8,8 +8,21 @@ name: $(Date:yyMMdd)$(Rev:.r)
 pool:
   vmImage: 'windows-latest'
 
+variables:
+  ReleaseNo: '4.0.{Date}'
+
+parameters:
+  - name: BuildType
+    displayName: Type of build
+    type: string
+    default: Internal
+    values:
+    - Internal
+    - Release
+
 steps:
 - checkout: self
+  persistCredentials: true
 
 - task: DownloadPipelineArtifact@2
   displayName: Download CSV RefBuilder
@@ -48,3 +61,49 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     FileCopyOptions: '**/*'
     ArtifactName: CSV-Bestanden
+
+- ${{ if eq(parameters.BuildType,'Release') }}:
+  - task: PowerShell@2
+    displayName: Set release number
+    inputs:
+      targetType: inline
+      script: |
+            $ReleaseNo = ($ENV:RELEASENO -replace "{Date}",(get-date -format 'yyMMdd'))
+            write-host "##vso[task.setvariable variable=ReleaseNo]$ReleaseNo"
+            $ReleaseNo
+
+  - script: |
+        echo Change git config
+        git config --global user.email "devops@stichting-vera.nl"
+        git config --global user.name "devops"
+
+        echo Remove tag from remote
+        git push origin :refs/tags/v%RELEASENO%
+
+        echo Create tag v%RELEASENO%
+        git tag -f v%RELEASENO%
+        IF %errorlevel% NEQ 0 GOTO :error
+
+        echo Push tag v%RELEASENO%
+        git push origin --tags
+        IF %errorlevel% NEQ 0 GOTO :error
+        GOTO :end
+
+        :error
+          echo git failed with exitcode %errorlevel%
+          EXIT 1
+        :end
+          echo 'Done'
+    displayName: Create and push tag
+    workingDirectory: '$(Build.Repository.LocalPath)'
+
+  - task: GitHubRelease@1
+    displayName: 'Create GitHub release'
+    inputs:
+      gitHubConnection: 'github.com_RonKopp'
+      repositoryName: 'vereniging-corponet/vera-referentiedata'
+      target: '$(Build.SourceVersion)'
+      tagSource: userSpecifiedTag
+      tag: 'v$(ReleaseNo)'
+      title: 'Release $(ReleaseNo)'
+      addChangeLog: true
