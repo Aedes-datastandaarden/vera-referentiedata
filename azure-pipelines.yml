@@ -20,11 +20,6 @@ parameters:
     - Internal
     - Release
 
-  - name: ReleaseNotes
-    displayName: Releasenotes
-    type: string
-    default: ' '
-
 steps:
 - checkout: self
   persistCredentials: true
@@ -111,6 +106,4 @@ steps:
       tagSource: userSpecifiedTag
       tag: 'v$(ReleaseNo)'
       title: 'Release $(ReleaseNo)'
-      releaseNotesSource: inline
-      releaseNotesInline: '$(Releasenotes)'
       addChangeLog: true
