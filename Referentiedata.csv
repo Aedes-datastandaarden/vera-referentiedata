@@ -51,6 +51,17 @@ AFSPRAAKSTATUS;ANN;Geannuleerd;De afspraak is geannuleerd;;;;Relaties
 AFSPRAAKSTATUS;GEP;Gepland;De afspraak is gepland. Hierbij zal doorgaans ook een medewerker zijn toegewezen.;;;;Relaties
 AFSPRAAKVERZOEKSOORT;EIN;Eindinspectie;;;;;Relaties
 AFSPRAAKVERZOEKSOORT;VOO;Voorinspectie;;;;;Relaties
+AFWEZIGHEIDSOORT;ADO;Adoptieverlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;BIJ;Bijzonder verlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;CAL;Calamiteitenverlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;GES;Geschorst;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;NON;Non-actief;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;ONB;Onbetaald verlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;OUD;Ouderschapsverlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;VER;Verlof (regulier);;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;ZIE;Ziek;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;ZOR;Zorgverlof;;26-08-2022;;;Organisatie
+AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
 AKTESOORT;NOT;Notarïele akte;Akte vastgelegd bij de notaris;;;;Vastgoed
 AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgesteld (onderhands);;;;Vastgoed
 BEDRIJFSOORT;BOU;Bouwbedrijf;;;;;Financiën
@@ -247,6 +258,9 @@ CREDITEURSTATUS;ACT;Actief;;;;;Financiën
 CREDITEURSTATUS;BET;Alleen voor betalen;Korting;;;;Financiën
 CREDITEURSTATUS;GEB;Geblokkeerd;Toeslag;;;;Financiën
 CREDITEURSTATUS;VRL;Voorlopig;;;;;Financiën
+DAGDEEL;AVO;Avond;Tussen 18 en 24 uur.;26-08-2022;;;Relaties
+DAGDEEL;MID;Middag;Tussen 12 en 18 uur.;26-08-2022;;;Relaties
+DAGDEEL;OCH;Ochtend;Tussen 8 en 12 uur.;26-08-2022;;;Relaties
 DAGDELEN;AVO;Avond;Vervallen;;1-1-2022;;Relaties
 DAGDELEN;MID;Middag;Vervallen;;1-1-2022;;Relaties
 DAGDELEN;NAC;Nacht;Vervallen;;1-1-2022;;Relaties
@@ -803,6 +817,14 @@ MAATSCHAPPELIJKLABEL;GNDV;Geconsolideerde NIET-DAEB verbinding;Als attribuut van
 MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Ditis gelijk aan een geliberaliseerde huurovereenkomstAls attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed
 MACHTIGINGSOORT;DOO;Doorlopend;;;;;Financiën
 MACHTIGINGSOORT;EEN;Eenmalig;;;;;Financiën
+MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
+MEDEWERKERROL;SCR;Scrummaster;;26-08-2022;;;Organisatie
+MEDEWERKERROL;VER;Vertrouwenspersoon;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;DIE;in dienst;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;FAM;meewerkende partner;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;INH;inhuur: zzp / payroll / detachering;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;OPR;oproepkracht;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;STA;stagair;;26-08-2022;;;Organisatie
 MEETEENHEID;CM;Centimeter;Aantal uitgedrukt in centimeters;;;;Financiën
 MEETEENHEID;FTE;Omvang personeelsbestand;;;;;Financiën
 MEETEENHEID;GRM;Gram;Aantal uitgedrukt in gram;;;;Financiën
@@ -937,6 +959,7 @@ ORGANISATIEVORM;STI;Stichting;Stichting (Handelsregisterwet: art 5,a);;;;Relatie
 ORGANISATIEVORM;VER;Vereniging;Vereniging  (Handelsregisterwet: art 5,a);;;;Relaties
 ORGANISATIEVORM;VOF;Vennootschap onder firma;Vennootschap onder firma (vof) (Handelsregisterwet: art 5,a);;;;Relaties
 ORGANISATIEVORM;VVE;Vereniging van eigenaars;Vereniging van eigenaars (Handelsregisterwet: art 6, 1, b);;;;Relaties
+OVEREENKOMSTDETAILSOORT;BEP;Bepaalde tijd;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;BOG;Bedrijfsonroerendgoed;Verhuur van vastgoed voor zakelijke doeleinden.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;CAM;Campuscontract;Een campuscontract is een huurovereenkomst die direct is gekoppeld aan een inschrijving bij een onderwijsinstelling. Bij beindiging inschrijving eindigt ook de overeenkomst.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;INS;Inschrijving;Inschrijving of registratie als woningzoekende bij een samenwerkwerkingsverband of woningmarktregio.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
@@ -944,6 +967,8 @@ OVEREENKOMSTDETAILSOORT;JON;Jongerencontract;Jongeren tussen 18 en 28 jaar kunne
 OVEREENKOMSTDETAILSOORT;KGA;Koopgarant;Verkoop van een woning tegen lagere prijs dan de marktwaarde en de garantie dat de corporatie of ontwikkelaar de woning binnen 3 maanden zal terugkopen indien gewenst.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;MGE;MGE constructie;Verkoop met Maatschappelijk Gebonden Eigendom.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;NIE;Nieuwsbrief;Nieuwsbrief voor marketing doeleinden.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;NUL;Nul-uren contract;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;OBE;Onbepaalde tijd;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;ONB;Onbepaalde tijd contract;Regulier huurcontract zonder einddatum.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;PER;Persoonlijke woonkrant;Nieuwsbrief met gepersonificeerd aanbod. (Digizine);;;OVEREENKOMSTSOORT.SER;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;PRO;Nieuwbouwinformatie;Abonnement of nieuwsbrief met informatie over nieuwbouw projecten en/of vastgoed ontwikkelingen.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
@@ -1273,14 +1298,17 @@ VERANTWOORDINGREGIME;ADM;Administratieve scheiding;De DAEB- en niet-DAEB activit
 VERANTWOORDINGREGIME;HYB;Hybride;Een scheiding is hybride indien er bezit wordt overgeheveld van de TI naar een dochtervennootschap, terwijl ook niet-DAEB bezit achterblijft in de TI.;;;;Financiën
 VERANTWOORDINGREGIME;JUR;Juridische scheiding;De DAEB- en niet-DAEB activiteiten van de corporatie zijn in aparte juridische entiteiten ondergebracht, elk met een eigen financiële administratie;;;;Financiën
 VERANTWOORDINGREGIME;VER;Verlicht regime;De corporatie voldoet aan de voorwaarden waaronder geen gescheiden administraties voor DAEB- en niet-DAEB activiteiten gevoerd hoeven te worden.;;;;Financiën
-VERBIJZONDERINGSOORT;CLS;Cluster;;;;;Financiën
-VERBIJZONDERINGSOORT;CPL;Complex;;;;;Financiën
-VERBIJZONDERINGSOORT;KPL;Kostenplaats;;;;;Financiën
-VERBIJZONDERINGSOORT;KST;Kostensoort;;;;;Financiën
-VERBIJZONDERINGSOORT;VGE;Vastgoedeenheid;;;;;Financiën
+VERBIJZONDERINGSOORT;CLS;Cluster;Optionele verwijzing naar een cluster om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;CPL;Complex;Optionele verwijzing naar een complex om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen;30-9-2022;;;Financiën
+VERBIJZONDERINGSOORT;KPL;Kostenplaats;Optionele verwijzing naar een kostenplaats om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;KST;Kostensoort;Optionele verwijzing naar een kostensoort om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;VGE;Vastgoedeenheid;Optionele verwijzing naar een vastgoedeenheid om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSTATUS;ACT;Actief;;;;;Financiën
 VERBIJZONDERINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
 VERBIJZONDERINGSTATUS;HIS;Historisch;;;;;Financiën
+VERREKENINGSOORT;ACT;Te activeren;Bij de verrekening wordt (een deel van) het bedrag geactiveerd;30-9-2022;;;Onderhoud
+VERREKENINGSOORT;VER;Te verhalen;Bij de verrekening wordt (een deel van) het bedrag verhaald op een derde partij;30-9-2022;;;Onderhoud
 VERTROUWELIJKHEID;GEH;Geheim;Informatie is alleen toegankelijk voor direct geadresseerde(n) (bv: zorggegevens en strafrechtelijke informatie);;;;Dossier
 VERTROUWELIJKHEID;INT;Intern;Informatie is toegankelijk voor alle medewerkers van de organisatie (bv: intranet);;;;Dossier
 VERTROUWELIJKHEID;OPE;Openbaar;Informatie mag door iedereen worden ingezien (bv: algemene informatie op de website);;;;Dossier
@@ -1402,28 +1430,3 @@ ZEKERHEIDVERPANDINGSOORT;OVE;Overig;Overig, bijvoorbeeld vastgelegd in onderhand
 ZEKERHEIDVERPANDINGSOORT;PHU;Pandrecht huurpenningen;Pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;POV;Positieve verklaring;Positieve verklaring hypotheek en/of positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;PPO;Pandrecht huurpenningen en positieve verklaring hypotheek;Pandrecht huurpenningen en positieve verklaring hypotheek;;;;Vastgoed
-AFWEZIGHEIDSOORT;VER;Verlof (regulier);;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;ZIE;Ziek;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;BIJ;Bijzonder verlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;ONB;Onbetaald verlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;OUD;Ouderschapsverlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;ZOR;Zorgverlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;CAL;Calamiteitenverlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;NON;Non-actief;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;ADO;Adoptieverlof;;26-08-2022;;;Organisatie
-AFWEZIGHEIDSOORT;GES;Geschorst;;26-08-2022;;;Organisatie
-MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
-MEDEWERKERROL;VER;Vertrouwenspersoon;;26-08-2022;;;Organisatie
-MEDEWERKERROL;SCR;Scrummaster;;26-08-2022;;;Organisatie
-OVEREENKOMSTDETAILSOORT;BEP;Bepaalde tijd;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;OBE;Onbepaalde tijd;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;NUL;Nul-uren contract;;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
-MEDEWERKERSOORT;DIE;in dienst;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;OPR;oproepkracht;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;INH;inhuur: zzp / payroll / detachering;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;STA;stagair;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;FAM;meewerkende partner;;26-08-2022;;;Organisatie
-DAGDEEL;OCH;Ochtend;Tussen 8 en 12 uur.;26-08-2022;;;Relaties
-DAGDEEL;MID;Middag;Tussen 12 en 18 uur.;26-08-2022;;;Relaties
-DAGDEEL;AVO;Avond;Tussen 18 en 24 uur.;26-08-2022;;;Relaties
