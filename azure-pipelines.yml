@@ -104,7 +104,7 @@ steps:
       gitHubConnection: 'github.com_RonKopp'
       repositoryName: 'vereniging-corponet/vera-referentiedata'
       target: '$(Build.SourceVersion)'
-      tagSource: manual
+      tagSource: userSpecifiedTag
       tag: 'v$(ReleaseNo)'
       title: 'Release $(ReleaseNo)'
       #releaseNotesSource: inline
