@@ -1398,12 +1398,23 @@ WOONVORM;KLE;Kleine woonvorm;gezinsvervangende tehuizen voor lichamelijk gehandi
 WOONVORM;SEN;Seniorenwoning met zorg;Senioren woningen met zorg (voorheen Wibo-wonen in beschermde omgeving) zijn bij elkaar gelegen zelfstandige (aanleun)woningen met een dienstencentrum met allerlei voorzieningen dichtbij.;;;;Vastgoed
 WOONVORM;THO;Thomashuis;Een Thomashuis is een kleinschalige woonvoorziening voor zes à acht mensen met een verstandelijke beperking;;;;Vastgoed
 ZAAKROL;ADV;Adviseur;;;;;
-ZAAKROL;BEH;Behandelaar;;;;;
+ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;
+ZAAKROL;BEK;Beklaagde;De betrokkene binnen de zaak waarover geklaagd wordt bij een (sociale) klacht;30-09-2022;;;
 ZAAKROL;BEL;Belanghebbende;;;;;
 ZAAKROL;BES;Beslisser;;;;;
 ZAAKROL;INI;Initiator;;;;;
 ZAAKROL;KLA;Klantcontacter;;;;;
+ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;30-09-2022;;;
+ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
+ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;
 ZAAKROL;ZAA;Zaakcoördinator;;;;;
+ZAAKSTATUSSOORT;INU;In uitvoering;Zaak is in uitvoering;30-09-2022;;;
+ZAAKSTATUSSOORT;INB;In behandeling;Zaak is in uitvoering;30-09-2022;;;
+ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is afgerond;30-09-2022;;;
+ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
+ZAAKSTATUSSOORT;GES;Gesloten;Zaak is gesloten;30-09-2022;;;
+ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
+ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
 ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
 ZAAKTYPYEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPYEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
