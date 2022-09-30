@@ -79,7 +79,7 @@ steps:
         git config --global user.name "devops"
 
         echo Create and push tag v%RELEASENO%
-        git tag v%RELEASENO%
+        git tag v%RELEASENO% -f
         IF %errorlevel% NEQ 0 GOTO :error
 
         git push origin v%RELEASENO%
