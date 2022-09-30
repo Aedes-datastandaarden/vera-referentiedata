@@ -38,7 +38,7 @@ AANVULLENDEDOELGROEP;SKA;Skaeve Huse;Woonruimte is bestemd voor en/of huurder zo
 AANVULLENDEDOELGROEP;STH;Statushouders;Woonruimte is bestemd voor en/of huurder is een als vluchteling erkende asielzoeker (statushouder of vergunninghouder);;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;VER;(ex)-verslaafden;Woonruimte is bestemd voor en/of huurder is een (ex-) verslaafde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;;;;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling
-ACCOUNTSTATUS;BEE;Beëindigd;Het account is beïndigd.;;;;
+ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;
 ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;
 ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;
 ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;
