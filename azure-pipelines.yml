@@ -74,8 +74,6 @@ steps:
             $ReleaseNo
 
   - script: |
-        cd
-        dir
         echo Change git config
         git config --global user.email "devops@stichting-vera.nl"
         git config --global user.name "devops"
@@ -85,5 +83,3 @@ steps:
         git push origin v%RELEASENO%
     displayName: Create and push tag
     workingDirectory: '$(Build.Repository.LocalPath)'
-    env:
-      SYSTEM_ACCESSTOKEN: $(System.AccessToken)
