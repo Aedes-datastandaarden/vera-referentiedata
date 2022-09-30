@@ -95,6 +95,19 @@ steps:
           EXIT 1
         :end
           echo 'Done'
-
     displayName: Create and push tag
     workingDirectory: '$(Build.Repository.LocalPath)'
+
+  - task: GitHubRelease@1
+    displayName: 'Create GitHub release'
+    inputs:
+      gitHubConnection: 'github.com_RonKopp'
+      repositoryName: 'vereniging-corponet/vera-referentiedata'
+      target: '$(Build.SourceVersion)'
+      tagSource: manual
+      tag: 'v$(ReleaseNo)'
+      title: 'Release $(ReleaseNo)'
+      #releaseNotesSource: inline
+      #releaseNotesInline: '$(Release.ReleaseDescription)'
+      addChangeLog: true
+  
