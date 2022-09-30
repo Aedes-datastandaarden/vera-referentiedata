@@ -81,11 +81,12 @@ steps:
         echo Remove tag from remote
         git push origin :refs/tags/v%RELEASENO%
 
-        echo Create and push tag v%RELEASENO%
-        git tag -fa v%RELEASENO%
+        echo Create tag v%RELEASENO%
+        git tag -f v%RELEASENO%
         IF %errorlevel% NEQ 0 GOTO :error
 
-        git push origin v%RELEASENO%
+        echo Push tag v%RELEASENO%
+        git push origin --tags
         IF %errorlevel% NEQ 0 GOTO :error
         GOTO :end
 
