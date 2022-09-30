@@ -69,4 +69,4 @@ steps:
         echo Create and push tag v%RELEASENO%
         git tag v%RELEASENO%
         git push origin v%RELEASENO%
-    workingDirectory: '$(Build.Repository.LocalPath)'
+      workingDirectory: '$(Build.Repository.LocalPath)'
