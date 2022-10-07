@@ -311,10 +311,10 @@ DEFECTLOCATIE;WOO;Woonkamer;;;;;Onderhoud
 DEFECTLOCATIE;WRC;Wasruimte collectief;;;;;Onderhoud
 DEFECTLOCATIE;WRI;Wasruimte individueel;;;;;Onderhoud
 DEFECTLOCATIE;ZOL;Zolder / vliering;;;;;Onderhoud
-DEFECTOORZAAK;BEW;Bewonersopdracht/gedrag;Bewoner heeft het defect zelf veroorzaakt (bijv. binnendeur ingetrapt)Relatie met Ketenstandaard (SALES): oorzaakcode HUU - Huurder;;;;Onderhoud
+DEFECTOORZAAK;BEW;Bewonersopdracht/gedrag;Bewoner heeft het defect zelf veroorzaakt (bijv. binnendeur ingetrapt)Relatie met Ketenstandaard: oorzaakcode HUU - Huurder;;;;Onderhoud
 DEFECTOORZAAK;BRA;Schade door brand;Defect is veroorzaakt door brand. (bijv. keukenbrand).;;;;Onderhoud
-DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef)Relatie met Ketenstandaard (SALES): oorzaakcode OUD - Ouderdom;;;;Onderhoud
-DEFECTOORZAAK;SLT;Normale slijtage;Het element is versleten en defect geraakt. (bijv. door veelvuldig gebruik van het element). Relatie met Ketenstandaard (SALES): oorzaakcode SLT - Slijtage;;;;Onderhoud
+DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef)Relatie met Ketenstandaard: oorzaakcode OUD - Ouderdom;;;;Onderhoud
+DEFECTOORZAAK;SLT;Normale slijtage;Het element is versleten en defect geraakt. (bijv. door veelvuldig gebruik van het element). Relatie met Ketenstandaard: oorzaakcode SLT - Slijtage;;;;Onderhoud
 DEFECTOORZAAK;SOP;Slecht opgeleverd;Defect is veroorzaakt door een slechte oplevering van het element bij de installatie (bijv. kraan lekt van nieuwe keuken).;;;;Onderhoud
 DEFECTOORZAAK;STO;Schade door storm;Defect is veroorzaakt door externe invloeden. (bijv. schutting omgewaaid door storm).;;;;Onderhoud
 DEFECTOORZAAK;VAN;Schade door vandalisme;Defect is veroorzaakt door vandalisme. (bijv. graffiti op gevel).;;;;Onderhoud
@@ -611,6 +611,11 @@ ENERGIELABEL;D;D;;;;;Vastgoed
 ENERGIELABEL;E;E;;;;;Vastgoed
 ENERGIELABEL;F;F;;;;;Vastgoed
 ENERGIELABEL;G;G;;;;;Vastgoed
+EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
+EXTERNEINCASSOSTATUS;EIN;Beëindigd;;;;;Financiën
+EXTERNEINCASSOSTATUS;NIE;Nieuw;;;;;Financiën
+EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
+EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 FACTUURBETAALWIJZE;AIN;Automatische incasso;Factuur wordt voldaan middels automatische incasso betaling.;;;;Financiën
 FACTUURBETAALWIJZE;CNT;Contant;Factuur word voldaan middels contante betaling;;;;Financiën
 FACTUURBETAALWIJZE;ORN;Op rekening;Factuur wordt niet direct voldaan maar op rekening gezet. De rekening wordt (bijv. maandelijks) als 1 factuur aangeboden.;;;;Financiën
@@ -876,8 +881,8 @@ ONDERHOUDSPECIALISME;BLI;Specialist Bliksemgeleider;Binnen Ketenstandaard is hie
 ONDERHOUDSPECIALISME;BLU;Specialist Blusmiddelen;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;BRA;Specialist Brandmeldinstallatie;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;CVI;CV Installateur;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
-ONDERHOUDSPECIALISME;ELA;Elektriciën allrounder;De allrounder elektricien kan kleine elektra-werkzaamheden uitvoeren.Relatie met Ketenstandaard (SALES): competentiecode ELE - Electra;;;;Onderhoud
-ONDERHOUDSPECIALISME;ELE;Elektriciën;Een volwaardige elektriciënRelatie met Ketenstandaard (SALES): competentiecode ELE - Electra;;;;Onderhoud
+ONDERHOUDSPECIALISME;ELA;Elektriciën allrounder;De allrounder elektricien kan kleine elektra-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
+ONDERHOUDSPECIALISME;ELE;Elektriciën;Een volwaardige elektriciënRelatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELT;Specialist Elektrische Toegangsdeuren;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;GEI;Specialist Geiser;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;GLA;Glaszetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
@@ -885,18 +890,19 @@ ONDERHOUDSPECIALISME;HOV;Hovenier;Binnen Ketenstandaard is hier op dit moment ge
 ONDERHOUDSPECIALISME;HYD;Specialist Hydrofoor;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;INS;Inspecteur;Medewerker die een inspectie uit gaat voeren. Dit kan voorafgaand aan de opdracht zijn (bijvoorbeeld bij mutatie of reparatie) maar ook achteraf (steekproef-controle)Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor beschikbaar;;;;Onderhoud
 ONDERHOUDSPECIALISME;LIF;Specialist Lift;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
-ONDERHOUDSPECIALISME;LOA;Loodgieter allrounder;De allrounder loodgieter kan kleine loodgieter-werkzaamheden uitvoeren.Relatie met Ketenstandaard (SALES): competentiecode LOO  - Loodgieter;;;;Onderhoud
-ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieterRelatie met Ketenstandaard (SALES): competentiecode LOO  - Loodgieter;;;;Onderhoud
+ONDERHOUDSPECIALISME;LOA;Loodgieter allrounder;De allrounder loodgieter kan kleine loodgieter-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode LOO  - Loodgieter;;;;Onderhoud
+ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Ketenstandaard: competentiecode LOO  - Loodgieter;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONG;Ongediertebestrijder;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONT;Ontstopper;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;OVE;Overig;Overige specialismen die niet onder één van de andere onderhoudspecialismen vallen;;;;Onderhoud
-ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoorRelatie met Ketenstandaard (SALES): competentiecode STU - Stucen;;;;Onderhoud
-ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard (SALES): competentiecode TIM - Timmerman;;;;Onderhoud
+ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
+ONDERHOUDSPECIALISME;SCH;Schilder;Een volwaardige schilder;;;;Onderhoud
+ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
-ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard (SALES): competentiecode TIM - Timmerman;;;;Onderhoud
+ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;WIT;Specialist Witgoed;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;WTW;Specialist MV/WTW;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
-ONDERHOUDSPECIALISME;ZAN;Zandleverancier;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
+ONDERHOUDSPECIALISME;ZAN;Zandleverancier;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige. OBSOLETE Gebruik hiervoor HOV Hovenier;;;;Onderhoud
 ONDERHOUDSPECIALISME;ZON;Specialist Zonnepanelen;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ZWE;Specialist Zonwering;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSTAAKDETAILSTATUS;AFW;Klant niet aanwezig;De taak is onderbroken omdat de klant niet aanwezig is;;;ONDERHOUDSTAAKSTATUS.OND;Onderhoud
@@ -1413,12 +1419,14 @@ ZAAKSTATUSSOORT;INB;In behandeling;Zaak is in uitvoering;30-09-2022;;;
 ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is afgerond;30-09-2022;;;
 ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
 ZAAKSTATUSSOORT;GES;Gesloten;Zaak is gesloten;30-09-2022;;;
-ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
 ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
+ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
+ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
 ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
+ZAAKTYPESOORT;WOO;Woonfraude;;;;;Dossier
 ZAAKTYPYEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPYEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;DIE;Huisdieren;Sociale melding over Huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPYEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPYEDETAILSOORT;DRU;Dealen/drugspanden;Sociale melding over Dealen/drugspanden;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPYEDETAILSOORT;GEL;Geluidsoverlast;Sociale melding over Geluidsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPYEDETAILSOORT;HAN;Omgevingsoverlast;Sociale melding over Omgevingsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
