@@ -46,7 +46,10 @@ steps:
   inputs:
     script: |
       echo 'Building Wiki CSV import files ...'
-      mkdir %Build_Repository_LocalPath%\out
+      echo %Build_Repository_LocalPath%
+      echo %Build_Repository_LocalPath%\out
+      echo %Build_Repository_LocalPath%/out
+      echo mkdir %Build_Repository_LocalPath%\out
       $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Build.ArtifactStagingDirectory)\out\wiki-referentiedata.csv
       IF %errorlevel% NEQ 0 GOTO :error
       GOTO :end
