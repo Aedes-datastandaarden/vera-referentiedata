@@ -530,7 +530,8 @@ EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VOL;Volledig Elektrisch;Volledig electrische klimaatbeheersing;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Electrische of hybride warmtepomp voor verwarming en warm water;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;WTS;Warmte terugwin systeem;;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed
 EENHEIDLIGGING;BES;Beschutte ligging;;;;;Vastgoed
 EENHEIDLIGGING;BOS;In bosrijke omgeving;;;;;Vastgoed
