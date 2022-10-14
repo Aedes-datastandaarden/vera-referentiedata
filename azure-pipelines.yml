@@ -46,10 +46,9 @@ steps:
   inputs:
     script: |
       echo 'Building Wiki CSV import files ...'
-      dir %Build_Repository_LocalPath%
-      $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Build.ArtifactStagingDirectory)\wiki-referentiedata.csv
+      mkdir %Build_Repository_LocalPath%\out
+      $(Pipeline.Workspace)/vera-csvrefbuilder/bin/net5.0/vera-csvrefbuilder.exe -i $(Build.Repository.LocalPath)\Referentiedata.csv -o $(Build.ArtifactStagingDirectory)\out\wiki-referentiedata.csv
       IF %errorlevel% NEQ 0 GOTO :error
-      dir %Build_Repository_LocalPath%
       GOTO :end
       :error
         echo vera-csvrefbuilder.exe failed with exitcode %errorlevel%
@@ -60,7 +59,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: Publish CSV Builder Artifacts (Wiki XL)
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\out'
     FileCopyOptions: '**/*'
     ArtifactName: CSV-Bestanden
 
@@ -72,7 +71,6 @@ steps:
       script: |
             $ReleaseNo = ($ENV:RELEASENO -replace "{Date}",(get-date -format 'yyMMdd'))
             write-host "##vso[task.setvariable variable=ReleaseNo]$ReleaseNo"
-            $ReleaseNo
 
   - script: |
         echo Change git config
