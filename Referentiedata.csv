@@ -85,6 +85,9 @@ BETAALGEGEVENSOORT;PAY;Paypal account;Het betaalgegeven van een relatie, behoren
 BETAALGEGEVENSOORT;TRA;TransferMate;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een TransferMate account;;;;Relaties
 BETAALWIJZESOORT;HND;Handmatige overboeking;Een door de betaler geïnitieerde betaling, via een bankoverboeking , een voldaan betaalverzoek of via een PIN-betaling;;;;Financiën
 BETAALWIJZESOORT;INC;Incasso;Een door de ontvanger geïnitieerde incasso, er moet een Incassomachtiging aan ten grondslag liggen;;;;Financiën
+BETAALWIJZEDEELSOORT;MAX;Maximaal bedrag;Het maximale bedrag wat door de betaler wordt bijgedragen aan de huur. Bijvoorbeeld de ouders van de student dragen maximaal EUR 300 bij aan de huur;;;;Financiën
+BETAALWIJZEDEELSOORT;PER;Maximaal bedrag;Het percentage van de huur wat door de betaler wordt bijgedragen. Bijvoorbeeld een stel die beiden de helft van de huur betaald;;;;Financiën
+BETAALWIJZEDEELSOORT;RES;Restant bedrag;Het restant van de huur wat door de betreffende betaler wordt bijgedragen. Bijvoorbeeld de student die het restant van de huur betaald na aftrek van de bijdrage van zijn/haar ouders;;;;Financiën
 BETALERSOORT;DER;Derden;Vervallen;;1-1-2022;;Financiën
 BETALERSOORT;HUU;Huurder;Vervallen;;1-1-2022;;Financiën
 BETALERSOORT;VGE;Vastgoedeigenaar;Vervallen;;1-1-2022;;Financiën
@@ -530,7 +533,8 @@ EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VOL;Volledig Elektrisch;Volledig electrische klimaatbeheersing;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Electrische of hybride warmtepomp voor verwarming en warm water;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;WTS;Warmte terugwin systeem;;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed
 EENHEIDLIGGING;BES;Beschutte ligging;;;;;Vastgoed
 EENHEIDLIGGING;BOS;In bosrijke omgeving;;;;;Vastgoed
@@ -1022,11 +1026,12 @@ PRIJSCOMPONENTDETAILSOORT;IGA;Individuele garage;Inpandige parkeerplek individue
 PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;OKO;Overnamekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;PBU;Parkeerplaats buiten;Uitpandige parkeerplek;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;PGA;Parkeergarage;Inpandige parkeerplek collectief;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;PGA;Parkeergarage;Inpandige parkeerplek collectief;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SCH;Schoonmaak van gemeenschappelijke ruimten;De maandelijkse schoonmaakkosten voor de lift en andere gemeenschappelijke ruimten, zoals een galerij, trappenhuis of recreatieruimte;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SUB;Subsidiabele servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent.";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAR;Warmte;Centrale verwarming, Stadsverwarming, etc.;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAT;Water;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;EPV;Energieprestatievergoeding;Een vergoeding die verhuurder aan huurder mag vragen voor een zeer energiezuinige woning;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTSOORT;DIE;Dienstencomponent;Let op: niet te verwarren met prijscomponentdetailsoort 'Dienst- en recreatieruimten'. Die laatste is een (subsidiabele) Servicekosten component.;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;EEN;Eenmalig;Eenmalige kosten, bijv. administratiekosten afsluiten huurovereenkomst;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;HUA;Huuraanpassing;Aanpassingen zoals, korting, compensatie, opslag, etc.;;;;Overeenkomsten
@@ -1424,24 +1429,24 @@ ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
 ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
 ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
 ZAAKTYPESOORT;WOO;Woonfraude;;;;;Dossier
-ZAAKTYPYEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;DRU;Dealen/drugspanden;Sociale melding over Dealen/drugspanden;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;GEL;Geluidsoverlast;Sociale melding over Geluidsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;HAN;Omgevingsoverlast;Sociale melding over Omgevingsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;HEN;Hennepkwekerij;Sociale melding over Hennepkwekerij;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;KLI;Oneigenlijk gebruik gemeenschappelijke ruimte;Sociale melding over Oneigenlijk gebruik gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;ONG;Ongedierte;Sociale melding over Ongedierte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;ONR;Onrechtmatige bewoning;Sociale melding over Onrechtmatige bewoning;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;ONV;Onveiligheid gemeenschappelijke ruimte;Sociale melding over Onveiligheid gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;OVE;Overige;Sociale melding over Overige;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;PSY;Psychische problematiek;Sociale melding over Psychische problematiek;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;RUZ;Burenruzie;Sociale melding over Burenruzie;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;STA;Stankoverlast;Sociale melding over Stankoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPYEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;DRU;Dealen/drugspanden;Sociale melding over Dealen/drugspanden;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;GEL;Geluidsoverlast;Sociale melding over Geluidsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;HAN;Omgevingsoverlast;Sociale melding over Omgevingsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;HEN;Hennepkwekerij;Sociale melding over Hennepkwekerij;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;KLI;Oneigenlijk gebruik gemeenschappelijke ruimte;Sociale melding over Oneigenlijk gebruik gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONG;Ongedierte;Sociale melding over Ongedierte;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONR;Onrechtmatige bewoning;Sociale melding over Onrechtmatige bewoning;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONV;Onveiligheid gemeenschappelijke ruimte;Sociale melding over Onveiligheid gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;OVE;Overige;Sociale melding over Overige;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;PSY;Psychische problematiek;Sociale melding over Psychische problematiek;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;RUZ;Burenruzie;Sociale melding over Burenruzie;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;STA;Stankoverlast;Sociale melding over Stankoverlast;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;;ZAAKTYPESOORT.SOC;Dossier
 ZEKERHEIDVERPANDINGSOORT;HPH;Hypotheek en pandrecht huurpenningen;Hypotheek en pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;HPO;Hypotheek en positieve verkaring pandrecht huurpenningen;Hypotheek en positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;HYP;Hypotheek;Hypotheek;;;;Vastgoed
