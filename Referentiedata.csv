@@ -1440,6 +1440,12 @@ WOONVORM;HAT;HAT-eenheid;eenheden voor 1 of twee persoonshuishoudens met gezamel
 WOONVORM;KLE;Kleine woonvorm;gezinsvervangende tehuizen voor lichamelijk gehandicapten;;;;Vastgoed
 WOONVORM;SEN;Seniorenwoning met zorg;Senioren woningen met zorg (voorheen Wibo-wonen in beschermde omgeving) zijn bij elkaar gelegen zelfstandige (aanleun)woningen met een dienstencentrum met allerlei voorzieningen dichtbij.;;;;Vastgoed
 WOONVORM;THO;Thomashuis;Een Thomashuis is een kleinschalige woonvoorziening voor zes à acht mensen met een verstandelijke beperking;;;;Vastgoed
+ZAAKOBJECTSOORT;CLU;Cluster;;04-11-2022;;;
+ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;
+ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;
+ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;
+ZAAKOBJECTSOORT;OND;Onderhoudsverzoek;;04-11-2022;;;
+ZAAKOBJECTSOORT;REL;Relatie;;04-11-2022;;;
 ZAAKROL;ADV;Adviseur;;;;;
 ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;
 ZAAKROL;BEK;Beklaagde;De betrokkene binnen de zaak waarover geklaagd wordt bij een (sociale) klacht;30-09-2022;;;
