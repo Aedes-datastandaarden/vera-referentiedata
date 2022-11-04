@@ -998,7 +998,7 @@ OVEREENKOMSTSOORT;LEA;Lease;Leaseovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;OND;Onderhoudsovereenkomst;Overeenkomst met betrekking tot het onderhouden of beheren van roerend of onroerend goed.;;;;Overeenkomsten
 OVEREENKOMSTSOORT;SER;Serviceovereenkomst;Overeenkomst met betrekking tot (aanvullende) dienstverlening zoals glazenwassen, reparaties, groenverzorging. Ook de verschillende vormen van inschrijvingen of abonnementen vallen onder de soort Service overeenkomst.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;BEE;Beeindigd;De einddatum van de overeenkomst is verstreken en deze is daadwerkelijk beeindigd.;;;;Overeenkomsten
-OVEREENKOMSTSTATUS;GEA;Geannuleerd;De partijen hebben afgesproken dat de huurovereenkomst toch niet definitief gemaakt wordt. Deze status kan alleen ontstaan wanneer de overeenkomst de status Voorlopig of Goedgekeurd heeft. Wanneer een overeenkomst actief is zal deze opgezegd, ontbonden of vernietigd moeten worden.;;;;
+OVEREENKOMSTSTATUS;GEA;Geannuleerd;"De partijen hebben afgesproken dat de huurovereenkomst toch niet definitief gemaakt wordt. Deze status kan alleen ontstaan wanneer de overeenkomst de status ""Voorlopig"" of ""Goedgekeurd"" heeft. Wanneer een overeenkomst actief is zal deze opgezegd, ontbonden of vernietigd moeten worden.";;;;
 OVEREENKOMSTSTATUS;GOE;Goedgekeurd;De overeenkomst is goedgekeurd door de verhuurder en wacht op een handtekening van de huurder.;;;;
 OVEREENKOMSTSTATUS;LOP;Lopend;De overeenkomst is getekend en loopt tot de vastgestelde einddatum of volgens de specifieke voorwaarden van de overeenkomst;;;;
 OVEREENKOMSTSTATUS;ONT;Ontbonden;De aanduiding dat de overeenkomst voor de einddatum is ontbonden en niet door een natuurlijke weg is beëindigd. Ontbonden vanwege contractbreuk, -fraude.;;;;Overeenkomsten
@@ -1017,7 +1017,7 @@ PRIJSAANPASSINGSOORT;KOR;Korting;;;;;Financiën
 PRIJSAANPASSINGSOORT;TOE;Toeslag;;;;;Financiën
 PRIJSCOMPONENTDETAILSOORT;AKO;Administratiekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;ALA;Alarm bewaking;Maandelijkse kosten voor het alarm en de bewaking van de woning;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;BED;Servicekosten bedrijfsruimten;Maandelijkse kosten voor services m.b.t. bedrijfsruimten;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;BED;Servicekosten bedrijfsruimten;"Maandelijkse kosten voor services m.b.t. bedrijfsruimten ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BEH;Beheerder(s);Maandelijkse kosten voor de beheerder(s) van de eenheid en/of het complex;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BOR;Borg;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;DIE;Dienst- en recreatieruimten;De maandelijkse kosten voor reparaties en groot onderhoud aan dienstruimten en recreatieruimten. Deze kosten komen meestal voor bij senioren- of bejaardenwoningen. Het gaat niet om de inventaris, het schoonmaken van de ruimten of onderhoud aan de tuin.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
@@ -1027,7 +1027,7 @@ PRIJSCOMPONENTDETAILSOORT;ELO;Elektra oplaadpunt;Maandelijkse kosten voor het ge
 PRIJSCOMPONENTDETAILSOORT;ENE;Energie voor gemeenschappelijke ruimten;Dit zijn bijvoorbeeld de maandelijkse kosten voor elektriciteit voor bijvoorbeeld: lift, verlichting, ventilatie, alarminstallatie. Alleen voor gemeenschappelijke ruimten.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;EPV;Energieprestatievergoeding;Een vergoeding die verhuurder aan huurder mag vragen voor een huurwoning die zelf energie opwekt;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;GAS;Gas;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;GEM;Reparatie gem. ruimten;Maandelijkse kosten voor het repareren van defecten aan gemeenschappelijke ruimten;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GEM;Reparatie gem. ruimten;"Maandelijkse kosten voor het repareren van defecten aan gemeenschappelijke ruimten  ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;GHB;Gladheidsbestrijding;Maandelijkse kosten voor het bestrijden van gladheid rondom de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;GLB;Glasbewassing;Maandelijkse kosten voor het wassen van glas van ramen en deuren van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;GLF;Glasfonds;Maandelijkse kosten voor de voorziening voor repareren van glasschade;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
@@ -1041,29 +1041,29 @@ PRIJSCOMPONENTDETAILSOORT;LAA;Laadpaal;Maandelijkse kosten voor het gebruik van 
 PRIJSCOMPONENTDETAILSOORT;LIF;Liftkosten;Maandelijkse kosten voor het gebruik van de lift(en);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LIN;Linnenpakket;Maandelijkse kosten voor het gebruik van linnen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;MVE;Mechanische ventilatie;Maandelijkse kosten voor het gebruik van de mechanische ventilatie;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata PRIJSCOMPONENTSUBSIDIESOORT opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent;;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;OKO;Overnamekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;OND;Onderhoudsabonnement;Maandelijkse kosten voor onderhoudsabonnement. De huurder is zelf verantwoordelijk voor het klein onderhoud aan de woning. Als de huurder een onderhoudsabonnement afsluit, dan regelt de corporatie het klein onderhoud voor de huurder.;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;OVE;Overige kosten gem. ruimten;Maandelijkse kosten voor overige kosten voor gemeenschappelijke ruimten (naast schoonmaak, energie en reparatie);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;OND;Onderhoudsabonnement;"Maandelijkse kosten voor onderhoudsabonnement. De huurder is zelf verantwoordelijk voor het klein onderhoud aan de woning. Als de huurder een onderhoudsabonnement afsluit, dan regelt de corporatie het klein onderhoud voor de huurder. ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;OVE;"Overige kosten gem. ruimten ";"Maandelijkse kosten voor overige kosten voor gemeenschappelijke ruimten (naast schoonmaak, energie en reparatie) ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;PBU;Parkeerplaats buiten;Uitpandige parkeerplek;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;PGA;Parkeergarage;Inpandige parkeerplek collectief;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;RIO;Rioolfonds;Maandelijkse kosten voor de voorziening voor het repareren van problemen aan het riool;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SCE;Schoonmaak eenheid;Maandelijkse kosten voor schoonmaak van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SCH;Schoonmaak van gemeenschappelijke ruimten;De maandelijkse schoonmaakkosten voor de lift en andere gemeenschappelijke ruimten, zoals een galerij, trappenhuis of recreatieruimte;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;SIG;Signaallevering (o.a. CAI);Maandelijkse kosten voor signaallevering (o.a. CAI);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;SIG;Signaallevering (o.a. CAI);"Maandelijkse kosten voor signaallevering (o.a. CAI) ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;STV;Schoorsteenvegen;Maandelijkse kosten voor het vegen van de schoorsteen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;SUB;Subsidiabele servicekosten;Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata PRIJSCOMPONENTSUBSIDIESOORT opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent.;;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;VER;Verenigingskosten;Maandelijkse kosten voor lidmaatschap van  verenigingen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;VOL;Volkstuin;Maandelijkse kosten voor het gebruik van een volkstuin;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;VVE;VVE kosten;Maandelijkse kosten voor VVE-lidmaatschap;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;VZE;Verzekeringskosten;Maandelijkse kosten voor verzekeringen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;SUB;Subsidiabele servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent.";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VER;Verenigingskosten;"Maandelijkse kosten voor lidmaatschap van  verenigingen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VOL;Volkstuin;"Maandelijkse kosten voor het gebruik van een volkstuin ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VVE;VVE kosten;"Maandelijkse kosten voor VVE-lidmaatschap ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VZE;Verzekeringskosten;"Maandelijkse kosten voor verzekeringen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAI;Warmte-installaties;Maandelijkse kosten voor het gebruik van installaties voor verwarming van de vertrekken van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAR;Warmte;Centrale verwarming, Stadsverwarming, etc.;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAT;Water;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WIT;Witgoed;Maandelijkse kosten voor het gebruik van witgoed (bijvoorbeeld wasmachine of droger);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WWI;Warmwaterinstallaties;Maandelijkse kosten voor het gebruik van installaties voor warm water;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;ZON;Zonnepanelen;Maandelijkse kosten voor het gebruik van zonnepanelen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;ZWE;Zonwering;Maandelijkse kosten voor het gebruik van zonwering;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ZON;Zonnepanelen;"Maandelijkse kosten voor het gebruik van zonnepanelen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ZWE;Zonwering;"Maandelijkse kosten voor het gebruik van zonwering ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTSOORT;DIE;Dienstencomponent;Let op: niet te verwarren met prijscomponentdetailsoort 'Dienst- en recreatieruimten'. Die laatste is een (subsidiabele) Servicekosten component.;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;EEN;Eenmalig;Eenmalige kosten, bijv. administratiekosten afsluiten huurovereenkomst;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;HUA;Huuraanpassing;Aanpassingen zoals, korting, compensatie, opslag, etc.;;;;Overeenkomsten
@@ -1318,8 +1318,8 @@ TAAL;SPA;Spaans;;;;;Woonruimteverdeling
 TAAL;TUR;Turks;;;;;Woonruimteverdeling
 TOEGANKELIJKHEIDSLABEL;GEL;Gelijkvloerse woning;Label dat aangeeft dat de woning intern toegankelijk is voor minder validen: de belangrijkste vertrekken (woonkamer, keuken, toilet, badkamer en één slaapkamer) zijn bereikbaar zonder gebruik te hoeven maken van een trap (d.w.z. gelegen op één verdieping laag of meerdere verdiepingslagen die zonder trap - maar bijvoorbeeld met traplift - bereikbaar zijn). Een gelijkvloerse woning voldoet niet per definitie aan het criterium 'nultredenwoning' omdat de woning daarvoor ook extern toegankelijk moet zijn voor minder validen.;;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;ROA;Rollatorwoning;Label dat aangeeft dat de woning zowel intern als extern toegankelijk is met een rollator. De woning voldoet hiermee automatisch aan het criterium 'nultredenwoning', maar is niet per definitie ook een 'rolstoelwoning' omdat er bijvoorbeeld drempels aanwezig kunnen zijn.;;;;Vastgoed
-TOEGANKELIJKHEIDSLABEL;ROL;Rolstoelwoning;Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredewoning'. Een rolstoelwoning voldoet per definitie ook aan het label Rollatorwoning, maar is niet per definitie ook een 'extra ruime rolstoelwoning'.;;;;Vastgoed
-TOEGANKELIJKHEIDSLABEL;RUI;Extra ruime rolstoelwoning;Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een grote (elektrische) rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredenwoning'. Een extra ruime rolstoelwoning voldoet per definitie ook aan het label Rolstoelwoning.;;;;Vastgoed
+TOEGANKELIJKHEIDSLABEL;ROL;Rolstoelwoning;"Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredewoning'. Een rolstoelwoning voldoet per definitie ook aan het label ""rollatorwoning"", maar is niet per definitie ook een 'extra ruime rolstoelwoning'.";;;;Vastgoed
+TOEGANKELIJKHEIDSLABEL;RUI;Extra ruime rolstoelwoning;"Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een grote (elektrische) rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredenwoning'. Een extra ruime rolstoelwoning voldoet per definitie ook aan het label ""rolstoelwoning"".";;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;ZON;Woning zonder bijzondere toegankelijkheid;;;;;Vastgoed
 TOEGANKELIJKHEIDSLABELS;GEL;Gelijkvloerse woning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.GEL;;1-1-2022;;
 TOEGANKELIJKHEIDSLABELS;ROA;Rollatorwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ROA;;1-1-2022;;
