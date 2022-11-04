@@ -83,11 +83,11 @@ BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card;;;;Relaties
 BETAALGEGEVENSOORT;PAY;Paypal account;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een paypal account;;;;Relaties
 BETAALGEGEVENSOORT;TRA;TransferMate;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een TransferMate account;;;;Relaties
-BETAALWIJZESOORT;HND;Handmatige overboeking;Een door de betaler geïnitieerde betaling, via een bankoverboeking , een voldaan betaalverzoek of via een PIN-betaling;;;;Financiën
-BETAALWIJZESOORT;INC;Incasso;Een door de ontvanger geïnitieerde incasso, er moet een Incassomachtiging aan ten grondslag liggen;;;;Financiën
 BETAALWIJZEDEELSOORT;MAX;Maximaal bedrag;Het maximale bedrag wat door de betaler wordt bijgedragen aan de huur. Bijvoorbeeld de ouders van de student dragen maximaal EUR 300 bij aan de huur;;;;Financiën
 BETAALWIJZEDEELSOORT;PER;Maximaal bedrag;Het percentage van de huur wat door de betaler wordt bijgedragen. Bijvoorbeeld een stel die beiden de helft van de huur betaald;;;;Financiën
 BETAALWIJZEDEELSOORT;RES;Restant bedrag;Het restant van de huur wat door de betreffende betaler wordt bijgedragen. Bijvoorbeeld de student die het restant van de huur betaald na aftrek van de bijdrage van zijn/haar ouders;;;;Financiën
+BETAALWIJZESOORT;HND;Handmatige overboeking;Een door de betaler geïnitieerde betaling, via een bankoverboeking , een voldaan betaalverzoek of via een PIN-betaling;;;;Financiën
+BETAALWIJZESOORT;INC;Incasso;Een door de ontvanger geïnitieerde incasso, er moet een Incassomachtiging aan ten grondslag liggen;;;;Financiën
 BETALERSOORT;DER;Derden;Vervallen;;1-1-2022;;Financiën
 BETALERSOORT;HUU;Huurder;Vervallen;;1-1-2022;;Financiën
 BETALERSOORT;VGE;Vastgoedeigenaar;Vervallen;;1-1-2022;;Financiën
@@ -615,11 +615,11 @@ ENERGIELABEL;D;D;;;;;Vastgoed
 ENERGIELABEL;E;E;;;;;Vastgoed
 ENERGIELABEL;F;F;;;;;Vastgoed
 ENERGIELABEL;G;G;;;;;Vastgoed
+EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
+EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
 EXTERNEINCASSOSTATUS;EIN;Beëindigd;;;;;Financiën
 EXTERNEINCASSOSTATUS;NIE;Nieuw;;;;;Financiën
-EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
-EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 FACTUURBETAALWIJZE;AIN;Automatische incasso;Factuur wordt voldaan middels automatische incasso betaling.;;;;Financiën
 FACTUURBETAALWIJZE;CNT;Contant;Factuur word voldaan middels contante betaling;;;;Financiën
 FACTUURBETAALWIJZE;ORN;Op rekening;Factuur wordt niet direct voldaan maar op rekening gezet. De rekening wordt (bijv. maandelijks) als 1 factuur aangeboden.;;;;Financiën
@@ -899,8 +899,8 @@ ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Kete
 ONDERHOUDSPECIALISME;ONG;Ongediertebestrijder;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONT;Ontstopper;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;OVE;Overig;Overige specialismen die niet onder één van de andere onderhoudspecialismen vallen;;;;Onderhoud
-ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
 ONDERHOUDSPECIALISME;SCH;Schilder;Een volwaardige schilder;;;;Onderhoud
+ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
@@ -1016,22 +1016,54 @@ PRESTATIEAFSPRAAK;HUU;Huurverhoging t.b.v. investering;Inkomensafhankelijke huur
 PRIJSAANPASSINGSOORT;KOR;Korting;;;;;Financiën
 PRIJSAANPASSINGSOORT;TOE;Toeslag;;;;;Financiën
 PRIJSCOMPONENTDETAILSOORT;AKO;Administratiekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ALA;Alarm bewaking;Maandelijkse kosten voor het alarm en de bewaking van de woning;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;BED;Servicekosten bedrijfsruimten;"Maandelijkse kosten voor services m.b.t. bedrijfsruimten ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;BEH;Beheerder(s);Maandelijkse kosten voor de beheerder(s) van de eenheid en/of het complex;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BOR;Borg;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;DIE;Dienst- en recreatieruimten;De maandelijkse kosten voor reparaties en groot onderhoud aan dienstruimten en recreatieruimten. Deze kosten komen meestal voor bij senioren- of bejaardenwoningen. Het gaat niet om de inventaris, het schoonmaken van de ruimten of onderhoud aan de tuin.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;ELE;Electriciteit;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ELI;Elektrische installaties;Maandelijkse kosten voor het gebruik van elektrische installaties;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ELO;Elektra oplaadpunt;Maandelijkse kosten voor het gebruik van een oplaadpunt voor andere elektrische apparaten dan een elektrische auto (b.v. scootmobiel);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;ENE;Energie voor gemeenschappelijke ruimten;Dit zijn bijvoorbeeld de maandelijkse kosten voor elektriciteit voor bijvoorbeeld: lift, verlichting, ventilatie, alarminstallatie. Alleen voor gemeenschappelijke ruimten.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;EPV;Energieprestatievergoeding;Een vergoeding die verhuurder aan huurder mag vragen voor een huurwoning die zelf energie opwekt;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;GAS;Gas;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GEM;Reparatie gem. ruimten;"Maandelijkse kosten voor het repareren van defecten aan gemeenschappelijke ruimten  ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GHB;Gladheidsbestrijding;Maandelijkse kosten voor het bestrijden van gladheid rondom de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GLB;Glasbewassing;Maandelijkse kosten voor het wassen van glas van ramen en deuren van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GLF;Glasfonds;Maandelijkse kosten voor de voorziening voor repareren van glasschade;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;GRO;Groenvoorziening;Maandelijkse kosten voor het onderhouden van de groenvoorziening rondom de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;HUI;Huismeester;De maandelijkse kosten voor de diensten die de huismeester, flatwacht, wijkbeheerder of conciërge levert.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;HUV;Huisvuil;Maandelijkse kosten voor het verwerken van huisvuil;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;IGA;Individuele garage;Inpandige parkeerplek individueel;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;INS;Installaties;Maandelijkse kosten voor het gebruik van andere installaties dan elektrische installaties;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;INV;Inventaris;Maandelijkse kosten voor het gebruik van inventaris;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;LAA;Laadpaal;Maandelijkse kosten voor het gebruik van een laadpaal voor elektrische auto;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;LIF;Liftkosten;Maandelijkse kosten voor het gebruik van de lift(en);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;LIN;Linnenpakket;Maandelijkse kosten voor het gebruik van linnen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;MVE;Mechanische ventilatie;Maandelijkse kosten voor het gebruik van de mechanische ventilatie;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;OKO;Overnamekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;OND;Onderhoudsabonnement;"Maandelijkse kosten voor onderhoudsabonnement. De huurder is zelf verantwoordelijk voor het klein onderhoud aan de woning. Als de huurder een onderhoudsabonnement afsluit, dan regelt de corporatie het klein onderhoud voor de huurder. ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;OVE;"Overige kosten gem. ruimten ";"Maandelijkse kosten voor overige kosten voor gemeenschappelijke ruimten (naast schoonmaak, energie en reparatie) ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;PBU;Parkeerplaats buiten;Uitpandige parkeerplek;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;PGA;Parkeergarage;Inpandige parkeerplek collectief;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;RIO;Rioolfonds;Maandelijkse kosten voor de voorziening voor het repareren van problemen aan het riool;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;SCE;Schoonmaak eenheid;Maandelijkse kosten voor schoonmaak van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SCH;Schoonmaak van gemeenschappelijke ruimten;De maandelijkse schoonmaakkosten voor de lift en andere gemeenschappelijke ruimten, zoals een galerij, trappenhuis of recreatieruimte;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;SIG;Signaallevering (o.a. CAI);"Maandelijkse kosten voor signaallevering (o.a. CAI) ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;STV;Schoorsteenvegen;Maandelijkse kosten voor het vegen van de schoorsteen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SUB;Subsidiabele servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent.";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VER;Verenigingskosten;"Maandelijkse kosten voor lidmaatschap van  verenigingen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VOL;Volkstuin;"Maandelijkse kosten voor het gebruik van een volkstuin ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VVE;VVE kosten;"Maandelijkse kosten voor VVE-lidmaatschap ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;VZE;Verzekeringskosten;"Maandelijkse kosten voor verzekeringen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;WAI;Warmte-installaties;Maandelijkse kosten voor het gebruik van installaties voor verwarming van de vertrekken van de eenheid;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAR;Warmte;Centrale verwarming, Stadsverwarming, etc.;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;WAT;Water;;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;EPV;Energieprestatievergoeding;Een vergoeding die verhuurder aan huurder mag vragen voor een zeer energiezuinige woning;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;WIT;Witgoed;Maandelijkse kosten voor het gebruik van witgoed (bijvoorbeeld wasmachine of droger);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;WWI;Warmwaterinstallaties;Maandelijkse kosten voor het gebruik van installaties voor warm water;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ZON;Zonnepanelen;"Maandelijkse kosten voor het gebruik van zonnepanelen ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;ZWE;Zonwering;"Maandelijkse kosten voor het gebruik van zonwering ";4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTSOORT;DIE;Dienstencomponent;Let op: niet te verwarren met prijscomponentdetailsoort 'Dienst- en recreatieruimten'. Die laatste is een (subsidiabele) Servicekosten component.;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;EEN;Eenmalig;Eenmalige kosten, bijv. administratiekosten afsluiten huurovereenkomst;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;HUA;Huuraanpassing;Aanpassingen zoals, korting, compensatie, opslag, etc.;;;;Overeenkomsten
@@ -1416,19 +1448,14 @@ ZAAKROL;BES;Beslisser;;;;;
 ZAAKROL;INI;Initiator;;;;;
 ZAAKROL;KLA;Klantcontacter;;;;;
 ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;30-09-2022;;;
-ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
 ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;
+ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
 ZAAKROL;ZAA;Zaakcoördinator;;;;;
-ZAAKSTATUSSOORT;INU;In uitvoering;Zaak is in uitvoering;30-09-2022;;;
-ZAAKSTATUSSOORT;INB;In behandeling;Zaak is in uitvoering;30-09-2022;;;
 ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is afgerond;30-09-2022;;;
 ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
 ZAAKSTATUSSOORT;GES;Gesloten;Zaak is gesloten;30-09-2022;;;
-ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
-ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
-ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
-ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
-ZAAKTYPESOORT;WOO;Woonfraude;;;;;Dossier
+ZAAKSTATUSSOORT;INB;In behandeling;Zaak is in uitvoering;30-09-2022;;;
+ZAAKSTATUSSOORT;INU;In uitvoering;Zaak is in uitvoering;30-09-2022;;;
 ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
@@ -1447,6 +1474,11 @@ ZAAKTYPEDETAILSOORT;STA;Stankoverlast;Sociale melding over Stankoverlast;;;ZAAKT
 ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
+ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
+ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
+ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
+ZAAKTYPESOORT;WOO;Woonfraude;;;;;Dossier
 ZEKERHEIDVERPANDINGSOORT;HPH;Hypotheek en pandrecht huurpenningen;Hypotheek en pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;HPO;Hypotheek en positieve verkaring pandrecht huurpenningen;Hypotheek en positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;HYP;Hypotheek;Hypotheek;;;;Vastgoed
