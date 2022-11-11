@@ -1446,8 +1446,8 @@ WOONVORM;THO;Thomashuis;Een Thomashuis is een kleinschalige woonvoorziening voor
 ZAAKOBJECTSOORT;CLU;Cluster;;04-11-2022;;;
 ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;
 ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;
-ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;
 ZAAKOBJECTSOORT;OND;Onderhoudsverzoek;;04-11-2022;;;
+ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;
 ZAAKOBJECTSOORT;REL;Relatie;;04-11-2022;;;
 ZAAKROL;ADV;Adviseur;;;;;
 ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;
@@ -1482,7 +1482,8 @@ ZAAKTYPEDETAILSOORT;RUZ;Burenruzie;Sociale melding over Burenruzie;;;ZAAKTYPESOO
 ZAAKTYPEDETAILSOORT;STA;Stankoverlast;Sociale melding over Stankoverlast;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VUI;Vervuiling;Sociale melding over Vervuiling;11-11-2022;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;10-11-2022;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
 ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
 ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
