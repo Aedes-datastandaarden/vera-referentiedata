@@ -37,7 +37,7 @@ AANVULLENDEDOELGROEP;PSY;(ex-) psychiatrische patiënten;Woonruimte is bestemd v
 AANVULLENDEDOELGROEP;SKA;Skaeve Huse;Woonruimte is bestemd voor en/of huurder zorgt voor zware overlast in de omgeving. Dit zijn bijvoorbeeld moeilijk te huisvesten drank- of drugsverslaafden.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;STH;Statushouders;Woonruimte is bestemd voor en/of huurder is een als vluchteling erkende asielzoeker (statushouder of vergunninghouder);;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;VER;(ex)-verslaafden;Woonruimte is bestemd voor en/of huurder is een (ex-) verslaafde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
-AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;;;;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling
+AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;Woonruimte is bestemd voor en/of huurder heeft en zorgindicatie.;;;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling
 ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;
 ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;
 ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;
@@ -1259,6 +1259,9 @@ RELATIEROLSOORT;ZEK;Zekerheidsnemer;De relatie aan wie de zekerheid op de eenhei
 RELATIESOORT;GRO;Relatiegroep;Een verzameling relaties (bijvoorbeeld een huishouden);;;;Relaties
 RELATIESOORT;NAT;Natuurlijke persoon;Een natuurlijk persoon is iemand, een mens van vlees en bloed, die rechten en plichten heeft.;;;;Relaties
 RELATIESOORT;REC;Rechtspersoon;Een rechtspersoon is een juridische constructie waardoor een abstracte entiteit of organisatie op kan treden als een volwaardig en handelingsbekwaam persoon in het rechtsverkeer behept met rechten en plichten zoals een natuurlijk persoon dat kan doen.;;;;Relaties
+RELATIESTATUS;ACT;Actief;De relatie is een actieve relatie;11-11-2022;;;Relaties
+RELATIESTATUS;INA;Inactief;De relatie is niet (meer) actief;11-11-2022;;;Relaties
+RELATIESTATUS;SLA;Slapend;De relatie betreft een VvE (rechtspersoon) die een slapende status heeft;11-11-2022;;;Relaties
 RENTESOORT;VAR;Variabel;;;;;Financiën
 RENTESOORT;VST;Vast;;;;;Financiën
 RUIMTESOORT;AND;Andere kamer;Kamers zoals eetkamer, hobbykamer, studeerkamer etc.;;;;Vastgoed
