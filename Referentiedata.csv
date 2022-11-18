@@ -442,6 +442,7 @@ EENHEIDDETAILSOORT;HOS;Hospice;Woongelegenheid voor personen die niet meer kunne
 EENHEIDDETAILSOORT;JON;Jongerencentrum;Jongerencentrum, mits zonder horecavoorziening;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;KAM;Kamer;Onzelfstandige woonruimte. Een kamer heeft geen eigen toegang of deelt de keuken of toilet met de bewoners van andere woningen/kamers.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KAN;Kantoorruimte;;;;EENHEIDSOORT.BED;Vastgoed
+EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;;25-11-2022;;EENHEIDSOORT.BED;
 EENHEIDDETAILSOORT;LGI;Lichamelijk beperkten instelling;Instelling voor lichamelijk beperkten;;;EENHEIDSOORT.INT;Vastgoed
 EENHEIDDETAILSOORT;LIG;Ligplaats;Een ligplaats is een formeel door de gemeente als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon, bedrijfsmatige of recreatieve doeleinden geschikt vaartuig.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;MAA;Maatschappelijk werkruimte wijk-/buurtgericht;Ruimte voor op de buurt of wijk gericht maatschappelijk werk door stichtingen of verenigingen;;;EENHEIDSOORT.MOG;Vastgoed
@@ -487,9 +488,9 @@ EENHEIDDETAILSTATUS;BRU;Bruikleen;;;;EENHEIDSTATUS.VEH;Vastgoed
 EENHEIDDETAILSTATUS;EPA;Wacht op Energie Prestatie Advies;Frictieleegstand, ontstaan doordat er nog gewacht wordt op de afgifte van een EPA label;;;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;FRI;Frictieleegstand;Vervallen, gebruik eenheiddetailstatus NIH, NIB, EPA, MOH of STR;;1-1-2022;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;MUT;Mutatie;Frictieleegstand wegens mutatieonderhoud. De eenheid is in exploitatie, maar niet verhuurd. Aansluitende verhuur is niet mogelijk omdat eerst nog onderhoud in de woning plaatsvindt.;;;EENHEIDSTATUS.LEE;Vastgoed
-EENHEIDDETAILSTATUS;NIB;"Wacht op nieuwe huurder; niet-regulier";Frictieleegstand, ontstaan doordat er nog geen nieuwe huurder is gevonden, waarbij geldt dat er sprake is van een niet-regulier toewijzingsproces of een niet-reguliere beoogd huurder. Het betreft de leegstand vanaf het moment waarop de woning klaar is voor verhuur (nadat eventueel mutatieonderhoud is afgerond) totdat de overeenkomst met een nieuwe, niet-reguliere, huurder ingaat.;;;EENHEIDSTATUS.LEE;Vastgoed
+EENHEIDDETAILSTATUS;NIB;Wacht op nieuwe huurder - niet-regulier;Frictieleegstand, ontstaan doordat er nog geen nieuwe huurder is gevonden, waarbij geldt dat er sprake is van een niet-regulier toewijzingsproces of een niet-reguliere beoogd huurder. Het betreft de leegstand vanaf het moment waarop de woning klaar is voor verhuur (nadat eventueel mutatieonderhoud is afgerond) totdat de overeenkomst met een nieuwe, niet-reguliere, huurder ingaat.;;;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;NIE;Nieuwbouw;;;;EENHEIDSTATUS.ONT;Vastgoed
-EENHEIDDETAILSTATUS;NIH;"Wacht op nieuwe huurder; regulier";Frictieleegstand, ontstaan doordat er nog geen nieuwe huurder is gevonden, zonder dat daar een speciale oorzaak voor is (het reguliere matching proces duurt langer dan gewenst). Het betreft de leegstand vanaf het moment waarop de woning klaar is voor verhuur (nadat eventueel mutatieonderhoud is afgerond) totdat de overeenkomst met een nieuwe huurder ingaat.;;;EENHEIDSTATUS.LEE;Vastgoed
+EENHEIDDETAILSTATUS;NIH;Wacht op nieuwe huurder - regulier;Frictieleegstand, ontstaan doordat er nog geen nieuwe huurder is gevonden, zonder dat daar een speciale oorzaak voor is (het reguliere matching proces duurt langer dan gewenst). Het betreft de leegstand vanaf het moment waarop de woning klaar is voor verhuur (nadat eventueel mutatieonderhoud is afgerond) totdat de overeenkomst met een nieuwe huurder ingaat.;;;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;OND;Verkocht onder voorwaarden;;;;EENHEIDSTATUS.VEK;Vastgoed
 EENHEIDDETAILSTATUS;OPL;Oplevering;;;;EENHEIDSTATUS.ONT;Vastgoed
 EENHEIDDETAILSTATUS;PER;Verhuurd permanent;Doorlopend contract of voor onbepaalde tijd.;;;EENHEIDSTATUS.VEH;Vastgoed
@@ -750,6 +751,7 @@ INFORMATIEOBJECTSOORT;BRO;Brochure;;;;;Dossier
 INFORMATIEOBJECTSOORT;DOC;Document;;;;;Dossier
 INFORMATIEOBJECTSOORT;FOT;Foto;Foto, Image, Plaatje, Afbeelding;;;;Dossier
 INFORMATIEOBJECTSOORT;KOP;Kopie;;;;;Dossier
+INFORMATIEOBJECTSOORT;NOT;Notitie;Het informatieobject is een notitie- of memo (tekst);18-11-2022;;;Dossier
 INFORMATIEOBJECTSOORT;OVE;Overeenkomst;;;;;Dossier
 INFORMATIEOBJECTSOORT;PLA;Plattegrond;;;;;Dossier
 INFORMATIEOBJECTSOORT;PLN;Plan;;;;;Dossier
@@ -1146,7 +1148,8 @@ PUBLICATIEINTAKEVORM;INT;Intakegesprek;Er vindt een intake gesprek plaats met de
 PUBLICATIEINTAKEVORM;MOT;Motivatie;Toewijzing vindt plaats op basis van de beoordeling van een motivatiebrief of -gesprek.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEINTAKEVORM;SOC;Sociale spelregels;Sociale spelregels bepalen welke woningzoekende de eenheid krijgt.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEMODEL;AAN;Aanbodmodel;Vastgoed wordt aangeboden aan alle passende woningzoekenden. Deze kunnen vervolgens hun interesse aangeven voor het vastgoed en na toepassen van de spelregels krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
-PUBLICATIEMODEL;DIS;Distributiemodel;Woningzoekenden worden direct gekoppeld aan een vrijgekomen eenheid op basis van een beslissing van de vastgoedeigenaar. (De Woningzoekende kan in dit geval ook een rechtspersoon zijn, die namens een woningzoekende acteert.);;;;Woonruimteverdeling
+PUBLICATIEMODEL;DIS;Distributiemodel;"Model waarbij de woning aangeboden wordt aan de langst ingeschreven ""passende"" kandidaat";;;;Woonruimteverdeling
+PUBLICATIEMODEL;EER;Eerste reageerder;"Aanbieden vindt plaats op basis van volgorde van reageren. Wie het eerst reageert, staat bovenaan de lijst. ";18-11-2022;;;Woonruimteverdeling
 PUBLICATIEMODEL;LOT;Lotingmodel;Vastgoed wordt verloot onder geïnteresseerde woningzoekenden. Hierbij kan ook sprake zijn van 'gewogen' loting of andere combinaties van spelregels.;;;;Woonruimteverdeling
 PUBLICATIEMODEL;OPT;Optiemodel;Woningzoekenden kunnen zichzelf op een wachtlijst zetten voor een cluster van vastgoed. Zodra een eenheid vrijkomt krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
 PUBLICATIEMODEL;VRI;Vrijesectormodel;Vastgoed wordt regelvrij aangeboden aan alle woningzoekenden. Deze kunnen vervolgens hun interesse aangeven voor het vastgoed. Voor het betrekken van de woning kunnen overigens wel degelijk eisen gesteld worden (bijv. minimaal inkomen.);;;;Woonruimteverdeling
@@ -1448,7 +1451,7 @@ ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;
 ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;
 ZAAKOBJECTSOORT;OND;Onderhoudsverzoek;;04-11-2022;;;
 ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;
-ZAAKOBJECTSOORT;REL;Relatie;;04-11-2022;;;
+ZAAKOBJECTSOORT;REL;Relatie;Obsolete. Er is een expliciete associatie met Relatie;04-11-2022;18-11-2022;;
 ZAAKROL;ADV;Adviseur;;;;;
 ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;
 ZAAKROL;BEK;Beklaagde;De betrokkene binnen de zaak waarover geklaagd wordt bij een (sociale) klacht;30-09-2022;;;
@@ -1460,11 +1463,11 @@ ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;3
 ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;
 ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
 ZAAKROL;ZAA;Zaakcoördinator;;;;;
-ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is afgerond;30-09-2022;;;
+ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is inhoudelijk afgerond, maar nog niet definitief gesloten;30-09-2022;;;
 ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
-ZAAKSTATUSSOORT;GES;Gesloten;Zaak is gesloten;30-09-2022;;;
-ZAAKSTATUSSOORT;INB;In behandeling;Zaak is in uitvoering;30-09-2022;;;
-ZAAKSTATUSSOORT;INU;In uitvoering;Zaak is in uitvoering;30-09-2022;;;
+ZAAKSTATUSSOORT;GES;Gesloten;De zaak is afgerond en gesloten;30-09-2022;;;
+ZAAKSTATUSSOORT;INB;In behandeling;De zaak is in behandeling genomen door of in behandeling gegeven aan iemand, maar er zijn nog geen stappen in de uitvoering gezet;30-09-2022;;;
+ZAAKSTATUSSOORT;INU;In uitvoering;De zaak is in uitvoering;30-09-2022;;;
 ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
