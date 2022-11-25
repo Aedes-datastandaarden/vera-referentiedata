@@ -17,3 +17,4 @@ Het CSV bestand kent de volgende kolommen:
 |Informatiedomein|Tot welke informatiedomein behoort de referentie data|
 
 Alle referentiedata staat ook gepubliceerd op de [CORA/VERA site](https://cora.wikixl.nl/index.php/VERA_Referentiedata).
+.
