@@ -650,9 +650,14 @@ GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BNK;Bank;;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;HAN;Handmatig;;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;HAN;Handmatig;Obsolete. Ook een boeking met herkomst Kas of Bank kan handmatig worden geboekt. Het begrip handmatig zegt daarom niet veel over de herkomst.;;2-12-2012;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SUB;Subadministratie;;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;UPL;Upload;;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;KAS;Kas;;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer Memoriaal. ";2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een (handmatige) boeking van een vordering (niet via sub-administratie);2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een (handmatige) boeking van een schuld (niet via sub-administratie);2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;SYS;Systeem;Overige (automatische) (correctie)boekingen;2-12-2022;;;Financiën
 GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financiën
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
