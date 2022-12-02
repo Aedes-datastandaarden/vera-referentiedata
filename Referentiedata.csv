@@ -25,7 +25,7 @@ AANBIEDINGSTATUS;AAN;Aangeboden;;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;GEW;Geweigerd;;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;ING;Ingetrokken;;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;TOE;Toegewezen;;;;;Woonruimteverdeling
-AANVULLENDEDOELGROEP;BSTU;Buitenlandse studenten;Woonruimte is bestemd voor en/of huurder is een uit het buitenland afkomstige student aan een instelling voor hoger of wetenschappelijk onderwijs;;;DOELGROEP.STU;Vastgoed, Woonruimteverdeling
+AANVULLENDEDOELGROEP-test;BSTU;Buitenlandse studenten;Woonruimte is bestemd voor en/of huurder is een uit het buitenland afkomstige student aan een instelling voor hoger of wetenschappelijk onderwijs;;;DOELGROEP.STU;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;DAK;ex-dak- en thuislozen;Woonruimte is bestemd voor en/of huurder is een ex-dak- of thuisloze, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;GED;ex-gedetineerden;Woonruimte is bestemd voor en/of huurder is een ex-gedetineerde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;GEE;Geestelijk gehandicapten;Woonruimte is bestemd voor en/of huurder is verstandelijk beperkt.;;;;Vastgoed, Woonruimteverdeling
