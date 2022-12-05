@@ -658,6 +658,7 @@ GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet ui
 GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een (handmatige) boeking van een vordering (niet via sub-administratie);2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een (handmatige) boeking van een schuld (niet via sub-administratie);2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SYS;Systeem;Overige (automatische) (correctie)boekingen;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
 GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financiën
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
