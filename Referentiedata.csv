@@ -1469,7 +1469,7 @@ ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;3
 ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;
 ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
 ZAAKROL;ZAA;Zaakcoördinator;;;;;
-ZAAKSTATUSSOORT;AAN;Aangemaakt;De zaak is aangemaakt/geregistreerd maar nog niet toegewezen ter afhandeling;25-19-2022;;;
+ZAAKSTATUSSOORT;AAN;Aangemaakt;De zaak is aangemaakt/geregistreerd maar nog niet toegewezen ter afhandeling;30-09-2022;;;
 ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is inhoudelijk afgerond, maar nog niet definitief gesloten;30-09-2022;;;
 ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
 ZAAKSTATUSSOORT;GES;Gesloten;De zaak is afgerond en gesloten;30-09-2022;;;
