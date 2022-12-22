@@ -1154,7 +1154,7 @@ PUBLICATIEINTAKEVORM;INT;Intakegesprek;Er vindt een intake gesprek plaats met de
 PUBLICATIEINTAKEVORM;MOT;Motivatie;Toewijzing vindt plaats op basis van de beoordeling van een motivatiebrief of -gesprek.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEINTAKEVORM;SOC;Sociale spelregels;Sociale spelregels bepalen welke woningzoekende de eenheid krijgt.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEMODEL;AAN;Aanbodmodel;Vastgoed wordt aangeboden aan alle passende woningzoekenden. Deze kunnen vervolgens hun interesse aangeven voor het vastgoed en na toepassen van de spelregels krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
-PUBLICATIEMODEL;DIS;Distributiemodel;"Model waarbij de woning aangeboden wordt aan de langst ingeschreven ""passende"" kandidaat";;;;Woonruimteverdeling
+PUBLICATIEMODEL;DIS;Distributiemodel;"Woningzoekenden worden direct gekoppeld aan een vrijgekomen eenheid op basis van een beslissing van de vastgoedeigenaar. (De Woningzoekende kan in dit geval ook een rechtspersoon zijn, die namens een woningzoekende acteert.)";;;;Woonruimteverdeling
 PUBLICATIEMODEL;EER;Eerste reageerder;"Aanbieden vindt plaats op basis van volgorde van reageren. Wie het eerst reageert, staat bovenaan de lijst. ";18-11-2022;;;Woonruimteverdeling
 PUBLICATIEMODEL;LOT;Lotingmodel;Vastgoed wordt verloot onder geïnteresseerde woningzoekenden. Hierbij kan ook sprake zijn van 'gewogen' loting of andere combinaties van spelregels.;;;;Woonruimteverdeling
 PUBLICATIEMODEL;OPT;Optiemodel;Woningzoekenden kunnen zichzelf op een wachtlijst zetten voor een cluster van vastgoed. Zodra een eenheid vrijkomt krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
