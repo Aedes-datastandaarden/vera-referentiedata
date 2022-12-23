@@ -140,40 +140,40 @@ BOEKJAARSTATUS;GES;Gesloten;;;;;Financiën
 BOEKJAARSTATUS;HUD;Huidig;;;;;Financiën
 BOEKJAARSTATUS;OPN;Open;;;;;Financiën
 BOEKJAARSTATUS;VRG;Vorig;;;;;Financiën
-BOUWKUNDIGELEMENTDETAILSOORT;AFV;Afvoer;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BAL;Balustrades en leuningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BEV;Beveiliging;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BIA;Binnenwandafwerking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BIN;Binnenwanden;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BIW;Binnenwandopeningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BUA;Buitenwandafwerking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BUI;Buitenwanden;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;BUW;Buitenwandopeningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;COM;Communicatie;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;DAK;Daken;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;DBE;Dakbedekking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;DOP;Dakopeningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;ELE;Elektra;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;GAS;Gas;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;KEU;Keukenvoorzieningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;LIF;Lift;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;LOS;Losse opslaginventaris;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;LUC;Luchtbehandeling;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;PAF;Plafondafwerking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;POS;Postkast;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;SAN;Sanitaire voorzieningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;SCH;Schilderwerk;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;TER;Terrein;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;THA;Trap- en hellingafwerking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;TRA;Trappen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VAF;Vloerafwerking;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VEO;Verwarmingsonderdelen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VER;Verlichting;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VLO;Vloeren;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VOP;Vloeropeningen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;VTO;Verwarmingstoestellen;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;WAT;Waterleiding/hoofdkraan;;;;VOO;Vastgoed
-BOUWKUNDIGELEMENTDETAILSOORT;ZON;Zonwering;;;;VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;AFV;Afvoer;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BAL;Balustrades en leuningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BEV;Beveiliging;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BIA;Binnenwandafwerking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BIN;Binnenwanden;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BIW;Binnenwandopeningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BUA;Buitenwandafwerking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BUI;Buitenwanden;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;BUW;Buitenwandopeningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;COM;Communicatie;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;DAK;Daken;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;DBE;Dakbedekking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;DOP;Dakopeningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;ELE;Elektra;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;GAS;Gas;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;KEU;Keukenvoorzieningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;LIF;Lift;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;LOS;Losse opslaginventaris;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;LUC;Luchtbehandeling;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;PAF;Plafondafwerking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;POS;Postkast;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;SAN;Sanitaire voorzieningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;SCH;Schilderwerk;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;TER;Terrein;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;THA;Trap- en hellingafwerking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;TRA;Trappen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VAF;Vloerafwerking;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VEO;Verwarmingsonderdelen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VER;Verlichting;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VLO;Vloeren;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VOP;Vloeropeningen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;VTO;Verwarmingstoestellen;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;WAT;Waterleiding/hoofdkraan;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
+BOUWKUNDIGELEMENTDETAILSOORT;ZON;Zonwering;;;;BOUWKUNDIGELEMENTSOORT.VOO;Vastgoed
 BOUWKUNDIGELEMENTSOORT;OVE;Overig;;;;;Vastgoed
 BOUWKUNDIGELEMENTSOORT;VER;Verwarming;;;;;Vastgoed
 BOUWKUNDIGELEMENTSOORT;VOO;Voorziening;;;;;Vastgoed
@@ -411,7 +411,7 @@ EENHEIDBUITENRUIMTE;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning
 EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltijke tuin rondom de eenheid;;;;Vastgoed
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;vastgoed
+EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzonder die van een beeldend kunstenaar.;;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
@@ -442,7 +442,7 @@ EENHEIDDETAILSOORT;HOS;Hospice;Woongelegenheid voor personen die niet meer kunne
 EENHEIDDETAILSOORT;JON;Jongerencentrum;Jongerencentrum, mits zonder horecavoorziening;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;KAM;Kamer;Onzelfstandige woonruimte. Een kamer heeft geen eigen toegang of deelt de keuken of toilet met de bewoners van andere woningen/kamers.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KAN;Kantoorruimte;;;;EENHEIDSOORT.BED;Vastgoed
-EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;;25-11-2022;;EENHEIDSOORT.BED;
+EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;;25-11-2022;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;LGI;Lichamelijk beperkten instelling;Instelling voor lichamelijk beperkten;;;EENHEIDSOORT.INT;Vastgoed
 EENHEIDDETAILSOORT;LIG;Ligplaats;Een ligplaats is een formeel door de gemeente als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon, bedrijfsmatige of recreatieve doeleinden geschikt vaartuig.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;MAA;Maatschappelijk werkruimte wijk-/buurtgericht;Ruimte voor op de buurt of wijk gericht maatschappelijk werk door stichtingen of verenigingen;;;EENHEIDSOORT.MOG;Vastgoed
@@ -514,7 +514,7 @@ EENHEIDINTERIEUR;HOU;Houten vloer;;;;;Vastgoed
 EENHEIDINTERIEUR;LAM;Laminaat;;;;;Vastgoed
 EENHEIDINTERIEUR;PLA;Plavuizen;Plavuizen of tegels;;;;Vastgoed
 EENHEIDINTERIEUR;VLB;Vloerbedekking;;;;;Vastgoed
-EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;vastgoed
+EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;Vastgoed
 EENHEIDISOLATIE;DAK;Dakisolatie;;;;;Vastgoed
 EENHEIDISOLATIE;DGL;Dubbel glas;;;;;Vastgoed
 EENHEIDISOLATIE;ECO;Eco-bouw;Ecologische, duurzame bouw;;;;Vastgoed
@@ -607,8 +607,8 @@ EINDEREDEN;OPZ;Opzegging;Een overeenkomst wordt of is beëindigd omdat een van d
 EINDEREDEN;VER;Vernietiging;Een overeenkomst wordt of is beëindigd (eventueel met terugwerkende kracht) omdat sprake is van een zogenaamd wilsgebrek (bedreiging, bedrog, dwaling, misbruik van omstandigheden);;;;Overeenkomsten
 ENERGIELABEL;A;A;;;;;Vastgoed
 ENERGIELABEL;AP;A+;;;;;Vastgoed
-ENERGIELABEL;AP3;A+++;;;;;
-ENERGIELABEL;AP4;A++++;;;;;
+ENERGIELABEL;AP3;A+++;;;;;Vastgoed
+ENERGIELABEL;AP4;A++++;;;;;Vastgoed
 ENERGIELABEL;APP;A++;;;;;Vastgoed
 ENERGIELABEL;B;B;;;;;Vastgoed
 ENERGIELABEL;C;C;;;;;Vastgoed
@@ -829,9 +829,9 @@ LENINGDETAILSOORT;INT;Intern;De lening betreft een interne lening. Bijvoorbeeld 
 LENINGDETAILSOORT;OBL;Obligatielening;;;;;Financiën
 LENINGSOORT;KRE;Kredietfaciliteit;;;;;Financiën
 LENINGSOORT;LEN;Lening;;;;;Financiën
-MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst.Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed
-MAATSCHAPPELIJKLABEL;GNDV;Geconsolideerde NIET-DAEB verbinding;Als attribuut van de klasse FinancieelBedrijf: Geeft aan of het bedrijf een consolidatiebedrijf is, waarbinnen NIET-DAEB activiteiten worden verricht.;;;;Vastgoed Overeenkomsten Financiën
-MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Ditis gelijk aan een geliberaliseerde huurovereenkomstAls attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed
+MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst.Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;GNDV;Geconsolideerde NIET-DAEB verbinding;Als attribuut van de klasse FinancieelBedrijf: Geeft aan of het bedrijf een consolidatiebedrijf is, waarbinnen NIET-DAEB activiteiten worden verricht.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Ditis gelijk aan een geliberaliseerde huurovereenkomstAls attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
 MACHTIGINGSOORT;DOO;Doorlopend;;;;;Financiën
 MACHTIGINGSOORT;EEN;Eenmalig;;;;;Financiën
 MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
@@ -1006,9 +1006,9 @@ OVEREENKOMSTSOORT;LEA;Lease;Leaseovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;OND;Onderhoudsovereenkomst;Overeenkomst met betrekking tot het onderhouden of beheren van roerend of onroerend goed.;;;;Overeenkomsten
 OVEREENKOMSTSOORT;SER;Serviceovereenkomst;Overeenkomst met betrekking tot (aanvullende) dienstverlening zoals glazenwassen, reparaties, groenverzorging. Ook de verschillende vormen van inschrijvingen of abonnementen vallen onder de soort Service overeenkomst.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;BEE;Beeindigd;De einddatum van de overeenkomst is verstreken en deze is daadwerkelijk beeindigd.;;;;Overeenkomsten
-OVEREENKOMSTSTATUS;GEA;Geannuleerd;"De partijen hebben afgesproken dat de huurovereenkomst toch niet definitief gemaakt wordt. Deze status kan alleen ontstaan wanneer de overeenkomst de status ""Voorlopig"" of ""Goedgekeurd"" heeft. Wanneer een overeenkomst actief is zal deze opgezegd, ontbonden of vernietigd moeten worden.";;;;
-OVEREENKOMSTSTATUS;GOE;Goedgekeurd;De overeenkomst is goedgekeurd door de verhuurder en wacht op een handtekening van de huurder.;;;;
-OVEREENKOMSTSTATUS;LOP;Lopend;De overeenkomst is getekend en loopt tot de vastgestelde einddatum of volgens de specifieke voorwaarden van de overeenkomst;;;;
+OVEREENKOMSTSTATUS;GEA;Geannuleerd;"De partijen hebben afgesproken dat de huurovereenkomst toch niet definitief gemaakt wordt. Deze status kan alleen ontstaan wanneer de overeenkomst de status ""Voorlopig"" of ""Goedgekeurd"" heeft. Wanneer een overeenkomst actief is zal deze opgezegd, ontbonden of vernietigd moeten worden.";;;;Overeenkomsten
+OVEREENKOMSTSTATUS;GOE;Goedgekeurd;De overeenkomst is goedgekeurd door de verhuurder en wacht op een handtekening van de huurder.;;;;Overeenkomsten
+OVEREENKOMSTSTATUS;LOP;Lopend;De overeenkomst is getekend en loopt tot de vastgestelde einddatum of volgens de specifieke voorwaarden van de overeenkomst;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;ONT;Ontbonden;De aanduiding dat de overeenkomst voor de einddatum is ontbonden en niet door een natuurlijke weg is beëindigd. Ontbonden vanwege contractbreuk, -fraude.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;OPG;Opgezegd;De overeenkomst is daadwerkelijk opgezegd en een einddatum van de overeenkomst is vastgelegd.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VER;Vernietigd;De aanduiding dat de overeenkomst is vernietigd en niet door een natuurlijke weg is beëindigd. Het contract is niet geldig tot stand gekomen vanwege wilsgebrek of nietig verklaard vanwege handelsonbevoegdheid of –onbekwaamheid.;;;;Overeenkomsten
@@ -1154,7 +1154,7 @@ PUBLICATIEINTAKEVORM;INT;Intakegesprek;Er vindt een intake gesprek plaats met de
 PUBLICATIEINTAKEVORM;MOT;Motivatie;Toewijzing vindt plaats op basis van de beoordeling van een motivatiebrief of -gesprek.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEINTAKEVORM;SOC;Sociale spelregels;Sociale spelregels bepalen welke woningzoekende de eenheid krijgt.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEMODEL;AAN;Aanbodmodel;Vastgoed wordt aangeboden aan alle passende woningzoekenden. Deze kunnen vervolgens hun interesse aangeven voor het vastgoed en na toepassen van de spelregels krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
-PUBLICATIEMODEL;DIS;Distributiemodel;"Woningzoekenden worden direct gekoppeld aan een vrijgekomen eenheid op basis van een beslissing van de vastgoedeigenaar. (De Woningzoekende kan in dit geval ook een rechtspersoon zijn, die namens een woningzoekende acteert.)";;;;Woonruimteverdeling
+PUBLICATIEMODEL;DIS;Distributiemodel;Woningzoekenden worden direct gekoppeld aan een vrijgekomen eenheid op basis van een beslissing van de vastgoedeigenaar. (De Woningzoekende kan in dit geval ook een rechtspersoon zijn, die namens een woningzoekende acteert.);;;;Woonruimteverdeling
 PUBLICATIEMODEL;EER;Eerste reageerder;"Aanbieden vindt plaats op basis van volgorde van reageren. Wie het eerst reageert, staat bovenaan de lijst. ";18-11-2022;;;Woonruimteverdeling
 PUBLICATIEMODEL;LOT;Lotingmodel;Vastgoed wordt verloot onder geïnteresseerde woningzoekenden. Hierbij kan ook sprake zijn van 'gewogen' loting of andere combinaties van spelregels.;;;;Woonruimteverdeling
 PUBLICATIEMODEL;OPT;Optiemodel;Woningzoekenden kunnen zichzelf op een wachtlijst zetten voor een cluster van vastgoed. Zodra een eenheid vrijkomt krijgt de woningzoekende met de hoogste positie de eenheid aangeboden.;;;;Woonruimteverdeling
@@ -1169,12 +1169,12 @@ PUBLICATIESTATUS;GEP;Gepubliceerd;Het beschikbaar vastgoed is gepubliceerd.;;;;W
 PUBLICATIESTATUS;GER;Gereed voor publicatie;De publicatie van beschikbaar vastgoed is gereed voor publicatie.;;;;Woonruimteverdeling
 PUBLICATIESTATUS;ING;Ingetrokken;De publicatie van het vastgoed is ingetrokken.;;;;Woonruimteverdeling
 PUBLICATIESTATUS;VOO;In voorbereiding;De publicatie van beschikbaar vastgoed is in voorbereiding.;;;;Woonruimteverdeling
-PUNTENBEREKENINGSOORT;INT;Intrekken gebeurtenis of sanctie;;;;;
-PUNTENBEREKENINGSOORT;KOP;Koppelen inschrijving;;;;;
-PUNTENBEREKENINGSOORT;MAA;Maandelijkse herberekening;;;;;
-PUNTENBEREKENINGSOORT;NIE;Nieuwe inschrijving;;;;;
-PUNTENMUTATIESOORT;PAS;Puntenafbouw situatiepunten;Puntenafbouw situatiepunten;;;;
-PUNTENMUTATIESOORT;PAT;Puntenafbouw startpunten;Puntenafbouw startpunten;;;;
+PUNTENBEREKENINGSOORT;INT;Intrekken gebeurtenis of sanctie;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;KOP;Koppelen inschrijving;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;MAA;Maandelijkse herberekening;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;NIE;Nieuwe inschrijving;;;;;Woonruimteverdeling
+PUNTENMUTATIESOORT;PAS;Puntenafbouw situatiepunten;Puntenafbouw situatiepunten;;;;Woonruimteverdeling
+PUNTENMUTATIESOORT;PAT;Puntenafbouw startpunten;Puntenafbouw startpunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAZ;Puntenafbouw zoekpunten;Puntenafbouw zoekpunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PSI;Puntenopbouw situatiepunten;Puntenopbouw situatiepunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PST;Puntenopbouw startpunten;Puntenopbouw startpunten;;;;Woonruimteverdeling
@@ -1286,7 +1286,7 @@ RUIMTESOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om vo
 RUIMTESOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;;;;Vastgoed
 RUIMTESOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;;;;Vastgoed
 RUIMTESOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;;;;Vastgoed
-RUIMTESOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;;;;Relaties
+RUIMTESOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;;;;Vastgoed
 RUIMTESOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;;;;Vastgoed
 RUIMTESOORT;SER;Serre;;;;;Vastgoed
 RUIMTESOORT;SLA;Slaapkamer;Kamer: ruimte in een woning waarin men kan slapen.;;;;Vastgoed
@@ -1494,9 +1494,9 @@ ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOO
 ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUI;Vervuiling;Sociale melding over Vervuiling;11-11-2022;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;Sociale melding over Vervuiling;;10-11-2022;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;
+ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiaitief van de corporatie verbeteren van de buurt;30-09-2022;;;Dossier
 ZAAKTYPESOORT;OMG;Omgevingsoverlast;;;;;Dossier
-ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;
+ZAAKTYPESOORT;ORG;Klacht over organisatie;30-09-2022;;;;Dossier
 ZAAKTYPESOORT;SOC;Sociale melding;;;;;Dossier
 ZAAKTYPESOORT;WOO;Woonfraude;;;;;Dossier
 ZEKERHEIDVERPANDINGSOORT;HPH;Hypotheek en pandrecht huurpenningen;Hypotheek en pandrecht huurpenningen;;;;Vastgoed
