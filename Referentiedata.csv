@@ -442,7 +442,7 @@ EENHEIDDETAILSOORT;HOS;Hospice;Woongelegenheid voor personen die niet meer kunne
 EENHEIDDETAILSOORT;JON;Jongerencentrum;Jongerencentrum, mits zonder horecavoorziening;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;KAM;Kamer;Onzelfstandige woonruimte. Een kamer heeft geen eigen toegang of deelt de keuken of toilet met de bewoners van andere woningen/kamers.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KAN;Kantoorruimte;;;;EENHEIDSOORT.BED;Vastgoed
-EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;;25-11-2022;;EENHEIDSOORT.BED;Vastgoed
+EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;Hieronder vallen kinderdagverblijven, peuterspeelzalen, buitenschoolse of 24-uursopvang (Bouwbesluit 2012);25-11-2022;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;LGI;Lichamelijk beperkten instelling;Instelling voor lichamelijk beperkten;;;EENHEIDSOORT.INT;Vastgoed
 EENHEIDDETAILSOORT;LIG;Ligplaats;Een ligplaats is een formeel door de gemeente als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon, bedrijfsmatige of recreatieve doeleinden geschikt vaartuig.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;MAA;Maatschappelijk werkruimte wijk-/buurtgericht;Ruimte voor op de buurt of wijk gericht maatschappelijk werk door stichtingen of verenigingen;;;EENHEIDSOORT.MOG;Vastgoed
@@ -650,15 +650,21 @@ GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;BNK;Bank;;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een (handmatige) boeking van een schuld (niet via sub-administratie);2-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een (handmatige) boeking van een vordering (niet via sub-administratie);2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;BNK;Bank;Een boeking in de bank (sub-)administratie;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een boeking van een schuld in de crediteuren (sub-)administratie;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een boeking van een vordering in de debiteuren (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;HAN;Handmatig;Obsolete. Ook een boeking met herkomst Kas of Bank kan handmatig worden geboekt. Het begrip handmatig zegt daarom niet veel over de herkomst.;;2-12-2012;;Financiën
-GROOTBOEKMUTATIEHERKOMST;KAS;Kas;;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;KAS;Kas;Een boeking in de kas (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer Memoriaal. ";2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SUB;Subadministratie;Obsolete.;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SYS;Systeem;Overige (automatische) (correctie)boekingen;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;UPL;Upload;Obsolete.;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;INK;Inkoopadministratie;Een boeking in de inkoop (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;HUU;Huuradministratie;Een boeking in de huur (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;PRO;Projectadministratie;Een boeking in de project (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;SAL;Salarisadministratie;Een boeking in de salaris (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;LEN;Leningenadministratie;Een boeking in de leningen (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financiën
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
@@ -829,9 +835,9 @@ LENINGDETAILSOORT;INT;Intern;De lening betreft een interne lening. Bijvoorbeeld 
 LENINGDETAILSOORT;OBL;Obligatielening;;;;;Financiën
 LENINGSOORT;KRE;Kredietfaciliteit;;;;;Financiën
 LENINGSOORT;LEN;Lening;;;;;Financiën
-MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst.Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort. Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst. Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
 MAATSCHAPPELIJKLABEL;GNDV;Geconsolideerde NIET-DAEB verbinding;Als attribuut van de klasse FinancieelBedrijf: Geeft aan of het bedrijf een consolidatiebedrijf is, waarbinnen NIET-DAEB activiteiten worden verricht.;;;;Vastgoed, Overeenkomsten, Financiën
-MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Ditis gelijk aan een geliberaliseerde huurovereenkomstAls attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort. Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Dit is gelijk aan een geliberaliseerde huurovereenkomst. Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
 MACHTIGINGSOORT;DOO;Doorlopend;;;;;Financiën
 MACHTIGINGSOORT;EEN;Eenmalig;;;;;Financiën
 MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
@@ -992,7 +998,7 @@ OVEREENKOMSTDETAILSOORT;PER;Persoonlijke woonkrant;Nieuwsbrief met gepersonifice
 OVEREENKOMSTDETAILSOORT;PRO;Nieuwbouwinformatie;Abonnement of nieuwsbrief met informatie over nieuwbouw projecten en/of vastgoed ontwikkelingen.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een zelfstandige woning voor een periode van tenminste zeven nachten en maximaal zes maanden;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur al te koop.;;;;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;
