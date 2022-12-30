@@ -651,15 +651,21 @@ GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;BNK;Bank;;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een (handmatige) boeking van een schuld (niet via sub-administratie);2-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een (handmatige) boeking van een vordering (niet via sub-administratie);2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;BNK;Bank;Een boeking in de bank (sub-)administratie;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een boeking van een schuld in de crediteuren (sub-)administratie;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een boeking van een vordering in de debiteuren (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;HAN;Handmatig;Obsolete. Ook een boeking met herkomst Kas of Bank kan handmatig worden geboekt. Het begrip handmatig zegt daarom niet veel over de herkomst.;;2-12-2012;;Financiën
-GROOTBOEKMUTATIEHERKOMST;KAS;Kas;;2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;KAS;Kas;Een boeking in de kas (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer Memoriaal. ";2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SUB;Subadministratie;Obsolete.;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SYS;Systeem;Overige (automatische) (correctie)boekingen;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;UPL;Upload;Obsolete.;;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;INK;Inkoopadministratie;Een boeking in de inkoop (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;HUU;Huuradministratie;Een boeking in de huur (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;PRO;Projectadministratie;Een boeking in de project (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;SAL;Salarisadministratie;Een boeking in de salaris (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;LEN;Leningenadministratie;Een boeking in de leningen (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financiën
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
