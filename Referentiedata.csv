@@ -442,7 +442,8 @@ EENHEIDDETAILSOORT;HOS;Hospice;Woongelegenheid voor personen die niet meer kunne
 EENHEIDDETAILSOORT;JON;Jongerencentrum;Jongerencentrum, mits zonder horecavoorziening;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;KAM;Kamer;Onzelfstandige woonruimte. Een kamer heeft geen eigen toegang of deelt de keuken of toilet met de bewoners van andere woningen/kamers.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KAN;Kantoorruimte;;;;EENHEIDSOORT.BED;Vastgoed
-EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;;25-11-2022;;EENHEIDSOORT.BED;Vastgoed
+EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;"Hieronder vallen kinderdagverblijven, peuterspeelzalen,
+buitenschoolse of 24-uursopvang (Bouwbesluit 2012)";25-11-2022;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;LGI;Lichamelijk beperkten instelling;Instelling voor lichamelijk beperkten;;;EENHEIDSOORT.INT;Vastgoed
 EENHEIDDETAILSOORT;LIG;Ligplaats;Een ligplaats is een formeel door de gemeente als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon, bedrijfsmatige of recreatieve doeleinden geschikt vaartuig.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;MAA;Maatschappelijk werkruimte wijk-/buurtgericht;Ruimte voor op de buurt of wijk gericht maatschappelijk werk door stichtingen of verenigingen;;;EENHEIDSOORT.MOG;Vastgoed
