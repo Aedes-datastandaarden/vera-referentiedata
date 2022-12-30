@@ -829,9 +829,9 @@ LENINGDETAILSOORT;INT;Intern;De lening betreft een interne lening. Bijvoorbeeld 
 LENINGDETAILSOORT;OBL;Obligatielening;;;;;Financiën
 LENINGSOORT;KRE;Kredietfaciliteit;;;;;Financiën
 LENINGSOORT;LEN;Lening;;;;;Financiën
-MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst.Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;DAE;DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de DAEB-tak behoort. Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde DAEB verantwoord wordt. Dit is gelijk aan een gereguleerd huurovereenkomst. Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
 MAATSCHAPPELIJKLABEL;GNDV;Geconsolideerde NIET-DAEB verbinding;Als attribuut van de klasse FinancieelBedrijf: Geeft aan of het bedrijf een consolidatiebedrijf is, waarbinnen NIET-DAEB activiteiten worden verricht.;;;;Vastgoed, Overeenkomsten, Financiën
-MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort.Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Ditis gelijk aan een geliberaliseerde huurovereenkomstAls attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
+MAATSCHAPPELIJKLABEL;NDA;NIET-DAEB;Als attribuut van klasse Eenheid: Geeft aan dat de eenheid tot de niet-DAEB-tak behoort. Als attribuut van klasse Huurovereenkomst: Geeft aan dat de verhuring als zijnde niet-DAEB verantwoord wordt. Dit is gelijk aan een geliberaliseerde huurovereenkomst. Als attribuut van de klasse FinancieelBedrijf: Geeft aan of de bedrijfsactiviteiten als NIET-DAEB verantwoord worden.;;;;Vastgoed, Overeenkomsten, Financiën
 MACHTIGINGSOORT;DOO;Doorlopend;;;;;Financiën
 MACHTIGINGSOORT;EEN;Eenmalig;;;;;Financiën
 MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
@@ -992,7 +992,7 @@ OVEREENKOMSTDETAILSOORT;PER;Persoonlijke woonkrant;Nieuwsbrief met gepersonifice
 OVEREENKOMSTDETAILSOORT;PRO;Nieuwbouwinformatie;Abonnement of nieuwsbrief met informatie over nieuwbouw projecten en/of vastgoed ontwikkelingen.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een zelfstandige woning voor een periode van tenminste zeven nachten en maximaal zes maanden;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur al te koop.;;;;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;
