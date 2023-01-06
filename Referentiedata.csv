@@ -38,13 +38,13 @@ AANVULLENDEDOELGROEP;SKA;Skaeve Huse;Woonruimte is bestemd voor en/of huurder zo
 AANVULLENDEDOELGROEP;STH;Statushouders;Woonruimte is bestemd voor en/of huurder is een als vluchteling erkende asielzoeker (statushouder of vergunninghouder);;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;VER;(ex)-verslaafden;Woonruimte is bestemd voor en/of huurder is een (ex-) verslaafde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;Woonruimte is bestemd voor en/of huurder heeft en zorgindicatie.;;;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling
-ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;
-ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;
-ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;
-ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;
-ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;
-ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;
-ADRESSOORT;POS;Postadres;Het postadres;;;;
+ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;Relaties
+ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;Relaties
+ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;Relaties
+ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties
+ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;Relaties
+ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties
+ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties
 AFSPRAAKSTATUS;AAN;Aangevraagd;De afspraak is nog niet gepland, maar wel aangevraagd. Daarbij kan eventueel een voorkeur bloktijd zijn opgegeven.;;;;Relaties
 AFSPRAAKSTATUS;AFG;Afgerond;De afspraak heeft plaatsgevonden;;;;Relaties
 AFSPRAAKSTATUS;ANN;Geannuleerd;De afspraak is geannuleerd;;;;Relaties
@@ -62,7 +62,7 @@ AFWEZIGHEIDSOORT;VER;Verlof (regulier);;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZIE;Ziek;;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZOR;Zorgverlof;;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
-AKTESOORT;NOT;Notarïele akte;Akte vastgelegd bij de notaris;;;;Vastgoed
+AKTESOORT;NOT;Notariële akte;Akte vastgelegd bij de notaris;;;;Vastgoed
 AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgesteld (onderhands);;;;Vastgoed
 BEDRIJFSOORT;BOU;Bouwbedrijf;;;;;Financiën
 BEDRIJFSOORT;MON;Monumenten;;;;;Financiën
@@ -247,9 +247,9 @@ CONTACTGEGEVENSOORT;PAG;Pager;;;;;Relaties
 CONTACTGEGEVENSOORT;POS;Post;;;;;Relaties
 CONTACTGEGEVENSOORT;SOC;Social media;;;;;Relaties
 CONTACTGEGEVENSOORT;TEL;Telefoon;Gewoon telefoonnummer;;;;Relaties
-CONTACTGEGEVENSTATUS;AAN;Aangemaakt;Het contactgegeven is aangemaakt.;;;;
-CONTACTGEGEVENSTATUS;GEV;Gevalideerd;Het contactgeggeven is gevalideerd via een mail, sms etc.;;;;
-CONTACTGEGEVENSTATUS;ONG;Ongeldig;Het contactgegeven is niet (meer) geldig.;;;;
+CONTACTGEGEVENSTATUS;AAN;Aangemaakt;Het contactgegeven is aangemaakt.;;;;Relaties
+CONTACTGEGEVENSTATUS;GEV;Gevalideerd;Het contactgeggeven is gevalideerd via een mail, sms etc.;;;;Relaties
+CONTACTGEGEVENSTATUS;ONG;Ongeldig;Het contactgegeven is niet (meer) geldig.;;;;Relaties
 CONTACTGEGEVENVOORKEUR;EER;Eerste;;;;;Relaties
 CONTACTGEGEVENVOORKEUR;TWE;Tweede;;;;;Relaties
 CREDITEURSOORT;CGM;Crediteur gemeente;;;;;Financiën
@@ -316,7 +316,7 @@ DEFECTLOCATIE;WRI;Wasruimte individueel;;;;;Onderhoud
 DEFECTLOCATIE;ZOL;Zolder / vliering;;;;;Onderhoud
 DEFECTOORZAAK;BEW;Bewonersopdracht/gedrag;Bewoner heeft het defect zelf veroorzaakt (bijv. binnendeur ingetrapt)Relatie met Ketenstandaard: oorzaakcode HUU - Huurder;;;;Onderhoud
 DEFECTOORZAAK;BRA;Schade door brand;Defect is veroorzaakt door brand. (bijv. keukenbrand).;;;;Onderhoud
-DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef)Relatie met Ketenstandaard: oorzaakcode OUD - Ouderdom;;;;Onderhoud
+DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef). Relatie met Ketenstandaard: oorzaakcode OUD - Ouderdom;;;;Onderhoud
 DEFECTOORZAAK;SLT;Normale slijtage;Het element is versleten en defect geraakt. (bijv. door veelvuldig gebruik van het element). Relatie met Ketenstandaard: oorzaakcode SLT - Slijtage;;;;Onderhoud
 DEFECTOORZAAK;SOP;Slecht opgeleverd;Defect is veroorzaakt door een slechte oplevering van het element bij de installatie (bijv. kraan lekt van nieuwe keuken).;;;;Onderhoud
 DEFECTOORZAAK;STO;Schade door storm;Defect is veroorzaakt door externe invloeden. (bijv. schutting omgewaaid door storm).;;;;Onderhoud
@@ -408,7 +408,7 @@ EENHEIDBUITENRUIMTE;DAK;Dakterras;Een dakterras kan ook als RUIMTESOORT, als att
 EENHEIDBUITENRUIMTE;GTU;Gemeenschappelijke tuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAK;Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;;;Vastgoed
-EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltijke tuin rondom de eenheid;;;;Vastgoed
+EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vastgoed
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
@@ -417,7 +417,7 @@ EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzo
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;BEN;Benedenwoning;Een benedenwoning is een etagewoning of flatwoning op de begane grond met een voordeur die op straat uitkomt. De benedenwoning bestaat uit één of meerdere bouwlagen. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;BER;Berging;Een berging is een bergruimte of bijgebouw met een algemene bergfunctie op een apart perceel of met een eigen adres, vaak in een aaneengesloten rij met andere berghokken of bijgebouwen.;;;EENHEIDSOORT.OVE;Vastgoed
-EENHEIDDETAILSOORT;BIB;Bibliotheek;Dorps- of wijkbibliotheken;;;EENHEIDSOORT.MOG;Vastgoed
+EENHEIDDETAILSOORT;BIB;Bibliotheek;Dorps- of wijkbibliotheek;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;BIJ;Bijeenkomstruimte;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;BOU;Bouwkavel;Een aaneengesloten terreinoppervlak, waarop krachtens het bestemmingsplan een zelfstandige, bij elkaar behorende bebouwing is toegestaan.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;BOV;Bovenwoning;Een bovenwoning is een etagewoning of flatwoning op een etage die bereikbaar is via een binnentrap met een mogelijk gemeenschappelijke voordeur die op straat uitkomt of een eigen voordeur heeft die niet in een portiek uitkomt. De bovenwoning bestaat uit één of meerdere bouwlagen. De flat-bovenwoning (ook wel: repeterende bovenwoning) is geen galerijflat. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
@@ -628,43 +628,43 @@ FACTUURSOORT;CEX;Credit factuur extern;Credit factuur extern;;;;Financiën
 FACTUURSOORT;CIF;Credit factuur intern;Credit factuur intern;;;;Financiën
 FACTUURSOORT;DEX;Debet factuur extern;Debet factuur extern;;;;Financiën
 FACTUURSOORT;DIF;Debet factuur intern;Debet factuur intern;;;;Financiën
-GEBEURTENISSOORT;BSI;Begin situatiepunten;Begin situatiepunten;;;;
-GEBEURTENISSOORT;BST;Begin startpunten;Begin startpunten;;;;
-GEBEURTENISSOORT;GEW;Gewijzigde inschrijving;Gewijzigde inschrijving;;;;
-GEBEURTENISSOORT;GSA;Gewijzigde startpunten;Gewijzigde startpunten;;;;
-GEBEURTENISSOORT;GSI;Gewijzigde situatiepunten;Gewijzigde situatiepunten;;;;
-GEBEURTENISSOORT;INS;Intrekken no-show;Intrekken gebeurtenis niet aanwezig op bevestigde bezichtiging (No-show);;;;
-GEBEURTENISSOORT;IRE;Intrekken reactie;Intrekken reactie met puntenopbouw;;;;
-GEBEURTENISSOORT;IWH;Intrekken weigering als hoogste acceptant;Intrekken weigering als hoogste acceptant;;;;
-GEBEURTENISSOORT;IWN;Intrekken weigering niet als hoogste acceptant;Intrekken weigering niet als hoogste acceptant;;;;
-GEBEURTENISSOORT;NIE;Nieuwe inschrijving;Nieuwe inschrijving;;;;
-GEBEURTENISSOORT;NOS;No-show;Niet aanwezig op bevestigde bezichtiging;;;;
-GEBEURTENISSOORT;REA;Reactie;Reactie met puntenopbouw;;;;
-GEBEURTENISSOORT;TOE;Toewijzing;Toewijzing;;;;
-GEBEURTENISSOORT;WEI;Weigering als hoogste acceptant;Weigering als hoogste acceptant;;;;
-GEBEURTENISSOORT;WEN;Weigering niet als hoogste acceptant;Weigering niet als hoogste acceptant;;;;
-GEOMETRIESOORT;OMT;Omtrek;De geocoordinaten van de omtrek van een object;;;;Vastgoed
-GEOMETRIESOORT;PUN;Punt;De geocoordinaten van het middenpunt van een object;;;;Vastgoed
+GEBEURTENISSOORT;BSI;Begin situatiepunten;Begin situatiepunten;;;;Woonruimteverdeling
+GEBEURTENISSOORT;BST;Begin startpunten;Begin startpunten;;;;Woonruimteverdeling
+GEBEURTENISSOORT;GEW;Gewijzigde inschrijving;Gewijzigde inschrijving;;;;Woonruimteverdeling
+GEBEURTENISSOORT;GSA;Gewijzigde startpunten;Gewijzigde startpunten;;;;Woonruimteverdeling
+GEBEURTENISSOORT;GSI;Gewijzigde situatiepunten;Gewijzigde situatiepunten;;;;Woonruimteverdeling
+GEBEURTENISSOORT;INS;Intrekken no-show;Intrekken gebeurtenis niet aanwezig op bevestigde bezichtiging (No-show);;;;Woonruimteverdeling
+GEBEURTENISSOORT;IRE;Intrekken reactie;Intrekken reactie met puntenopbouw;;;;Woonruimteverdeling
+GEBEURTENISSOORT;IWH;Intrekken weigering als hoogste acceptant;Intrekken weigering als hoogste acceptant;;;;Woonruimteverdeling
+GEBEURTENISSOORT;IWN;Intrekken weigering niet als hoogste acceptant;Intrekken weigering niet als hoogste acceptant;;;;Woonruimteverdeling
+GEBEURTENISSOORT;NIE;Nieuwe inschrijving;Nieuwe inschrijving;;;;Woonruimteverdeling
+GEBEURTENISSOORT;NOS;No-show;Niet aanwezig op bevestigde bezichtiging;;;;Woonruimteverdeling
+GEBEURTENISSOORT;REA;Reactie;Reactie met puntenopbouw;;;;Woonruimteverdeling
+GEBEURTENISSOORT;TOE;Toewijzing;Toewijzing;;;;Woonruimteverdeling
+GEBEURTENISSOORT;WEI;Weigering als hoogste acceptant;Weigering als hoogste acceptant;;;;Woonruimteverdeling
+GEBEURTENISSOORT;WEN;Weigering niet als hoogste acceptant;Weigering niet als hoogste acceptant;;;;Woonruimteverdeling
+GEOMETRIESOORT;OMT;Omtrek;De geocoördinaten van de omtrek van een object;;;;Vastgoed
+GEOMETRIESOORT;PUN;Punt;De geocoördinaten van het middenpunt van een object;;;;Vastgoed
 GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties
 GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
+GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BNK;Bank;Een boeking in de bank (sub-)administratie;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een boeking van een schuld in de crediteuren (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;DEB;Debiteuren;Een boeking van een vordering in de debiteuren (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;HAN;Handmatig;Obsolete. Ook een boeking met herkomst Kas of Bank kan handmatig worden geboekt. Het begrip handmatig zegt daarom niet veel over de herkomst.;;2-12-2012;;Financiën
+GROOTBOEKMUTATIEHERKOMST;HUU;Huuradministratie;Een boeking in de huur (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;INK;Inkoopadministratie;Een boeking in de inkoop (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;KAS;Kas;Een boeking in de kas (sub-)administratie;2-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer Memoriaal. ";2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;LEN;Leningenadministratie;Een boeking in de leningen (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer memoriaal. ";2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;PRO;Projectadministratie;Een boeking in de project (sub-)administratie;30-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;SAL;Salarisadministratie;Een boeking in de salaris (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SUB;Subadministratie;Obsolete.;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SYS;Systeem;Overige (automatische) (correctie)boekingen;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;UPL;Upload;Obsolete.;;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;INK;Inkoopadministratie;Een boeking in de inkoop (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;HUU;Huuradministratie;Een boeking in de huur (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;PRO;Projectadministratie;Een boeking in de project (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;SAL;Salarisadministratie;Een boeking in de salaris (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;LEN;Leningenadministratie;Een boeking in de leningen (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financiën
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
@@ -686,12 +686,12 @@ HUURKLASSE;BET;Betaalbaar;Eenheid waarvan de netto huur (kale huur) per maand op
 HUURKLASSE;BOV;Boven huurtoeslaggrens;Eenheid waarvan de netto huur (kale huur) per maand op of boven de huurtoeslaggrens (liberalisatiegrens) ligt.;;;;Vastgoed
 HUURKLASSE;DUU;Duur;Eenheid waarvan de netto huur (kale huur) per maand op of boven de aftoppingsgrens (hoog) en onder de huurtoeslaggrens ligt.;;;;Vastgoed
 HUURKLASSE;GOE;Goedkoop;Eenheid waarvan de netto huur (kale huur) per maand onder de kwaliteitskortingsgrens ligt.;;;;Vastgoed
-HUUROPZEGGINGSTATUS;AAN;Aangemaakt;;;;;
-HUUROPZEGGINGSTATUS;AFG;Afgewezen;;;;;
-HUUROPZEGGINGSTATUS;AFW;Afgewezen;;;;;
-HUUROPZEGGINGSTATUS;GEA;Geannuleerd;;;;;
-HUUROPZEGGINGSTATUS;GOE;Goedgekeurd;;;;;
-HUUROPZEGGINGSTATUS;INB;In behandeling;;;;;
+HUUROPZEGGINGSTATUS;AAN;Aangemaakt;;;;;Overeenkomsten
+HUUROPZEGGINGSTATUS;AFG;Afgewezen;;;;;Overeenkomsten
+HUUROPZEGGINGSTATUS;AFW;Afgewezen;;;;;Overeenkomsten
+HUUROPZEGGINGSTATUS;GEA;Geannuleerd;;;;;Overeenkomsten
+HUUROPZEGGINGSTATUS;GOE;Goedgekeurd;;;;;Overeenkomsten
+HUUROPZEGGINGSTATUS;INB;In behandeling;;;;;Overeenkomsten
 INCASSOMOMENT;001;1e dag van de maand;1e dag van de maand;;;;Overeenkomsten
 INCASSOMOMENT;002;2e dag van de maand;2e dag van de maand;;;;Overeenkomsten
 INCASSOMOMENT;003;3e dag van de maand;3e dag van de maand;;;;Overeenkomsten
@@ -959,11 +959,11 @@ OPLEIDINGSNIVEAU;VWO;Voorbereidend wetenschappelijk onderwijs;;;;;Relaties
 OPLEIDINGSNIVEAU;WBA;WO Bachelor;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
 OPLEIDINGSNIVEAU;WMA;WO Master;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
 OPLEIDINGSNIVEAU;WPM;WO Postinitiële master;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
-OPZEGTERMIJN;12M;12 maanden;;;;;
-OPZEGTERMIJN;1M;1 maand;;;;;
-OPZEGTERMIJN;3M;3 maanden;;;;;
-OPZEGTERMIJN;4W;4 weken;;;;;
-OPZEGTERMIJN;6M;6 maanden;;;;;
+OPZEGTERMIJN;12M;12 maanden;;;;;Overeenkomsten
+OPZEGTERMIJN;1M;1 maand;;;;;Overeenkomsten
+OPZEGTERMIJN;3M;3 maanden;;;;;Overeenkomsten
+OPZEGTERMIJN;4W;4 weken;;;;;Overeenkomsten
+OPZEGTERMIJN;6M;6 maanden;;;;;Overeenkomsten
 ORGANISATIEVORM;BUI;Buitenlandse rechtsvorm;Buitenlandse rechtsvorm  (Handelsregisterwet: art 5,d);;;;Relaties
 ORGANISATIEVORM;BV;Besloten vennootschap met beperkte aansprakelijkheid;Besloten vennootschap met beperkte aansprakelijkheid (BV)  (Handelsregisterwet: art 5,a);;;;Relaties
 ORGANISATIEVORM;COO;Coöperatie;Coöperatie  (Handelsregisterwet: art 5,a);;;;Relaties
@@ -1000,9 +1000,9 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
-OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;
-OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;
-OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;
+OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
 OVEREENKOMSTSOORT;ARB;Arbeid;Arbeidsovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;BET;Betalerovereenkomst;Overeenkomst waarin afspraken zijn vastgelegd met een afwijkende betaler voor een andere (huur-)overeenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;HUU;Huurovereenkomst;Overeenkomst met betrekking tot het huren van roerend of onroerend goed.;;;;Overeenkomsten
@@ -1232,7 +1232,7 @@ RELATIEROLSOORT;BES;Bestuur;Vervallen, gebruik: Bestuurslid;;1-1-2022;;Relaties
 RELATIEROLSOORT;BET;Betaler;Betaler, vooral van belang als de betaler een andere relatie is dan de huurder of contractant. Iemand anders betaalt dan namens de huurder, vanaf een eigen bankrekening. Zie ook Bewindvoerder (die vanaf de rekening van de huurder betaalt).;;;;Relaties
 RELATIEROLSOORT;BEW;Bewoner;Persoon die volgens het GBA een verblijfseenheid/woning stelselmatig bewoont (CORA). Als de bewoner ook de huurder is, dan ook ook Huurder worden gebruikt.Zie ook Gebruiker.;;;;Relaties
 RELATIEROLSOORT;BSL;Bestuurslid;Iemand die deel uitmaakt van een bestuur, bijvoorbeeld van een VvE of bewonersvereniging, en daarin de rol van Algemeen bestuurslid heeft. Voor bestuursleden met de rol van Voorzitter, Secretaris en Penningmeester zijn afzonderlijke relatierolsoorten beschikbaar;;;;Relaties
-RELATIEROLSOORT;BUD;Budgetcoach;Synoniem: budgetbeheerder. De relatie is budgetcoach van een andere relatie zonder rechterlijke beschikking en voert financieel beheer voor deze relatie uit. Voor het financieel beheer wordt een aparte beheerrekening geopend waarvan betalingen voor de vaste lasten worden uitgevoerd door budgetcoach.;;;;
+RELATIEROLSOORT;BUD;Budgetcoach;Synoniem: budgetbeheerder. De relatie is budgetcoach van een andere relatie zonder rechterlijke beschikking en voert financieel beheer voor deze relatie uit. Voor het financieel beheer wordt een aparte beheerrekening geopend waarvan betalingen voor de vaste lasten worden uitgevoerd door budgetcoach.;;;;Relaties
 RELATIEROLSOORT;BWI;Bewindvoerder;De relatie is bewindvoerder van een andere relatie, bijvoorbeeld in het kader van de WSNP (Huurder Jansen staat onder bewindvoering van meneer Karelse). De bewindvoerder betaalt vanaf de bankrekening van de huurder. Zie ook Betaler (namens een huurder betaalt, maar vanaf een eigen bankrekening);;;;Relaties
 RELATIEROLSOORT;COL;Wooncoöperatie-lid;Lid van een wooncoöperatie. Niet te verwarren met de relatierolsoort Wooncoöperatie (rechtspersoon). Let op dat voor bestuursleden afzonderlijke relatierolsoorten beschikbaar zijn: Bestuurslid, Voorzitter, Penningmeester, Secretaris.;;;;Relaties
 RELATIEROLSOORT;CON;Contractant;Vervallen, gebruik: Huurder, Eigenaar, Woningzoekende of Leverancier;;1-1-2022;;Relaties
@@ -1263,7 +1263,7 @@ RELATIEROLSOORT;NOT;Notaris;Notaris die een koop-/verkooptransactie formeel bekr
 RELATIEROLSOORT;OPD;Opdrachtgever;Opdrachtgevende partij;;;;Relaties
 RELATIEROLSOORT;OPN;Opdrachtnemer;Opdrachtnemende partij;;;;Relaties
 RELATIEROLSOORT;OPZ;Opzichter;De opzichter voor het betreffende vastgoed;;;;Relaties
-RELATIEROLSOORT;OWI;Onderwijsinstelling;;;;;
+RELATIEROLSOORT;OWI;Onderwijsinstelling;;;;;Relaties
 RELATIEROLSOORT;PEN;Penningmeester;Iemand die deel uitmaakt van een bestuur, bijvoorbeeld van een VvE of bewonersvereniging, en daarin de rol van Penningmeester heeft;;;;Relaties
 RELATIEROLSOORT;PRO;Prospect;Een prospect is een relatie die belangstelling heeft om een dienst of product van de woningcorporatie af te nemen. Gebruik eventueel Woningzoekende om meer concreet te zijn.;;;;Relaties
 RELATIEROLSOORT;SEC;Secretaris;Iemand die deel uitmaakt van een bestuur, bijvoorbeeld van een VvE of bewonersvereniging, en daarin de rol van Secretaris heeft;;;;Relaties
@@ -1345,11 +1345,11 @@ TOEGANKELIJKHEIDSLABEL;ROA;Rollatorwoning;Label dat aangeeft dat de woning zowel
 TOEGANKELIJKHEIDSLABEL;ROL;Rolstoelwoning;"Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredewoning'. Een rolstoelwoning voldoet per definitie ook aan het label ""rollatorwoning"", maar is niet per definitie ook een 'extra ruime rolstoelwoning'.";;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;RUI;Extra ruime rolstoelwoning;"Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een grote (elektrische) rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredenwoning'. Een extra ruime rolstoelwoning voldoet per definitie ook aan het label ""rolstoelwoning"".";;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;ZON;Woning zonder bijzondere toegankelijkheid;;;;;Vastgoed
-TOEGANKELIJKHEIDSLABELS;GEL;Gelijkvloerse woning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.GEL;;1-1-2022;;
-TOEGANKELIJKHEIDSLABELS;ROA;Rollatorwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ROA;;1-1-2022;;
-TOEGANKELIJKHEIDSLABELS;ROL;Rolstoelwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ROL;;1-1-2022;;
-TOEGANKELIJKHEIDSLABELS;RUI;Extra ruime rolstoelwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.RUI;;1-1-2022;;
-TOEGANKELIJKHEIDSLABELS;ZON;Woning zonder bijzondere toegankelijkheid;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ZON;;1-1-2022;;
+TOEGANKELIJKHEIDSLABELS;GEL;Gelijkvloerse woning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.GEL;;1-1-2022;;Vastgoed
+TOEGANKELIJKHEIDSLABELS;ROA;Rollatorwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ROA;;1-1-2022;;Vastgoed
+TOEGANKELIJKHEIDSLABELS;ROL;Rolstoelwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ROL;;1-1-2022;;Vastgoed
+TOEGANKELIJKHEIDSLABELS;RUI;Extra ruime rolstoelwoning;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.RUI;;1-1-2022;;Vastgoed
+TOEGANKELIJKHEIDSLABELS;ZON;Woning zonder bijzondere toegankelijkheid;Vervallen, zie: TOEGANKELIJKHEIDSLABEL.ZON;;1-1-2022;;Vastgoed
 UITEXPLOITATIEREDEN;BEH;Beïndiging Beheer;De exploitatie van de eenheid van een andere eigenaar is beindigd.;;;;Vastgoed
 UITEXPLOITATIEREDEN;SAM;Samengevoegd;;;;;Vastgoed
 UITEXPLOITATIEREDEN;SLO;Sloop;;;;;Vastgoed
@@ -1464,29 +1464,29 @@ WOONVORM;HAT;HAT-eenheid;eenheden voor 1 of twee persoonshuishoudens met gezamel
 WOONVORM;KLE;Kleine woonvorm;gezinsvervangende tehuizen voor lichamelijk gehandicapten;;;;Vastgoed
 WOONVORM;SEN;Seniorenwoning met zorg;Senioren woningen met zorg (voorheen Wibo-wonen in beschermde omgeving) zijn bij elkaar gelegen zelfstandige (aanleun)woningen met een dienstencentrum met allerlei voorzieningen dichtbij.;;;;Vastgoed
 WOONVORM;THO;Thomashuis;Een Thomashuis is een kleinschalige woonvoorziening voor zes à acht mensen met een verstandelijke beperking;;;;Vastgoed
-ZAAKOBJECTSOORT;CLU;Cluster;;04-11-2022;;;
-ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;
-ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;
-ZAAKOBJECTSOORT;OND;Onderhoudsverzoek;;04-11-2022;;;
-ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;
-ZAAKOBJECTSOORT;REL;Relatie;Obsolete. Er is een expliciete associatie met Relatie;04-11-2022;18-11-2022;;
-ZAAKROL;ADV;Adviseur;;;;;
-ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;
-ZAAKROL;BEK;Beklaagde;De betrokkene binnen de zaak waarover geklaagd wordt bij een (sociale) klacht;30-09-2022;;;
-ZAAKROL;BEL;Belanghebbende;;;;;
-ZAAKROL;BES;Beslisser;;;;;
-ZAAKROL;INI;Initiator;;;;;
-ZAAKROL;KLA;Klantcontacter;;;;;
-ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;30-09-2022;;;
-ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;
-ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;
-ZAAKROL;ZAA;Zaakcoördinator;;;;;
-ZAAKSTATUSSOORT;AAN;Aangemaakt;De zaak is aangemaakt/geregistreerd maar nog niet toegewezen ter afhandeling;30-09-2022;;;
-ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is inhoudelijk afgerond, maar nog niet definitief gesloten;30-09-2022;;;
-ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;
-ZAAKSTATUSSOORT;GES;Gesloten;De zaak is afgerond en gesloten;30-09-2022;;;
-ZAAKSTATUSSOORT;INB;In behandeling;De zaak is in behandeling genomen door of in behandeling gegeven aan iemand, maar er zijn nog geen stappen in de uitvoering gezet;30-09-2022;;;
-ZAAKSTATUSSOORT;INU;In uitvoering;De zaak is in uitvoering;30-09-2022;;;
+ZAAKOBJECTSOORT;CLU;Cluster;;04-11-2022;;;Dossier
+ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;Dossier
+ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;Dossier
+ZAAKOBJECTSOORT;OND;Onderhoudsverzoek;;04-11-2022;;;Dossier
+ZAAKOBJECTSOORT;OVE;Overeenkomst;;04-11-2022;;;Dossier
+ZAAKOBJECTSOORT;REL;Relatie;Obsolete. Er is een expliciete associatie met Relatie;04-11-2022;18-11-2022;;Dossier
+ZAAKROL;ADV;Adviseur;;;;;Dossier
+ZAAKROL;BEH;Behandelaar;De medewerker die de zaak in behandeling heeft;;;;Dossier
+ZAAKROL;BEK;Beklaagde;De betrokkene binnen de zaak waarover geklaagd wordt bij een (sociale) klacht;30-09-2022;;;Dossier
+ZAAKROL;BEL;Belanghebbende;;;;;Dossier
+ZAAKROL;BES;Beslisser;;;;;Dossier
+ZAAKROL;INI;Initiator;;;;;Dossier
+ZAAKROL;KLA;Klantcontacter;;;;;Dossier
+ZAAKROL;KLG;Klager;De betrokkene binnen de zaak die een klacht heeft ingediend;30-09-2022;;;Dossier
+ZAAKROL;MEL;Melder;De melder van de zaak;30-09-2022;;;Dossier
+ZAAKROL;OVE;Overige betrokkene;Overige betrokkene binnen de zaak zoals instanties als bijvoorbeeld politie, gemeente, sociale dienst, etc.;30-09-2022;;;Dossier
+ZAAKROL;ZAA;Zaakcoördinator;;;;;Dossier
+ZAAKSTATUSSOORT;AAN;Aangemaakt;De zaak is aangemaakt/geregistreerd maar nog niet toegewezen ter afhandeling;30-09-2022;;;Dossier
+ZAAKSTATUSSOORT;AFG;Afgerond;De zaak is inhoudelijk afgerond, maar nog niet definitief gesloten;30-09-2022;;;Dossier
+ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-2022;;;Dossier
+ZAAKSTATUSSOORT;GES;Gesloten;De zaak is afgerond en gesloten;30-09-2022;;;Dossier
+ZAAKSTATUSSOORT;INB;In behandeling;De zaak is in behandeling genomen door of in behandeling gegeven aan iemand, maar er zijn nog geen stappen in de uitvoering gezet;30-09-2022;;;Dossier
+ZAAKSTATUSSOORT;INU;In uitvoering;De zaak is in uitvoering;30-09-2022;;;Dossier
 ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
