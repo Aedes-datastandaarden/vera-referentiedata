@@ -62,7 +62,7 @@ AFWEZIGHEIDSOORT;VER;Verlof (regulier);;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZIE;Ziek;;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZOR;Zorgverlof;;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
-AKTESOORT;NOT;Notarïele akte;Akte vastgelegd bij de notaris;;;;Vastgoed
+AKTESOORT;NOT;Notariële akte;Akte vastgelegd bij de notaris;;;;Vastgoed
 AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgesteld (onderhands);;;;Vastgoed
 BEDRIJFSOORT;BOU;Bouwbedrijf;;;;;Financiën
 BEDRIJFSOORT;MON;Monumenten;;;;;Financiën
@@ -316,7 +316,7 @@ DEFECTLOCATIE;WRI;Wasruimte individueel;;;;;Onderhoud
 DEFECTLOCATIE;ZOL;Zolder / vliering;;;;;Onderhoud
 DEFECTOORZAAK;BEW;Bewonersopdracht/gedrag;Bewoner heeft het defect zelf veroorzaakt (bijv. binnendeur ingetrapt)Relatie met Ketenstandaard: oorzaakcode HUU - Huurder;;;;Onderhoud
 DEFECTOORZAAK;BRA;Schade door brand;Defect is veroorzaakt door brand. (bijv. keukenbrand).;;;;Onderhoud
-DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef)Relatie met Ketenstandaard: oorzaakcode OUD - Ouderdom;;;;Onderhoud
+DEFECTOORZAAK;OUD;Ouderdom;Het element is versleten en defect geraakt. (bijv. kastdeur van 20 jaar oude keuken hangt scheef). Relatie met Ketenstandaard: oorzaakcode OUD - Ouderdom;;;;Onderhoud
 DEFECTOORZAAK;SLT;Normale slijtage;Het element is versleten en defect geraakt. (bijv. door veelvuldig gebruik van het element). Relatie met Ketenstandaard: oorzaakcode SLT - Slijtage;;;;Onderhoud
 DEFECTOORZAAK;SOP;Slecht opgeleverd;Defect is veroorzaakt door een slechte oplevering van het element bij de installatie (bijv. kraan lekt van nieuwe keuken).;;;;Onderhoud
 DEFECTOORZAAK;STO;Schade door storm;Defect is veroorzaakt door externe invloeden. (bijv. schutting omgewaaid door storm).;;;;Onderhoud
@@ -408,7 +408,7 @@ EENHEIDBUITENRUIMTE;DAK;Dakterras;Een dakterras kan ook als RUIMTESOORT, als att
 EENHEIDBUITENRUIMTE;GTU;Gemeenschappelijke tuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAK;Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;;;Vastgoed
-EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltijke tuin rondom de eenheid;;;;Vastgoed
+EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vastgoed
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
@@ -417,7 +417,7 @@ EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzo
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;BEN;Benedenwoning;Een benedenwoning is een etagewoning of flatwoning op de begane grond met een voordeur die op straat uitkomt. De benedenwoning bestaat uit één of meerdere bouwlagen. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;BER;Berging;Een berging is een bergruimte of bijgebouw met een algemene bergfunctie op een apart perceel of met een eigen adres, vaak in een aaneengesloten rij met andere berghokken of bijgebouwen.;;;EENHEIDSOORT.OVE;Vastgoed
-EENHEIDDETAILSOORT;BIB;Bibliotheek;Dorps- of wijkbibliotheken;;;EENHEIDSOORT.MOG;Vastgoed
+EENHEIDDETAILSOORT;BIB;Bibliotheek;Dorps- of wijkbibliotheek;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;BIJ;Bijeenkomstruimte;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;BOU;Bouwkavel;Een aaneengesloten terreinoppervlak, waarop krachtens het bestemmingsplan een zelfstandige, bij elkaar behorende bebouwing is toegestaan.;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;BOV;Bovenwoning;Een bovenwoning is een etagewoning of flatwoning op een etage die bereikbaar is via een binnentrap met een mogelijk gemeenschappelijke voordeur die op straat uitkomt of een eigen voordeur heeft die niet in een portiek uitkomt. De bovenwoning bestaat uit één of meerdere bouwlagen. De flat-bovenwoning (ook wel: repeterende bovenwoning) is geen galerijflat. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
@@ -643,8 +643,8 @@ GEBEURTENISSOORT;REA;Reactie;Reactie met puntenopbouw;;;;Woonruimteverdeling
 GEBEURTENISSOORT;TOE;Toewijzing;Toewijzing;;;;Woonruimteverdeling
 GEBEURTENISSOORT;WEI;Weigering als hoogste acceptant;Weigering als hoogste acceptant;;;;Woonruimteverdeling
 GEBEURTENISSOORT;WEN;Weigering niet als hoogste acceptant;Weigering niet als hoogste acceptant;;;;Woonruimteverdeling
-GEOMETRIESOORT;OMT;Omtrek;De geocoordinaten van de omtrek van een object;;;;Vastgoed
-GEOMETRIESOORT;PUN;Punt;De geocoordinaten van het middenpunt van een object;;;;Vastgoed
+GEOMETRIESOORT;OMT;Omtrek;De geocoördinaten van de omtrek van een object;;;;Vastgoed
+GEOMETRIESOORT;PUN;Punt;De geocoördinaten van het middenpunt van een object;;;;Vastgoed
 GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties
 GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
@@ -659,7 +659,7 @@ GROOTBOEKMUTATIEHERKOMST;HUU;Huuradministratie;Een boeking in de huur (sub-)admi
 GROOTBOEKMUTATIEHERKOMST;INK;Inkoopadministratie;Een boeking in de inkoop (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;KAS;Kas;Een boeking in de kas (sub-)administratie;2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;LEN;Leningenadministratie;Een boeking in de leningen (sub-)administratie;30-12-2022;;;Financiën
-GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer Memoriaal. ";2-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;MEM;Memoriaal;"Overige handmatige boekingen die niet uit kas of bank voortkomen worden meestal geboekt onder de noemer memoriaal. ";2-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;PRO;Projectadministratie;Een boeking in de project (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SAL;Salarisadministratie;Een boeking in de salaris (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;SUB;Subadministratie;Obsolete.;;;;Financiën
