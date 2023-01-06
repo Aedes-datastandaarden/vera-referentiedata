@@ -1020,6 +1020,12 @@ OVEREENKOMSTSTATUS;OPG;Opgezegd;De overeenkomst is daadwerkelijk opgezegd en een
 OVEREENKOMSTSTATUS;VER;Vernietigd;De aanduiding dat de overeenkomst is vernietigd en niet door een natuurlijke weg is beëindigd. Het contract is niet geldig tot stand gekomen vanwege wilsgebrek of nietig verklaard vanwege handelsonbevoegdheid of –onbekwaamheid.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VOO;Voorlopig;De overeenkomst is nog voorlopig en moet goedgekeurd worden door de verhuurder en huurder voordat deze definitief is. Bij een voorlopige overeenkomst moeten bijvoorbeeld nog bewijsstukken aangeleverd worden.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VOP;Voorlopig opgezegd;De overeenkomst is opgezegd door de huurder maar is nog wel actief en de opzegging is ook nog niet definitief gemaakt.;;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;MIG;Migratie;De overeenkomst is aangemaakt vanuit een migratie van gegevens uit een ander systeem.;06-01-2023;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;MED;Medewerker;De overeenkomst is aangemaakt door een medewerker.;06-01-2023;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;WON;Woningzoekende;De overeenkomst is aangemaakt door de woningzoekende.;06-01-2023;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;URG;Urgentie;De overeenkomst is aangemakt naar aanleiding van een toegekende urgentie.;06-01-2023;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;HER;Heropening;De overeenkomt is aangemaakt als heropening van een beindigde overeenkomst.;06-01-2023;;;Overeenkomsten
+OVEREENKOMSTHERKOMST;SPL;Gesplitst;De overeenkomt is aangemaakt als gesplitse overeenkomst van een lopende overeenkomt. Bijv. een inschrijving van de medeaanvrager waarbij deze bepaalde rechten behoudt.;06-01-2023;;;Overeenkomsten
 PASSENDHEIDDETAILSOORT;BIJ;Bijzondere gezinssituatie;Niet-passende toewijzing, noodzakelijk geacht omdat sprake is van een bijzondere woonbehoefte waarvoor geen regulier passende woning beschikbaar is. Bijvoorbeeld een zeer groot gezin of een bijzondere gezinssamenstelling.;;;;Woonruimteverdeling
 PASSENDHEIDDETAILSOORT;HER;Herstructurering;Niet-passende toewijzing, noodzakelijk geacht i.v.m. herstructurering;;;;Woonruimteverdeling
 PASSENDHEIDDETAILSOORT;HHV;Herhuisvesting;Niet-passende toewijzing, noodzakelijk geacht i.v.m. calamiteit of andere dringende oorzaak. Let op: voor herhuisvesting in verband met herstructurering gebruik passenheiddetailsoort 'Herstructurering';;;;Woonruimteverdeling
@@ -1512,3 +1518,5 @@ ZEKERHEIDVERPANDINGSOORT;OVE;Overig;Overig, bijvoorbeeld vastgelegd in onderhand
 ZEKERHEIDVERPANDINGSOORT;PHU;Pandrecht huurpenningen;Pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;POV;Positieve verklaring;Positieve verklaring hypotheek en/of positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;PPO;Pandrecht huurpenningen en positieve verklaring hypotheek;Pandrecht huurpenningen en positieve verklaring hypotheek;;;;Vastgoed
+WOONSITUATIESOORT;STA;Starter;Een starter is een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld doordat men bij de ouders, op kamers of een ex-partner woont.;06-01-2023;;;
+WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;06-01-2023;;;
