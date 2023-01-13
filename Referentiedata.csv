@@ -83,9 +83,9 @@ BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card;;;;Relaties
 BETAALGEGEVENSOORT;PAY;Paypal account;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een paypal account;;;;Relaties
 BETAALGEGEVENSOORT;TRA;TransferMate;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een TransferMate account;;;;Relaties
-BETAALWIJZEDEELSOORT;MAX;Maximaal bedrag;Het maximale bedrag wat door de betaler wordt bijgedragen aan de huur. Bijvoorbeeld de ouders van de student dragen maximaal EUR 300 bij aan de huur;;;;Financiën
-BETAALWIJZEDEELSOORT;PER;Maximaal bedrag;Het percentage van de huur wat door de betaler wordt bijgedragen. Bijvoorbeeld een stel die beiden de helft van de huur betaald;;;;Financiën
-BETAALWIJZEDEELSOORT;RES;Restant bedrag;Het restant van de huur wat door de betreffende betaler wordt bijgedragen. Bijvoorbeeld de student die het restant van de huur betaald na aftrek van de bijdrage van zijn/haar ouders;;;;Financiën
+BETAALWIJZEDEELSOORT;MAX;Maximaal bedrag;Het maximale bedrag dat door de betaler wordt bijgedragen aan de huur. Bijvoorbeeld de ouders van de student dragen maximaal EUR 300 bij aan de huur.;;;;Financiën
+BETAALWIJZEDEELSOORT;PER;Percentage;Het percentage van de huur dat door de betaler wordt bijgedragen. Bijvoorbeeld een stel waarbij beiden de helft van de huur betalen.;;;;Financiën
+BETAALWIJZEDEELSOORT;RES;Restant bedrag;Het restant van de huur dat door de betreffende betaler wordt bijgedragen. Bijvoorbeeld de student die het restant van de huur betaalt na aftrek van de bijdrage van zijn/haar ouders.;;;;Financiën
 BETAALWIJZESOORT;HND;Handmatige overboeking;Een door de betaler geïnitieerde betaling, via een bankoverboeking , een voldaan betaalverzoek of via een PIN-betaling;;;;Financiën
 BETAALWIJZESOORT;INC;Incasso;Een door de ontvanger geïnitieerde incasso, er moet een Incassomachtiging aan ten grondslag liggen;;;;Financiën
 BETALERSOORT;DER;Derden;Vervallen;;1-1-2022;;Financiën
