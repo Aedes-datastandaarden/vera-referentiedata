@@ -1068,6 +1068,7 @@ PRIJSCOMPONENTDETAILSOORT;INV;Inventaris;Maandelijkse kosten voor het gebruik va
 PRIJSCOMPONENTDETAILSOORT;LAA;Laadpaal;Maandelijkse kosten voor het gebruik van een laadpaal voor elektrische auto;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LIF;Liftkosten;Maandelijkse kosten voor het gebruik van de lift(en);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LIN;Linnenpakket;Maandelijkse kosten voor het gebruik van linnen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;MAT;Matiging huurtoeslag;Component voor het matigen van de huurprijs op basis van toegekende huurtoeslag conform de wettelijke regeling van vóór 2014. Dit component is alleen bedoeld voor het uitwisselen van historische data;3-2-2023;;PRIJSCOMPONENTSOORT.HUA;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;MVE;Mechanische ventilatie;Maandelijkse kosten voor het gebruik van de mechanische ventilatie;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;"Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata ""PRIJSCOMPONENTSUBSIDIESOORT"" opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent";;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;OKO;Overnamekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
