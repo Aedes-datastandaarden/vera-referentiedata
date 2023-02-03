@@ -412,6 +412,8 @@ EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vast
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
+EENHEIDCRITERIASOORT;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIASOORT;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzonder die van een beeldend kunstenaar.;;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
@@ -1000,6 +1002,12 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
+INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
+INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
+INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
+INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
+INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
+INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijivng krijgen.;;;;
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
@@ -1455,6 +1463,8 @@ WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertr
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
+WOONSITUATIESOORT;DOO;Doorstromer;Een woningzoekende die een zelfstandige woning achterlaat.;;;;
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;GEB-woningen zijn aanleunwoningen en woningen voor mensen met een geringe ergonomische beperking.;;;;Vastgoed
