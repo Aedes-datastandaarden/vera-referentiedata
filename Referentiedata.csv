@@ -794,6 +794,12 @@ INKOOPFACTUURSTATUS;HIS;Historisch;Inkoopfactuur is gearchiveerd/historisch.;;;;
 INKOOPFACTUURSTATUS;IBH;In behandeling;Inkoopfactuur is in behandeling.;;;;Financiën
 INKOOPFACTUURSTATUS;REG;Geregistreerd;Inkoopfactuur is geregistreerd.;;;;Financiën
 INKOOPFACTUURSTATUS;WOC;Wacht op creditfactuur;Er wordt gewacht op een creditfactuur.;;;;Financiën
+INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
+INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
+INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
+INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
+INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
+INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijving krijgen.;;;;
 INSPECTIERAPPORTSOORT;EIN;Eindinspectierapport;Rapport naar aanleiding van een eindinspectie;;;;Onderhoud
 INSPECTIERAPPORTSOORT;REP;Reparatieinspectierapport;Inspectierapport naar aanleiding van een onduidelijk reparatieverzoek;;;;Onderhoud
 INSPECTIERAPPORTSOORT;STE;Steekproefinspectierapport;Inspectierapport naar aanleiding van een uitgevoerde steekproef door een inspecteur/opzichter.;;;;Onderhoud
@@ -1002,12 +1008,6 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
-INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
-INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
-INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
-INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
-INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
-INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijivng krijgen.;;;;
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
@@ -1028,12 +1028,6 @@ OVEREENKOMSTSTATUS;OPG;Opgezegd;De overeenkomst is daadwerkelijk opgezegd en een
 OVEREENKOMSTSTATUS;VER;Vernietigd;De aanduiding dat de overeenkomst is vernietigd en niet door een natuurlijke weg is beëindigd. Het contract is niet geldig tot stand gekomen vanwege wilsgebrek of nietig verklaard vanwege handelsonbevoegdheid of –onbekwaamheid.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VOO;Voorlopig;De overeenkomst is nog voorlopig en moet goedgekeurd worden door de verhuurder en huurder voordat deze definitief is. Bij een voorlopige overeenkomst moeten bijvoorbeeld nog bewijsstukken aangeleverd worden.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VOP;Voorlopig opgezegd;De overeenkomst is opgezegd door de huurder maar is nog wel actief en de opzegging is ook nog niet definitief gemaakt.;;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;MIG;Migratie;De overeenkomst is aangemaakt vanuit een migratie van gegevens uit een ander systeem.;06-01-2023;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;MED;Medewerker;De overeenkomst is aangemaakt door een medewerker.;06-01-2023;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;WON;Woningzoekende;De overeenkomst is aangemaakt door de woningzoekende.;06-01-2023;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;URG;Urgentie;De overeenkomst is aangemakt naar aanleiding van een toegekende urgentie.;06-01-2023;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;HER;Heropening;De overeenkomt is aangemaakt als heropening van een beindigde overeenkomst.;06-01-2023;;;Overeenkomsten
-OVEREENKOMSTHERKOMST;SPL;Gesplitst;De overeenkomt is aangemaakt als gesplitse overeenkomst van een lopende overeenkomt. Bijv. een inschrijving van de medeaanvrager waarbij deze bepaalde rechten behoudt.;06-01-2023;;;Overeenkomsten
 PASSENDHEIDDETAILSOORT;BIJ;Bijzondere gezinssituatie;Niet-passende toewijzing, noodzakelijk geacht omdat sprake is van een bijzondere woonbehoefte waarvoor geen regulier passende woning beschikbaar is. Bijvoorbeeld een zeer groot gezin of een bijzondere gezinssamenstelling.;;;;Woonruimteverdeling
 PASSENDHEIDDETAILSOORT;HER;Herstructurering;Niet-passende toewijzing, noodzakelijk geacht i.v.m. herstructurering;;;;Woonruimteverdeling
 PASSENDHEIDDETAILSOORT;HHV;Herhuisvesting;Niet-passende toewijzing, noodzakelijk geacht i.v.m. calamiteit of andere dringende oorzaak. Let op: voor herhuisvesting in verband met herstructurering gebruik passenheiddetailsoort 'Herstructurering';;;;Woonruimteverdeling
