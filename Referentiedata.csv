@@ -618,6 +618,12 @@ ENERGIELABEL;D;D;;;;;Vastgoed
 ENERGIELABEL;E;E;;;;;Vastgoed
 ENERGIELABEL;F;F;;;;;Vastgoed
 ENERGIELABEL;G;G;;;;;Vastgoed
+ENERGIEPRESTATIESOORT;EI;Energie-index;De tussen 1-1-2015 en 1-1-2021 afgegeven Energie-Index. Officieel hoort bij een energie-index geen energielabel, maar in de praktijk wordt in de energieprestatie meestal ook een energielabel opgenomen. Dat label is dan afgeleid op basis van een tabel met bandbreedtes voor de energie-index.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP1;Energiebehoefte;De conform NTA8800 berekende energiebehoefte per jaar in kWh/m2 gebruiksoppervlak;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP2U;Primair fossiel energieverbruik - utiliteitsbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, inclusief eventuele (kwaliteitsverklaringen voor) energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 score.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP2W;Primair fossiel energieverbruik - woningbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 EMG forf. score.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP3;Aandeel hiernieuwbare energie;Het conform NTA8800 berekende aandeel hernieuwbare energie in procenten;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;VEL;Voorlopig energielabel;Het tot 1-1-2015 door de overheid afgegeven 'Oude' energielabel. Dit is geen officieel energieprestatiecertificaat.;6-2-2023;;;Vastgoed
 EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
 EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
@@ -794,12 +800,12 @@ INKOOPFACTUURSTATUS;HIS;Historisch;Inkoopfactuur is gearchiveerd/historisch.;;;;
 INKOOPFACTUURSTATUS;IBH;In behandeling;Inkoopfactuur is in behandeling.;;;;Financiën
 INKOOPFACTUURSTATUS;REG;Geregistreerd;Inkoopfactuur is geregistreerd.;;;;Financiën
 INKOOPFACTUURSTATUS;WOC;Wacht op creditfactuur;Er wordt gewacht op een creditfactuur.;;;;Financiën
-INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
-INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
-INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
-INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
 INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
+INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
+INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
 INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijving krijgen.;;;;
+INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
+INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
 INSPECTIERAPPORTSOORT;EIN;Eindinspectierapport;Rapport naar aanleiding van een eindinspectie;;;;Onderhoud
 INSPECTIERAPPORTSOORT;REP;Reparatieinspectierapport;Inspectierapport naar aanleiding van een onduidelijk reparatieverzoek;;;;Onderhoud
 INSPECTIERAPPORTSOORT;STE;Steekproefinspectierapport;Inspectierapport naar aanleiding van een uitgevoerde steekproef door een inspecteur/opzichter.;;;;Onderhoud
@@ -1458,8 +1464,10 @@ WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertr
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
-WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
 WOONSITUATIESOORT;DOO;Doorstromer;Een woningzoekende die een zelfstandige woning achterlaat.;;;;
+WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;06-01-2023;;;
+WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
+WOONSITUATIESOORT;STA;Starter;Een starter is een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld doordat men bij de ouders, op kamers of een ex-partner woont.;06-01-2023;;;
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;GEB-woningen zijn aanleunwoningen en woningen voor mensen met een geringe ergonomische beperking.;;;;Vastgoed
@@ -1523,5 +1531,3 @@ ZEKERHEIDVERPANDINGSOORT;OVE;Overig;Overig, bijvoorbeeld vastgelegd in onderhand
 ZEKERHEIDVERPANDINGSOORT;PHU;Pandrecht huurpenningen;Pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;POV;Positieve verklaring;Positieve verklaring hypotheek en/of positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;PPO;Pandrecht huurpenningen en positieve verklaring hypotheek;Pandrecht huurpenningen en positieve verklaring hypotheek;;;;Vastgoed
-WOONSITUATIESOORT;STA;Starter;Een starter is een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld doordat men bij de ouders, op kamers of een ex-partner woont.;06-01-2023;;;
-WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;06-01-2023;;;
