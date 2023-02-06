@@ -624,6 +624,7 @@ ENERGIEPRESTATIESOORT;EP2U;Primair fossiel energieverbruik - utiliteitsbouw;Het 
 ENERGIEPRESTATIESOORT;EP2W;Primair fossiel energieverbruik - woningbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 EMG forf. score, waarop het afgegeven energielabel met ingang van 1-1-2021 is gebaseerd.;6-2-2023;;;Vastgoed
 ENERGIEPRESTATIESOORT;EP3;Aandeel hiernieuwbare energie;Het conform NTA8800 berekende aandeel hernieuwbare energie in procenten;6-2-2023;;;Vastgoed
 ENERGIEPRESTATIESOORT;VEL;Voorlopig energielabel;Het tot 1-1-2015 door de overheid afgegeven 'Oude' energielabel. Dit is geen officieel energieprestatiecertificaat. Als er een voorlopig energielabel is toegekend zal er geen energie-index of andere waarde bij de energieprestatie horen.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;TO;Temperatuuroverschrijding;Het conform NTA8800 ingeschatte risico op oververhitting bij woningen;6-2-2023;;;Vastgoed
 EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
 EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
