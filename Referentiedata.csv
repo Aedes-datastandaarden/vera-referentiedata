@@ -1375,14 +1375,15 @@ VERANTWOORDINGREGIME;HYB;Hybride;Een scheiding is hybride indien er bezit wordt 
 VERANTWOORDINGREGIME;JUR;Juridische scheiding;De DAEB- en niet-DAEB activiteiten van de corporatie zijn in aparte juridische entiteiten ondergebracht, elk met een eigen financiële administratie;;;;Financiën
 VERANTWOORDINGREGIME;VER;Verlicht regime;De corporatie voldoet aan de voorwaarden waaronder geen gescheiden administraties voor DAEB- en niet-DAEB activiteiten gevoerd hoeven te worden.;;;;Financiën
 VERBIJZONDERINGSOORT;CLS;Cluster;Optionele verwijzing naar een cluster om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
-VERBIJZONDERINGSOORT;CPL;Complex;Optionele verwijzing naar een complex om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
-VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen;30-9-2022;;;Financiën
+VERBIJZONDERINGSOORT;CPL;Complex;Obsolete. Optionele verwijzing naar een complex om een financieel feit nader te kunnen verbijzonderen;;6-2-2023;;Financiën
+VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen. Gebruik eventueel verbijzonderingdetailsoort om de dimensie nader te duiden (dimensiesoort);30-9-2022;;;Financiën
 VERBIJZONDERINGSOORT;KPL;Kostenplaats;Optionele verwijzing naar een kostenplaats om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSOORT;KST;Kostensoort;Optionele verwijzing naar een kostensoort om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSOORT;VGE;Vastgoedeenheid;Optionele verwijzing naar een vastgoedeenheid om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSTATUS;ACT;Actief;;;;;Financiën
 VERBIJZONDERINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
 VERBIJZONDERINGSTATUS;HIS;Historisch;;;;;Financiën
+VERBIJZONDERINGSTATUS;PRO;Project;Optionele verwijzing naar een project om een financieel feit nader te kunnen verbijzonderen;6-2-2023;;;Financiën
 VERREKENINGSOORT;ACT;Te activeren;Bij de verrekening wordt (een deel van) het bedrag geactiveerd;30-9-2022;;;Onderhoud
 VERREKENINGSOORT;VER;Te verhalen;Bij de verrekening wordt (een deel van) het bedrag verhaald op een derde partij;30-9-2022;;;Onderhoud
 VERTROUWELIJKHEID;GEH;Geheim;Informatie is alleen toegankelijk voor direct geadresseerde(n) (bv: zorggegevens en strafrechtelijke informatie);;;;Dossier
