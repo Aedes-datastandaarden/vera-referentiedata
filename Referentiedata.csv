@@ -1375,12 +1375,12 @@ VERANTWOORDINGREGIME;JUR;Juridische scheiding;De DAEB- en niet-DAEB activiteiten
 VERANTWOORDINGREGIME;VER;Verlicht regime;De corporatie voldoet aan de voorwaarden waaronder geen gescheiden administraties voor DAEB- en niet-DAEB activiteiten gevoerd hoeven te worden.;;;;Financiën
 VERBIJZONDERINGSOORT;CLS;Cluster;Optionele verwijzing naar een cluster om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSOORT;CPL;Complex;Obsolete. Gebruik cluster;;6-2-2023;;Financiën
-VERBIJZONDERINGSOORT;DEB;Type huurdebiteur;Optionele verwijzing naar een type huurdebiteur om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;DEB;Soort huurdebiteur;Optionele verwijzing naar een huurdebiteursoort om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
 VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen. Gebruik eventueel verbijzonderingdetailsoort om de dimensie nader te duiden (dimensiesoort);30-9-2022;;;Financiën
 VERBIJZONDERINGSOORT;DIV;Divisie;Optionele verwijzing naar een divisie om een financieel feit nader te kunnen verbijzonderen.;10-2-2023;;;Financiën
 VERBIJZONDERINGSOORT;KPL;Kostenplaats;Optionele verwijzing naar een kostenplaats om een financieel feit nader te kunnen verbijzonderen. Vaak is een kostenplaats een afdeling;;;;Financiën
 VERBIJZONDERINGSOORT;KST;Kostensoort;Optionele verwijzing naar een kostensoort om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
-VERBIJZONDERINGSOORT;LEV;Type leverancier;Optionele verwijzing naar een type leverancier om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;LEV;Soort leverancier;Optionele verwijzing naar een leveranciersoort om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
 VERBIJZONDERINGSOORT;MAA;Maatschappelijk label;Optionele verwijzing naar een maatschappelijk label, of administratief eigenaar (DAEB/niet-DAEB) om een financieel feit nader te kunnen te kunnen verbijzonderen;10-2-2023;;;Financiën
 VERBIJZONDERINGSOORT;MED;Medewerker;Optionele verwijzing naar een medewerker om een financieel feit nader te kunnen verbijzonderen;10-2-2022;;;Financiën
 VERBIJZONDERINGSOORT;PRO;Project;Optionele verwijzing naar een project om een financieel feit nader te kunnen verbijzonderen;6-2-2023;;;Financiën
@@ -1469,10 +1469,8 @@ WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertr
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
-WOONSITUATIESOORT;DOO;Doorstromer;Een woningzoekende die een zelfstandige woning achterlaat.;;;;
-WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;06-01-2023;;;
+WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;
 WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
-WOONSITUATIESOORT;STA;Starter;Een starter is een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld doordat men bij de ouders, op kamers of een ex-partner woont.;06-01-2023;;;
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;GEB-woningen zijn aanleunwoningen en woningen voor mensen met een geringe ergonomische beperking.;;;;Vastgoed
