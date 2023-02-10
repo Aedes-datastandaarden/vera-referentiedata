@@ -618,6 +618,11 @@ ENERGIELABEL;D;D;;;;;Vastgoed
 ENERGIELABEL;E;E;;;;;Vastgoed
 ENERGIELABEL;F;F;;;;;Vastgoed
 ENERGIELABEL;G;G;;;;;Vastgoed
+ENERGIEPRESTATIESOORT;EI;Energie-index;De tussen 1-1-2015 en 1-1-2021 afgegeven Energie-Index. Officieel hoort bij een energie-index geen energielabel, maar in de praktijk wordt in de energieprestatie meestal ook een energielabel opgenomen. Dat label is dan afgeleid op basis van een tabel met bandbreedtes voor de energie-index.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP2;Primair fossiel energieverbruik - woningbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 EMG forf. score, waarop het afgegeven energielabel met ingang van 1-1-2021 is gebaseerd.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;VEL;Voorlopig energielabel;Het tot 1-1-2015 door de overheid afgegeven 'Oude' energielabel. Dit is geen officieel energieprestatiecertificaat. Als er een voorlopig energielabel is toegekend zal er geen energie-index of andere waarde bij de energieprestatie horen.;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESTATUS;DEF;Definitief;Een definitieve energieprestatie is een bij de Rijksoverheid afgemelde energieprestatie, wat leidt tot een officieel geldig label.;10-2-2023;;;Vastgoed
+ENERGIEPRESTATIESTATUS;VOO;Voorlopig;Een voorlopige energieprestatie wordt ook wel 'pré-label' genoemd en is een op basis van woningkenmerken afgeleide (theoretische) prestatie;10-2-2023;;;Vastgoed
 EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
 EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
@@ -794,12 +799,12 @@ INKOOPFACTUURSTATUS;HIS;Historisch;Inkoopfactuur is gearchiveerd/historisch.;;;;
 INKOOPFACTUURSTATUS;IBH;In behandeling;Inkoopfactuur is in behandeling.;;;;Financiën
 INKOOPFACTUURSTATUS;REG;Geregistreerd;Inkoopfactuur is geregistreerd.;;;;Financiën
 INKOOPFACTUURSTATUS;WOC;Wacht op creditfactuur;Er wordt gewacht op een creditfactuur.;;;;Financiën
-INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
-INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
-INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
-INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
 INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
+INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
+INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
 INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijving krijgen.;;;;
+INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
+INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
 INSPECTIERAPPORTSOORT;EIN;Eindinspectierapport;Rapport naar aanleiding van een eindinspectie;;;;Onderhoud
 INSPECTIERAPPORTSOORT;REP;Reparatieinspectierapport;Inspectierapport naar aanleiding van een onduidelijk reparatieverzoek;;;;Onderhoud
 INSPECTIERAPPORTSOORT;STE;Steekproefinspectierapport;Inspectierapport naar aanleiding van een uitgevoerde steekproef door een inspecteur/opzichter.;;;;Onderhoud
@@ -1369,10 +1374,16 @@ VERANTWOORDINGREGIME;HYB;Hybride;Een scheiding is hybride indien er bezit wordt 
 VERANTWOORDINGREGIME;JUR;Juridische scheiding;De DAEB- en niet-DAEB activiteiten van de corporatie zijn in aparte juridische entiteiten ondergebracht, elk met een eigen financiële administratie;;;;Financiën
 VERANTWOORDINGREGIME;VER;Verlicht regime;De corporatie voldoet aan de voorwaarden waaronder geen gescheiden administraties voor DAEB- en niet-DAEB activiteiten gevoerd hoeven te worden.;;;;Financiën
 VERBIJZONDERINGSOORT;CLS;Cluster;Optionele verwijzing naar een cluster om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
-VERBIJZONDERINGSOORT;CPL;Complex;Optionele verwijzing naar een complex om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
-VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen;30-9-2022;;;Financiën
-VERBIJZONDERINGSOORT;KPL;Kostenplaats;Optionele verwijzing naar een kostenplaats om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;CPL;Complex;Obsolete. Gebruik cluster;;6-2-2023;;Financiën
+VERBIJZONDERINGSOORT;DEB;Soort huurdebiteur;Optionele verwijzing naar een huurdebiteursoort om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;DIM;Dimensie;Optionele verwijzing naar een (overige) dimensiewaarde om een financieel feit nader te kunnen verbijzonderen. Gebruik eventueel verbijzonderingdetailsoort om de dimensie nader te duiden (dimensiesoort);30-9-2022;;;Financiën
+VERBIJZONDERINGSOORT;DIV;Divisie;Optionele verwijzing naar een divisie om een financieel feit nader te kunnen verbijzonderen.;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;KPL;Kostenplaats;Optionele verwijzing naar een kostenplaats om een financieel feit nader te kunnen verbijzonderen. Vaak is een kostenplaats een afdeling;;;;Financiën
 VERBIJZONDERINGSOORT;KST;Kostensoort;Optionele verwijzing naar een kostensoort om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
+VERBIJZONDERINGSOORT;LEV;Soort leverancier;Optionele verwijzing naar een leveranciersoort om een financieel feit nader te kunnen verbijzonderen;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;MAA;Maatschappelijk label;Optionele verwijzing naar een maatschappelijk label, of administratief eigenaar (DAEB/niet-DAEB) om een financieel feit nader te kunnen te kunnen verbijzonderen;10-2-2023;;;Financiën
+VERBIJZONDERINGSOORT;MED;Medewerker;Optionele verwijzing naar een medewerker om een financieel feit nader te kunnen verbijzonderen;10-2-2022;;;Financiën
+VERBIJZONDERINGSOORT;PRO;Project;Optionele verwijzing naar een project om een financieel feit nader te kunnen verbijzonderen;6-2-2023;;;Financiën
 VERBIJZONDERINGSOORT;VGE;Vastgoedeenheid;Optionele verwijzing naar een vastgoedeenheid om een financieel feit nader te kunnen verbijzonderen;;;;Financiën
 VERBIJZONDERINGSTATUS;ACT;Actief;;;;;Financiën
 VERBIJZONDERINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
@@ -1458,8 +1469,8 @@ WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertr
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;
 WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
-WOONSITUATIESOORT;DOO;Doorstromer;Een woningzoekende die een zelfstandige woning achterlaat.;;;;
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;GEB-woningen zijn aanleunwoningen en woningen voor mensen met een geringe ergonomische beperking.;;;;Vastgoed
@@ -1523,5 +1534,3 @@ ZEKERHEIDVERPANDINGSOORT;OVE;Overig;Overig, bijvoorbeeld vastgelegd in onderhand
 ZEKERHEIDVERPANDINGSOORT;PHU;Pandrecht huurpenningen;Pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;POV;Positieve verklaring;Positieve verklaring hypotheek en/of positieve verkaring pandrecht huurpenningen;;;;Vastgoed
 ZEKERHEIDVERPANDINGSOORT;PPO;Pandrecht huurpenningen en positieve verklaring hypotheek;Pandrecht huurpenningen en positieve verklaring hypotheek;;;;Vastgoed
-WOONSITUATIESOORT;STA;Starter;Een starter is een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld doordat men bij de ouders, op kamers of een ex-partner woont.;06-01-2023;;;
-WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;06-01-2023;;;
