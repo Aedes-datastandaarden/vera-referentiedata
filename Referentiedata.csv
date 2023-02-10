@@ -619,12 +619,10 @@ ENERGIELABEL;E;E;;;;;Vastgoed
 ENERGIELABEL;F;F;;;;;Vastgoed
 ENERGIELABEL;G;G;;;;;Vastgoed
 ENERGIEPRESTATIESOORT;EI;Energie-index;De tussen 1-1-2015 en 1-1-2021 afgegeven Energie-Index. Officieel hoort bij een energie-index geen energielabel, maar in de praktijk wordt in de energieprestatie meestal ook een energielabel opgenomen. Dat label is dan afgeleid op basis van een tabel met bandbreedtes voor de energie-index.;6-2-2023;;;Vastgoed
-ENERGIEPRESTATIESOORT;EP1;Energiebehoefte;De conform NTA8800 berekende energiebehoefte per jaar in kWh/m2 gebruiksoppervlak;6-2-2023;;;Vastgoed
-ENERGIEPRESTATIESOORT;EP2U;Primair fossiel energieverbruik - utiliteitsbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, inclusief eventuele (kwaliteitsverklaringen voor) energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 score.;6-2-2023;;;Vastgoed
-ENERGIEPRESTATIESOORT;EP2W;Primair fossiel energieverbruik - woningbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 EMG forf. score, waarop het afgegeven energielabel met ingang van 1-1-2021 is gebaseerd.;6-2-2023;;;Vastgoed
-ENERGIEPRESTATIESOORT;EP3;Aandeel hiernieuwbare energie;Het conform NTA8800 berekende aandeel hernieuwbare energie in procenten;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESOORT;EP2;Primair fossiel energieverbruik - woningbouw;Het conform NTA8800 berekende primair fossiel energiegebruik per jaar in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit betreft de EP2 EMG forf. score, waarop het afgegeven energielabel met ingang van 1-1-2021 is gebaseerd.;6-2-2023;;;Vastgoed
 ENERGIEPRESTATIESOORT;VEL;Voorlopig energielabel;Het tot 1-1-2015 door de overheid afgegeven 'Oude' energielabel. Dit is geen officieel energieprestatiecertificaat. Als er een voorlopig energielabel is toegekend zal er geen energie-index of andere waarde bij de energieprestatie horen.;6-2-2023;;;Vastgoed
-ENERGIEPRESTATIESOORT;TO;Temperatuuroverschrijding;Het conform NTA8800 ingeschatte risico op oververhitting bij woningen;6-2-2023;;;Vastgoed
+ENERGIEPRESTATIESTATUS;DEF;Definitief;Een definitieve energieprestatie is een bij de Rijksoverheid afgemelde energieprestatie, wat leidt tot een officieel geldig label.;10-2-2023;;;Vastgoed
+ENERGIEPRESTATIESTATUS;VOO;Voorlopig;Een voorlopige energieprestatie wordt ook wel 'pré-label' genoemd en is een op basis van woningkenmerken afgeleide (theoretische) prestatie;10-2-2023;;;Vastgoed
 EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
 EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
