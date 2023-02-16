@@ -1016,6 +1016,10 @@ OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige h
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;De koppeling is afgewezen door woningzoekende.;15/02/2023;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Bevestigingstermijn voor de koppeling is verstreken.;15/02/2023;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Geboortedatum komt niet overeen bij beide inschrijvingen.;15/02/2023;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;NAA;Naamgegevens komen niet overeen;Naamgegevens komen niet overeen bij beide inschrijvingen.;15/02/2023;;;Overeenkomsten
 OVEREENKOMSTSOORT;ARB;Arbeid;Arbeidsovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;BET;Betalerovereenkomst;Overeenkomst waarin afspraken zijn vastgelegd met een afwijkende betaler voor een andere (huur-)overeenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;HUU;Huurovereenkomst;Overeenkomst met betrekking tot het huren van roerend of onroerend goed.;;;;Overeenkomsten
