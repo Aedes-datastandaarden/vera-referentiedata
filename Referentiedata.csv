@@ -802,12 +802,12 @@ INKOOPFACTUURSTATUS;WOC;Wacht op creditfactuur;Er wordt gewacht op een creditfac
 INKOOPOPDRACHTREGELSOORT;INI;Initieel;De inkoopopdrachtregel betreft 'standaard' overeengekomen werkzaamheden;10-3-2023;;;Financiën
 INKOOPOPDRACHTREGELSOORT;MEE;Meerwerk;De inkoopopdrachtregel betreft meerwerk t.o.v. de initiële inkoopopdracht;10-3-2023;;;Financiën
 INKOOPOPDRACHTREGELSOORT;MIN;Minderwerk;De inkoopopdrachtregel betreft minderwerk t.o.v. de initiële inkoopopdracht;10-3-2023;;;Financiën
-INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
-INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
-INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
-INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijving krijgen.;;;;
-INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;
-INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;
+INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;Overeenkomsten
+INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;Overeenkomsten
+INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;Overeenkomsten
+INSCHRIJVINGHERKOMST;SPL;Gesplitst;De inschrijving is aangemaakt naar aanleiding van een splitsing van een bestaande inschrijving waarbij de hoofd- en medeaanvrager een eigen inschrijving krijgen.;;;;Overeenkomsten
+INSCHRIJVINGHERKOMST;URG;Urgentie;De inschrijving is aangemaakt naar aanleiding van het toekennen van een urgentie.;;;;Overeenkomsten
+INSCHRIJVINGHERKOMST;WOO;Woningzoekende;De inschrijving is aangemaakt door de woningzoekende.;;;;Overeenkomsten
 INSPECTIERAPPORTSOORT;EIN;Eindinspectierapport;Rapport naar aanleiding van een eindinspectie;;;;Onderhoud
 INSPECTIERAPPORTSOORT;REP;Reparatieinspectierapport;Inspectierapport naar aanleiding van een onduidelijk reparatieverzoek;;;;Onderhoud
 INSPECTIERAPPORTSOORT;STE;Steekproefinspectierapport;Inspectierapport naar aanleiding van een uitgevoerde steekproef door een inspecteur/opzichter.;;;;Onderhoud
@@ -911,10 +911,14 @@ ONDERHOUDSORDERSTATUS;REG;Geregistreerd;De onderhoudsorder is slechts geregistre
 ONDERHOUDSORDERSTATUS;STE;Order in steekproef;De order is na uitvoering van de werkzaamheden in de steekproef gevallen en moet worden beoordeeld door de corporatie;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;TEC;Technisch gereed;De order is technisch gereed en de uitvoering kan inhoudelijk beoordeeld worden;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;WOG;Wacht op goedkeuring;Order wordt voordat deze gegund kan worden intern eerst beoordeeld.;;;;Onderhoud
+ONDERHOUDSPECIALISME;ALA;Specialist Alarminstallaties;Specialisme die zich bezig houdt met de installatie en onderhoud van alarminstallaties en andere beveiligingsystemen;;;;Onderhoud
+ONDERHOUDSPECIALISME;ASB;Specialist Asbestsanering;Inventarisatie en sanering van asbest;;;;Onderhoud
 ONDERHOUDSPECIALISME;BLI;Specialist Bliksemgeleider;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;BLU;Specialist Blusmiddelen;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;BRA;Specialist Brandmeldinstallatie;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;CVI;CV Installateur;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
+ONDERHOUDSPECIALISME;DAK;Dakdekker;Specialist die dakbedekking aanbrengt op platte en licht hellende daken. Gespecialiseerd in het toepassen en verwerken van diverse materialen die gebruikt worden om deze daken waterdicht en bestand te maken tegen verschillende weersinvloeden;;;;Onderhoud
+ONDERHOUDSPECIALISME;DOM;Specialist Domotica;Specialist op het gebied van installatie en onderhoud van domotica-systemen;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELA;Elektriciën allrounder;De allrounder elektricien kan kleine elektra-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELE;Elektriciën;Een volwaardige elektriciënRelatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELT;Specialist Elektrische Toegangsdeuren;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
@@ -929,11 +933,13 @@ ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Kete
 ONDERHOUDSPECIALISME;ONG;Ongediertebestrijder;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONT;Ontstopper;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;OVE;Overig;Overige specialismen die niet onder één van de andere onderhoudspecialismen vallen;;;;Onderhoud
+ONDERHOUDSPECIALISME;SCM;Schoonmaker;Algemene specialisme voor schoonmaken, onder andere in de woning maar ook zaken als dakgoot schoonmaken en graffiti verwijderen;;;;Onderhoud
 ONDERHOUDSPECIALISME;SCH;Schilder;Een volwaardige schilder;;;;Onderhoud
 ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
+ONDERHOUDSPECIALISME;VOC;Specialist Vochtwering;Specialist voor schimmel en vocht bestrijding;;;;Onderhoud
 ONDERHOUDSPECIALISME;WIT;Specialist Witgoed;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;WTW;Specialist MV/WTW;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ZAN;Zandleverancier;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige. OBSOLETE Gebruik hiervoor HOV Hovenier;;;;Onderhoud
@@ -1476,8 +1482,8 @@ WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertr
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
-WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;
-WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;
+WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;Woonruimteverdeling
+WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;Woonruimteverdeling
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;GEB-woningen zijn aanleunwoningen en woningen voor mensen met een geringe ergonomische beperking.;;;;Vastgoed
