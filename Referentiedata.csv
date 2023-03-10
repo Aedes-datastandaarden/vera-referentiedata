@@ -799,6 +799,9 @@ INKOOPFACTUURSTATUS;HIS;Historisch;Inkoopfactuur is gearchiveerd/historisch.;;;;
 INKOOPFACTUURSTATUS;IBH;In behandeling;Inkoopfactuur is in behandeling.;;;;Financiën
 INKOOPFACTUURSTATUS;REG;Geregistreerd;Inkoopfactuur is geregistreerd.;;;;Financiën
 INKOOPFACTUURSTATUS;WOC;Wacht op creditfactuur;Er wordt gewacht op een creditfactuur.;;;;Financiën
+INKOOPOPDRACHTREGELSOORT;INI;Initieel;De inkoopopdrachtregel betreft 'standaard' overeengekomen werkzaamheden;10-3-2023;;;Financiën
+INKOOPOPDRACHTREGELSOORT;MEE;Meerwerk;De inkoopopdrachtregel betreft meerwerk t.o.v. de initiële inkoopopdracht;10-3-2023;;;Financiën
+INKOOPOPDRACHTREGELSOORT;MIN;Minderwerk;De inkoopopdrachtregel betreft minderwerk t.o.v. de initiële inkoopopdracht;10-3-2023;;;Financiën
 INSCHRIJVINGHERKOMST;HER;Heropend;De inschrijving is aangemaakt naar aanleiding van een heropening van een bestaande inschrijving.;;;;
 INSCHRIJVINGHERKOMST;MED;Medewerker;De inschrijving is aangemaakt door een medewerker.;;;;
 INSCHRIJVINGHERKOMST;MIG;Migratie;De inschrijving is aangemaakt tijdens een migratie van gegevens.;;;;
@@ -1013,13 +1016,13 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
-OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
-OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
-OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;Woningzoekende heeft het verzoek tot koppelen afgewezen.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Koppeling is afgewezen omdat de bevestigingstermijn is verstreken.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Koppeling is afgewezen omdat de geboortedatum van de woningzoekende in beide inschrijvingen niet overeenkomt.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;NAA;Naamgegevens komen niet overeen;Koppeling is afgewezen omdat de naamgegevens van de woningzoekende in beide inschrijvingen niet overeenkomen.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
+OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
+OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
 OVEREENKOMSTSOORT;ARB;Arbeid;Arbeidsovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;BET;Betalerovereenkomst;Overeenkomst waarin afspraken zijn vastgelegd met een afwijkende betaler voor een andere (huur-)overeenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;HUU;Huurovereenkomst;Overeenkomst met betrekking tot het huren van roerend of onroerend goed.;;;;Overeenkomsten
