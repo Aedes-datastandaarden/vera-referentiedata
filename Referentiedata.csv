@@ -642,6 +642,7 @@ GEBEURTENISSOORT;GSA;Gewijzigde startpunten;Gewijzigde startpunten;;;;Woonruimte
 GEBEURTENISSOORT;GSI;Gewijzigde situatiepunten;Gewijzigde situatiepunten;;;;Woonruimteverdeling
 GEBEURTENISSOORT;INS;Intrekken no-show;Intrekken gebeurtenis niet aanwezig op bevestigde bezichtiging (No-show);;;;Woonruimteverdeling
 GEBEURTENISSOORT;IRE;Intrekken reactie;Intrekken reactie met puntenopbouw;;;;Woonruimteverdeling
+GEBEURTENISSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 GEBEURTENISSOORT;IWH;Intrekken weigering als hoogste acceptant;Intrekken weigering als hoogste acceptant;;;;Woonruimteverdeling
 GEBEURTENISSOORT;IWN;Intrekken weigering niet als hoogste acceptant;Intrekken weigering niet als hoogste acceptant;;;;Woonruimteverdeling
 GEBEURTENISSOORT;NIE;Nieuwe inschrijving;Nieuwe inschrijving;;;;Woonruimteverdeling
@@ -1022,10 +1023,10 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
-OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;Woningzoekende heeft het verzoek tot koppelen afgewezen.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
-OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Koppeling is afgewezen omdat de bevestigingstermijn is verstreken.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
-OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Koppeling is afgewezen omdat de geboortedatum van de woningzoekende in beide inschrijvingen niet overeenkomt.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
-OVEREENKOMSTKOPPELINGDETAILSTATUS;NAA;Naamgegevens komen niet overeen;Koppeling is afgewezen omdat de naamgegevens van de woningzoekende in beide inschrijvingen niet overeenkomen.;15/02/2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;Woningzoekende heeft het verzoek tot koppelen afgewezen.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Koppeling is afgewezen omdat de bevestigingstermijn is verstreken.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Koppeling is afgewezen omdat de geboortedatum van de woningzoekende in beide inschrijvingen niet overeenkomt.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
+OVEREENKOMSTKOPPELINGDETAILSTATUS;NAA;Naamgegevens komen niet overeen;Koppeling is afgewezen omdat de naamgegevens van de woningzoekende in beide inschrijvingen niet overeenkomen.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AAN;Aangevraagd;Het koppelen van de overeenkomsten is aangevraagd;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;AFG;Afgewezen;Het koppelen van de overeenkomsten is afgewezen;;;;Overeenkomsten
 OVEREENKOMSTKOPPELINGSTATUS;GEK;Gekoppeld;Het koppelen van de overeenkomsten is gekoppeld;;;;Overeenkomsten
@@ -1206,6 +1207,8 @@ PUNTENBEREKENINGSOORT;INT;Intrekken gebeurtenis of sanctie;;;;;Woonruimteverdeli
 PUNTENBEREKENINGSOORT;KOP;Koppelen inschrijving;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;MAA;Maandelijkse herberekening;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;NIE;Nieuwe inschrijving;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
+PUNTENMUTATIESOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAS;Puntenafbouw situatiepunten;Puntenafbouw situatiepunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAT;Puntenafbouw startpunten;Puntenafbouw startpunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAZ;Puntenafbouw zoekpunten;Puntenafbouw zoekpunten;;;;Woonruimteverdeling
@@ -1218,6 +1221,13 @@ PUNTENMUTATIESOORT;SZW;Zware sanctie;Zware sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSM;Terugdraaien milde sanctie;Terugdraaien milde sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSN;Terugdraaien no-show sanctie;Terugdraaien no-show sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSZ;Terugdraaien zware sanctie;Terugdraaien zware sanctie;;;;Woonruimteverdeling
+RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESOORT;BEZ;Bezwaar;Een ingediend bezwaar over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;ING;Ingediend;De reclamatie is ingediend door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;INB;In behandeling;De reclamatie is in behandeling genomen door de commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;AFG;Afgewezen;De reclamatie is afgewezen door commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;TOE;Toegekend;De reclamatie is toegekend door de comissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;BER;In beroep;De reclamatie is in beroep gegaan door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
 REDENONTBINDING;BET;Niet betaald;Het verschuldigde bedrag van de overeenkomst is niet voldaan.;;;;Overeenkomsten
 REDENONTBINDING;WAN;Wanprestatie;De overeenkomst wordt ontbonden omdat contractant tekortschiet in het nakomen van de afspraken.;;;;Overeenkomsten
 REDENOPZEGGING;ACC;Woning geaccepteerd;De overeenkomst is opgezegd in verband met het accepteren van een (andere) woning.;;;;Overeenkomsten
