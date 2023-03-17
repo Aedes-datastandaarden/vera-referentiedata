@@ -101,7 +101,7 @@ steps:
     displayName: 'Create GitHub release'
     inputs:
       gitHubConnection: 'github.com_RonKopp'
-      repositoryName: 'vereniging-corponet/vera-referentiedata'
+      repositoryName: 'Aedes-datastandaarden/vera-referentiedata'
       target: '$(Build.SourceVersion)'
       tagSource: userSpecifiedTag
       tag: 'v$(ReleaseNo)'
