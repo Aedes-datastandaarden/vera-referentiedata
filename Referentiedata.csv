@@ -536,7 +536,7 @@ EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VOL;Volledig Elektrisch;Volledig electrische klimaatbeheersing;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Volledig electrische warmtepomp voor verwarming en warm water;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp i.c.m. CV; Warmtepomp i.c.m. CV-ketel voor verwarming en warm water;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV; Warmtepomp i.c.m. CV-ketel voor verwarming en warm water;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed
