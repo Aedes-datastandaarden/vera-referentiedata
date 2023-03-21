@@ -1,5 +1,5 @@
 # VERA Referentiedata
-<img align="right" width="300" src="https://github.com/Aedes-datastandaarden/.github/blob/main/1-0.png">In deze repository wordt de VERA referentie data beheerd. All referentie data wordt vastgelegd in een zgn. CSV bestand.
+<img align="right" width="300" src="https://github.com/Aedes-datastandaarden/.github/blob/main/350px-Logo_Stichting_VERA.png">In deze repository wordt de VERA referentie data beheerd. All referentie data wordt vastgelegd in een zgn. CSV bestand.
 Dit CSV bestand kan eenvoudig worden geimporteerd in Excel.
 
 Periodiek zullen nieuwe versies van de referentiedata worden vrijgegeven in de vorm van een release. Het versienummer bevat de datum van vrijgave (yymmdd).
