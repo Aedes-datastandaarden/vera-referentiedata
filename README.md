@@ -23,14 +23,14 @@ Referentiedata kan nu ook via een API worden opgevraagd. De OpenAPI definitie is
 De API ondersteunt twee endpoints:
 |Endpoint|Beschrijving|
 |---|---|
-|https://vera.azurewebsites.net/api/referentiedata|Opvragen van all referentiedata|
-|https://vera.azurewebsites.net/api/referentiedata/{soort}|Opvragen referentiedata voor één referentiedata soort|
+|https://vera-service.azurewebsites.net/api/referentiedata|Opvragen van all referentiedata|
+|https://vera-service.azurewebsites.net/api/referentiedata/{soort}|Opvragen referentiedata voor één referentiedata soort|
 
-Als optionele parameter kan de query string parameter "version" worden meegegeven. Hiermee kan een specifieke versie van de referentie data worden opgevraagd. Alle beschikbare versies zijn terug te vinden op github via [Releases](https://github.com/vereniging-corponet/vera-referentiedata/releases). Wanneer parameter version niet is gespecificeerd, wordt de meest recente versie (latest) teruggegeven. Version wordt ook vermeld in de response header.
+Als optionele parameter kan de query string parameter "version" worden meegegeven. Hiermee kan een specifieke versie van de referentie data worden opgevraagd. Alle beschikbare versies zijn terug te vinden op github via [Releases](https://github.com/Aedes-datastandaarden/vera-referentiedata/releases). Wanneer parameter version niet is gespecificeerd, wordt de meest recente versie (latest) teruggegeven. Version wordt ook vermeld in de response header.
 
 Voorbeeld aanroepen:
 |Url|Toelichting|
 |---|---|
-|https://vera.azurewebsites.net/api/referentiedata?version=v4.0.221125|Ophalen alle referentiedata van [Release 4.0.221125](https://github.com/vereniging-corponet/vera-referentiedata/releases/tag/v4.0.221125)|
-|https://vera.azurewebsites.net/api/referentiedata/AANBIEDINGSTATUS|Ophalen referentiedata voor referentiedata soort AANBIEDINGSTATUS|
+|https://vera-service.azurewebsites.net/api/referentiedata?version=v4.0.221125|Ophalen alle referentiedata van [Release 4.0.221125](https://github.com/Aedes-datastandaarden/vera-referentiedata/releases/tag/v4.0.221125)|
+|https://vera-service.azurewebsites.net/api/referentiedata/AANBIEDINGSTATUS|Ophalen referentiedata voor referentiedata soort AANBIEDINGSTATUS|
 
