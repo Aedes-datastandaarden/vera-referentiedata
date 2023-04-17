@@ -45,6 +45,11 @@ ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties
 ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;Relaties
 ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties
 ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties
+AFREKENWIJZESOORT;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal);14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs;14-4-2023;;;Onderhoud
 AFSPRAAKSTATUS;AAN;Aangevraagd;De afspraak is nog niet gepland, maar wel aangevraagd. Daarbij kan eventueel een voorkeur bloktijd zijn opgegeven.;;;;Relaties
 AFSPRAAKSTATUS;AFG;Afgerond;De afspraak heeft plaatsgevonden;;;;Relaties
 AFSPRAAKSTATUS;ANN;Geannuleerd;De afspraak is geannuleerd;;;;Relaties
@@ -535,8 +540,8 @@ EENHEIDKLIMAATBEHEERSING;OHA;Open haard;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VOL;Volledig Elektrisch;Volledig elektrische klimaatbeheersing;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV;" Warmtepomp i.c.m. CV-ketel voor verwarming en warm water";;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Volledig elektrische warmtepomp voor verwarming en warm water;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV; Warmtepomp i.c.m. CV-ketel voor verwarming en warm water;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed
@@ -897,11 +902,11 @@ ONDERHOUDSOORT;PRJ;Projectmatig;Opdracht tot het uitvoeren van onderhoudswerkzaa
 ONDERHOUDSOORT;REP;Reparatie;Opdracht tot het uitvoeren van reparatiewerkzaamheden naar aanleiding van een geconstateerd defect;;;;Onderhoud
 ONDERHOUDSOORT;WMO;WMO Aanpassing;Bij benodigde aanpassing van de woning bij de zittende huurder (door ouderdom, invaliditeit aanbrengen van WMO-aanpassing);;;;Onderhoud
 ONDERHOUDSOORT;WOV;Woningverbetering;Bij aanpassing op verzoek van de huurder voor verbetering van het woongenot. Voorbeeld is het voortijdig vervangen van de wc-pot door een luxe uiitvoering;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal);;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs;;;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal). -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERSTATUS;AFG;Afgehandeld;De order is volledig technisch en financieel afgehandeld;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;FIN;Financieel afwikkelen;De order is technisch beoordeeld  en akkoord voor financiele afwikkeling. Op dat moment kan een eventueel externe onderhoudspartner de facturatie verzorgen van de onderhoudsorder;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;GEA;Geannuleerd;De order is geannuleerd;;;;Onderhoud
@@ -935,8 +940,8 @@ ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Kete
 ONDERHOUDSPECIALISME;ONG;Ongediertebestrijder;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONT;Ontstopper;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;OVE;Overig;Overige specialismen die niet onder één van de andere onderhoudspecialismen vallen;;;;Onderhoud
-ONDERHOUDSPECIALISME;SCM;Schoonmaker;Algemene specialisme voor schoonmaken, onder andere in de woning maar ook zaken als dakgoot schoonmaken en graffiti verwijderen;;;;Onderhoud
 ONDERHOUDSPECIALISME;SCH;Schilder;Een volwaardige schilder;;;;Onderhoud
+ONDERHOUDSPECIALISME;SCM;Schoonmaker;Algemene specialisme voor schoonmaken, onder andere in de woning maar ook zaken als dakgoot schoonmaken en graffiti verwijderen;;;;Onderhoud
 ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
@@ -1205,10 +1210,10 @@ PUBLICATIESTATUS;GER;Gereed voor publicatie;De publicatie van beschikbaar vastgo
 PUBLICATIESTATUS;ING;Ingetrokken;De publicatie van het vastgoed is ingetrokken.;;;;Woonruimteverdeling
 PUBLICATIESTATUS;VOO;In voorbereiding;De publicatie van beschikbaar vastgoed is in voorbereiding.;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;INT;Intrekken gebeurtenis of sanctie;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;KOP;Koppelen inschrijving;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;MAA;Maandelijkse herberekening;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;NIE;Nieuwe inschrijving;;;;;Woonruimteverdeling
-PUNTENBEREKENINGSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAS;Puntenafbouw situatiepunten;Puntenafbouw situatiepunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAT;Puntenafbouw startpunten;Puntenafbouw startpunten;;;;Woonruimteverdeling
@@ -1222,13 +1227,13 @@ PUNTENMUTATIESOORT;SZW;Zware sanctie;Zware sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSM;Terugdraaien milde sanctie;Terugdraaien milde sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSN;Terugdraaien no-show sanctie;Terugdraaien no-show sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSZ;Terugdraaien zware sanctie;Terugdraaien zware sanctie;;;;Woonruimteverdeling
-RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESOORT;BEZ;Bezwaar;Een ingediend bezwaar over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;ING;Ingediend;De reclamatie is ingediend door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;INB;In behandeling;De reclamatie is in behandeling genomen door de commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESTATUS;AFG;Afgewezen;De reclamatie is afgewezen door commissie.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;TOE;Toegekend;De reclamatie is toegekend door de comissie.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESTATUS;BER;In beroep;De reclamatie is in beroep gegaan door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;INB;In behandeling;De reclamatie is in behandeling genomen door de commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;ING;Ingediend;De reclamatie is ingediend door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;TOE;Toegekend;De reclamatie is toegekend door de comissie.;16-3-2023;;;Woonruimteverdeling
 REDENONTBINDING;BET;Niet betaald;Het verschuldigde bedrag van de overeenkomst is niet voldaan.;;;;Overeenkomsten
 REDENONTBINDING;WAN;Wanprestatie;De overeenkomst wordt ontbonden omdat contractant tekortschiet in het nakomen van de afspraken.;;;;Overeenkomsten
 REDENOPZEGGING;ACC;Woning geaccepteerd;De overeenkomst is opgezegd in verband met het accepteren van een (andere) woning.;;;;Overeenkomsten
