@@ -902,16 +902,11 @@ ONDERHOUDSOORT;PRJ;Projectmatig;Opdracht tot het uitvoeren van onderhoudswerkzaa
 ONDERHOUDSOORT;REP;Reparatie;Opdracht tot het uitvoeren van reparatiewerkzaamheden naar aanleiding van een geconstateerd defect;;;;Onderhoud
 ONDERHOUDSOORT;WMO;WMO Aanpassing;Bij benodigde aanpassing van de woning bij de zittende huurder (door ouderdom, invaliditeit aanbrengen van WMO-aanpassing);;;;Onderhoud
 ONDERHOUDSOORT;WOV;Woningverbetering;Bij aanpassing op verzoek van de huurder voor verbetering van het woongenot. Voorbeeld is het voortijdig vervangen van de wc-pot door een luxe uiitvoering;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;"De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau
--VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT";;14-4-2023;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;"De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen
--VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT";;14-4-2023;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;"De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs
--VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT";;14-4-2023;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;"De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal)
--VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT";;14-4-2023;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;"De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs
--VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT";;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal). -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERSTATUS;AFG;Afgehandeld;De order is volledig technisch en financieel afgehandeld;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;FIN;Financieel afwikkelen;De order is technisch beoordeeld  en akkoord voor financiele afwikkeling. Op dat moment kan een eventueel externe onderhoudspartner de facturatie verzorgen van de onderhoudsorder;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;GEA;Geannuleerd;De order is geannuleerd;;;;Onderhoud
