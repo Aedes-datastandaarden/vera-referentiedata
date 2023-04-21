@@ -400,18 +400,18 @@ DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het mom
 DOELGROEP;STA;Starter;Woonruimte is bestemd voor en/of huurder betreft een starter op de woningmarkt;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;STU;Studenten;Woonruimte is bestemd voor en/of huurder is een student (ontvangt studiefinanciering, studeert voltijds of gaat promoveren).;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;ZOR;Zorg;Woonruimte is bestemd voor en/of huurder is een zorgbehoevende ((iemand die afhankelijk is van) woonruimte die naar aard en gebruik geen logische andere aanwendbaarheid kent dan een zorgwoning). Betreft o.a. aanleunwoningen en serviceflats.;;;;Vastgoed, Woonruimteverdeling
-EENHEIDBUITENRUIMTE;ATR;Obsolete. Atrium / Patio;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;ATU;Obsolete.Achtertuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;;;Vastgoed
-EENHEIDBUITENRUIMTE;CAR;Obsolete.Carport;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;DAK;Obsolete.Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;;;Vastgoed
-EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;PAK;Obsolete.Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;;;Vastgoed
-EENHEIDBUITENRUIMTE;PAR;Obsolete.Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;;;Vastgoed
-EENHEIDBUITENRUIMTE;RON;Obsolete.Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vastgoed
-EENHEIDBUITENRUIMTE;TER;Obsolete.Terras;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;VTU;Obsolete.Voortuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;ZIJ;Obsolete.Zijtuin;;;;;Vastgoed
+EENHEIDBUITENRUIMTE;ATR;Obsolete. Atrium / Patio;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;ATU;Obsolete.Achtertuin;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;CAR;Obsolete.Carport;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;DAK;Obsolete.Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;PAK;Obsolete.Parkeerkelder;Eigen parkeerplaats in parkeerkelder;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;PAR;Obsolete.Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;RON;Obsolete.Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;TER;Obsolete.Terras;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;VTU;Obsolete.Voortuin;21-04-2023;;;;Vastgoed
+EENHEIDBUITENRUIMTE;ZIJ;Obsolete.Zijtuin;21-04-2023;;;;Vastgoed
 EENHEIDCRITERIASOORT;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIASOORT;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
