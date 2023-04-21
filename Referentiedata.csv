@@ -402,7 +402,7 @@ DOELGROEP;STU;Studenten;Woonruimte is bestemd voor en/of huurder is een student 
 DOELGROEP;ZOR;Zorg;Woonruimte is bestemd voor en/of huurder is een zorgbehoevende ((iemand die afhankelijk is van) woonruimte die naar aard en gebruik geen logische andere aanwendbaarheid kent dan een zorgwoning). Betreft o.a. aanleunwoningen en serviceflats.;;;;Vastgoed, Woonruimteverdeling
 EENHEIDBUITENRUIMTE;ATR;Obsolete.Atrium / Patio; Een atrium of patio;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;ATU;Obsolete.Achtertuin; Een achtertuin. ;;21-04-2023;;;Vastgoed
-EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT"," als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;CAR;Obsolete.Carport; Een carport.;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;DAK;Obsolete.Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;Een gemeenschappelijke tuin. ;;21-04-2023;;;Vastgoed
