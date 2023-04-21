@@ -45,6 +45,11 @@ ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties
 ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;Relaties
 ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties
 ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties
+AFREKENWIJZESOORT;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs;14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal);14-4-2023;;;Onderhoud
+AFREKENWIJZESOORT;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs;14-4-2023;;;Onderhoud
 AFSPRAAKSTATUS;AAN;Aangevraagd;De afspraak is nog niet gepland, maar wel aangevraagd. Daarbij kan eventueel een voorkeur bloktijd zijn opgegeven.;;;;Relaties
 AFSPRAAKSTATUS;AFG;Afgerond;De afspraak heeft plaatsgevonden;;;;Relaties
 AFSPRAAKSTATUS;ANN;Geannuleerd;De afspraak is geannuleerd;;;;Relaties
@@ -394,6 +399,7 @@ DEFECTSTATUS;INS;Geinspecteerd;;;;;Onderhoud
 DEFECTSTATUS;MEL;Gemeld;;;;;Onderhoud
 DOELGROEP;EEN;Persoon;Woonruimte is bestemd voor en/of huurder vormt een eenpersoonshuishouden;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;GEZ;Gezin;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een huishouden bestaande uit meerdere natuurlijke personen die tezamen een gezin vormen;;;;Vastgoed, Woonruimteverdeling
+DOELGROEP;GEK;Gezin met kinderen;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een huishouden bestaande uit meerdere natuurlijke personen en kinderen die tezamen een gezin vormen;21-04-2023;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;MEE;Meergezins;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een groep bestaande uit meerdere huishoudens;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke minimum leeftijd;;;;Vastgoed, Woonruimteverdeling
@@ -414,6 +420,34 @@ EENHEIDBUITENRUIMTE;VTU;Obsolete.Voortuin;Een voortuin;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Obsolete.Zijtuin;Een zijtuin;;21-04-2023;;;Vastgoed
 EENHEIDCRITERIASOORT;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIASOORT;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot een bepaald gebied. Bijvoorbeeld regionaal voor mensen die in het regionaal samenwerkingsverband wonen en/of werken, lokaal voor mensen die in de gemeente wonen.;21-04-2023;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;GRO;Groep;Er is voorrang voor woningzoekenden die tot een bepaalde groep behoren waar geen binding, urgentie of indicatie van toepassing is.;21-04-2023;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medische) indicatie.21-04-2023;;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;URG;Urgentie;Er is voorrang voor woningzoekenden met een urgentie.21-04-2023;;;;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;BER;Beroep;Urgentie wegens een bijzonder beroep in de regio onderwijs, zorg of politie;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DAK;(Bijna) dakloos;dakloos / calamiteit /brand onbewoonbaar / uitzetting / terugkeer uit buitenland;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DUP;Gedupeerd;Urgentie wegens dupering van woningzoekende bij woningaanbieding;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;ECO;Economisch;Economische binding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;EXD;ex-gedetineerd;Urgentie wegens het vrijkomen uit detentie;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;FIN;Financieel;Urgentie wegens financiele problemen;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;GEL;Gelijkvloers;Indicatie voor een gelijkvloerse woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;GEW;Geweld bedreiging / overlast;Urgentie wegens overlast uit de omgeving of bedreiging.;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;HUI;Herhuisvesting;Urgentie wegens (langdurige) renovatie, nieuwbouw of sloop;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;KRN;Kern;Kernbinding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MAA;Maatschappelijk;Maatschappelijke binding;;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MAN;Mantelzorg;Urgentie wegens het ontvangen of geven van mantelzorg;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MED;Medisch;Urgentie voor een aangepaste woning op medische gronden;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;REG;Regio;Regionale of regio binding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;REL;Relationeel;Echtscheiding / verbroken relatie / gezinsproblemen /zwangerschap;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;ROL;Rollatorgeschikt;Indicatie voor een rollatorgeschikte woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;RST;Rolstoelgeschikt;Indicatie voor een rolstoelgeschikte woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;SER;Servicewoning;Woningen bij een zorginstelling of verpleegcentrum.;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;SOC;Sociaal;De woonsituatie is levensontwrichtend of levensbedreigend voor een of meer gezinsleden.;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;STA;Statushouder;Urgentie wegens het verkrijgen van een verblijfsstatus;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;UIT;Uitstroom maatschappelijke instelling;Urgentie wegens het uitstromen bij een maatschappelijke instelling;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DOE;Doelgroep;Behoren tot een doelgroep. Bijv. gezin, student, senioren etc.;21-04-2023;;EENHEIDCRITERIUMSOORT.GRO;Woonruimteverdeling
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzonder die van een beeldend kunstenaar.;;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
@@ -535,8 +569,8 @@ EENHEIDKLIMAATBEHEERSING;OHA;Open haard;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VOL;Volledig Elektrisch;Volledig elektrische klimaatbeheersing;;;;Vastgoed
+EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV;" Warmtepomp i.c.m. CV-ketel voor verwarming en warm water";;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Volledig elektrische warmtepomp voor verwarming en warm water;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV; Warmtepomp i.c.m. CV-ketel voor verwarming en warm water;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed
@@ -905,11 +939,11 @@ ONDERHOUDSOORT;PRJ;Projectmatig;Opdracht tot het uitvoeren van onderhoudswerkzaa
 ONDERHOUDSOORT;REP;Reparatie;Opdracht tot het uitvoeren van reparatiewerkzaamheden naar aanleiding van een geconstateerd defect;;;;Onderhoud
 ONDERHOUDSOORT;WMO;WMO Aanpassing;Bij benodigde aanpassing van de woning bij de zittende huurder (door ouderdom, invaliditeit aanbrengen van WMO-aanpassing);;;;Onderhoud
 ONDERHOUDSOORT;WOV;Woningverbetering;Bij aanpassing op verzoek van de huurder voor verbetering van het woongenot. Voorbeeld is het voortijdig vervangen van de wc-pot door een luxe uiitvoering;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs;;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal);;;;Onderhoud
-ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs;;;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;De onderhoudsorder wordt afgerekend op basis van aantal eenheden x eenheidsrpijs. Bij bestedingsoort kan hier gebruik gemaakt worden van de soort Vaste taakprijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;NCR;Nacalculatie regie;De onderhoudsorder wordt afgerekend op basis van de werkelijke bestedingen (arbeidstijd, reistijd, materiaal). -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
+ONDERHOUDSORDERAFREKENWIJZE;VPR;Vaste prijs;De onderhoudsorder wordt afgerekend op basis van een vaste (totaal-)prijs. -VERVALLEN- Gebruik referentiedatasoort AFREKENWIJZESOORT;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERSTATUS;AFG;Afgehandeld;De order is volledig technisch en financieel afgehandeld;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;FIN;Financieel afwikkelen;De order is technisch beoordeeld  en akkoord voor financiele afwikkeling. Op dat moment kan een eventueel externe onderhoudspartner de facturatie verzorgen van de onderhoudsorder;;;;Onderhoud
 ONDERHOUDSORDERSTATUS;GEA;Geannuleerd;De order is geannuleerd;;;;Onderhoud
@@ -943,8 +977,8 @@ ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Kete
 ONDERHOUDSPECIALISME;ONG;Ongediertebestrijder;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ONT;Ontstopper;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;OVE;Overig;Overige specialismen die niet onder één van de andere onderhoudspecialismen vallen;;;;Onderhoud
-ONDERHOUDSPECIALISME;SCM;Schoonmaker;Algemene specialisme voor schoonmaken, onder andere in de woning maar ook zaken als dakgoot schoonmaken en graffiti verwijderen;;;;Onderhoud
 ONDERHOUDSPECIALISME;SCH;Schilder;Een volwaardige schilder;;;;Onderhoud
+ONDERHOUDSPECIALISME;SCM;Schoonmaker;Algemene specialisme voor schoonmaken, onder andere in de woning maar ook zaken als dakgoot schoonmaken en graffiti verwijderen;;;;Onderhoud
 ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketenstandaard: competentiecode STU - Stucen;;;;Onderhoud
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
@@ -1213,10 +1247,10 @@ PUBLICATIESTATUS;GER;Gereed voor publicatie;De publicatie van beschikbaar vastgo
 PUBLICATIESTATUS;ING;Ingetrokken;De publicatie van het vastgoed is ingetrokken.;;;;Woonruimteverdeling
 PUBLICATIESTATUS;VOO;In voorbereiding;De publicatie van beschikbaar vastgoed is in voorbereiding.;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;INT;Intrekken gebeurtenis of sanctie;;;;;Woonruimteverdeling
+PUNTENBEREKENINGSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;KOP;Koppelen inschrijving;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;MAA;Maandelijkse herberekening;;;;;Woonruimteverdeling
 PUNTENBEREKENINGSOORT;NIE;Nieuwe inschrijving;;;;;Woonruimteverdeling
-PUNTENBEREKENINGSOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;ITO;Intrekken toewijzing;Intrekken toewijzing van de eenheid.;16-3-2023;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAS;Puntenafbouw situatiepunten;Puntenafbouw situatiepunten;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;PAT;Puntenafbouw startpunten;Puntenafbouw startpunten;;;;Woonruimteverdeling
@@ -1230,13 +1264,13 @@ PUNTENMUTATIESOORT;SZW;Zware sanctie;Zware sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSM;Terugdraaien milde sanctie;Terugdraaien milde sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSN;Terugdraaien no-show sanctie;Terugdraaien no-show sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSZ;Terugdraaien zware sanctie;Terugdraaien zware sanctie;;;;Woonruimteverdeling
-RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESOORT;BEZ;Bezwaar;Een ingediend bezwaar over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;ING;Ingediend;De reclamatie is ingediend door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;INB;In behandeling;De reclamatie is in behandeling genomen door de commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESTATUS;AFG;Afgewezen;De reclamatie is afgewezen door commissie.;16-3-2023;;;Woonruimteverdeling
-RECLAMATIESTATUS;TOE;Toegekend;De reclamatie is toegekend door de comissie.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESTATUS;BER;In beroep;De reclamatie is in beroep gegaan door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;INB;In behandeling;De reclamatie is in behandeling genomen door de commissie.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;ING;Ingediend;De reclamatie is ingediend door de woningzoekende.;16-3-2023;;;Woonruimteverdeling
+RECLAMATIESTATUS;TOE;Toegekend;De reclamatie is toegekend door de comissie.;16-3-2023;;;Woonruimteverdeling
 REDENONTBINDING;BET;Niet betaald;Het verschuldigde bedrag van de overeenkomst is niet voldaan.;;;;Overeenkomsten
 REDENONTBINDING;WAN;Wanprestatie;De overeenkomst wordt ontbonden omdat contractant tekortschiet in het nakomen van de afspraken.;;;;Overeenkomsten
 REDENOPZEGGING;ACC;Woning geaccepteerd;De overeenkomst is opgezegd in verband met het accepteren van een (andere) woning.;;;;Overeenkomsten
@@ -1477,28 +1511,35 @@ WONINGWAARDERINGCRITERIUMGROEPSOORT;VER;Verwarming;Vervallen, zie: WONINGWAARDER
 WONINGWAARDERINGCRITERIUMGROEPSOORT;WOZ;Punten voor de WOZ-waarde;Vervallen, zie: WONINGWAARDERINGSTELSELGROEP;;1-1-2022;;Vastgoed
 WONINGWAARDERINGCRITERIUMGROEPSOORT;ZOR;Zorgwoningen;Vervallen, zie: WONINGWAARDERINGSTELSELGROEP;;1-1-2022;;Vastgoed
 WONINGWAARDERINGSTELSEL;ONZ;Onzelfstandige woonruimten;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor onzelfstandig woonruimten;;;;Vastgoed
-WONINGWAARDERINGSTELSEL;WOO;Woonwagens en standplaatsen;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor woonwagens en standplaatsen;;;;Vastgoed
+WONINGWAARDERINGSTELSEL;STA;Standplaatsen;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor standplaatsen;21-4-2023;;;
+WONINGWAARDERINGSTELSEL;WOO;Woonwagens;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor woonwagens;21-4-2023;;;
+WONINGWAARDERINGSTELSEL;WOO;Woonwagens en standplaatsen;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor woonwagens en standplaatsen -VERVALLEN- Vervangen door Standplaatsen en Woonwagens afzonderlijk;;21-4-2023;;Vastgoed
 WONINGWAARDERINGSTELSEL;ZEL;Zelfstandige woonruimten;Het puntensysteem binnen het woningwaarderingstelsel dat van toepassing is voor zelfstandig woonruimten;;;;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;BIJ;Bijzondere voorzieningen;De groep criteria die betrekking heeft op de aanwezigheid van bijzondere voorzieningen, uitsluitend van toepassing bij zorgwoningen (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;BMO;Beschermd monument;De extra punten die worden toegekend als de woonruimte bestaat uit of deel uitmaakt van een rijksmonument (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;BMZ;Beschermd monument;De extra punten die worden toegekend als de woonruimte bestaat uit of deel uitmaakt van een rijksmonument (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;BWN;Berging;Niet-standaardwoonwagen: De groep criteria die betrekking heeft op de aanwezigheid van een berging (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;ENE;Energieprestatie;De groep criteria die betrekking heeft op de energieprestaties (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;EOS;Extra punten woonoppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de woonoppervlakte als die meer dan 200m2 bedraagt (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;EOS;Extra punten woonoppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de woonoppervlakte als die meer dan 200m2 bedraagt (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;EOS;Extra punten woonoppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de woonoppervlakte als die meer dan 200m2 bedraagt (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;GEH;Woonvoorzieningen voor gehandicapten;De groep criteria die betrekking heeft op ingrepen die zijn gedaan ten behoeve van een gehandicapte (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;GST;Voorzieningen gehandicapten standplaats;Standplaats: De groep criteria die betrekking heeft op (gedeeltelijk) vanuit de WMO gesubsidieerde voorzieningen voor gehandicapten (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;GST;Voorzieningen gehandicapten standplaats;Standplaats: De groep criteria die betrekking heeft op (gedeeltelijk) vanuit de WMO gesubsidieerde voorzieningen voor gehandicapten (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;GST;Voorzieningen gehandicapten standplaats;Standplaats: De groep criteria die betrekking heeft op (gedeeltelijk) vanuit de WMO gesubsidieerde voorzieningen voor gehandicapten (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;GWN;Voorzieningen gehandicapten niet-standaardwoonwagen;Niet-standaardwoonwagen: De groep criteria die betrekking heeft op (gedeeltelijk) vanuit de WMO gesubsidieerde voorzieningen voor gehandicapten (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;GWS;Voorzieningen gehandicapten standaardwoonwagen;Standaardwoonwagen: De groep criteria die betrekking heeft op (gedeeltelijk) vanuit de WMO gesubsidieerde voorzieningen voor gehandicapten (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;KEU;Keuken;De groep criteria die betrekking heeft op de keuken (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;KOO;Kookgelegenheid;De groep criteria die betrekking heeft op de kookgelegenheid (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;KST;Extra kwaliteit keuken en sanitair standplaats;Standplaats: De groep criteria die betrekking heeft op extra kwaliteit van keuken en sanitair  (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;KST;Extra kwaliteit keuken en sanitair standplaats;Standplaats: De groep criteria die betrekking heeft op extra kwaliteit van keuken en sanitair  (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;KST;Extra kwaliteit keuken en sanitair standplaats;Standplaats: De groep criteria die betrekking heeft op extra kwaliteit van keuken en sanitair  (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;KWA;Kwaliteitsfactoren;De groep criteria die betrekking heeft op aanvullende kwaliteitsfactoren (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;KWN;Keuken en sanitair niet-standaardwoonwagen;Niet-standaardwoonwagen: De groep criteria die betrekking heeft op keuken en sanitair  (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;KWS;Extra kwaliteit keuken en sanitair standaardwoonwagen;Standaardwoonwagen: De groep criteria die betrekking heeft op extra kwaliteit van keuken en sanitair  (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;MWS;Minpunten woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op hinderlijke situaties in de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;MWS;Minpunten woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op hinderlijke situaties in de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;MWS;Minpunten woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op hinderlijke situaties in de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;OOZ;Oppervlakte van overige ruimten;Tot deze ruimten worden gerekend: bijkeukens, bergingen, wasruimten, schuren, garages, zolders en kelders (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;OPO;Oppervlakte onzelfstandige woonruimte;De groep criteria die betrekking heeft op de oppervlakte van kamers en keukens, en van verwarmde gemeenschappelijke verblijfsruimten (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;OST;Oppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de oppervlakte (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;OST;Oppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de oppervlakte (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;OST;Oppervlakte standplaats;Standplaats: De groep criteria die betrekking heeft op de oppervlakte (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;OVZ;Oppervlakte van vertrekken;Onder vertrekken worden verstaan: woonkamer, andere kamers, keuken, badkamer en doucheruimte (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;OWN;Oppervlakte niet-standaardwoonwagen;Niet-standaardwoonwagen: De groep criteria die betrekking heeft op de oppervlakte (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;OWS;Oppervlakte standaardwoonwagen;Standaardwoonwagen: De groep criteria die betrekking heeft op de oppervlakte (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
@@ -1507,13 +1548,15 @@ WONINGWAARDERINGSTELSELGROEP;REN;Renovatie;De groep criteria die betrekking heef
 WONINGWAARDERINGSTELSELGROEP;SAN;Sanitair;De groep criteria die betrekking heeft op het sanitair (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;TOI;Toilet;De groep criteria die betrekking heeft op de w.c. (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;VON;Verwarmingsmogelijkheden;De groep criteria die betrekking heeft op de verwarmingsmogelijkheden (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;VST;Verwarming standplaats;Standplaats: De groep criteria die betrekking heeft op de verwarming (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;VST;Verwarming standplaats;Standplaats: De groep criteria die betrekking heeft op de verwarming (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;VST;Verwarming standplaats;Standplaats: De groep criteria die betrekking heeft op de verwarming (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;VWN;Verwarming niet-standaardwoonwagen;Niet-standaardwoonwagen: De groep criteria die betrekking heeft op de verwarming (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;VWS;Verwarming standaardwoonwagen;Standaardwoonwagen: De groep criteria die betrekking heeft op de verwarming  (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;VZE;Verwarming;Vertrekken, die met punten als vertrek zijn gewaardeerd, en die verwarmd zijn. Open keukens, of vertrekken die met een schuifwand met elkaar in verbinding staan, worden als afzonderlijk vertrek geteld (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking heeft op douche, bad en wastafel (Beleidsboek Waarderingsstelsel onzelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ONZ;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
-WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
 WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;Woonruimteverdeling
 WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;Woonruimteverdeling
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
