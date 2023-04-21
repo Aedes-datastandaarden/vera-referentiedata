@@ -399,6 +399,7 @@ DEFECTSTATUS;INS;Geinspecteerd;;;;;Onderhoud
 DEFECTSTATUS;MEL;Gemeld;;;;;Onderhoud
 DOELGROEP;EEN;Persoon;Woonruimte is bestemd voor en/of huurder vormt een eenpersoonshuishouden;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;GEZ;Gezin;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een huishouden bestaande uit meerdere natuurlijke personen die tezamen een gezin vormen;;;;Vastgoed, Woonruimteverdeling
+DOELGROEP;GEK;Gezin met kinderen;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een huishouden bestaande uit meerdere natuurlijke personen en kinderen die tezamen een gezin vormen;21-04-2023;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;MEE;Meergezins;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een groep bestaande uit meerdere huishoudens;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke minimum leeftijd;;;;Vastgoed, Woonruimteverdeling
@@ -417,8 +418,34 @@ EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vast
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
-EENHEIDCRITERIASOORT;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
-EENHEIDCRITERIASOORT;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot een bepaald gebied. Bijvoorbeeld regionaal voor mensen die in het regionaal samenwerkingsverband wonen en/of werken, lokaal voor mensen die in de gemeente wonen.;21-04-2023;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;GRO;Groep;Er is voorrang voor woningzoekenden die tot een bepaalde groep behoren waar geen binding, urgentie of indicatie van toepassing is.;21-04-2023;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medische) indicatie.21-04-2023;;;;Woonruimteverdeling
+EENHEIDCRITERIUMSOORT;URG;Urgentie;Er is voorrang voor woningzoekenden met een urgentie.21-04-2023;;;;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;BER;Beroep;Urgentie wegens een bijzonder beroep in de regio onderwijs, zorg of politie;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DAK;(Bijna) dakloos;dakloos / calamiteit /brand onbewoonbaar / uitzetting / terugkeer uit buitenland;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DUP;Gedupeerd;Urgentie wegens dupering van woningzoekende bij woningaanbieding;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;ECO;Economisch;Economische binding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;EXD;ex-gedetineerd;Urgentie wegens het vrijkomen uit detentie;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;FIN;Financieel;Urgentie wegens financiele problemen;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;GEL;Gelijkvloers;Indicatie voor een gelijkvloerse woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;GEW;Geweld bedreiging / overlast;Urgentie wegens overlast uit de omgeving of bedreiging.;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;HUI;Herhuisvesting;Urgentie wegens (langdurige) renovatie, nieuwbouw of sloop;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;KRN;Kern;Kernbinding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MAA;Maatschappelijk;Maatschappelijke binding;;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MAN;Mantelzorg;Urgentie wegens het ontvangen of geven van mantelzorg;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;MED;Medisch;Urgentie voor een aangepaste woning op medische gronden;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;REG;Regio;Regionale of regio binding;21-04-2023;;EENHEIDCRITERIUMSOORT.BIN;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;REL;Relationeel;Echtscheiding / verbroken relatie / gezinsproblemen /zwangerschap;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;ROL;Rollatorgeschikt;Indicatie voor een rollatorgeschikte woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;RST;Rolstoelgeschikt;Indicatie voor een rolstoelgeschikte woning;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;SER;Servicewoning;Woningen bij een zorginstelling of verpleegcentrum.;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;SOC;Sociaal;De woonsituatie is levensontwrichtend of levensbedreigend voor een of meer gezinsleden.;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;STA;Statushouder;Urgentie wegens het verkrijgen van een verblijfsstatus;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;UIT;Uitstroom maatschappelijke instelling;Urgentie wegens het uitstromen bij een maatschappelijke instelling;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;DOE;Doelgroep;Behoren tot een doelgroep. Bijv. gezin, student, senioren etc.;21-04-2023;;EENHEIDCRITERIUMSOORT.GRO;Woonruimteverdeling
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzonder die van een beeldend kunstenaar.;;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;BAS;Basisschool;Basisschool conform: art. 49 lid 2a;;;EENHEIDSOORT.MOG;Vastgoed
