@@ -444,7 +444,7 @@ EENHEIDCRITERIUMDETAILSOORT;RST;Rolstoelgeschikt;Indicatie voor een rolstoelgesc
 EENHEIDCRITERIUMDETAILSOORT;SER;Servicewoning;Woningen bij een zorginstelling of verpleegcentrum.;21-04-2023;;EENHEIDCRITERIUMSOORT.IND;Woonruimteverdeling
 EENHEIDCRITERIUMDETAILSOORT;SOC;Sociaal;De woonsituatie is levensontwrichtend of levensbedreigend voor een of meer gezinsleden.;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
 EENHEIDCRITERIUMDETAILSOORT;STA;Statushouder;Urgentie wegens het verkrijgen van een verblijfsstatus;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
-EENHEIDCRITERIUMDETAILSOORT;UIT;uitstroom maatschappelijke instelling;Urgentie wegens het uitstromen bij een maatschappelijke instelling;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
+EENHEIDCRITERIUMDETAILSOORT;UIT;Uitstroom maatschappelijke instelling;Urgentie wegens het uitstromen bij een maatschappelijke instelling;21-04-2023;;EENHEIDCRITERIUMSOORT.URG;Woonruimteverdeling
 EENHEIDCRITERIUMDETAILSOORT;DOE;Doelgroep;Behoren tot een doelgroep. Bijv. gezin, student, senioren etc.;21-04-2023;;EENHEIDCRITERIUMSOORT.GRO;Woonruimteverdeling
 EENHEIDDETAILSOORT;ANT;Antenne-opstelplaats;;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;ATE;Atelierruimte;Een atelier is een werkplaats, in het bijzonder die van een beeldend kunstenaar.;;;EENHEIDSOORT.BED;Vastgoed
