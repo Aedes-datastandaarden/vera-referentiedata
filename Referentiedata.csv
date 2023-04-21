@@ -418,8 +418,8 @@ EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vast
 EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
 EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
-EEINEHIDCRITERIUMTOEPASSING;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
-EEINEHIDCRITERIUMTOEPASSING;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIUMTOEPASSING;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIUMSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot een bepaald gebied. Bijvoorbeeld regionaal voor mensen die in het regionaal samenwerkingsverband wonen en/of werken, lokaal voor mensen die in de gemeente wonen.;21-04-2023;;;Woonruimteverdeling
 EENHEIDCRITERIUMSOORT;GRO;Groep;Er is voorrang voor woningzoekenden die tot een bepaalde groep behoren waar geen binding, urgentie of indicatie van toepassing is.;21-04-2023;;;Woonruimteverdeling
 EENHEIDCRITERIUMSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medische) indicatie.21-04-2023;;;;Woonruimteverdeling
