@@ -405,7 +405,7 @@ EENHEIDBUITENRUIMTE;ATU;Obsolete.Achtertuin; Een achtertuin. ;;21-04-2023;;;Vast
 EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;CAR;Obsolete.Carport; Een carport.;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;DAK;Obsolete.Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
-EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;;Een gemeenschappelijke tuin. ;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;Een gemeenschappelijke tuin. ;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAK;Obsolete.Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;PAR;Obsolete.Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;21-04-2023;;;Vastgoed
 EENHEIDBUITENRUIMTE;RON;Obsolete.Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;21-04-2023;;;Vastgoed
