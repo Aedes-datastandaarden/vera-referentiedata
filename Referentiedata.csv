@@ -406,18 +406,20 @@ DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het mom
 DOELGROEP;STA;Starter;Woonruimte is bestemd voor en/of huurder betreft een starter op de woningmarkt;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;STU;Studenten;Woonruimte is bestemd voor en/of huurder is een student (ontvangt studiefinanciering, studeert voltijds of gaat promoveren).;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;ZOR;Zorg;Woonruimte is bestemd voor en/of huurder is een zorgbehoevende ((iemand die afhankelijk is van) woonruimte die naar aard en gebruik geen logische andere aanwendbaarheid kent dan een zorgwoning). Betreft o.a. aanleunwoningen en serviceflats.;;;;Vastgoed, Woonruimteverdeling
-EENHEIDBUITENRUIMTE;ATR;Atrium / Patio;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;ATU;Achtertuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;BAL;Balkon;Een balkon kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;;;Vastgoed
-EENHEIDBUITENRUIMTE;CAR;Carport;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;DAK;Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;;;Vastgoed
-EENHEIDBUITENRUIMTE;GTU;Gemeenschappelijke tuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;PAK;Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;;;Vastgoed
-EENHEIDBUITENRUIMTE;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;;;Vastgoed
-EENHEIDBUITENRUIMTE;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;;Vastgoed
-EENHEIDBUITENRUIMTE;TER;Terras;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;VTU;Voortuin;;;;;Vastgoed
-EENHEIDBUITENRUIMTE;ZIJ;Zijtuin;;;;;Vastgoed
+EENHEIDBUITENRUIMTE;ATR;Obsolete.Atrium / Patio; Een atrium of patio;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;ATU;Obsolete.Achtertuin; Een achtertuin. ;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;BAL;Obsolete.Balkon;Een balkon kan ook als RUIMTESOORT als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;CAR;Obsolete.Carport; Een carport.;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;DAK;Obsolete.Dakterras;Een dakterras kan ook als RUIMTESOORT, als attribuut van 'vertrek' worden gedefinieerd;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;GTU;Obsolete.Gemeenschappelijke tuin;Een gemeenschappelijke tuin. ;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;PAK;Obsolete.Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;PAR;Obsolete.Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;RON;Obsolete.Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;TER;Obsolete.Terras; Een terras.;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;VTU;Obsolete.Voortuin;Een voortuin;;21-04-2023;;;Vastgoed
+EENHEIDBUITENRUIMTE;ZIJ;Obsolete.Zijtuin;Een zijtuin;;21-04-2023;;;Vastgoed
+EENHEIDCRITERIASOORT;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
+EENHEIDCRITERIASOORT;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIUMTOEPASSING;SEL;Selectie;Selectiecriteria die worden gebruikt om de passendheid van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIUMTOEPASSING;SOR;Sortering;Sorteercriteria die worden gebruikt om de positie van een woningzoekende voor de eenheid te bepalen.;03-02-2023;;;Vastgoed
 EENHEIDCRITERIUMSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot een bepaald gebied. Bijvoorbeeld regionaal voor mensen die in het regionaal samenwerkingsverband wonen en/of werken, lokaal voor mensen die in de gemeente wonen.;21-04-2023;;;Woonruimteverdeling
@@ -585,14 +587,22 @@ EENHEIDLIGGING;VAA;Aan vaarwater;;;;;Vastgoed
 EENHEIDLIGGING;VRI;Vrij uitzicht;;;;;Vastgoed
 EENHEIDLIGGING;WAT;Aan water;;;;;Vastgoed
 EENHEIDLIGGING;WOO;In woonwijk;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;NOO;Noord;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;NOS;Noordoost;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;NWE;Noordwest;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;OOS;Oost;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;WES;West;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZOO;Zuidoost;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZUI;Zuid;;;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZWE;Zuidwest;;;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;NOO;OBSOLETE;Noord;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;NOS;OBSOLETE;Noordoost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;NWE;OBSOLETE;Noordwest;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;OOS;OBSOLETE;Oost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;WES;OBSOLETE;West;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZOO;OBSOLETE;Zuidoost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZUI;OBSOLETE;Zuid;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZWE;OBSOLETE;Zuidwest;;21-04-2023;;;Vastgoed
+RUIMTELIGGING;NOO;Noord;;;;;Vastgoed
+RUIMTELIGGING;NOS;Noordoost;;;;;Vastgoed
+RUIMTELIGGING;NWE;Noordwest;;;;;Vastgoed
+RUIMTELIGGING;OOS;Oost;;;;;Vastgoed
+RUIMTELIGGING;WES;West;;;;;Vastgoed
+RUIMTELIGGING;ZOO;Zuidoost;;;;;Vastgoed
+RUIMTELIGGING;ZUI;Zuid;;;;;Vastgoed
+RUIMTELIGGINGE;ZWE;Zuidwest;;;;;Vastgoed
 EENHEIDLIGGINGTUIN;NOO;Noord;;;;;Vastgoed
 EENHEIDLIGGINGTUIN;NOS;Noordoost;;;;;Vastgoed
 EENHEIDLIGGINGTUIN;NWE;Noordwest;;;;;Vastgoed
@@ -1349,30 +1359,43 @@ RELATIESTATUS;INA;Inactief;De relatie is niet (meer) actief;11-11-2022;;;Relatie
 RELATIESTATUS;SLA;Slapend;De relatie betreft een VvE (rechtspersoon) die een slapende status heeft;11-11-2022;;;Relaties
 RENTESOORT;VAR;Variabel;;;;;Financiën
 RENTESOORT;VST;Vast;;;;;Financiën
-RUIMTESOORT;AND;Andere kamer;Kamers zoals eetkamer, hobbykamer, studeerkamer etc.;;;;Vastgoed
-RUIMTESOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging.;;;;Vastgoed
-RUIMTESOORT;BAL;Balkon;Een balkon kan ook als EENHEIDBUITENRUIMTE (attribuut van 'eenheid') worden gedefinieerd;;;;Vastgoed
-RUIMTESOORT;BAT;Badkamer/toilet;Gecombineerde badkamer/toilet;;;;Vastgoed
-RUIMTESOORT;BER;Berging;Overige ruimte: voor Berging, Bergingkast;;;;Vastgoed
-RUIMTESOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;;;;Vastgoed
-RUIMTESOORT;DAK;Dakterras;Een dakterras kan ook als EENHEIDBUITENRUIMTE (attribuut van 'eenheid') worden gedefinieerd;;;;Vastgoed
-RUIMTESOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;;;;Vastgoed
-RUIMTESOORT;GAN;Gang;Ruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;;;;Vastgoed
-RUIMTESOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;;;;Vastgoed
-RUIMTESOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;;;;Vastgoed
-RUIMTESOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;;;;Vastgoed
-RUIMTESOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;;;;Vastgoed
-RUIMTESOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;;;;Vastgoed
-RUIMTESOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;;;;Vastgoed
-RUIMTESOORT;SER;Serre;;;;;Vastgoed
-RUIMTESOORT;SLA;Slaapkamer;Kamer: ruimte in een woning waarin men kan slapen.;;;;Vastgoed
-RUIMTESOORT;TOI;Toiletruimte;Ruimte: Sanitaire ruimte met een toilet.;;;;Vastgoed
-RUIMTESOORT;TUS;Tussenkamer;;;;;Vastgoed
-RUIMTESOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor  wasmachine, droger, strijken.;;;;Vastgoed
-RUIMTESOORT;WOK;Woonkamer/keuken;Keuken in de woonkamer;;;;Vastgoed
-RUIMTESOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken en bevindt zich meestal op de begane grond, voor zover het niet gaat om een appartement in een flat.;;;;Vastgoed
-RUIMTESOORT;WSL;Woon-/slaapkamer;;;;;Vastgoed
-RUIMTESOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;;;;Vastgoed
+RUIMTESOORT;VTK;Vertrek;Een vertrek is een ruimte die volgens de woningwaardering als vertrek wordt gezien.;;;;;Vastgoed
+RUIMTESOORT;BTR;Buitenruimte;Een buitenruimte welke verder te specificeren is met de RUIMTEDETAILSOORT.;;;;;Vastgoed
+RUIMTESOORT;OVR;Overig;Overige ruimte die niet binnen de andere ruimtesoorten vallen.;;;;;Vastgoed
+RUIMTEDETAILSOORT;AND;Andere kamer;Kamers zoals eetkamer, hobbykamer, studeerkamer etc.;;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging.;;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;BAT;Badkamer/toilet;Gecombineerde badkamer/toilet;;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;BER;Berging;Overige ruimte: voor Berging, Bergingkast;;;RUIMTESOORT.;Vastgoed
+RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;;;RUIMTESOORT.BIJ;Vastgoed
+RUIMTEDETAILSOORT;DAK;Dakterras;Een dakterras.;;;RUIMTESOORT.DAK;Vastgoed
+RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;;;RUIMTESOORT.DOU;Vastgoed
+RUIMTEDETAILSOORT;GAN;Gang;Ruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;;;RUIMTESOORT.GAN;Vastgoed
+RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;;;RUIMTESOORT.GAR;Vastgoed
+RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;;;RUIMTESOORT.HAL;Vastgoed
+RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;;;RUIMTESOORT.KEL;Vastgoed
+RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;;;RUIMTESOORT.KEU;Vastgoed
+RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;;;RUIMTESOORT.REC;Vastgoed
+RUIMTEDETAILSOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;;;RUIMTESOORT.SCH;Vastgoed
+RUIMTEDETAILSOORT;SER;Serre;;;;RUIMTESOORT.SER;Vastgoed
+RUIMTEDETAILSOORT;SLA;Slaapkamer;Kamer: ruimte in een woning waarin men kan slapen.;;;RUIMTESOORT.SLA;Vastgoed
+RUIMTEDETAILSOORT;TOI;Toiletruimte;Ruimte: Sanitaire ruimte met een toilet.;;;RUIMTESOORT.TOI;Vastgoed
+RUIMTEDETAILSOORT;TUS;Tussenkamer;;;;RUIMTESOORT.TUS;Vastgoed
+RUIMTEDETAILSOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor  wasmachine, droger, strijken.;;;RUIMTESOORT.WAS;Vastgoed
+RUIMTEDETAILSOORT;WOK;Woonkamer/keuken;Keuken in de woonkamer;;;RUIMTESOORT.WOK;Vastgoed
+RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken en bevindt zich meestal op de begane grond, voor zover het niet gaat om een appartement in een flat.;;;RUIMTESOORT.WOO;Vastgoed
+RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;;;;RUIMTESOORT.WSL;Vastgoed
+RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;;;RUIMTESOORT.ZOL;Vastgoed
+RUIMTEDETAILSOORT;ATR;Atrium / Patio;;;;RUIMTESOORT.ATR;Vastgoed
+RUIMTEDETAILSOORT;ATU;Achtertuin;;;;RUIMTESOORT.ATU;Vastgoed
+RUIMTEDETAILSOORT;CAR;Carport;;;;RUIMTESOORT.CAR;Vastgoed
+RUIMTEDETAILSOORT;GTU;Gemeenschappelijke tuin;;;;RUIMTESOORT.GTU;Vastgoed
+RUIMTEDETAILSOORT;PAK;Parkeerkelder;Eigen parkeerplaats in parkeerkelder;;;RUIMTESOORT.PAK;Vastgoed
+RUIMTEDETAILSOORT;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;;;RUIMTESOORT.PAR;Vastgoed
+RUIMTEDETAILSOORT;RON;Tuin Rondom;Gedeeltelijke tuin rondom de eenheid;;;RUIMTESOORT.RON;Vastgoed
+RUIMTEDETAILSOORT;TER;Terras;;;;RUIMTESOORT.TER;Vastgoed
+RUIMTEDETAILSOORT;VTU;Voortuin;;;;RUIMTESOORT.TVTU;Vastgoed
+RUIMTEDETAILSOORT;ZIJ;Zijtuin;;;;RUIMTESOORT.ZIJ;Vastgoed
 SANCTIESOORT;MIL;Milde sanctie;Milde sanctie;;;;Woonruimteverdeling
 SANCTIESOORT;NOS;No-show sanctie;No-show sanctie, , verlies van alle zoek-, situatie en zoekpunten;;;;Woonruimteverdeling
 SANCTIESOORT;ZWA;Zware sanctie;Zware sanctie, verlies van alle zoek-, situatie en zoekpunten;;;;Woonruimteverdeling
