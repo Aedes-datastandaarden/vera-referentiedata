@@ -587,22 +587,22 @@ EENHEIDLIGGING;VAA;Aan vaarwater;;;;;Vastgoed;
 EENHEIDLIGGING;VRI;Vrij uitzicht;;;;;Vastgoed;
 EENHEIDLIGGING;WAT;Aan water;;;;;Vastgoed;
 EENHEIDLIGGING;WOO;In woonwijk;;;;;Vastgoed;
-EENHEIDLIGGINGBUITENRUIMTE;NOO;OBSOLETE;Noord;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;NOS;OBSOLETE;Noordoost;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;NWE;OBSOLETE;Noordwest;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;OOS;OBSOLETE;Oost;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;WES;OBSOLETE;West;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZOO;OBSOLETE;Zuidoost;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZUI;OBSOLETE;Zuid;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGBUITENRUIMTE;ZWE;OBSOLETE;Zuidwest;;21-04-2023;;;Vastgoed
-EENHEIDLIGGINGTUIN;NOO;Noord;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;NOS;Noordoost;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;NWE;Noordwest;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;OOS;Oost;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;WES;West;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;ZOO;Zuidoost;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;ZUI;Zuid;;;;;Vastgoed;
-EENHEIDLIGGINGTUIN;ZWE;Zuidwest;;;;;Vastgoed;
+EENHEIDLIGGINGBUITENRUIMTE;NOO;Noord;Noord;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;NOS;Noordoost;Noordoost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;NWE;Noordwest;Noordwest;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;OOS;Oost;Oost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;WES;West;West;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZOO;Zuidoost;Zuidoost;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZUI;Zuid;Zuid;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGBUITENRUIMTE;ZWE;Zuidwest;Zuidwest;;21-04-2023;;;Vastgoed
+EENHEIDLIGGINGTUIN;NOO;Noord;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;NOS;Noordoost;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;NWE;Noordwest;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;OOS;Oost;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;WES;West;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;ZOO;Zuidoost;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;ZUI;Zuid;;;12-05-2023;;Vastgoed;
+EENHEIDLIGGINGTUIN;ZWE;Zuidwest;;;12-05-2023;;Vastgoed;
 EENHEIDMONUMENT;DOR;Beschermd dorpsgezicht;Bij ontwikkelingen binnen een stads- of dorpsgezicht moet rekening gehouden met de cultuurhistorische waarde. Elk beschermd gebied heeft hiervoor een eigen bestemmingsplan. Vergeleken met een gewoon bestemmingsplan is het gedetailleerder en gelden er strengere regels, zowel voor de bebouwde als voor de onbebouwde ruimte. Bovendien is voor een aantal bouwactiviteiten een vergunning nodig.;;;;Vastgoed;
 EENHEIDMONUMENT;GEM;Gemeentelijk monument;Een gemeente kan besluiten een bijzonder pand op de gemeentelijke monumentenlijst te zetten. Dit gebeurt als een pand geen nationale betekenis heeft, maar wel van plaatselijk of regionaal belang is.;;;;Vastgoed;
 EENHEIDMONUMENT;PRO;Provinciaal monument;Niet alleen panden, maar ook dijken, grenspalen en gemeente-overschrijdende objecten kunnen deel uitmaken van een provinciale monumentenlijst. De lijst wordt samengesteld door de Provinciale Staten van de provincie. Als een pand op de lijst staat, betekent het dat het pand bescherming geniet vanuit de provincie. Bovendien dient de lijst als basis voor eventuele subsidietoezeggingen. Noord-Holland en Drenthe zijn de enige provincies die provinciale monumenten hebben aangewezen.;;;;Vastgoed;
@@ -1378,14 +1378,14 @@ RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijks
 RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;;24-4-2023;;RUIMTESOORT.VTK;Vastgoed;
 RUIMTEDETAILSOORT;ZIJ;Zijtuin;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed;
 RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed;
-RUIMTELIGGING;NOO;Noord;;;;;Vastgoed;
-RUIMTELIGGING;NOS;Noordoost;;;;;Vastgoed;
-RUIMTELIGGING;NWE;Noordwest;;;;;Vastgoed;
-RUIMTELIGGING;OOS;Oost;;;;;Vastgoed;
-RUIMTELIGGING;WES;West;;;;;Vastgoed;
-RUIMTELIGGING;ZOO;Zuidoost;;;;;Vastgoed;
-RUIMTELIGGING;ZUI;Zuid;;;;;Vastgoed;
-RUIMTELIGGINGE;ZWE;Zuidwest;;;;;Vastgoed;
+RUIMTELIGGING;NOO;Noord;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;NOS;Noordoost;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;NWE;Noordwest;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;OOS;Oost;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;WES;West;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;ZOO;Zuidoost;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;ZUI;Zuid;;24-4-2023;;;Vastgoed;
+RUIMTELIGGING;ZWE;Zuidwest;;24-4-2023;;;Vastgoed;
 RUIMTESOORT;BTR;Buitenruimte;Een buitenruimte is een ruimte die volgens de woningwaardering als (privé) buitenruimte wordt gezien. Nader tte specificeren met ruimtedetailsoort.;24-4-2023;;;;Vastgoed
 RUIMTESOORT;GEM;Gemeenschappelijke ruimten en voorzieningen;"Een gemeenschappelijk ruimte of voorziening is een ruimte die volgens de woningwaardering als gemeenschappelijke ruimte of voorziening wordt gezien  ";24-4-2023;;;;
 RUIMTESOORT;OVR;Overige ruimtes;Een ruimte die geen buitenruimte is, en die geen vertrek is volgens de definitie van de woningwaardering. Nader te specificeren met ruimtedetailsoort.;24-4-2023;;;;Vastgoed
