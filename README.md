@@ -18,6 +18,8 @@ Het CSV bestand kent de volgende kolommen:
 
 Alle referentiedata staat ook gepubliceerd op de [CORA/VERA site](https://cora.wikixl.nl/index.php/VERA_Referentiedata).
 
+Een overzicht van welke lijst gekoppeld is aan welke entiteit (cross reference) staat hier: https://aedes-datastandaarden.github.io/vera-openapi/referentiedatacrossreference.html
+
 ## API Referentiedata
 Referentiedata kan nu ook via een API worden opgevraagd. De OpenAPI definitie is te vinden op: https://vera-service.azurewebsites.net/swagger/index.html
 De API ondersteunt twee endpoints:
