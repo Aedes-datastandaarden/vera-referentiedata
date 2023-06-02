@@ -77,11 +77,11 @@ AUTHENTIEKGEGEVENSOORT;NAW;Naam Adres Woonplaats;NAW gegevens van een natuurlijk
 AUTHENTIEKGEGEVENSOORT;OPL;Opleiding;Opleiding en studennummer.;12-5-2023;;;;Dossier;
 AUTHENTIEKGEGEVENSOORT;WER;Werkgevers;Actuele werkgevers.;12-5-2023;;;;Dossier;
 AUTHENTIEKGEGEVENSOORT;HUI;Huidhoudsamenstelling;Huidhoudsamenstelling uit BRP.;12-5-2023;;;;Dossier;
-AUTHENTIEKGEGEVENBRONSOORT;MIJ;Mijn Overheid;Gegevens zijn gedeeld vanuit Mijn Overheid.;12-5-2023;;;;Dossier;
-AUTHENTIEKGEGEVENBRONSOORT;QII;Qii;Gegevens zijn gedeeld vanuit Qii.;12-5-2023;;;;Dossier;
-AUTHENTIEKGEGEVENBRONSOORT;IRF;Inkomensregistratieformulier;Gegevens zijn gedeeld vanuit het Inkomensregistratieformulier.;12-5-2023;;;;Dossier;
-AUTHENTIEKGEGEVENBRONSOORT;DUO;Dienst uitvoering onderwijs;Gegevens zijn gedeeld vanuit DUO.;12-5-2023;;;;Dossier;
-AUTHENTIEKGEGEVENBRONSOORT;UWV;UWV;Gegevens zijn gedeeld vanuit UWV.;12-5-2023;;;;Dossier;
+AUTHENTIEKGEGEVENBRON;MIJ;Mijn Overheid;Gegevens zijn gedeeld vanuit Mijn Overheid.;12-5-2023;;;;Dossier;
+AUTHENTIEKGEGEVENBRON;QII;Qii;Gegevens zijn gedeeld vanuit Qii.;12-5-2023;;;;Dossier;
+AUTHENTIEKGEGEVENBRON;IRF;Inkomensregistratieformulier;Gegevens zijn gedeeld vanuit het Inkomensregistratieformulier.;12-5-2023;;;;Dossier;
+AUTHENTIEKGEGEVENBRON;DUO;Dienst uitvoering onderwijs;Gegevens zijn gedeeld vanuit DUO.;12-5-2023;;;;Dossier;
+AUTHENTIEKGEGEVENBRON;UWV;UWV;Gegevens zijn gedeeld vanuit UWV.;12-5-2023;;;;Dossier;
 AUTHENTIEKGEGEVENSTATUS;GEV;Gevalideerd;Gegevens zijn gevalideerd door de bron.;12-5-2023;;;;Dossier;
 AUTHENTIEKGEGEVENSTATUS;VER;Vervallen;Gegevens zijn vervallen doordat deze zijn verlopen.;12-5-2023;;;;Dossier;
 BEDRIJFSOORT;BOU;Bouwbedrijf;;;;;Financiën;
