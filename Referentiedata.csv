@@ -140,13 +140,13 @@ BOEKINGDETAILSOORT;VOU;Voucher;Boeking van toename of afname van een saldo binne
 BOEKINGSOORT;BEP;Belastingen en premies SV;Boeking van af te dragen / afdracht van loonheffing, premies en sociale verzekeringswetten op salarissen, btw op belastbare verhuur en verlegde btw op onderhoudsfacturen.;;;;Financiën;;
 BOEKINGSOORT;BUD;Budget;Boeking voor opvoer of wijziging van een budget of budgetregel;;;;Financiën;;
 BOEKINGSOORT;MEM;Memoriaal;Boeking voor het corrigeren of afboeken van het saldo van een boeking of groep van boekingen, meestal van soort VOR.;;;;Financiën;;
-BOEKINGSOORT;OHD;Onderhoud;"Boeking ten behoeve van of voortkomend uit de onderhoudsadministratie. ";;;;Financiën;;
+BOEKINGSOORT;OHD;Onderhoud;Boeking ten behoeve van of voortkomend uit de onderhoudsadministratie.;;;;Financiën;;
 BOEKINGSOORT;ONT;Ontvangst;Boeking van een ontvangen bedrag in relatie tot een andere boeking of groep van boekingen, zoals een vordering, aanmaning, borg, betalingsregelingtermijn of eindafrekening.;;;;Financiën;;
 BOEKINGSOORT;PRJ;Projecten;Boeking ten behoeve van of voortkomend uit de projectadministratie.;;;;Financiën;;
 BOEKINGSOORT;SAL;Salaris;Boeking ten behoeve van of voortkomend uit de salarisadministratie.;;;;Financiën;;
 BOEKINGSOORT;SKS;Servicekosten;Boeking ten behoeve van of voortkomend uit de servicekostenadministratie.;;;;Financiën;;
 BOEKINGSOORT;UIT;Uitbetaling;Boeking van een betaald bedrag in relatie tot een andere boeking of groep van boekingen, zoals een vordering, borg of eindafrekening.;;;;Financiën;;
-BOEKINGSOORT;VOR;Vordering;"Boeking van een te vorderen bedrag op een huurder of derde. ";;;;Financiën;;
+BOEKINGSOORT;VOR;Vordering;Boeking van een te vorderen bedrag op een huurder of derde.;;;;Financiën;;
 BOEKINGSTATUS;FIA;Gefiatteerd;Boeking is definitief en niet meer wijzigbaar.;;;;Financiën;;
 BOEKINGSTATUS;HIS;Historisch;Boeking is onderdeel van een afgesloten administratieve periode of boekjaar.;;;;Financiën;;
 BOEKINGSTATUS;VRL;Voorlopig;Boeking is niet definitief en kan worden gewijzigd of verwijderd.;;;;Financiën;;
@@ -649,8 +649,7 @@ EENHEIDSTATUS;ADM;Administratief;De eenheid wordt geëxploiteerd door een partic
 EENHEIDSTATUS;LEE;Leegstand;De eenheid is in exploitatie, maar niet verhuurd. Aansluitende verhuur is niet mogelijk omdat nog geen nieuwe huurder is gevonden of omdat de woning nog niet gereed is voor verhuur;;;;Vastgoed;;
 EENHEIDSTATUS;OND;In onderhoud;-OBSOLETE- De eenheid is tijdelijk uit exploitatie wegens onderhoud. Gebruik de status Uit Exploitatie, in combinatie met een uit exploitatiereden;;30-6-2023;;Vastgoed;;
 EENHEIDSTATUS;ONT;In ontwikkeling;De eenheid is (nog) niet in exploitatie omdat deze in ontwikkeling is. Gebruik eventueel een detailstatus om aan te geven in welke fase van het ontwikkelingsproces de eenheid zich bevindt;;;;Vastgoed;;
-EENHEIDSTATUS;UIT;Uit exploitatie;"De eenheid is niet (meer) in exploitatie bij de corporatie.
-Gebruik in combinatie met Uit Exploitatiereden om te verantwoorden met welke reden de eenheid uit exploitatie is.";30-6-2023;;;Vastgoed;;
+EENHEIDSTATUS;UIT;Uit exploitatie;De eenheid is niet (meer) in exploitatie bij de corporatie. Gebruik in combinatie met Uit Exploitatiereden om te verantwoorden met welke reden de eenheid uit exploitatie is.;30-6-2023;;;Vastgoed;;
 EENHEIDSTATUS;VEH;Verhuurd;De eenheid is verhuurd voor bepaalde of onbepaalde duur;;;;Vastgoed;;
 EENHEIDSTATUS;VEK;Verkocht;-OBSOLETE- De eenheid is verkocht aan een particulier of andere vastgoedbeheerder. Gebruik de status Uit Exploitatie, in combinatie met een uit exploitatiereden;;30-6-2023;;Vastgoed;;
 EINDEDETAILREDEN;FAI;Faillissement;Een overeenkomst is beëindigd wegens faillissement;;;EINDEREDEN.ONT;Overeenkomsten;;
