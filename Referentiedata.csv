@@ -830,6 +830,8 @@ INKOMENSBRON;AND;Anders;;;;;Relaties;;
 INKOMENSBRON;ARB;Arbeid;;;;;Relaties;;
 INKOMENSBRON;SOC;Sociale uitkering;;;;;Relaties;;
 INKOMENSBRON;STU;Studiefinanciering;;;;;Relaties;;
+INKOMENSSOORT;BRU;Bruto jaarinkomen;Het bruto jaarinkomen kan bestaan uit een geregistreerd inkomen, schatting van het actuele inkomen of een zelf opgegeven inkomen.;28-07-2023;;;Relaties;;
+INKOMENSSOORT;NET;Netto jaarinkomen;Het netto jaarinkomen zoals verwacht voor het huidige jaar.;28-07-2023;;;Relaties;;
 INKOMENSVERKLARINGSOORT;IB6;IB60;;;;;Relaties;;
 INKOMENSVERKLARINGSOORT;IBD;Inkomensverklaring belastingdienst;;;;;Relaties;;
 INKOMENSVERKLARINGSOORT;IBR;IBRI;;;;;Relaties;;
