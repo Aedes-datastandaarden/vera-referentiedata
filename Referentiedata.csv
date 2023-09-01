@@ -45,8 +45,8 @@ ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties;;
 ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;Relaties;;
 ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties;;
 ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties;;
-AFLETTERSTATUS;NIE;Niet afgeletterd;Boeking is (nog) niet afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat deze nog volledig open staat. Voor ontvangsten betekent dit dat deze nog niet gekoppeld is aan een vordering.;07-07-2023;;;Financien;;
 AFLETTERSTATUS;DEE;Deels afgeletterd;Boeking is deels afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat er betalingen zijn gedaan maar dat er nog een openstaand saldo is. Voor ontvangsten betekent dit dat een deel van de ontvangst is afgeletterd tegen een vordering maar dat er nog saldo op de boeking staat die nog gekoppeld moet worden.;07-07-2023;;;Financien;;
+AFLETTERSTATUS;NIE;Niet afgeletterd;Boeking is (nog) niet afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat deze nog volledig open staat. Voor ontvangsten betekent dit dat deze nog niet gekoppeld is aan een vordering.;07-07-2023;;;Financien;;
 AFLETTERSTATUS;VOL;Volledig afgeletterd;Boeking is volledig afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat er geen openstaand saldo meer is. Voor ontvangsten betekent dit dat de ontvangst volledig is afgeletterd tegen vordering(en).;07-07-2023;;;Financien;;
 AFREKENWIJZESOORT;AFK;Afkoop;De onderhoudsorder wordt niet afgerekend omdat dit type onderhoud is afgekocht op totaalniveau;14-4-2023;;;Onderhoud;;
 AFREKENWIJZESOORT;GAR;Garantie;De onderhoudsorder wordt niet afgerekend omdat de werkzaamheden onder garantie vallen;14-4-2023;;;Onderhoud;;
@@ -1138,6 +1138,7 @@ PRIJSCOMPONENTDETAILSOORT;HUV;Huisvuil;Maandelijkse kosten voor het verwerken va
 PRIJSCOMPONENTDETAILSOORT;IGA;Individuele garage;Inpandige parkeerplek individueel;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;INS;Installaties;Maandelijkse kosten voor het gebruik van andere installaties dan elektrische installaties;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;INV;Inventaris;Maandelijkse kosten voor het gebruik van inventaris;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
+PRIJSCOMPONENTDETAILSOORT;KAL;Kale huur;Basisbedrag voor het gebruik van de woning;1-9-2023;;PRIJSCOMPONENTSOORT.NET;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;LAA;Laadpaal;Maandelijkse kosten voor het gebruik van een laadpaal voor elektrische auto;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;LIF;Liftkosten;Maandelijkse kosten voor het gebruik van de lift(en);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;LIN;Linnenpakket;Maandelijkse kosten voor het gebruik van linnen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
@@ -1146,6 +1147,7 @@ PRIJSCOMPONENTDETAILSOORT;MVE;Mechanische ventilatie;Maandelijkse kosten voor he
 PRIJSCOMPONENTDETAILSOORT;NSU;Niet subsidiale servicekosten;Vervallen. Referentiewaarde is een verzameling van soorten prijscomponenten die subsidiabel zijn. Zuiverder is om dit los te koppelen van elkaar. Daarvoor is de referentiedata PRIJSCOMPONENTSUBSIDIESOORT opgenomen en als attribuut toegevoegd aan de entiteit Prijscomponent;;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;OKO;Overnamekosten;;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;OND;Onderhoudsabonnement;Maandelijkse kosten voor onderhoudsabonnement. De huurder is zelf verantwoordelijk voor het klein onderhoud aan de woning. Als de huurder een onderhoudsabonnement afsluit, dan regelt de corporatie het klein onderhoud voor de huurder.;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
+PRIJSCOMPONENTDETAILSOORT;ONH;Overige netto huur component;Een overige netto huur component wordt bijvoorbeeld gebruikt om de extra huur na het aanbrengen van (verduurzamings-) verbeteringen te onderscheiden van de basis kale huur.;1-9-2023;;PRIJSCOMPONENTSOORT.NET;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;OVE;Overige kosten gem. ruimten;Maandelijkse kosten voor overige kosten voor gemeenschappelijke ruimten (naast schoonmaak, energie en reparatie);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;PBU;Parkeerplaats buiten;Uitpandige parkeerplek;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten;;
 PRIJSCOMPONENTDETAILSOORT;PGA;Parkeergarage;Inpandige parkeerplek collectief;;;PRIJSCOMPONENTSOORT.PAR;Overeenkomsten;;
@@ -1170,8 +1172,8 @@ PRIJSCOMPONENTSOORT;DIE;Dienstencomponent;Let op: niet te verwarren met prijscom
 PRIJSCOMPONENTSOORT;EEN;Eenmalig;Eenmalige kosten, bijv. administratiekosten afsluiten huurovereenkomst;;;;Overeenkomsten;;
 PRIJSCOMPONENTSOORT;HUA;Huuraanpassing;Aanpassingen zoals, korting, compensatie, opslag, etc.;;;;Overeenkomsten;;
 PRIJSCOMPONENTSOORT;KOO;Aankoopprijs;Prijs van de aankoop;;;;Overeenkomsten;;
-PRIJSCOMPONENTSOORT;NET;Netto Huur;Netto huur zonder andere prijscomponenten (ook wel kale huur);;;;Overeenkomsten;;
-PRIJSCOMPONENTSOORT;PAR;Parkeren;Parkeerruimte;;;;Overeenkomsten;;
+PRIJSCOMPONENTSOORT;NET;Netto Huur;Netto huur, bijvoorbeeld de kale huur, of een andere prijscomponent (zie prijscomponentdetailsoorten) die tot de netto huur wordt gerekend.;;;;Overeenkomsten;;
+PRIJSCOMPONENTSOORT;PAR;Parkeren;"Prijscomponent voor een parkeergelegenheid, als deze onlosmakelijk onderdeel uitmaakt van de huurovereenkomst voor een woongelegenheid. Let op: als de prijs voor parkeergelegenheid onderdeel is van de netto huur, gebruik dan componentsoort Netto Huur in combinatie met een prijscomponentdetailsoort. ";;;;Overeenkomsten;;
 PRIJSCOMPONENTSOORT;SER;Service;Aanvullende kosten zoals: huismeester, glasfonds, rioolreiniging, etc.;;;;Overeenkomsten;;
 PRIJSCOMPONENTSOORT;STA;Starterslening;;;;;Overeenkomsten;;
 PRIJSCOMPONENTSOORT;VER;Verbruik;Water, Warmte, Electriciteit, etc.;;;;Overeenkomsten;;
