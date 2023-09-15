@@ -803,8 +803,9 @@ INEXPLOITATIEREDEN;REN;Renovatie;De eenheid is (weer) in exploitatie genomen nad
 INEXPLOITATIEREDEN;SPL;Splitsing;De eenheid is ontstaan door splitsing van een andere eenheid;;;;Vastgoed;;
 INEXPLOITATIEREDEN;TRA;Transformatie;De eenheid is (weer) in exploitatie genomen na een transformatie van (een gebouw met) een niet-woonfunctie naar een woonfunctie;;;;Vastgoed;;
 INEXPLOITATIEREDEN;VOV;Teruggekocht;De eenheid is (weer) in exploitatie genomen nadat deze is teruggekocht uit een terugkoopplicht (VoV);;;;Vastgoed;;
+INFORMATIEOBJECTDETAILSOORT;ADT;Advertentietekst;Advertentietekst met (HTML) of zonder opmaak (Text).;15-9-2023;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;ADV;Advies;;;;;Dossier;;
-INFORMATIEOBJECTDETAILSOORT;ADV;Advertentietekst;Advertentietekst met (HTML) of zonder opmaak (Text).;;;;;;
+INFORMATIEOBJECTDETAILSOORT;ADV;Advertentietekst;Vervallen, gebruik ADT;;15-9-2023;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;AGE;Agenda;;;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;DAG;Dag;;;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;EVA;Evaluatie;;;;;Dossier;;
