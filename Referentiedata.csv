@@ -805,8 +805,9 @@ INEXPLOITATIEREDEN;REN;Renovatie;De eenheid is (weer) in exploitatie genomen nad
 INEXPLOITATIEREDEN;SPL;Splitsing;De eenheid is ontstaan door splitsing van een andere eenheid;;;;Vastgoed;;
 INEXPLOITATIEREDEN;TRA;Transformatie;De eenheid is (weer) in exploitatie genomen na een transformatie van (een gebouw met) een niet-woonfunctie naar een woonfunctie;;;;Vastgoed;;
 INEXPLOITATIEREDEN;VOV;Teruggekocht;De eenheid is (weer) in exploitatie genomen nadat deze is teruggekocht uit een terugkoopplicht (VoV);;;;Vastgoed;;
+INFORMATIEOBJECTDETAILSOORT;ADT;Advertentietekst;Advertentietekst met (HTML) of zonder opmaak (Text).;15-9-2023;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;ADV;Advies;;;;;Dossier;;
-INFORMATIEOBJECTDETAILSOORT;ADV;Advertentietekst;Advertentietekst met (HTML) of zonder opmaak (Text).;;;;;;
+INFORMATIEOBJECTDETAILSOORT;ADV;Advertentietekst;Vervallen, gebruik ADT;;15-9-2023;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;AGE;Agenda;;;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;DAG;Dag;;;;;Dossier;;
 INFORMATIEOBJECTDETAILSOORT;EVA;Evaluatie;;;;;Dossier;;
@@ -1096,6 +1097,7 @@ OVEREENKOMSTSOORT;ARB;Arbeid;Arbeidsovereenkomst;;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;BET;Betalerovereenkomst;Overeenkomst waarin afspraken zijn vastgelegd met een afwijkende betaler voor een andere (huur-)overeenkomst;;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;HUU;Huurovereenkomst;Overeenkomst met betrekking tot het huren van roerend of onroerend goed.;;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;INH;Inhuur;Inhuurovereenkomst;;;;Overeenkomsten;;
+OVEREENKOMSTSOORT;INS;Inschrijving;Overeenkomst met betrekking tot de registratie van een woningzoekende in een woonruimteverdeel gebied.;15-9-2023;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;KOO;Koopovereenkomst;Overeenkomst met betrekking tot het kopen van roerend of onroerend goed.;;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;LEA;Lease;Leaseovereenkomst;;;;Overeenkomsten;;
 OVEREENKOMSTSOORT;OND;Onderhoudsovereenkomst;Overeenkomst met betrekking tot het onderhouden of beheren van roerend of onroerend goed.;;;;Overeenkomsten;;
