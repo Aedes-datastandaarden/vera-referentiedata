@@ -418,7 +418,7 @@ DEFECTSTATUS;INS;Geinspecteerd;;;;;Onderhoud;;
 DEFECTSTATUS;MEL;Gemeld;;;;;Onderhoud;;
 DOELGROEP;EEN;Persoon;Woonruimte is bestemd voor en/of huurder vormt een eenpersoonshuishouden;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;GEK;Gezin met kinderen;-OBSOLETE- Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een huishouden bestaande uit meerdere natuurlijke personen en kinderen die tezamen een gezin vormen.;21-04-2023;23-06-2023;;Vastgoed, Woonruimteverdeling;;
-;GEZ;Gezin;leefverband van één of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en opvoeding van één of meer kinderen;;;;Vastgoed, Woonruimteverdeling;;
+DOELGROEP;GEZ;Gezin;leefverband van één of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en opvoeding van één of meer kinderen;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;HZO;Huishouden zonder kinderen;Huishouden zonder kinderen - Eén of meerdere volwassen personen (tot een bepaald maximum leeftijd) die samen een huishouden vormen en (nog) geen kinderen verzorgen.;23-06-2023;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;MEE;Meergezins;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een groep bestaande uit meerdere huishoudens;;;;Vastgoed, Woonruimteverdeling;;
