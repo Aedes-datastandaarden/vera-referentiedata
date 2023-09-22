@@ -1072,7 +1072,7 @@ OVEREENKOMSTDETAILSOORT;BEP;Bepaalde tijd;Arbeidsovereenkomst voor bepaalde tijd
 OVEREENKOMSTDETAILSOORT;BOG;Bedrijfsonroerendgoed;Verhuur van vastgoed voor zakelijke doeleinden.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten;;
 OVEREENKOMSTDETAILSOORT;CAM;Campuscontract;Een campuscontract is een huurovereenkomst die direct is gekoppeld aan een inschrijving bij een onderwijsinstelling. Bij beindiging inschrijving eindigt ook de overeenkomst.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten;;
 OVEREENKOMSTDETAILSOORT;FLE;Flexcontract;Huurovereenkomst voor een flexwoning: de einddatum van de omgevingsvergunning die voor de woning is afgegeven is een opzeggrond voor de huurovereenkomst (artikel 7:271 lid 4 BW).;28-7-2023;;OVEREENKOMSTSOORT.HUU;Overeenkomsten;;
-OVEREENKOMSTDETAILSOORT;INS;Inschrijving;Inschrijving of registratie als woningzoekende bij een samenwerkwerkingsverband of woningmarktregio.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten;;
+OVEREENKOMSTDETAILSOORT;INS;Inschrijving;OBSOLETE - Gebruik overeenkomstsoort Inschrijving.;;22-9-2023;OVEREENKOMSTSOORT.SER;Overeenkomsten;;
 OVEREENKOMSTDETAILSOORT;JON;Jongerencontract;Jongeren tussen 18 en 28 jaar kunnen een huurcontract voor vijf jaar krijgen voor een geschikte woning voor jongeren.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten;;
 OVEREENKOMSTDETAILSOORT;KGA;Koopgarant;Verkoop van een woning tegen lagere prijs dan de marktwaarde en de garantie dat de corporatie of ontwikkelaar de woning binnen 3 maanden zal terugkopen indien gewenst.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten;;
 OVEREENKOMSTDETAILSOORT;MGE;MGE constructie;Verkoop met Maatschappelijk Gebonden Eigendom.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten;;
