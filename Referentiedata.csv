@@ -426,7 +426,7 @@ DOELGROEP;GEK;Gezin met kinderen;-OBSOLETE- Woonruimte is bestemd voor en/of huu
 DOELGROEP;GEZ;Gezin;leefverband van één of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en opvoeding van één of meer kinderen;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;HZO;Huishouden zonder kinderen;Huishouden zonder kinderen - Eén of meerdere volwassen personen (tot een bepaald maximum leeftijd) die samen een huishouden vormen en (nog) geen kinderen verzorgen.;23-06-2023;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;;;Vastgoed, Woonruimteverdeling;;
-DOELGROEP;MEE;Meergezins;Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een groep bestaande uit meerdere huishoudens;;;;Vastgoed, Woonruimteverdeling;;
+DOELGROEP;MEE;Meergezins;Obsolete Woonruimte is bestemd voor en/of huurder maakt onderdeel uit van een groep bestaande uit meerdere huishoudens;;06-10-2023;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke minimum leeftijd;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;STA;Starter;Woonruimte is bestemd voor en/of huurder betreft een starter op de woningmarkt;;;;Vastgoed, Woonruimteverdeling;;
 DOELGROEP;STU;Studenten;Woonruimte is bestemd voor en/of huurder is een student (ontvangt studiefinanciering, studeert voltijds of gaat promoveren).;;;;Vastgoed, Woonruimteverdeling;;
