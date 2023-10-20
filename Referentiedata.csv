@@ -37,7 +37,8 @@ AANVULLENDEDOELGROEP;OUD;Ouderen;VERVALLEN - Gebruik doelgroep SEN in combinatie
 AANVULLENDEDOELGROEP;PSY;(ex-) psychiatrische patiënten;Woonruimte is bestemd voor en/of huurder is een (ex-) psychiatrische patiënt, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling;;
 AANVULLENDEDOELGROEP;SKA;Skaeve Huse;Woonruimte is bestemd voor en/of huurder zorgt voor zware overlast in de omgeving. Dit zijn bijvoorbeeld moeilijk te huisvesten drank- of drugsverslaafden.;;;;Vastgoed, Woonruimteverdeling;;
 AANVULLENDEDOELGROEP;STH;Statushouders;Woonruimte is bestemd voor en/of huurder is een als vluchteling erkende asielzoeker (statushouder of vergunninghouder);;;;Vastgoed, Woonruimteverdeling;;
-AANVULLENDEDOELGROEP;VER;Verstandelijk beperkten;Woonuimte is bestemd voor en/of huurder heeft een verstandelijke beperking.;6-10-2023;;;Vastgoed, Woonruimteverdeling;;
+AANVULLENDEDOELGROEP;VBE;Verstandelijk beperkten;Woonuimte is bestemd voor en/of huurder heeft een verstandelijke beperking.;20-10-2023;;;Vastgoed, Woonruimteverdeling;;
+AANVULLENDEDOELGROEP;VER;Verstandelijk beperkten;VERVALLEN - Gebruik code VBE;6-10-2023;20-10-2023;;Vastgoed, Woonruimteverdeling;;
 AANVULLENDEDOELGROEP;VER;(ex)-verslaafden;Woonruimte is bestemd voor en/of huurder is een (ex-) verslaafde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling;;
 AANVULLENDEDOELGROEP;ZIN;Zorgindicatie;Woonruimte is bestemd voor en/of huurder heeft een zorgindicatie.;8-9-2023;;;Vastgoed, Woonruimteverdeling;;
 AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;VERVALLEN - Gebruik code ZIN;;8-9-2023;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling;;
