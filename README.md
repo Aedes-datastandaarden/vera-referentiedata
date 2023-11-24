@@ -28,11 +28,14 @@ De API ondersteunt twee endpoints:
 |https://vera-service.azurewebsites.net/api/referentiedata|Opvragen van all referentiedata|
 |https://vera-service.azurewebsites.net/api/referentiedata/{soort}|Opvragen referentiedata voor één referentiedata soort|
 
+
 Als optionele parameter kan de query string parameter "version" worden meegegeven. Hiermee kan een specifieke versie van de referentie data worden opgevraagd. Alle beschikbare versies zijn terug te vinden op github via [Releases](https://github.com/Aedes-datastandaarden/vera-referentiedata/releases). Wanneer parameter version niet is gespecificeerd, wordt de meest recente versie (latest) teruggegeven. Version wordt ook vermeld in de response header.
+Niet iedere wijziging aan de referentiedata wordt opgeleverd als een officiele release. Dit betekent dat de main-branch in GIT kan voorlopen. Mocht je de wijzingen uit de main-branch zichbaar willen hebben in de API, gebruik dan version=main.
 
 Voorbeeld aanroepen:
 |Url|Toelichting|
 |---|---|
 |https://vera-service.azurewebsites.net/api/referentiedata?version=v4.0.221125|Ophalen alle referentiedata van [Release 4.0.221125](https://github.com/Aedes-datastandaarden/vera-referentiedata/releases/tag/v4.0.221125)|
+|https://vera-service.azurewebsites.net/api/referentiedata?version=main|Ophalen alle referentiedata van uit brnach [main](https://github.com/Aedes-datastandaarden/vera-referentiedata)|
 |https://vera-service.azurewebsites.net/api/referentiedata/AANBIEDINGSTATUS|Ophalen referentiedata voor referentiedata soort AANBIEDINGSTATUS|
 .
