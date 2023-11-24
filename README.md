@@ -35,4 +35,4 @@ Voorbeeld aanroepen:
 |---|---|
 |https://vera-service.azurewebsites.net/api/referentiedata?version=v4.0.221125|Ophalen alle referentiedata van [Release 4.0.221125](https://github.com/Aedes-datastandaarden/vera-referentiedata/releases/tag/v4.0.221125)|
 |https://vera-service.azurewebsites.net/api/referentiedata/AANBIEDINGSTATUS|Ophalen referentiedata voor referentiedata soort AANBIEDINGSTATUS|
-
+.
