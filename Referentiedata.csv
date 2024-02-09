@@ -1418,6 +1418,7 @@ RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-20
 RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed;;
 RUIMTEDETAILSOORT;CAR;Carport;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed;;
 RUIMTEDETAILSOORT;DAK;Dakterras;Een dakterras.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed;;
+RUIMTEDETAILSOORT;GAK;Gemeenschappelijk dakterras;Buitenruimte: een gemeenschappelijk dakterras;12-01-2024;;RUIMTESOORT.BTR;Vastgoed;;
 RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed;;
 RUIMTEDETAILSOORT;GAN;Gang;Ruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed;;
 RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed;;
@@ -1447,6 +1448,7 @@ RUIMTEDETAILSOORT;WOK;Woonkamer/keuken;Vertrek: ruimte met een gecombineerde fun
 RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken en bevindt zich meestal op de begane grond, voor zover het niet gaat om een appartement in een flat.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed;;
 RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;Vertrek: ruimte met een gecombineerde functie van woonkamer en slaapkamer.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed;;
 RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed;;
+RUIMTEDETAILSOORT;LOG;Loggia;Buitenruimte: een inpandig balkon.;12-01-2024;;RUIMTESOORT.BTR;Vastgoed;;
 RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed;;
 RUIMTELIGGING;NOO;Noord;;24-4-2023;;;Vastgoed;;
 RUIMTELIGGING;NOS;Noordoost;;24-4-2023;;;Vastgoed;;
