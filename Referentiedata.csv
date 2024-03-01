@@ -1571,6 +1571,9 @@ VOORRANGSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot ee
 VOORRANGSOORT;GRO;Groep;Er is voorrang voor woningzoekenden die tot een bepaalde groep behoren waar geen binding, urgentie of indicatie van toepassing is.;;;;Woonruimteverdeling;;
 VOORRANGSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medische) indicatie.;;;;Woonruimteverdeling;;
 VOORRANGSOORT;URG;Urgentie;Er is voorrang voor woningzoekenden met een urgentie.;;;;Woonruimteverdeling;;
+VRAGENLIJSTREGELHERKOMST;AED;Aedes-benchmark;De herkomst van de vraag is van de Aedes benchmark.;;;;Kwaliteit;;
+VRAGENLIJSTREGELHERKOMST;KWH;KWH Keurmerk;De herkomst van de vraag is van KWH in het kader van het eigen keurmerk.;;;;Kwaliteit;;
+VRAGENLIJSTREGELHERKOMST;EIG;Eigen vraag;De kwaliteitsmetingsvraag is door de eigen organisatie opgesteld;;;;Kwaliteit;;
 WONINGWAARDERINGCRITERIUMGROEPSOORT;ENE;Energieprestatie;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed;;
 WONINGWAARDERINGCRITERIUMGROEPSOORT;GEH;Woonvoorzieningen voor gehandicapten;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed;;
 WONINGWAARDERINGCRITERIUMGROEPSOORT;KEU;Keuken;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed;;
