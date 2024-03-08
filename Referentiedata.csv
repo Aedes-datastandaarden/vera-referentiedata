@@ -1630,6 +1630,7 @@ RELATIEDETAILSOORT;HUI;Huishouden;Een huishouden bestaat uit één of meer perso
 RELATIEROLSOORT;AAN;Aanvrager;VERVALLEN - Gebruik Woningzoekende.;;1-1-2022;;Relaties;;
 RELATIEROLSOORT;AFW;Afwijkende betaler;VERVALLEN - Gebruik Relatiesoort BET.;;1-1-2022;;Relaties;;
 RELATIEROLSOORT;AMA;Aankopende makelaar;Makelaar die namens de aankopende partij optreedt;;;;Relaties;;
+RELATIEROLSOORT;AMB;Ambulante begeleider;De ambulant begeleider helpt mensen om regie te voeren over hun eigen leven en zo veel mogelijk zelfstandig te functioneren.;1-1-2024;;;Relaties;;
 RELATIEROLSOORT;ASS;Assetmanager;De assetmanager voor het betreffende vastgoed;;;;Relaties;;
 RELATIEROLSOORT;BED;Behandelaar;De behandelaar (van een specifieke actie, zaak of taak). Dit is meestal een medewerker van de corporatie maar kan ook een externe behandelaar zijn;;;;Relaties;;
 RELATIEROLSOORT;BEH;Beheerder;De beheerder van een eenheid of cluster;;;;Relaties;;
@@ -1750,6 +1751,7 @@ SANCTIESTATUS;AAN;Aangemaakt;Aangemaakt;;;;Woonruimteverdeling;;
 SANCTIESTATUS;DEF;Definitief;Definitief (na 1e van de volgende kalendermaand);;;;Woonruimteverdeling;;
 SANCTIESTATUS;ING;Ingetrokken;Ingetrokken;;;;Woonruimteverdeling;;
 SIGNALERINGDETAILSOORT;AGS;Agressie;;;;SIGNALERINGSOORT.AGR;Relaties;;
+SIGNALERINGDETAILSOORT;AMB;Ambulante begeleiding;De relatie krijgt in de eigen omgeving externe hulp om zo zelfstandig mogelijk te blijven functioneren.;1-1-2024;;;Relaties;;
 SIGNALERINGDETAILSOORT;BET;Betalingsachterstand;;;;SIGNALERINGSOORT.SCH;Relaties;;
 SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;;;;SIGNALERINGSOORT.SCH;Relaties;;
 SIGNALERINGDETAILSOORT;BRA;Brandstichting;;;;SIGNALERINGSOORT.AGR;Relaties;;
