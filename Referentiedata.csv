@@ -615,6 +615,8 @@ EENHEIDKLIMAATBEHEERSING;WAC;Warmtepomp CV;Warmtepomp i.c.m. CV-ketel voor verwa
 EENHEIDKLIMAATBEHEERSING;WAR;Warmtepomp;Volledig elektrische warmtepomp voor verwarming en warm water;;;;Vastgoed;;
 EENHEIDKLIMAATBEHEERSING;WKO;Warmte- koudeopslaginstallatie;;;;;Vastgoed;;
 EENHEIDKLIMAATBEHEERSING;WTS;Warmteterugwinsysteem;;;;;Vastgoed;;
+KLIMAATBEHEERSINGSOORT;IND;Individueel;
+KLIMAATBEHEERSINGSOORT;COL;Collectief;
 EENHEIDLIGGING;BBK;Buiten bebouwde kom;;;;;Vastgoed;;
 EENHEIDLIGGING;BES;Beschutte ligging;;;;;Vastgoed;;
 EENHEIDLIGGING;BOS;In bosrijke omgeving;;;;;Vastgoed;;
