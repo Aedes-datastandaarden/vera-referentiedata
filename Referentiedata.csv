@@ -77,7 +77,7 @@ AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
 AKTESOORT;NOT;Notariële akte;Akte vastgelegd bij de notaris.;;;;Vastgoed
 AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgesteld (onderhands);;;;Vastgoed
 AUTHENTIEKGEGEVENBRON;KLA;Klantcontact;Gegevens zijn aangeleverd via de balie of klantcontactcentrum.;17-1-2024;;;Dossier
-AUTHENTIEKGEGEVENBRON;BSN;BvBSN;Gegevens zijn gedeeld vanuit de basisvoorziening burgerservicenummer;06-12-2023;;;
+AUTHENTIEKGEGEVENBRON;BSN;BvBSN;Gegevens zijn gedeeld vanuit de basisvoorziening burgerservicenummer;06-12-2023;;;Dossier
 AUTHENTIEKGEGEVENBRON;DUO;Dienst uitvoering onderwijs;Gegevens zijn gedeeld vanuit DUO.;12-5-2023;;;Dossier
 AUTHENTIEKGEGEVENBRON;IRF;Inkomensregistratieformulier;Gegevens zijn gedeeld vanuit het Inkomensregistratieformulier.;12-5-2023;;;Dossier
 AUTHENTIEKGEGEVENBRON;MIJ;Mijn Overheid;Gegevens zijn gedeeld vanuit Mijn Overheid.;12-5-2023;;;Dossier
