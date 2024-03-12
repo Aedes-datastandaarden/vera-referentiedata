@@ -577,7 +577,7 @@ EENHEIDDETAILSOORT;DAG;Dagbestedingsruimte;Ruimte voor dagbesteding van gehandic
 EENHEIDDETAILSOORT;EIN;Eindwoning;Een eindwoning is een eengezinswoning die grenst aan een aanliggende woning. De eindwoning ligt op het begin of einde van de reeks woningen en heeft geen (extra) bij de woning behorende grond aan de zijkant van de woning. (Voor marktwaarde bepaling: EGW-eengezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;EPK;Erfpachtkavel;Kavels die gepacht zijn danwel verpacht worden;;;EENHEIDSOORT.OVE;Vastgoed
 EENHEIDDETAILSOORT;FIE;Fietsparkeerplaats/stalling;;;;EENHEIDSOORT.OVE;Vastgoed
-EENHEIDDETAILSOORT;GAL;Galerijflat;Een galerijflat is een flatwoning waarbij de voordeur uitkomt op een aan de buitenkant gelegen loopgang. Een galerijflat heeft meerdere bouwlagen met woningen boven elkaar. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
+EENHEIDDETAILSOORT;GAL;Galerijflat;Een galerijflat is een flatwoning waarbij de voordeur uitkomt op een aan de buitenkant gelegen loopgang. Een galerijflat heeft meerdere bouwlagen met woningen boven elkaar. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;GAR;Garage;Een garage is een overdekte stallingruimte bestemd en geschikt voor motorvoertuigen op meer dan twee wielen.;;;EENHEIDSOORT.PAR;Vastgoed
 EENHEIDDETAILSOORT;GEM;Gemeenschapscentrum;Culturele infrastructuur door de gemeente beheerd met het oog op cultuurparticipatie, gemeenschapsvorming en cultuurspreiding ten behoeve van de lokale bevolking en met bijzondere aandacht voor de culturele diversiteit.;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;GTW;Geschakelde Twee-onder-een-kapwoning;Een geschakelde 2-onder-1-kapwoning is een 2-onder-1-kapwoning waarbij de muren van aanbouwen gedeeltelijk aan (aanbouwen van) andere woningen grenzen. Ook wanneer de woningen elk een afzonderlijke dakconstructie hebben, vallen deze onder de definitie van de geschakelde 2-onder-1-kapwoning. (Voor marktwaarde bepaling: EGW-eengezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
@@ -605,7 +605,7 @@ EENHEIDDETAILSOORT;PAO;Parkeerplaats overdekt;;;;EENHEIDSOORT.PAR;Vastgoed
 EENHEIDDETAILSOORT;PAR;Parkeerplaats auto;Een parkeerplaats die dienstbaar is aan wonen, waarbij de parkeerplaats een zelfstandig object is. Een parkeerplaats in een publieke parkeergarage (abonnement e.d.) valt niet onder de definitie.;;;EENHEIDSOORT.PAR;Vastgoed
 EENHEIDDETAILSOORT;POF;Portiekflat;Een portiekflat is een flatwoning waarbij de voordeur uitkomt op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of een gesloten portiek. (Voor marktwaarde bepaling: MGW-meergezinswoning);;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;POW;Portiekwoning;Een portiekwoning is een etagewoning waarbij de voordeur uitkomt in een open portiek. Een portiek is een toegangsportaal gelegen achter de voorgevel van een meergezinsgebouw en grenzend aan de openbare weg, van waaruit de afzonderlijke woningen direct worden ontsloten via een gemeenschappelijk te gebruiken trap en bordessen. (Voor marktwaarde bepaling: MGW-meergezinswoning );;;EENHEIDSOORT.WOO;Vastgoed
-EENHEIDDETAILSOORT;PRA;Praktijkruimte;Een praktijkruimte  of therapieruimte bestaat minimaal uit een wachtruimte (met toilet) en behandelkamer.;;;EENHEIDSOORT.BED;Vastgoed
+EENHEIDDETAILSOORT;PRA;Praktijkruimte;Een praktijkruimte of therapieruimte bestaat minimaal uit een wachtruimte (met toilet) en behandelkamer.;;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;PRW;Praktijkwoning;Een woning waarvan een deel bestemd en in gebruik is voor het uitoefenen van een beroep aan huis (tandarts, huisarts, fysio, atelier, e.d.).;20-10-2023;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;PZI;Psychische zorginstelling;Instelling voor psychische zorg;;;EENHEIDSOORT.INT;Vastgoed
 EENHEIDDETAILSOORT;REC;Recreatiewoning;Woning met een recreatiebestemming en niet bedoeld voor permanente bewoning.;;;EENHEIDSOORT.REC;Vastgoed
@@ -986,7 +986,7 @@ KANDIDAATDETAILSTATUS;ONJ;Gegevens onjuist;Kandidaat komt niet in aanmerking na 
 KANDIDAATDETAILSTATUS;OVE;Overeenkomst getekend;Kandidaat heeft huur- of koopovereenkomst getekend.;;;KANDIDAATSTATUS.AAN;Woonruimteverdeling
 KANDIDAATDETAILSTATUS;PAR;Geparkeerd;Kandidaat wil tijdelijk geen aanbiedingen ontvangen naar aanleiding van de reactie.;;;;Woonruimteverdeling
 KANDIDAATDETAILSTATUS;PEI;Peilen belangstelling;Kandidaat wordt gevraagd of deze nog steeds belangstelling heeft.;;;KANDIDAATSTATUS.AAN;Woonruimteverdeling
-KANDIDAATDETAILSTATUS;WEI;Weigering aanbieding;Kandidaat weigert de aanbieding.;;;KANDIDAATSTATUS.GEW;Woonruimteverdeling
+KANDIDAATDETAILSTATUS;WEI;Weigering aanbieding;Kandidaat weigert de aanbieding.;;;KANDIDAATSTATUS.GEW;Woonruimteverdeling
 KANDIDAATSTATUS;AAN;Aangeboden;Kandidaat zit  in aanbiedingsproces.;;;;Woonruimteverdeling
 KANDIDAATSTATUS;AFG;Afgewezen;Kandidaat is afgewezen door de aanbieder, corporatie, medebewoners etc.;;;;Woonruimteverdeling
 KANDIDAATSTATUS;GEW;Geweigerd;Kandidaat heeft de aanbieiding geweigerd.;;;;Woonruimteverdeling
@@ -1390,11 +1390,11 @@ ORGANISATIEVORM;VOF;Vennootschap onder firma;Vennootschap onder firma (vof) (Han
 ORGANISATIEVORM;VVE;Vereniging van eigenaars;Vereniging van eigenaars (Handelsregisterwet: art 6, 1, b);;;;Relaties
 OVEREENKOMSTDETAILSOORT;BEP;Bepaalde tijd;Arbeidsovereenkomst voor bepaalde tijd.;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;BOG;Bedrijfsonroerendgoed;Verhuur van vastgoed voor zakelijke doeleinden.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;CAM;Campuscontract;Een campuscontract is een huurovereenkomst die direct is gekoppeld aan een inschrijving bij een onderwijsinstelling. Bij beindiging inschrijving eindigt ook de overeenkomst.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;CAM;Campuscontract;Een campuscontract is een huurovereenkomst die direct is gekoppeld aan een inschrijving bij een onderwijsinstelling. Bij beeindiging inschrijving eindigt ook de overeenkomst.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;FLE;Flexcontract;Huurovereenkomst voor een flexwoning: de einddatum van de omgevingsvergunning die voor de woning is afgegeven is een opzeggrond voor de huurovereenkomst (artikel 7:271 lid 4 BW).;28-7-2023;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;INS;Inschrijving;VERVALLEN - Gebruik overeenkomstsoort Inschrijving.;;22-9-2023;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;JON;Jongerencontract;Jongeren tussen 18 en 28 jaar kunnen een huurcontract voor vijf jaar krijgen voor een geschikte woning voor jongeren.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;KGA;Koopgarant;Verkoop van een woning tegen lagere prijs dan de marktwaarde en de garantie dat de corporatie of ontwikkelaar de woning binnen 3 maanden zal terugkopen indien gewenst.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;KGA;Koopgarant;Verkoop van een woning tegen lagere prijs dan de marktwaarde en de garantie dat de corporatie of ontwikkelaar de woning binnen 3 maanden zal terugkopen indien gewenst.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;MGE;MGE constructie;Verkoop met Maatschappelijk Gebonden Eigendom.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;NIE;Nieuwsbrief;Nieuwsbrief voor marketing doeleinden.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;NUL;Nul-uren contract;Nul-uren arbeidsovereenkomst;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
@@ -1542,7 +1542,7 @@ PROVINCIE;NB;Noord-Brabant;;;;;Vastgoed
 PROVINCIE;NH;Noord-Holland;;;;;Vastgoed
 PROVINCIE;OV;Overijssel;;;;;Vastgoed
 PROVINCIE;UT;Utrecht;;;;;Vastgoed
-PROVINCIE;ZE;Zeeland;Buitenlandse provincie  is wel referentiedata maar wordt niet beheert binnen de standaard.;;;;Vastgoed
+PROVINCIE;ZE;Zeeland;Buitenlandse provincie is wel referentiedata maar wordt niet beheert binnen de standaard.;;;;Vastgoed
 PROVINCIE;ZH;Zuid-Holland;;;;;Vastgoed
 PUBLICATIECONTRACTVORM;CAM;Campuscontract;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIECONTRACTVORM;DOE;Doelgroepcontract;VERVALLEN;;28-7-2023;;Woonruimteverdeling
@@ -1551,7 +1551,7 @@ PUBLICATIECONTRACTVORM;KGA;Koopgarant;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIECONTRACTVORM;MGE;MGE constructie;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIECONTRACTVORM;ONB;Onbepaalde tijd contract;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIECONTRACTVORM;TIJ;Tijdelijk contract;VERVALLEN;;28-7-2023;;Woonruimteverdeling
-PUBLICATIECONTRACTVORM;TWO;Te Woon / Vrije keuze;VERVALLEN;;28-7-2023;;Woonruimteverdeling
+PUBLICATIECONTRACTVORM;TWO;Te Woon / Vrije keuze;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIECONTRACTVORM;UIT;Is onderdeel uitpondproject;VERVALLEN;;28-7-2023;;Woonruimteverdeling
 PUBLICATIEDETAILMODEL;LEE;Leefstijl;Eenheden in kwetsbare buurten waarbij leefstijl een belangrijke factor speelt.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEDETAILMODEL;LOT;Loting;Binnen het aanbodmodel wordt geloot nadat eerst een selectie heeft plaatsgevonden.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
@@ -1696,8 +1696,8 @@ RELATIEROLSOORT;WON;Woningzoekende;Een woningzoekende is een persoon die zich he
 RELATIEROLSOORT;WOO;Woonconsulent;De woonconsulent voor het betreffende vastgoed;;;;Relaties
 RELATIEROLSOORT;ZEK;Zekerheidsnemer;De relatie aan wie de zekerheid op de eenheid is verleend bij een eventuele zekerheidsverpanding;;;;Relaties
 RELATIESOORT;GRO;Relatiegroep;Een verzameling relaties (bijvoorbeeld een huishouden);;;;Relaties
-RELATIESOORT;NAT;Natuurlijke persoon;Een natuurlijk persoon is iemand, een mens van vlees en bloed, die rechten en plichten heeft.;;;;Relaties
-RELATIESOORT;REC;Rechtspersoon;Een rechtspersoon is een juridische constructie waardoor een abstracte entiteit of organisatie op kan treden als een volwaardig en handelingsbekwaam persoon in het rechtsverkeer behept met rechten en plichten zoals een natuurlijk persoon dat kan doen.;;;;Relaties
+RELATIESOORT;NAT;Natuurlijke persoon;Een natuurlijk persoon is iemand, een mens van vlees en bloed, die rechten en plichten heeft.;;;;Relaties
+RELATIESOORT;REC;Rechtspersoon;Een rechtspersoon is een juridische constructie waardoor een abstracte entiteit of organisatie op kan treden als een volwaardig en handelingsbekwaam persoon in het rechtsverkeer behept met rechten en plichten zoals een natuurlijk persoon dat kan doen.;;;;Relaties
 RELATIESTATUS;ACT;Actief;De relatie is een actieve relatie;11-11-2022;;;Relaties
 RELATIESTATUS;INA;Inactief;De relatie is niet (meer) actief;11-11-2022;;;Relaties
 RELATIESTATUS;SLA;Slapend;De relatie betreft een VvE (rechtspersoon) die een slapende status heeft;11-11-2022;;;Relaties
