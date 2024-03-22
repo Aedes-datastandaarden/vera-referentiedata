@@ -1684,6 +1684,7 @@ RELATIEROLSOORT;OPZ;Opzichter;De opzichter voor het betreffende vastgoed;;;;Rela
 RELATIEROLSOORT;OWI;Onderwijsinstelling;;;;;Relaties
 RELATIEROLSOORT;PEN;Penningmeester;Iemand die deel uitmaakt van een bestuur, bijvoorbeeld van een VvE of bewonersvereniging, en daarin de rol van Penningmeester heeft;;;;Relaties
 RELATIEROLSOORT;PRO;Prospect;Een prospect is een relatie die belangstelling heeft om een dienst of product van de woningcorporatie af te nemen. Gebruik eventueel Woningzoekende om meer concreet te zijn.;;;;Relaties
+RELATIEROLSOORT;REG;Regiokantoor;;22-3-2024;;;Relaties
 RELATIEROLSOORT;SEC;Secretaris;Iemand die deel uitmaakt van een bestuur, bijvoorbeeld van een VvE of bewonersvereniging, en daarin de rol van Secretaris heeft;;;;Relaties
 RELATIEROLSOORT;TEA;Team;VERVALLEN;;1-1-2022;;Relaties
 RELATIEROLSOORT;VER;Verkoper;Verkopende partij;;;;Relaties
