@@ -1708,7 +1708,7 @@ RUIMTEDETAILSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;24-4-2023;;RU
 RUIMTEDETAILSOORT;ATU;Achtertuin;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;BAT;Badkamer/toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;CAR;Carport;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
