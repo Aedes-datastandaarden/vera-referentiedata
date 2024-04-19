@@ -590,6 +590,7 @@ EENHEIDDETAILSOORT;HOS;Hospice;Woongelegenheid voor personen die niet meer kunne
 EENHEIDDETAILSOORT;JON;Jongerencentrum;Jongerencentrum, mits zonder horecavoorziening;;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;KAM;Kamer;Onzelfstandige woonruimte. Een kamer heeft geen eigen toegang of deelt de keuken of toilet met de bewoners van andere woningen/kamers.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KAN;Kantoorruimte;Kantoorruimte, vallend onder Bedrijfsmatig vastgoed. Let op: gebruik voor kantoorruimte van een toegelaten instelling eenheiddetailssoort KTI.;;;EENHEIDSOORT.BED;Vastgoed
+EENHEIDDETAILSOORT;KNG;Kangoeroewoning;Een kangoeroewoning is een type huisvesting dat is ontworpen om twee of meer generaties van een familie samen te laten wonen, maar wel met behoud van privacy en onafhankelijkheid. In een kangoeroewoning heeft elke generatie of familie een aparte woonruimte binnen hetzelfde huis, maar ze delen wel bepaalde gemeenschappelijke ruimtes zoals de keuken, eetkamer, tuin, en soms zelfs een woonkamer.;;;EENHEIDSOORT.WOO;Vastgoed
 EENHEIDDETAILSOORT;KIN;Kinderopvanglocatie;Hieronder vallen kinderdagverblijven, peuterspeelzalen, buitenschoolse of 24-uursopvang (Bouwbesluit 2012);25-11-2022;;EENHEIDSOORT.BED;Vastgoed
 EENHEIDDETAILSOORT;KTI;Kantoorruimte van toegelaten instelling;Kantoorruimte van toegelaten instelling, als zodanig vallend onder Maatschappelijk vastgoed (MOG).;27-10-2023;;EENHEIDSOORT.MOG;Vastgoed
 EENHEIDDETAILSOORT;LGI;Lichamelijk beperkten instelling;Instelling voor mensen met een lichamelijke beperking.;;;EENHEIDSOORT.INT;Vastgoed
@@ -669,7 +670,11 @@ EENHEIDINTERIEUR;PLA;Plavuizen;Plavuizen of tegels;;;;Vastgoed
 EENHEIDINTERIEUR;VLB;Vloerbedekking;;;;;Vastgoed
 EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;Vastgoed
 EENHEIDISOLATIE;DAK;Dakisolatie;;;;;Vastgoed
-EENHEIDISOLATIE;DGL;Dubbel glas;;;;;Vastgoed
+EENHEIDISOLATIE;DGL;Normaal dubbelglas;Dubbel glas waarbij de spouw tussen de glasplaten is gevuld met droge lucht.;;;;Vastgoed
+EENHEIDISOLATIE;HR;HR-glas;Dit is dubbelglas met een isolatiecoating op de ramen. De spouw is ook gevuld met droge lucht.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR1;HR+ glas;Dit is een verbeterde versie van HR-glas, met een dikkere coating en een smallere spouw.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR2;HR++ glas;Dit is dubbelglas heeft een spouw die gevuld is met gas, meestal argon.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR3;HR+++ glas;Dit is driedubbel glas met twee spouwen gevuld met gas.;;19-04-2024;;;Vastgoed
 EENHEIDISOLATIE;ECO;Eco-bouw;Ecologische, duurzame bouw;;;;Vastgoed
 EENHEIDISOLATIE;GDG;Gedeeltelijk dubbel glas;;;;;Vastgoed
 EENHEIDISOLATIE;MUU;Muurisolatie;;;;;Vastgoed
@@ -682,7 +687,7 @@ EENHEIDKLIMAATBEHEERSING;GAS;Gaskachels;Een gaskachel is een verwarmingstoestel 
 EENHEIDKLIMAATBEHEERSING;HKA;Houtkachel;Een houtkachel is een verwarmingstoestel dat brandt op hout als brandstof. Het heeft een vuurhaard waarin hout wordt verbrand om warmte te genereren, waardoor een ruimte wordt verwarmd voor comfort.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;MUU;Muurverwarming;Muurverwarming is een verwarmingssysteem waarbij warmte wordt gegenereerd door leidingen die in de muren zijn ingebed. Warm water stroomt door deze leidingen, waardoor de muren warmte afgeven en de ruimte gelijkmatig verwarmen.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;MVE;Mechanische ventilatie;Mechanische ventilatie is een systeem dat wordt gebruikt om verse lucht in gebouwen te brengen en vervuilde lucht af te voeren. Het maakt gebruik van ventilatoren om luchtstromen te creëren en te reguleren voor een gezond binnenklimaat. Dit kan zowel individueel als collectief georganiseerd zijn.;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;OHA;Open haard;Een open haard is een vuurplaats in een huis met een opening waarin hout of andere brandbare materialen worden verbrand. Het biedt warmte, sfeer en soms ook kookmogelijkheden.;;;EENHEIDKLIMAATBEHEERSINGSOORT.COL;Vastgoed
+EENHEIDKLIMAATBEHEERSING;OHA;Open haard;Een open haard is een vuurplaats in een huis met een opening waarin hout of andere brandbare materialen worden verbrand. Het biedt warmte, sfeer en soms ook kookmogelijkheden.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;Stadsverwarming is een systeem waarbij warmte wordt geproduceerd op één centrale locatie, meestal een energiecentrale, en vervolgens via een netwerk van leidingen naar huizen en bedrijven in een stad wordt getransporteerd. De warmte wordt gebruikt voor ruimteverwarming, tapwaterverwarming en soms ook voor industriële processen, wat bijdraagt aan energie-efficiëntie.;;;EENHEIDKLIMAATBEHEERSINGSOORT.COL;Vastgoed
 EENHEIDKLIMAATBEHEERSING;ONV;Onverwarmd;;22-3-2024;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;Vloerverwarming is een verwarmingssysteem waarbij warmte wordt afgegeven via leidingen onder de vloer. Warm water stroomt door deze leidingen, waardoor de vloer wordt verwarmd en de warmte gelijkmatig wordt verspreid in de ruimte.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
@@ -1708,7 +1713,7 @@ RUIMTEDETAILSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;24-4-2023;;RU
 RUIMTEDETAILSOORT;ATU;Achtertuin;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;BAT;Badkamer/toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;CAR;Carport;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
