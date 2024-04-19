@@ -669,7 +669,11 @@ EENHEIDINTERIEUR;PLA;Plavuizen;Plavuizen of tegels;;;;Vastgoed
 EENHEIDINTERIEUR;VLB;Vloerbedekking;;;;;Vastgoed
 EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;Vastgoed
 EENHEIDISOLATIE;DAK;Dakisolatie;;;;;Vastgoed
-EENHEIDISOLATIE;DGL;Dubbel glas;;;;;Vastgoed
+EENHEIDISOLATIE;DGL;Normaal dubbelglas;Dubbel glas waarbij de spouw tussen de glasplaten is gevuld met droge lucht.;;;;Vastgoed
+EENHEIDISOLATIE;HR;HR-glas;Dit is dubbelglas met een isolatiecoating op de ramen. De spouw is ook gevuld met droge lucht.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR1;HR+ glas;Dit is een verbeterde versie van HR-glas, met een dikkere coating en een smallere spouw.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR2;HR++ glas;Dit is dubbelglas heeft een spouw die gevuld is met gas, meestal argon.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR3;HR+++ glas;Dit is driedubbel glas met twee spouwen gevuld met gas.;;19-04-2024;;;Vastgoed
 EENHEIDISOLATIE;ECO;Eco-bouw;Ecologische, duurzame bouw;;;;Vastgoed
 EENHEIDISOLATIE;GDG;Gedeeltelijk dubbel glas;;;;;Vastgoed
 EENHEIDISOLATIE;MUU;Muurisolatie;;;;;Vastgoed
@@ -682,7 +686,7 @@ EENHEIDKLIMAATBEHEERSING;GAS;Gaskachels;Een gaskachel is een verwarmingstoestel 
 EENHEIDKLIMAATBEHEERSING;HKA;Houtkachel;Een houtkachel is een verwarmingstoestel dat brandt op hout als brandstof. Het heeft een vuurhaard waarin hout wordt verbrand om warmte te genereren, waardoor een ruimte wordt verwarmd voor comfort.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;MUU;Muurverwarming;Muurverwarming is een verwarmingssysteem waarbij warmte wordt gegenereerd door leidingen die in de muren zijn ingebed. Warm water stroomt door deze leidingen, waardoor de muren warmte afgeven en de ruimte gelijkmatig verwarmen.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;MVE;Mechanische ventilatie;Mechanische ventilatie is een systeem dat wordt gebruikt om verse lucht in gebouwen te brengen en vervuilde lucht af te voeren. Het maakt gebruik van ventilatoren om luchtstromen te creëren en te reguleren voor een gezond binnenklimaat. Dit kan zowel individueel als collectief georganiseerd zijn.;;;;Vastgoed
-EENHEIDKLIMAATBEHEERSING;OHA;Open haard;Een open haard is een vuurplaats in een huis met een opening waarin hout of andere brandbare materialen worden verbrand. Het biedt warmte, sfeer en soms ook kookmogelijkheden.;;;EENHEIDKLIMAATBEHEERSINGSOORT.COL;Vastgoed
+EENHEIDKLIMAATBEHEERSING;OHA;Open haard;Een open haard is een vuurplaats in een huis met een opening waarin hout of andere brandbare materialen worden verbrand. Het biedt warmte, sfeer en soms ook kookmogelijkheden.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
 EENHEIDKLIMAATBEHEERSING;STV;Stadsverwarming;Stadsverwarming is een systeem waarbij warmte wordt geproduceerd op één centrale locatie, meestal een energiecentrale, en vervolgens via een netwerk van leidingen naar huizen en bedrijven in een stad wordt getransporteerd. De warmte wordt gebruikt voor ruimteverwarming, tapwaterverwarming en soms ook voor industriële processen, wat bijdraagt aan energie-efficiëntie.;;;EENHEIDKLIMAATBEHEERSINGSOORT.COL;Vastgoed
 EENHEIDKLIMAATBEHEERSING;ONV;Onverwarmd;;22-3-2024;;;Vastgoed
 EENHEIDKLIMAATBEHEERSING;VLV;Vloerverwarming;Vloerverwarming is een verwarmingssysteem waarbij warmte wordt afgegeven via leidingen onder de vloer. Warm water stroomt door deze leidingen, waardoor de vloer wordt verwarmd en de warmte gelijkmatig wordt verspreid in de ruimte.;;;EENHEIDKLIMAATBEHEERSINGSOORT.IND;Vastgoed
