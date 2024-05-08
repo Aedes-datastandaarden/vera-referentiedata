@@ -819,9 +819,10 @@ GEBEURTENISSOORT;WEI;Weigering als hoogste acceptant;Weigering als hoogste accep
 GEBEURTENISSOORT;WEN;Weigering niet als hoogste acceptant;Weigering niet als hoogste acceptant;;;;Woonruimteverdeling
 GEOMETRIESOORT;OMT;Omtrek;De geocoördinaten van de omtrek van een object;;;;Vastgoed
 GEOMETRIESOORT;PUN;Punt;De geocoördinaten van het middenpunt van een object;;;;Vastgoed
-GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties
-GESLACHT;N;Neutraal;Gender-neutraal;;;;Relaties
-GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
+GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties;
+GESLACHT;N;Neutraal;Gender-neutraal;;17-05-2024;;Relaties;
+GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties;
+GESLACHT;X;Neutraal;Gender-neutraal;17-05-2024;;;Relaties;
 GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
