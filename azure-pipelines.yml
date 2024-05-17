@@ -28,7 +28,7 @@ steps:
   displayName: Download CSV RefBuilder
   inputs:
     buildType: 'specific'
-    project: '76c69267-2225-485e-81df-1cbc0e68039d'
+    project: 'VERA-standaard'
     definition: '19'
     buildVersionToDownload: 'latest'
     targetPath: '$(Pipeline.Workspace)'
