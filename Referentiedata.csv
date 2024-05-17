@@ -9,8 +9,8 @@ AANBIEDINGDETAILSTATUS;GEE;Geen belangstelling meer;Een aanbieding is geweigerd,
 AANBIEDINGDETAILSTATUS;GEG;Gegevens onjuist;Een aanbieding is ingetrokken, omdat de door een kandidaat aangeleverde gegevens niet voldoen.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
 AANBIEDINGDETAILSTATUS;GER;Geen recht op huisvestingsvergunning;De huisvestingsvergoeding is niet verleend door een gegrond vermoeden dat het huisvesten van de personen van 16 jaar en ouder die zich in een woonruimte in dat complex, die straat of dat gebied willen huisvesten, zal leiden tot een toename van overlast of criminaliteit in dat complex, die straat of dat gebied. Conform artikel 10 (WBMGP).;;;AANBIEDINGSTATUS.GEW;Woonruimteverdeling
 AANBIEDINGDETAILSTATUS;HUU;Huurprijs te hoog;Een aanbieding is geweigerd, met als aangegeven reden dat de huurprijs te hoog is.;;;AANBIEDINGSTATUS.GEW;Woonruimteverdeling
-AANBIEDINGDETAILSTATUS;INH;Inkomen te hoog;Een aanbieding is ingetrokken, omdat op basis van de aangeleverde inkomensgegevens is vastgesteld dat het inkomen van de kandidaat te hoog is.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
-AANBIEDINGDETAILSTATUS;INL;Inkomen te laag;Een aanbieding is ingetrokken, omdat op basis van de aangeleverde inkomensgegevens is vastgesteld dat het inkomen van de kandidaat te laag is.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
+AANBIEDINGDETAILSTATUS;HUU;Inkomen te hoog;Een aanbieding is ingetrokken, omdat op basis van de aangeleverde inkomensgegevens is vastgesteld dat het inkomen van de kandidaat te hoog is.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
+AANBIEDINGDETAILSTATUS;INL;Inkomen te laag;Een aanbieding is ingetrokken, omdat op basis van de aangeleverde inkomensgegevens is vastgesteld dat het inkomen van de kandidaat te laag is.;;;AANBIEDINGSTATUS.INGx;Woonruimteverdeling
 AANBIEDINGDETAILSTATUS;NIE;Niet verschenen bij afspraak;Een aanbieding is ingetrokken, omdat een kandidaat niet is verschenen op de gemaakte afspraak.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
 AANBIEDINGDETAILSTATUS;ONG;Ongeschikt als huurder;Een aanbieding is ingetrokken, omdat een kandidaat ongeschikt wordt geacht als huurder.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
 AANBIEDINGDETAILSTATUS;ONT;Onterecht aangeboden;Een aanbieding is ingetrokken, omdat de eenheid ten onrechte is aangeboden.;;;AANBIEDINGSTATUS.ING;Woonruimteverdeling
@@ -40,7 +40,7 @@ AANVULLENDEDOELGROEP;STH;Statushouders;Woonruimte is bestemd voor en/of huurder 
 AANVULLENDEDOELGROEP;VBE;Verstandelijk beperkten;Woonuimte is bestemd voor en/of huurder heeft een verstandelijke beperking.;20-10-2023;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;VER;Verstandelijk beperkten;VERVALLEN - Gebruik code VBE;6-10-2023;20-10-2023;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;VER;(ex)-verslaafden;Woonruimte is bestemd voor en/of huurder is een (ex-) verslaafde, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
-AANVULLENDEDOELGROEP;ZIN;Zorgindicatie;Woonruimte is bestemd voor en/of huurder heeft een zorgindicatie.;8-9-2023;;;Vastgoed, Woonruimteverdeling
+AANVULLENDEDOELGROEP;ZIN;Zorgindicatie;Woonruimte is bestemd voor en/of huurder heeft een zorgindicatie.;8-13-2023;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;ZORI;Zorgindicatie;VERVALLEN - Gebruik code ZIN;;8-9-2023;DOELGROEP.ZOR;Vastgoed, Woonruimteverdeling
 ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;Relaties
 ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;Relaties
