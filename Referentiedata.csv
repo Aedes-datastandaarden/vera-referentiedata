@@ -46,7 +46,7 @@ ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;Relaties
 ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;Relaties
 ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;Relaties
 ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties
-ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres;;;;Relaties
+ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres.;;;;Relaties
 ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties
 ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties
 AFLETTERSTATUS;DEE;Deels afgeletterd;Boeking is deels afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat er betalingen zijn gedaan maar dat er nog een openstaand saldo is. Voor ontvangsten betekent dit dat een deel van de ontvangst is afgeletterd tegen een vordering maar dat er nog saldo op de boeking staat die nog gekoppeld moet worden.;07-07-2023;;;Financien
