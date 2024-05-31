@@ -671,12 +671,15 @@ EENHEIDINTERIEUR;VLB;Vloerbedekking;;;;;Vastgoed
 EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;Vastgoed
 EENHEIDISOLATIE;DAK;Dakisolatie;;;;;Vastgoed
 EENHEIDISOLATIE;DGL;Normaal dubbelglas;Dubbel glas waarbij de spouw tussen de glasplaten is gevuld met droge lucht.;;;;Vastgoed
-EENHEIDISOLATIE;HR;HR-glas;Dit is dubbelglas met een isolatiecoating op de ramen. De spouw is ook gevuld met droge lucht.;;19-04-2024;;;Vastgoed
-EENHEIDISOLATIE;HR1;HR+ glas;Dit is een verbeterde versie van HR-glas, met een dikkere coating en een smallere spouw.;;19-04-2024;;;Vastgoed
-EENHEIDISOLATIE;HR2;HR++ glas;Dit is dubbelglas heeft een spouw die gevuld is met gas, meestal argon.;;19-04-2024;;;Vastgoed
-EENHEIDISOLATIE;HR3;HR+++ glas;Dit is driedubbel glas met twee spouwen gevuld met gas.;;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR;HR-glas;Dit is dubbelglas met een isolatiecoating op de ramen. De spouw is ook gevuld met droge lucht.;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR1;HR+ glas;Dit is een verbeterde versie van HR-glas, met een dikkere coating en een smallere spouw.;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR2;HR++ glas;Dit is dubbelglas heeft een spouw die gevuld is met gas, meestal argon.;19-04-2024;;;Vastgoed
+EENHEIDISOLATIE;HR3;HR+++ glas;Dit is driedubbel glas met twee spouwen gevuld met gas.;19-04-2024;;;Vastgoed
 EENHEIDISOLATIE;ECO;Eco-bouw;Ecologische, duurzame bouw;;;;Vastgoed
 EENHEIDISOLATIE;GDG;Gedeeltelijk dubbel glas;;;;;Vastgoed
+EENHEIDISOLATIE;TOE;Toekomstklaar;Het betreft woningen die aan de isolatiestandaard voldoen, zie https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/standaard-streefwaarden-woningisolatie;31-05-2024;;;Vastgoed
+EENHEIDISOLATIE;VER;Vergaand geïsoleerd;De woning is vergaand geïsoleerd of geschikt voor verwarmen met maximaal 50 graden. De woning is wat betreft isolatie gereed voor verwarmen met een lage temperatuur bron.;31-05-2024;;;Vastgoed
+EENHEIDISOLATIE;GER;Gereed voor aansluiting op MT-warmtenet;Woning die qua isolatie geschikt is voor aansluiting op een MT-warmtenet en waarbij ook voorzien is dat deze woning in de toekomst wordt aangesloten op een MT-warmtenet of een HT-net dat op termijn naar MT gaat.;31-05-2024;;;Vastgoed
 EENHEIDISOLATIE;MUU;Muurisolatie;;;;;Vastgoed
 EENHEIDISOLATIE;VLO;Vloerisolatie;;;;;Vastgoed
 EENHEIDISOLATIE;VOL;Volledig geïsoleerd;;;;;Vastgoed
@@ -1941,12 +1944,14 @@ WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning ac
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
 WOONVORM;BEG;Begeleid wonen;;;;;Vastgoed
 WOONVORM;GEB;GEB-woning;VERVALLEN - Gebruik AanvullendeDoelgroep GEB.;;22-9-2023;;Vastgoed
+WOONVORM;GEC;Geclusterde woonvorm;Deze woning is een zelfstandige wooneenheid binnen een gebouw dat voldoet aan specifieke criteria voor geclusterde woonvormen. Dit omvat minimaal 12 zelfstandige wooneenheden voor bewoners van 55 jaar en ouder, met een aanwezige ontmoetingsruimte in het gebouw of grenzend aan het gebouw. Deze woningen voldoen aan de uitgangspunten voor nultredenwoningen.;31-05-2024;;Vastgoed
 WOONVORM;GRO;Groepswonen;Een aantal privé-woningen of appartementen die samen een architecturale eenheid vormen met gemeenschappelijke voorzieningen, die zich beperken tot een gemeenschappelijke tuin, binnenplaats of bijvoorbeeld een logeerruimte. Een samenwoningsgroep kan bestaan uit gelijkgezinden, mensen met een specifieke leeftijd, etc. Ook wel geclusterd wonen genoemd.;;;;Vastgoed
 WOONVORM;GRW;Grote woonvorm;In een grote woonvorm wonen veel mensen met lichamelijke of meervoudige beperkingen bij elkaar. Deze mensen wonen zo zelfstandig mogelijk.;;;;Vastgoed
 WOONVORM;HAT;HAT-eenheid;eenheden voor 1 of twee persoonshuishoudens met gezamelijke keuken, badkamer etc.;;;;Vastgoed
 WOONVORM;KLE;Kleine woonvorm;gezinsvervangende tehuizen voor lichamelijk gehandicapten;;;;Vastgoed
 WOONVORM;SEN;Seniorenwoning met zorg;Senioren woningen met zorg (voorheen Wibo-wonen in beschermde omgeving) zijn bij elkaar gelegen zelfstandige (aanleun)woningen met een dienstencentrum met allerlei voorzieningen dichtbij.;;;;Vastgoed
 WOONVORM;THO;Thomashuis;Een Thomashuis is een kleinschalige woonvoorziening voor zes à acht mensen met een verstandelijke beperking;;;;Vastgoed
+WOONVORM;ZWO;Zorggeschikte woning;Woning die voldoet aan de criteria van Geclusterde woonvorm, maar met aanvullende voorzieningen om de woning beter geschikt te maken voor mensen met een beperking of voor zorgverlening. Bij nieuwbouw en getransformeerde woningen moet de woonvorm en woning rolstoelgeschikt zijn en bij verbouw moet de woonvorm rolstoelgeschikt zijn en de woning minimaal rollator-geschikt. Daarnaast moet de entree van de woning minimaal 90 centimeter breed zijn, moeten alle deuren automatisch kunnen openen en moeten woningen die niet op de begane grond zijn, bereikbaar zijn met een rolstoeltoegankelijke personenlift.;31-05-2024;;;Vastgoed
 ZAAKOBJECTSOORT;CLU;Cluster;;04-11-2022;;;Dossier
 ZAAKOBJECTSOORT;COL;Collectief object;;04-11-2022;;;Dossier
 ZAAKOBJECTSOORT;EEN;Eenheid;;04-11-2022;;;Dossier
