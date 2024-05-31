@@ -1367,6 +1367,7 @@ OPPERVLAKTESOORT;BVO;Bruto vloeroppervlakte;De bruto oppervlakte van een eenheid
 OPPERVLAKTESOORT;FNO;Functioneel nuttig oppervlakte;De woon- of werkoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;GBO;Gebruiksoppervlakte;De gebruiksoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;GNO;Gerealiseerd nuttig oppervlakte;De gerealiseerd nuttig oppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;GTZ;Gebruiksoppervlakte thermische zone;Gebruiksoppervlakte van de thermische zone, afgebakend volgens NTA 8800;31-05-2024;;;Vastgoed
 OPPERVLAKTESOORT;NVO;Netto vloeroppervlakte;De netto vloeroppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;VVO;Verhuurbare vloeroppervlakte;De verhuurbare vloeroppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;WOW;De woon of werk oppervlakte;De gebruiksoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
