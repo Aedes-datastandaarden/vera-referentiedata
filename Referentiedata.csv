@@ -824,7 +824,7 @@ GEOMETRIESOORT;OMT;Omtrek;De geocoördinaten van de omtrek van een object;;;;Vas
 GEOMETRIESOORT;PUN;Punt;De geocoördinaten van het middenpunt van een object;;;;Vastgoed
 GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties
 GESLACHT;N;Neutraal;Gender-neutraal;;03-05-2024;;Relaties
-GESLACHT;O;Onbekend;Manier om genderneutraal aan te duiden of wanneer geslacht niet ter zake doet.;07-07-2024;;;Relaties
+GESLACHT;O;Onbekend;Manier om genderneutraal aan te duiden of wanneer geslacht niet ter zake doet.;07-06-2024;;;Relaties
 GESLACHT;X;Genderneutraal;X is de term die zowel door de Nederlandse overheid als officieel door veel andere landen wordt gebruikt om gender-neutraal te duiden. ;;07-06-2024;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
