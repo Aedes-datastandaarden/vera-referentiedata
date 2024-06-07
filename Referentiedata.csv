@@ -1256,6 +1256,7 @@ MEETEENHEID;KGR;Kilogram;;;;;Financiën
 MEETEENHEID;LTR;Liter;;;;;Financiën
 MEETEENHEID;M2;Vierkante meter, m2;;;;;Financiën
 MEETEENHEID;M3;Kubieke meter, m3;;;;;Financiën
+MEETEENHEID;MIL;Milimeter;Aantal uitgedrukt in milimeters;7-6-2024;;;Financiën
 MEETEENHEID;MIN;Minuten;Aantal uitgedrukt in minuten, bijvoorbeeld 15 minuten reistijd;;;;Financiën
 MEETEENHEID;MTR;Meter;;;;;Financiën
 MEETEENHEID;STU;Stuks;Aantal uitgedrukt per stuk, bijvoorbeeld 2 stuks deurklink, 10 stuks schroeven, etc.;;;;Financiën
