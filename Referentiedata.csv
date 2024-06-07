@@ -1880,6 +1880,42 @@ VOORRANGSOORT;URG;Urgentie;Er is voorrang voor woningzoekenden met een urgentie.
 VRAGENLIJSTREGELHERKOMST;AED;Aedes-benchmark;De herkomst van de vraag is van de Aedes benchmark.;;;;Kwaliteit
 VRAGENLIJSTREGELHERKOMST;KWH;KWH Keurmerk;De herkomst van de vraag is van KWH in het kader van het eigen keurmerk.;;;;Kwaliteit
 VRAGENLIJSTREGELHERKOMST;EIG;Eigen vraag;De kwaliteitsmetingsvraag is door de eigen organisatie opgesteld;;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;AAN;Aanbod;Vraag behoort bij onderwerp: aanbod;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;AFR;Afrekening;Vraag behoort bij onderwerp: afrekening;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;AFS;Afspraak;Vraag behoort bij onderwerp: afspraak;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;ALG;Algemene ruimte;Vraag behoort bij onderwerp: algemene ruimte;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BEH;Behulpzaamheid;Vraag behoort bij onderwerp: behulpzaamheid;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BEA;Behulpzaamheid aannemer;Vraag behoort bij onderwerp: behulpzaamheid aannemer;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BEL;BEL;Vraag behoort bij onderwerp: belofte;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BES;Besluit;Vraag behoort bij onderwerp: besluit;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BUU;Buurt;Vraag behoort bij onderwerp: buurt;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;BUM;Buurt motivatie;Vraag behoort bij onderwerp: buurt motivatie;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;CES;CustomerEffortScore;Vraag behoort bij onderwerp: Customer Effort Score;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;CON;Contact;Vraag behoort bij contact: aanbod;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;DES;Deskundigheid;Vraag behoort bij onderwerp: deskundigheid;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;DIE;Dienstverlening;Vraag behoort bij onderwerp: dienstverlening;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;DUI;Duidelijkheid;Vraag behoort bij onderwerp: duidelijkheid;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;EIN;Eindopname;Vraag behoort bij onderwerp: eindopname;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;GEM;Gemak;Vraag behoort bij onderwerp: gemak;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;INF;Informatie;Vraag behoort bij onderwerp: informatie;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;MED;Medewerker;Vraag behoort bij onderwerp: medewerker;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;MON;Monteur;Vraag behoort bij onderwerp: monteur;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;NET;Netheid;Vraag behoort bij onderwerp: netheid;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;OLE;Oplevering;Vraag behoort bij onderwerp: oplevering;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;OPL;Oplossing;Vraag behoort bij onderwerp: oplossing;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;RES;Resultaat;Vraag behoort bij onderwerp: resultaat;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;SNE;Snelheid;Vraag behoort bij onderwerp: snelheid;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;STA;Staat;Vraag behoort bij onderwerp: staat;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;TER;Termijn;Vraag behoort bij onderwerp: termijn;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;TIJ;Tijdstip;Vraag behoort bij onderwerp: tijdstip;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;UIT;Uitleg;Vraag behoort bij onderwerp: uitleg;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;VER;Verloop;Vraag behoort bij onderwerp: verloop;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;VOO;Vooropname;Vraag behoort bij onderwerp: vooropname;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;WEB;Website;Vraag behoort bij onderwerp: website;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;WET;Weten;Vraag behoort bij onderwerp: weten;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;WEA;Weten aannemer;Vraag behoort bij onderwerp: weten aannemer;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;WON;Woning;Vraag behoort bij onderwerp: woning;07-06-2024;;;Kwaliteit
+VRAGENLIJSTREGELONDERWERPSOORT;WOM;Woning motivatie;Vraag behoort bij onderwerp: woning motivatie;07-06-2024;;;Kwaliteit
 WONINGWAARDERINGCRITERIUMGROEPSOORT;ENE;Energieprestatie;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed
 WONINGWAARDERINGCRITERIUMGROEPSOORT;GEH;Woonvoorzieningen voor gehandicapten;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed
 WONINGWAARDERINGCRITERIUMGROEPSOORT;KEU;Keuken;VERVALLEN - Gebruik Woningwaarderingstelselgroep.;;1-1-2022;;Vastgoed
