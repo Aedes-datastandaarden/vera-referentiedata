@@ -1728,6 +1728,8 @@ RUIMTEDETAILSOORT;GAK;Gemeenschappelijk dakterras;Buitenruimte: een gemeenschapp
 RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;GAN;Gang;Ruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;GPN;Gemeenschappelijke parkeerruimte niet specifieke plek; Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, en zonder privé plek. Al dan niet evenveel parkeerplekken als eenheden.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;GPS;Gemeenschappelijke parkeerruimte specifieke plek; Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, met privé plek.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GTU;Gemeenschappelijke tuin;;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
@@ -1735,9 +1737,13 @@ RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat ond
 RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;OBR;Overige ruimte;Buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemeenschappelijke ruimte of voorziening die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld gemeenschappelijke hobbyruimte, wasruimte.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
+RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek; Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek; Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
-RUIMTEDETAILSOORT;PAK;Parkeerkelder;Eigen parkeerplaats in parkeerkelder;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;PAK;Parkeerkelder;VERVALLEN - Gebruik PSP.;24-4-2023;7-6-2024;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek; Overige ruimte: een gesloten parkeergarage met voor elke woning een, al dan niet afgebakende, parkeerplaats (alle betrokken huurders moeten  op elk moment van de dag kunnen parkeren).;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;PSP;Parkeergarage specifieke plek;Overige ruimte: een gesloten parkeergarage (bijvoorbeeld in de onderbouw van een appartementencomplex) met een specifiek tot de woning behorende, afgebakende parkeerplaats.;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;SCH;Schuur;Buitenruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
