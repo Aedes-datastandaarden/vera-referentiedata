@@ -1718,7 +1718,7 @@ RELATIESTATUS;SLA;Slapend;De relatie betreft een VvE (rechtspersoon) die een sla
 RENTESOORT;VAR;Variabel;;;;;Financiën
 RENTESOORT;VST;Vast;;;;;Financiën
 RUIMTEDETAILSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;ATU;Achtertuin;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;ATU;Achtertuin;Buitenruimte: tuim gelegen aan de achterzijde van de woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
@@ -1747,20 +1747,21 @@ RUIMTEDETAILSOORT;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;2
 RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek; Overige ruimte: een gesloten parkeergarage met voor elke woning een, al dan niet afgebakende, parkeerplaats (alle betrokken huurders moeten  op elk moment van de dag kunnen parkeren).;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;PSP;Parkeergarage specifieke plek;Overige ruimte: een gesloten parkeergarage (bijvoorbeeld in de onderbouw van een appartementencomplex) met een specifiek tot de woning behorende, afgebakende parkeerplaats.;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
-RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;SCH;Schuur;Buitenruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;SER;Serre;Vertrek: glazen veranda verbonden aan een woning.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;SLA;Slaapkamer;Vertrek: ruimte in een woning waarin men kan slapen.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vlakke oppervlakte die wordt gebruikt om op te zitten, te eten, te drinken of andere activiteiten te doen.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TOI;Toiletruimte;Overige ruimte: Sanitaire ruimte met een toilet.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;TUI;Tuin;Buitenruimte: indien geen specificatie/verbijzondering bekend is van tuin kan voor deze algemenere duiding van tuin gebruikt worden.;14-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TUS;Tussenkamer;Vertrek: ruimte gelegen tussen en verbonden met twee andere kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;VLI;Vliering;Overige ruimte: een meestal niet of beperkt afgewerkte opslagruimte onder het dak, die alleen bereikbaar is met een vlizotrap en die niet altijd hoog genoeg is om rechtop te kunnen staan.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;VTU;Voortuin;Buitenruimte: tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;VTU;Voortuin;Buitenruimte: tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor wasmachine, droger, strijken, voor eigen gebruik.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;WOK;Woonkamer/keuken;Vertrek: ruimte met een gecombineerde functie van keuken en woonkamer;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken en bevindt zich meestal op de begane grond, voor zover het niet gaat om een appartement in een flat.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;Vertrek: ruimte met een gecombineerde functie van woonkamer en slaapkamer.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
-RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;LOG;Loggia;Buitenruimte: een inpandig balkon.;12-01-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTELIGGING;NOO;Noord;;24-4-2023;;;Vastgoed
