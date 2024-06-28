@@ -831,6 +831,7 @@ GESLACHT;X;Genderneutraal;X is de term die zowel door de Nederlandse overheid al
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
+GROOTBOEKMUTATIEHERKOMST;BEG;Beginbalans;Een boeking van het eindsaldo van een balansrekening uit een voorgaand boekjaar;28-06-2024;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BER;Berekening;;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BNK;Bank;Een boeking in de bank (sub-)administratie;;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;CRE;Crediteuren;Een boeking van een schuld in de crediteuren (sub-)administratie;2-12-2022;;;Financiën
