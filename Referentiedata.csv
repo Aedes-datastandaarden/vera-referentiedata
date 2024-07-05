@@ -1758,7 +1758,7 @@ RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek; Overige ruimte: een ge
 RUIMTEDETAILSOORT;PSP;Parkeergarage specifieke plek;Overige ruimte: een gesloten parkeergarage (bijvoorbeeld in de onderbouw van een appartementencomplex) met een specifiek tot de woning behorende, afgebakende parkeerplaats.;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;SCH;Schuur;Buitenruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;SCH;Schuur;Buitenruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;SER;Serre;Vertrek: glazen veranda verbonden aan een woning.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;SLA;Slaapkamer;Vertrek: ruimte in een woning waarin men kan slapen.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vlakke oppervlakte die wordt gebruikt om op te zitten, te eten, te drinken of andere activiteiten te doen.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
