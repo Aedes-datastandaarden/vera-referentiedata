@@ -1047,7 +1047,7 @@ MATERIAALSOORT;KUN;Kunststof;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;MET;Metaal;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;NAT;Natuursteen;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;NTB;Ntb;;21-02-2024;;;Vastgoed
-MATERIAALSOORT;ORG;Organisch;;21-02-2024;;;Vastgoed;;
+MATERIAALSOORT;ORG;Organisch;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;RUB;Rubber;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;SAM;Samengesteld;;21-02-2024;;;Vastgoed
 MATERIAALSOORT;STE;Steenachtig;;21-02-2024;;;Vastgoed
@@ -1996,6 +1996,10 @@ WONINGWAARDERINGSTELSELGROEP;WAS;Wasgelegenheid;De groep criteria die betrekking
 WONINGWAARDERINGSTELSELGROEP;WOZ;Punten voor de WOZ-waarde;De groep criteria die betrekking heeft op de vastgestelde WOZ-waarde (Beleidsboek Waarderingsstelsel zelfstandige woonruimte);;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;VERVALLEN;;21-4-2023;WONINGWAARDERINGSTELSEL.WOO;Vastgoed
 WONINGWAARDERINGSTELSELGROEP;WST;Woonomgeving standplaats;Standplaats: De groep criteria die betrekking heeft op de woonomgeving (Puntentelling: woonwagen/standplaats: Huurcommissie);21-4-2023;;WONINGWAARDERINGSTELSEL.STA;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;VKV;Verkoeling en verwarming;Waardering van verwarmde vertrekken, overige ruimten en verkeersruimten, inclusief extra punten voor verkoeling, op basis van NTA 8800 energielabels en vastgestelde eisen aan koelsystemen en verwarming.;1-7-2024;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;BUI;Buitenruimten;Waardering van privé- en gemeenschappelijke buitenruimten, met puntenaftrek voor woningen zonder buitenruimte.;1-7-2024;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;GPA;Gemeenschappelijke parkeerruimten;Waardering van parkeerplekken in een gemeenschappelijke ruimte die exclusief gebruikt worden door bewoners van minimaal twee adressen, met puntentoekenning afhankelijk van type en aanwezigheid van laadpaal.;1-7-2024;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
+WONINGWAARDERINGSTELSELGROEP;PMN;Prijsopslag monumenten en nieuwbouw;Prijsopslagen voor monumenten en nieuwbouw, waarbij extra percentages worden toegevoegd aan de maximale huurprijs voor rijks-, gemeentelijke of provinciaal aangewezen monumenten, evenals voor nieuwbouwwoningen die aan specifieke criteria voldoen.;1-7-2024;;WONINGWAARDERINGSTELSEL.ZEL;Vastgoed
 WOONSITUATIESOORT;DOO;Doorstromer;Een doorstromer is een woningzoekende die een zelfstandige woning achterlaat.;;;;Woonruimteverdeling
 WOONSITUATIESOORT;STA;Starter;Een woningzoekende die geen zelfstandige woning achterlaat. Bijvoorbeeld omdat deze nog thuis of in een onzelfstandige woning woont, of dat men gaat scheiden.;;;;Woonruimteverdeling
 WOONVORM;ADL;ADL-clusterwoning;Cluster van woningen met een centrale hulppost  (soms ook FOKUS woning genoemd) Met ADL kan 24 uur per dag hulp opgeroepen worden bij de algemene dagelijkse levensverrichtingen (ADL) in en om de woning;;;;Vastgoed
