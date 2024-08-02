@@ -827,7 +827,7 @@ GEOMETRIESOORT;PUN;Punt;De geocoördinaten van het middenpunt van een object;;;;
 GESLACHT;M;Mannelijk;Mannelijk geslacht;;;;Relaties
 GESLACHT;N;Neutraal;Gender-neutraal;;03-05-2024;;Relaties
 GESLACHT;O;Onbekend;Manier om genderneutraal aan te duiden of wanneer geslacht niet ter zake doet.;07-06-2024;;;Relaties
-GESLACHT;X;Genderneutraal;X is de term die zowel door de Nederlandse overheid als officieel door veel andere landen wordt gebruikt om gender-neutraal te duiden. ;;07-06-2024;;Relaties
+GESLACHT;X;Genderneutraal;X is de term die zowel door de Nederlandse overheid als officieel door veel andere landen wordt gebruikt om gender-neutraal te duiden.;;07-06-2024;;Relaties
 GESLACHT;V;Vrouwelijk;Vrouwelijk geslacht;;;;Relaties
 GROOTBOEKMUTATIEHERKOMST;ACT;Activa-administratie;Een boeking in de activa (sub-)administratie;30-12-2022;;;Financiën
 GROOTBOEKMUTATIEHERKOMST;BAT;Batch;Meest gebruikte betaalwijze waarbij een betaalbatch wordt gegenereerd dat elektronisch wordt verstuurd naar de bank;5-12-2022;;;Financiën
@@ -1015,7 +1015,7 @@ INSTALLATIESOORT;DOW;Douchewand;Gemonteerde volledige afscheiding van de douche.
 INSTALLATIESOORT;HRA;Handdoekenradiator;Een handdoekenradiator is een verwarmingspaneel dat speciaal is ontworpen om handdoeken te drogen en te verwarmen. Het biedt extra comfort in de badkamer door handdoeken warm en klaar voor gebruik te houden, en zorgt tegelijkertijd voor een aangename temperatuur.;26-07-2024;;;Vastgoed
 INSTALLATIESOORT;IKW;Ingebouwd kastje met in- of opgebouwde wastafel;Een ingebouwd kastje met wastafel is een geïntegreerde opberg- en wastafeloplossing die een wastafel combineert met een kastje voor extra opbergruimte. Het biedt een gestroomlijnde uitstraling en praktische opslag in badkamers of keukens.;26-07-2024;;;Vastgoed
 INSTALLATIESOORT;KAS;Kastruimte;Kastruimte met een minimale breedte van 40cm, en minimale hoogte van 40cm.;26-07-2024;;;Vastgoed
-INSTALLATIESOORT;STW;Stopcontact bij wastafel;Stopkontact bij de wastafel. Maximaal twee per wastafel worden meegeteld in de waardering.;26-07-2024;;;Vastgoed
+INSTALLATIESOORT;STW;Stopcontact bij wastafel;Stopcontact bij de wastafel. Maximaal twee per wastafel worden meegeteld in de waardering.;26-07-2024;;;Vastgoed
 KANDIDAATDETAILSTATUS;AAN;Aanbieding;Kandidaat krijgt aanbieding.;;;KANDIDAATSTATUS.AAN;Woonruimteverdeling
 KANDIDAATDETAILSTATUS;BEZ;Bezichtiging;Kandidaat mag bezichtigen.;;;KANDIDAATSTATUS.AAN;Woonruimteverdeling
 KANDIDAATDETAILSTATUS;DOC;Documentcontrole;Kandidaat moet documenten laten controleren.;;;KANDIDAATSTATUS.AAN;Woonruimteverdeling
@@ -1758,7 +1758,7 @@ RENTESOORT;VAR;Variabel;;;;;Financiën
 RENTESOORT;VST;Vast;;;;;Financiën
 RUIMTEDETAILSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ATU;Achtertuin;Buitenruimte: tuim gelegen aan de achterzijde van de woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging. EEen badkamer moet voldoen aand: en waterdichte vloerafwerking, De ruimte heeft over ten minste 50% van de oppervlakte een vrije hoogte van 2,00 m (gemeten vanaf de vloer tot het zichtbare plafond), Waterdichte afwerking tot 1,50 m hoogte voor badruimte en 1,80 m voor doucheruimte, Een wastafel inclusief (tweehands-)mengkraan en een spiegel, Een douche of bad met aansluitpunten voor warm en koud water (niet zijnde een warmwaterapparaat) en voorzien van een warm- en koudwaterkraan of een mengkraan. Een bad in een vertrek met een niet-waterdichte vloer wordt door de Huurcommissie wel gewaardeerd, omdat het bad zelf als een waterdichte afwerking wordt gezien.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging. Een badkamer moet voldoen aan: en waterdichte vloerafwerking, De ruimte heeft over ten minste 50% van de oppervlakte een vrije hoogte van 2,00 m (gemeten vanaf de vloer tot het zichtbare plafond), Waterdichte afwerking tot 1,50 m hoogte voor badruimte en 1,80 m voor doucheruimte, Een wastafel inclusief (tweehands-)mengkraan en een spiegel, Een douche of bad met aansluitpunten voor warm en koud water (niet zijnde een warmwaterapparaat) en voorzien van een warm- en koudwaterkraan of een mengkraan. Een bad in een vertrek met een niet-waterdichte vloer wordt door de Huurcommissie wel gewaardeerd, omdat het bad zelf als een waterdichte afwerking wordt gezien.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
@@ -1769,8 +1769,8 @@ RUIMTEDETAILSOORT;GAK;Gemeenschappelijk dakterras;Buitenruimte: een gemeenschapp
 RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;GAN;Gang;Ruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;GPN;Gemeenschappelijke parkeerruimte niet specifieke plek; Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, en zonder privé plek. Al dan niet evenveel parkeerplekken als eenheden.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;GPS;Gemeenschappelijke parkeerruimte specifieke plek; Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, met privé plek.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;GPN;Gemeenschappelijke parkeerruimte niet specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, en zonder privé plek. Al dan niet evenveel parkeerplekken als eenheden.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;GPS;Gemeenschappelijke parkeerruimte specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, met privé plek.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GTU;Gemeenschappelijke tuin;;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
@@ -1778,12 +1778,12 @@ RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat ond
 RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;OBR;Overige ruimte;Buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemeenschappelijke ruimte of voorziening die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld gemeenschappelijke hobbyruimte, wasruimte.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
-RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek; Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek; Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;PAK;Parkeerkelder;VERVALLEN - Gebruik PSP.;24-4-2023;7-6-2024;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek; Overige ruimte: een gesloten parkeergarage met voor elke woning een, al dan niet afgebakende, parkeerplaats (alle betrokken huurders moeten  op elk moment van de dag kunnen parkeren).;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek;Overige ruimte: een gesloten parkeergarage met voor elke woning een, al dan niet afgebakende, parkeerplaats (alle betrokken huurders moeten  op elk moment van de dag kunnen parkeren).;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;PSP;Parkeergarage specifieke plek;Overige ruimte: een gesloten parkeergarage (bijvoorbeeld in de onderbouw van een appartementencomplex) met een specifiek tot de woning behorende, afgebakende parkeerplaats.;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
