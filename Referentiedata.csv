@@ -348,6 +348,11 @@ COMMUNICATIEKANAAL;SMS;SMS;;;;;Relaties
 COMMUNICATIEKANAAL;TEL;Telefoon;;;;;Relaties
 COMMUNICATIERICHTING;INK;Inkomend;;;;;Relaties
 COMMUNICATIERICHTING;UIT;Uitgaand;;;;;Relaties
+COMMUNICATIEVOORKEURSOORT;KLA;Klantcontact;Direct contact voor ondersteuning, vragen, of klachten;;;;Relaties
+COMMUNICATIEVOORKEURSOORT;NIE;Nieuwsbrief;Periodieke updates over projecten, evenementen, en relevante informatie voor huurders;;;;Relaties
+COMMUNICATIEVOORKEURSOORT;KEN;Kennisgeving;Informereren over onderhoudswerkzaamheden, aankondiging storingen, beleidswijzigingen, etc.;;;;Relaties
+COMMUNICATIEVOORKEURSOORT;FOR;Formele communicatie;Officiële documenten zoals facturen, huurovereenkomsten, serviceovereenkomsten, betalingsherrinneringen, informatie over huurverhogingen;;;;Relaties
+COMMUNICATIEVOORKEURSOORT;OVE;Overige communicatie;;;;;Relaties
 CONDITIESCORE;1;Uitstekende conditie;Incidenteel geringe gebreken. (Conditiescore 1 van NEN 2767);;;;Vastgoed
 CONDITIESCORE;2;Goede conditie;Incidenteel beginnende veroudering. (Conditiescore 2 van NEN 2767);;;;Vastgoed
 CONDITIESCORE;3;Redelijke conditie;Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar. (Conditiescore 3 van NEN 2767);;;;Vastgoed
