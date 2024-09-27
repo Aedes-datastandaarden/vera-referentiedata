@@ -1286,14 +1286,18 @@ MATERIAALDETAILSOORT;PSE;Porselein;;21-02-2024;;MATERIAALSOORT.STE;Vastgoed
 MATERIAALDETAILSOORT;BAK;Baksteen;;21-02-2024;;MATERIAALSOORT.STE;Vastgoed
 MATERIAALDETAILSOORT;CAL;Calciumsilicaat;;21-02-2024;;MATERIAALSOORT.STE;Vastgoed
 MATERIAALDETAILSOORT;KUN;Kunststeen;;21-02-2024;;MATERIAALSOORT.STE;Vastgoed
+MEDEWERKERBUDGETSOORT;IND;Individueel loopbaanontwikkelingsbudget;Het individueel loopbaanontwikkelingsbudget (ILOB) is een recht dat werknemers hebben op basis van de CAO Woondiensten sinds 1 januari 2010. Werknemers bepalen zelf hoe, wanneer en waaraan zij dit budget besteden. Het doel is bijdragen aan hun loopbaanontwikkeling.;27-09-2024;;;Organisatie
+MEDEWERKERBUDGETSOORT;FUN;Functiegebonden scholing;De werkgever kan een werknemer opdracht geven scholing of training te volgen wanneer dat volgens de werkgever nodig is voor het vervullen van zijn huidige functie nu en in de toekomst;27-09-2024;;;Organisatie
+MEDEWERKERBUDGETSOORT;INF;Informeel leren;;27-09-2024;;;Organisatie
 MEDEWERKERROL;BHV;BHV-er;;26-08-2022;;;Organisatie
 MEDEWERKERROL;SCR;Scrummaster;;26-08-2022;;;Organisatie
 MEDEWERKERROL;VER;Vertrouwenspersoon;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;DIE;in dienst;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;FAM;meewerkende partner;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;INH;inhuur: zzp / payroll / detachering;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;OPR;oproepkracht;;26-08-2022;;;Organisatie
-MEDEWERKERSOORT;STA;stagair;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;DIE;In dienst;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;FAM;Meewerkende partner;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;INH;Inhuur: zzp / payroll / detachering;Een inhuurkracht is een werknemer die tijdelijk wordt ingehuurd door een organisatie om specifieke taken of projecten uit te voeren. Inhuurkrachten zijn meestal niet in vaste dienst bij de organisatie en kunnen ingehuurd worden via een uitzendbureau, zelfstandige, zelfstandige via een payrol-organisatie of een detacheringsbureau.;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;OPR;Oproepkracht;;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;STA;Stagair;Een stagiair is een student of pas afgestudeerde die een tijdelijke werkperiode bij een organisatie doorbrengt om praktische ervaring op te doen in een specifiek vakgebied. Deze stage kan deel uitmaken van hun opleiding of bedoeld zijn om werkervaring op te doen en hun vaardigheden in de praktijk te ontwikkelen.;26-08-2022;;;Organisatie
+MEDEWERKERSOORT;TRA;Trainee;Een trainee is een persoon die net is afgestudeerd of aan het begin van zijn of haar carrière staat en een gestructureerd opleidingsprogramma volgt binnen een organisatie. Dit programma is bedoeld om hen de vaardigheden, kennis en ervaring te geven die nodig zijn om succesvol te zijn in een specifieke rol of sector.;27-09-2024;;;Organisatie
 MEETEENHEID;CM;Centimeter;Aantal uitgedrukt in centimeters;;;;Financiën
 MEETEENHEID;FTE;Omvang personeelsbestand;;;;;Financiën
 MEETEENHEID;GRM;Gram;Aantal uitgedrukt in gram;;;;Financiën
@@ -1464,6 +1468,9 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;INP;Inhuurovereenkomst plaatsvervangend;Een inhuurovereenkomst plaatsvervangend is een contract waarbij een werknemer tijdelijk wordt ingehuurd om de taken van een afwezige medewerker over te nemen.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;INB;Inhuurovereenkomst boven formatie;Een inhuurovereenkomst boven formatie is een contract waarbij een werknemer tijdelijk wordt ingehuurd voor extra capaciteit bovenop de bestaande personeelsformatie.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;INS;Inhuurovereenkomst structureel;Een overeenkomst waarin de rechten en plichten van een externe kracht, zoals een zzp-er of freelancer, voor een langere periode worden vastgelegd om continuïteit en duidelijkheid te waarborgen.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;Woningzoekende heeft het verzoek tot koppelen afgewezen.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Koppeling is afgewezen omdat de bevestigingstermijn is verstreken.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Koppeling is afgewezen omdat de geboortedatum van de woningzoekende in beide inschrijvingen niet overeenkomt.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
@@ -1497,6 +1504,7 @@ PASSENDHEIDDETAILSOORT;HHV;Herhuisvesting;Niet-passende toewijzing, noodzakelijk
 PASSENDHEIDSSOORT;NIE;Niet passend;De toewijzing is niet-passend volgens de Woningwet (toewijzen betaalbare woning aan huishoudens met huurtoeslag). Om een niet-passende toewijzing nader te verantwoorden kan passendheiddetailsoort worden gebruikt.;;;;Woonruimteverdeling
 PASSENDHEIDSSOORT;NVT;Passendheidtoets niet van toepassing;De toewijzing valt buiten de regels van de passendheidstoets volgens de Woningwet, bijvoorbeeld omdat de woning niet tot de betaalbare woningvoorraad behoort;;;;Woonruimteverdeling
 PASSENDHEIDSSOORT;PAS;Passend;De toewijzing is passend volgens de Woningwet (toewijzen betaalbare woning aan huishoudens met huurtoeslag);;;;Woonruimteverdeling
+PERSONELEFUNCTIESOORT;LEI;Leidinggevende functie;;27-09-2024;;;Organisatie
 PRESTATIEAFSPRAAK;HUU;Huurverhoging t.b.v. investering;Inkomensafhankelijke huurverhoging boven normpercentage waarvoor gemeente, corporatie en huurdersorganisatie hebben afgesproken dat zij de meeropbrengsten van die hogere huurverhoging gebruiken voor investeringen.;;;;Vastgoed
 PRIJSAANPASSINGSOORT;KOR;Korting;;;;;Financiën
 PRIJSAANPASSINGSOORT;TOE;Toeslag;;;;;Financiën
@@ -1854,6 +1862,22 @@ TAAL;FRA;Frans;;;;;Woonruimteverdeling
 TAAL;NLD;Nederlands;;;;;Woonruimteverdeling
 TAAL;SPA;Spaans;;;;;Woonruimteverdeling
 TAAL;TUR;Turks;;;;;Woonruimteverdeling
+TIJDSBESTEDINGSOORT;DEC;Declarabel;;27-09-2024;;;Organisatie
+TIJDSBESTEDINGSOORT;NDE;Niet declarabel;;27-09-2024;;;Organisatie
+TIJDSBESTEDINGSOORT;AFW;Afwezig;;27-09-2024;;;Organisatie
+TIJDSBESTEDINGDETAILSOORT;VER;Verlof (regulier);Regulier verlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZIE;Ziek;Afwezig wegens ziekte;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;BIJ;Bijzonder verlof;Bijzonder of  buitengewoon verlof. Denk bijvoorbeeld aan een examen, ondertrouw, een huwelijk en tandartsbezoek.;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ONB;Onbetaald verlof;Onbetaald verlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZWA;Zwangerschapsverlof;Zwangersschapsverlof of bevallingsverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;OUD;Ouderschapsverlof;Ouderschapsverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZOR;Zorgverlof;Zorgverlof kortdurend of langdurend;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;CAL;Calamiteitenverlof;Calamiteitenverlof of kort verzuimverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;NON;Non-actief;;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ADO;Adoptieverlof;Adoptie of pleegzorgverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;GES;Geschorst;;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSEENHEID;UUR;Uren;Registratie van de duur in uren;27-09-2024;;;Organisatie
+TIJDSEENHEID;MIN;Minuten;Registratie van de duur in minuten;27-09-2024;;;Organisatie
 TOEGANKELIJKHEIDSLABEL;GEL;Gelijkvloerse woning;Label dat aangeeft dat de woning intern toegankelijk is voor minder validen: de belangrijkste vertrekken (woonkamer, keuken, toilet, badkamer en één slaapkamer) zijn bereikbaar zonder gebruik te hoeven maken van een trap (d.w.z. gelegen op één verdieping laag of meerdere verdiepingslagen die zonder trap - maar bijvoorbeeld met traplift - bereikbaar zijn). Een gelijkvloerse woning voldoet niet per definitie aan het criterium 'nultredenwoning' omdat de woning daarvoor ook extern toegankelijk moet zijn voor minder validen.;;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;ROA;Rollatorwoning;Label dat aangeeft dat de woning zowel intern als extern toegankelijk is met een rollator. De woning voldoet hiermee automatisch aan het criterium 'nultredenwoning', maar is niet per definitie ook een 'rolstoelwoning' omdat er bijvoorbeeld drempels aanwezig kunnen zijn.;;;;Vastgoed
 TOEGANKELIJKHEIDSLABEL;ROL;Rolstoelwoning;Label dat aangeeft dat de woning zowel intern als extern toegankelijk is, met een rolstoel. De woning voldoet hiermee automatisch aan het criterium 'nultredewoning'. Een rolstoelwoning voldoet per definitie ook aan het label Rollatorwoning, maar is niet per definitie ook een 'extra ruime rolstoelwoning'.;;;;Vastgoed
@@ -1880,6 +1904,8 @@ UITEXPLOITATIEREDEN;VEN;Vernieuwbouw;De eenheid is (tijdelijk) uit exploitatie g
 UITEXPLOITATIEREDEN;VOV;Verkoop onder Voorwaarden;De eenheid is niet meer in exploitatie omdat deze is verkocht onder voorwaarden (VoV);30-6-2023;;;Vastgoed
 UITVOERENDESOORT;LEV;Leverancier;Uitvoering vindt plaats door een externe partij;;;;Onderhoud
 UITVOERENDESOORT;VAK;Vakgroep;Uitvoering vindt plaats door een interne vakgroep / eigen dienst;;;;Onderhoud
+VACATURESOORT;TIJ;Tijdelijke inhuur;Tijdelijke inhuur;27-09-2024;;;Organisatie
+VACATURESOORT;VAS;Vaste dienst;Vaste dienst;27-09-2024;;;Organisatie
 VERANTWOORDINGCONSOLIDATIE;CON;Geconsolideerd;Financiële verantwoording vindt plaats voor meerdere financieel bedrijven geconsolideerd;;;;Financiën
 VERANTWOORDINGCONSOLIDATIE;ENK;Enkelvoudig;Financiële verantwoording vindt plaats per financieel bedrijf afzonderlijk;;;;Financiën
 VERANTWOORDINGREGIME;ADM;Administratieve scheiding;De DAEB- en niet-DAEB activiteiten van de coporatie worden administratief van elkaar gescheiden;;;;Financiën
