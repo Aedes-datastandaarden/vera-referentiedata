@@ -1779,7 +1779,7 @@ RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte
 RUIMTEDETAILSOORT;GPN;Gemeenschappelijke parkeerruimte niet specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, en zonder privé plek. Al dan niet evenveel parkeerplekken als eenheden.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GPS;Gemeenschappelijke parkeerruimte specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, met privé plek.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GTU;Gemeenschappelijke tuin;;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
-RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;;RUIMTESOORT.GEM;Vastgoed
+RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;06-09-2024;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
