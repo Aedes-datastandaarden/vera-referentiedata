@@ -1468,9 +1468,9 @@ OVEREENKOMSTDETAILSOORT;SHS;ShortStay;Short stay is het tijdelijk wonen in een z
 OVEREENKOMSTDETAILSOORT;TIJ;Tijdelijk contract;Huurcontract voor bepaalde tijd.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;TWO;Te Woon / Vrije keuze;De woning is zowel te huur als te koop.;;;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;UIT;Is onderdeel uitpondproject;Verkoop van voormalige huurwoning aan de voormalige huurder of een nieuwe eigenaar.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
-OVEREENKOMSTDETAILSOORT;INP;Inhuurovereenkomst plaatsvervangend;Een inhuurovereenkomst plaatsvervangend is een contract waarbij een werknemer tijdelijk wordt ingehuurd om de taken van een afwezige medewerker over te nemen.;27-09-2024;;ARB;Organisatie
-OVEREENKOMSTDETAILSOORT;INB;Inhuurovereenkomst boven formatie;Een inhuurovereenkomst boven formatie is een contract waarbij een werknemer tijdelijk wordt ingehuurd voor extra capaciteit bovenop de bestaande personeelsformatie.;27-09-202;;ARB;Organisatie
-OVEREENKOMSTDETAILSOORT;INS;Inhuurovereenkomst structureel;Een overeenkomst waarin de rechten en plichten van een externe kracht, zoals een zzp-er of freelancer, voor een langere periode worden vastgelegd om continuïteit en duidelijkheid te waarborgen.;27-09-2024;;ARB;Organisatie
+OVEREENKOMSTDETAILSOORT;INP;Inhuurovereenkomst plaatsvervangend;Een inhuurovereenkomst plaatsvervangend is een contract waarbij een werknemer tijdelijk wordt ingehuurd om de taken van een afwezige medewerker over te nemen.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;INB;Inhuurovereenkomst boven formatie;Een inhuurovereenkomst boven formatie is een contract waarbij een werknemer tijdelijk wordt ingehuurd voor extra capaciteit bovenop de bestaande personeelsformatie.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;INS;Inhuurovereenkomst structureel;Een overeenkomst waarin de rechten en plichten van een externe kracht, zoals een zzp-er of freelancer, voor een langere periode worden vastgelegd om continuïteit en duidelijkheid te waarborgen.;27-09-2024;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;AFG;Afgewezen door woningzoekende;Woningzoekende heeft het verzoek tot koppelen afgewezen.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;BEV;Bevestigingstermijn is verstreken;Koppeling is afgewezen omdat de bevestigingstermijn is verstreken.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
 OVEREENKOMSTKOPPELINGDETAILSTATUS;GEB;Geboortedatum komt niet overeen;Koppeling is afgewezen omdat de geboortedatum van de woningzoekende in beide inschrijvingen niet overeenkomt.;15-2-2023;;OVEREENKOMSTKOPPELINGSTATUS.AFG;Overeenkomsten
@@ -1865,17 +1865,17 @@ TAAL;TUR;Turks;;;;;Woonruimteverdeling
 TIJDSBESTEDINGSOORT;DEC;Declarabel;;27-09-2024;;;Organisatie
 TIJDSBESTEDINGSOORT;NDE;Niet declarabel;;27-09-2024;;;Organisatie
 TIJDSBESTEDINGSOORT;AFW;Afwezig;;27-09-2024;;;Organisatie
-TIJDSBESTEDINGDETAILSOORT;VER;Verlof (regulier);Regulier verlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;ZIE;Ziek;Afwezig wegens ziekte;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;BIJ;Bijzonder verlof;Bijzonder of  buitengewoon verlof. Denk bijvoorbeeld aan een examen, ondertrouw, een huwelijk en tandartsbezoek.;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;ONB;Onbetaald verlof;Onbetaald verlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;ZWA;Zwangerschapsverlof;Zwangersschapsverlof of bevallingsverlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;OUD;Ouderschapsverlof;Ouderschapsverlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;ZOR;Zorgverlof;Zorgverlof kortdurend of langdurend;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;CAL;Calamiteitenverlof;Calamiteitenverlof of kort verzuimverlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;NON;Non-actief;;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;ADO;Adoptieverlof;Adoptie of pleegzorgverlof;27-09-2024;;AFW;Organisatie
-TIJDSBESTEDINGDETAILSOORT;GES;Geschorst;;27-09-2024;;AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;VER;Verlof (regulier);Regulier verlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZIE;Ziek;Afwezig wegens ziekte;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;BIJ;Bijzonder verlof;Bijzonder of  buitengewoon verlof. Denk bijvoorbeeld aan een examen, ondertrouw, een huwelijk en tandartsbezoek.;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ONB;Onbetaald verlof;Onbetaald verlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZWA;Zwangerschapsverlof;Zwangersschapsverlof of bevallingsverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;OUD;Ouderschapsverlof;Ouderschapsverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ZOR;Zorgverlof;Zorgverlof kortdurend of langdurend;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;CAL;Calamiteitenverlof;Calamiteitenverlof of kort verzuimverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;NON;Non-actief;;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;ADO;Adoptieverlof;Adoptie of pleegzorgverlof;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
+TIJDSBESTEDINGDETAILSOORT;GES;Geschorst;;27-09-2024;;TIJDSBESTEDINGSOORT.AFW;Organisatie
 TIJDSEENHEID;UUR;Uren;Registratie van de duur in uren;27-09-2024;;;Organisatie
 TIJDSEENHEID;MIN;Minuten;Registratie van de duur in minuten;27-09-2024;;;Organisatie
 TOEGANKELIJKHEIDSLABEL;GEL;Gelijkvloerse woning;Label dat aangeeft dat de woning intern toegankelijk is voor minder validen: de belangrijkste vertrekken (woonkamer, keuken, toilet, badkamer en één slaapkamer) zijn bereikbaar zonder gebruik te hoeven maken van een trap (d.w.z. gelegen op één verdieping laag of meerdere verdiepingslagen die zonder trap - maar bijvoorbeeld met traplift - bereikbaar zijn). Een gelijkvloerse woning voldoet niet per definitie aan het criterium 'nultredenwoning' omdat de woning daarvoor ook extern toegankelijk moet zijn voor minder validen.;;;;Vastgoed
