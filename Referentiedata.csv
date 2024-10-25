@@ -1859,7 +1859,7 @@ RUIMTESOORT;BTR;Buitenruimte;Een buitenruimte is een ruimte die volgens de wonin
 RUIMTESOORT;GEM;Gemeenschappelijke ruimten en voorzieningen;Een gemeenschappelijk ruimte of voorziening is een ruimte die volgens de woningwaardering als gemeenschappelijke ruimte of voorziening wordt gezien;24-4-2023;;;Vastgoed
 RUIMTESOORT;OVR;Overige ruimten;Een ruimte die geen buitenruimte is, en die geen vertrek is volgens de definitie van de woningwaardering. Nader te specificeren met ruimtedetailsoort.;24-4-2023;;;Vastgoed
 RUIMTESOORT;VTK;Vertrek;Een vertrek is een ruimte die volgens de woningwaardering als vertrek wordt gezien (Beleidsboek waarderingsstelsel zelfstandige woonruimte);24-4-2023;;;Vastgoed
-RUIMTESOORT;VRK;Verkeersruimte;Een verkeersruimte is een ruimte die wordt gebruikt om toegang te krijgen tot andere vertrekken.;4-10-2024;;;vastgoed
+RUIMTESOORT;VRK;Verkeersruimte;Een verkeersruimte is een ruimte die wordt gebruikt om toegang te krijgen tot andere vertrekken.;4-10-2024;;;Vastgoed
 SANCTIESOORT;MIL;Milde sanctie;Milde sanctie;;;;Woonruimteverdeling
 SANCTIESOORT;NOS;No-show sanctie;No-show sanctie, , verlies van alle zoek-, situatie en zoekpunten;;;;Woonruimteverdeling
 SANCTIESOORT;ZWA;Zware sanctie;Zware sanctie, verlies van alle zoek-, situatie en zoekpunten;;;;Woonruimteverdeling
