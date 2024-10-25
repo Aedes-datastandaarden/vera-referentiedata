@@ -525,6 +525,7 @@ DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het mom
 DOELGROEP;STA;Starter;Woonruimte is bestemd voor en/of huurder betreft een starter op de woningmarkt;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;STU;Studenten;Woonruimte is bestemd voor en/of huurder is een student (ontvangt studiefinanciering, studeert voltijds of gaat promoveren).;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;ZOR;Zorg;Woonruimte is bestemd voor en/of huurder is een zorgbehoevende ((iemand die afhankelijk is van) woonruimte die naar aard en gebruik geen logische andere aanwendbaarheid kent dan een zorgwoning). Betreft o.a. aanleunwoningen en serviceflats.;;;;Vastgoed, Woonruimteverdeling
+DOELGROEP;ZDR;Zorgdragers;Woonruimte is bestemd voor iemand die is geselecteerd op maatschappelijke motivatie/ goede buur.;25-10-2024;;;Vastgoed, Woonruimteverdeling
 EENHEIDBUITENRUIMTE;ATR;Atrium / Patio;VERVALLEN - Gebruik een Ruimtedetailsoort.;;21-04-2023;;Vastgoed
 EENHEIDBUITENRUIMTE;ATU;Achtertuin;VERVALLEN - Gebruik een Ruimtedetailsoort.;;21-04-2023;;Vastgoed
 EENHEIDBUITENRUIMTE;BAL;Balkon;VERVALLEN - Gebruik een Ruimtedetailsoort.;;21-04-2023;;Vastgoed
