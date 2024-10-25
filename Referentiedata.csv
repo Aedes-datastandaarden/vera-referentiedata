@@ -337,6 +337,7 @@ COLLECTIEFOBJECTSOORT;BER;Gemeenschappelijke berging;Gemeenschappelijke berging 
 COLLECTIEFOBJECTSOORT;FTS;Gemeenschappelijke fietsenstalling;Gemeenschappelijke fietsenstalling;;;;Vastgoed
 COLLECTIEFOBJECTSOORT;KEU;Gemeenschappeijke keuken;Gemeenschappelijke keuken;;;;Vastgoed
 COLLECTIEFOBJECTSOORT;TOI;Gemeenschappelijke toilet;Gemeenschappelijk toilet;;;;Vastgoed
+COLLECTIEFOBJECTSOORT;WAS;Wasruimte;Een gemeenschappelijke wasruimte.;25-10-2024;;;Vastgoed
 COMMUNICATIEKANAAL;APP;Whatsapp;;;;;Relaties
 COMMUNICATIEKANAAL;BAL;Balie;;;;;Relaties
 COMMUNICATIEKANAAL;BEZ;Huisbezoek;;;;;Relaties
