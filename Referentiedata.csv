@@ -1842,6 +1842,7 @@ RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid. 
 RUIMTEDETAILSOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;SER;Serre;Vertrek: glazen veranda verbonden aan een woning.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;SLA;Slaapkamer;Vertrek: ruimte in een woning waarin men kan slapen.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;STU;Studio;Vertrek: Een compacte, zelfstandige woonruimte waarin de woon-, slaap- en keukenruimte zich in één open ruimte bevinden.;1-11-2024;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vlakke oppervlakte die wordt gebruikt om op te zitten, te eten, te drinken of andere activiteiten te doen.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TOI;Toiletruimte;Overige ruimte: Sanitaire ruimte met een toilet.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;TUI;Tuin;Buitenruimte: indien geen specificatie/verbijzondering bekend is van tuin kan voor deze algemenere duiding van tuin gebruikt worden.;14-6-2024;;RUIMTESOORT.BTR;Vastgoed
