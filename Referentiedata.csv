@@ -1524,6 +1524,7 @@ OVEREENKOMSTSOORT;KOO;Koopovereenkomst;Overeenkomst met betrekking tot het kopen
 OVEREENKOMSTSOORT;LEA;Lease;Leaseovereenkomst;;;;Overeenkomsten
 OVEREENKOMSTSOORT;OND;Onderhoudsovereenkomst;Overeenkomst met betrekking tot het onderhouden of beheren van roerend of onroerend goed.;;;;Overeenkomsten
 OVEREENKOMSTSOORT;SER;Serviceovereenkomst;Overeenkomst met betrekking tot (aanvullende) dienstverlening zoals glazenwassen, reparaties, groenverzorging. Ook de verschillende vormen van inschrijvingen of abonnementen vallen onder de soort Service overeenkomst.;;;;Overeenkomsten
+OVEREENKOMSTSTATUS;CON;Concept;Een versie van de overeenkomst die wordt opgesteld.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;BEE;Beeindigd;De einddatum van de overeenkomst is verstreken en deze is daadwerkelijk beeindigd.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;GEA;Geannuleerd;De partijen hebben afgesproken dat de huurovereenkomst toch niet definitief gemaakt wordt. Deze status kan alleen ontstaan wanneer de overeenkomst de status Voorlopig of Goedgekeurd heeft. Wanneer een overeenkomst actief is zal deze opgezegd, ontbonden of vernietigd moeten worden.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;GOE;Goedgekeurd;De overeenkomst is goedgekeurd door de verhuurder en wacht op een handtekening van de huurder.;;;;Overeenkomsten
