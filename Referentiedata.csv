@@ -1846,7 +1846,7 @@ RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vla
 RUIMTEDETAILSOORT;TOI;Toiletruimte;Overige ruimte: Sanitaire ruimte met een toilet.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;TUI;Tuin;Buitenruimte: indien geen specificatie/verbijzondering bekend is van tuin kan voor deze algemenere duiding van tuin gebruikt worden.;14-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TUS;Tussenkamer;Vertrek: ruimte gelegen tussen en verbonden met twee andere kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
-RUIMTEDETAILSOORT;VLI;Vliering;Overige ruimte: een meestal niet of beperkt afgewerkte opslagruimte onder het dak, die alleen bereikbaar is met een vlizotrap en die niet altijd hoog genoeg is om rechtop te kunnen staan.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;VLI;Vliering;Overige ruimte: ruimte onder het dak zonder vaste trap, met onvoldoende oppervlakte en/of stahoogte voor een verblijfsruimte en uitsluitend geschikt voor opslag.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;VTU;Voortuin;Buitenruimte: tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor wasmachine, droger, strijken, voor eigen gebruik.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;WOK;Woonkamer/keuken;Vertrek: ruimte met een gecombineerde functie van keuken en woonkamer;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
@@ -1854,7 +1854,8 @@ RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijks
 RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;Vertrek: ruimte met een gecombineerde functie van woonkamer en slaapkamer.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;LOG;Loggia;Buitenruimte: een inpandig balkon.;12-01-2024;;RUIMTESOORT.BTR;Vastgoed
-RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: is de bovenste verdieping direct onder het dak van een gebouw met een vaste trap zoals gedefinieerd voor het bepalen van de woningwaardering. De term wordt vooral gebruikt bij gebouwen met een puntdak. De bovenste verdieping van een gebouw met plat dak wordt meestal geen zolder genoemd. Een ruimte mag als vertrek worden gezien indien deze een vast trap heeft, de vloer begaanbaar en het dak beschoten is. Zolders zonder vaste trap leggen we niet vast als vertrek. Indien een woning een zolder heeft met een vlizotrap kan dit in de advertentietekst worden gemeld.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: ruimte onder het dak met vaste trap, die qua oppervlakte en stahoogte geschikt is om als vertrek te worden gekwalificeerd, maar die niet voldoet aan de afwerkingseisen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;ZVT;Zoldervertrek;Vertrek: ruimte onder het dak, die zowel qua oppervlakte en stahoogte als afwerking geschikt is om als vertrek te worden gekwalificeerd;22-11-2024;;RUIMTESOORT.VTK;vastgoed
 RUIMTELIGGING;NOO;Noord;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;NOS;Noordoost;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;NWE;Noordwest;;24-4-2023;;;Vastgoed
