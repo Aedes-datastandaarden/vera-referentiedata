@@ -1857,7 +1857,9 @@ RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;06-09-2024;RUIMTESO
 RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;24-4-2023;;RUIMTESOORT.VRK;Vastgoed
 RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
-RUIMTEDETAILSOORT;OBR;Overige ruimte;Buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OBR;Overige ruimte;VERVALLEN - Gebruik OBU;24-4-2023;29-11-2024;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OBU;Overige buitenruimte;Overige buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;29-11-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;ORU;Overige ruimte;Overige ruimte die niet nader is gespecifeerd als ruimtedetailsoort.;29-11-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;VERVALLEN.;24-4-2023;22-11-2024;;Vastgoed
 RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
