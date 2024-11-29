@@ -342,8 +342,8 @@ COLLECTIEFOBJECTSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemee
 COLLECTIEFOBJECTSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 COLLECTIEFOBJECTSOORT;PAG;Parkeergarage;VERVALLEN: Gebruik PP1;;22-11-2024;;Vastgoed
 COLLECTIEFOBJECTSOORT;PP1;Parkeerplek type 1;Parkeerplek Type I: parkeerplek in afgesloten parkeergarage behorende tot het complex.;;;RUIMTESOORT.OVR;Vastgoed
-COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 2;Parkeerplek Type II: parkeerplek buiten behorende tot het complex.;;;RUIMTESOORT.BTR;Vastgoed
-COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 3;Parkeerplek Type III: parkeerplek buiten behorende tot het complex of de woning zonder dak.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 2;Parkeerplek Type II: parkeerplek buiten behorende tot het complex met dak.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP3;Parkeerplek type 3;Parkeerplek Type III: parkeerplek buiten behorende tot het complex of de woning zonder dak.;;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;ROR;Recreatie-/ontmoetingsruimte;Ruimte waar bewoners samenkomen voor recreatie of sociale activiteiten.;;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
