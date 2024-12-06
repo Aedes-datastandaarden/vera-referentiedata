@@ -46,9 +46,9 @@ ACCOUNTSTATUS;BEE;Beëindigd;Het account is beeïndigd.;;;;Relaties
 ACCOUNTSTATUS;GEA;Geactiveerd;Het account is geactiveerd.;;;;Relaties
 ACCOUNTSTATUS;GEB;Geblokkeerd;Het account is (tijdelijk) geblokkeerd. Bijvoorbeeld door onjuiste invoer wachtwoord.;;;;Relaties
 ACCOUNTSTATUS;GER;Geregistreerd;Het account is aangevraagd.;;;;Relaties
-ADRESSOORT;BUI;Buitenlands adres;Een buitenlands adres.;;;;Relaties
-ADRESSOORT;EEN;Eenheid adres;De adresgegevens van een eenheid, ook wel woonadres;;;;Relaties
-ADRESSOORT;POS;Postadres;Het postadres;;;;Relaties
+ADRESSOORT;BUI;Buitenlands adres;Een adres dat zicht bevindt buiten de landsgrenzen van Nederland. Dit type adres wordt gebruikt voor buitenlandse relaties of locaties.;;;;Relaties
+ADRESSOORT;EEN;Eenheid adres;De adresgegevens die gekoppeld zijn aan een specifieke eenheid, zoals een woning appartement of bedrijfsruimte. Dit type adres omvat de volledige locatiegegevens die nodig zijn voor identificatie.;;;;Relaties
+ADRESSOORT;POS;Postadres;Een adres dat speciaal bedoeld is voor het ontvangen van post, zoals een postbusnummer of een antwoordnummer. Dit type adres is uitsluitend van toepassing op Nederlandse locaties en mag geen fysieke locatie aanduiden. Buitenlandse postadressen moeten worden geregistreerd als een buitenlands adres.;;;;Relaties
 AFLETTERSTATUS;DEE;Deels afgeletterd;Boeking is deels afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat er betalingen zijn gedaan maar dat er nog een openstaand saldo is. Voor ontvangsten betekent dit dat een deel van de ontvangst is afgeletterd tegen een vordering maar dat er nog saldo op de boeking staat die nog gekoppeld moet worden.;07-07-2023;;;Financien
 AFLETTERSTATUS;NIE;Niet afgeletterd;Boeking is (nog) niet afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat deze nog volledig open staat. Voor ontvangsten betekent dit dat deze nog niet gekoppeld is aan een vordering.;07-07-2023;;;Financien
 AFLETTERSTATUS;VOL;Volledig afgeletterd;Boeking is volledig afgeletterd tegen andere boekingen. Voor vorderingen houdt dit in dat er geen openstaand saldo meer is. Voor ontvangsten betekent dit dat de ontvangst volledig is afgeletterd tegen vordering(en).;07-07-2023;;;Financien
@@ -1767,11 +1767,11 @@ REGIESOORT;TUR;Turnkey;Bij Turn-Key bouwprojecten is de opdrachtgever meestal al
 REGISTRATIESTATUS;BEE;Beëindigd;VERVALLEN;;1-1-2022;;Relaties
 REGISTRATIESTATUS;GEA;Geactiveerd;VERVALLEN;;1-1-2022;;Relaties
 REGISTRATIESTATUS;GER;Geregistreerd;VERVALLEN;;1-1-2022;;Relaties
-RELATIEADRESSOORT;BEZ;Bezoekadres;;;;;Relaties
-RELATIEADRESSOORT;FAC;Factuuradres;;;;;Relaties
+RELATIEADRESSOORT;BEZ;Bezoekadres;Het adres waar een relatie fysiek te bezoeken is.;;;;Relaties
+RELATIEADRESSOORT;FAC;Factuuradres;Het adres dat wordt gebruikt voor het verzenden van facturen en andere financiële correspondentie.;;;;Relaties
 RELATIEADRESSOORT;LEV;Leveringsadres;Het adres waar eventuele goederen afgeleverd of bezorgd dienen te worden.;;;;Relaties
-RELATIEADRESSOORT;POS;Postadres;;;;;Relaties
-RELATIEADRESSOORT;WOO;Woonadres;;;;;Relaties
+RELATIEADRESSOORT;POS;Postadres;Het adres dat is aangewezen voor het ontvangen van correspondentie per post. Dit kan een postbus of een ander adres zijn dat afwijkt van het bezoekadres.;;;;Relaties
+RELATIEADRESSOORT;WOO;Woonadres;Het adres waar een relatie daadwerkelijk woont.;;;;Relaties
 RELATIEDETAILSOORT;HUI;Huishouden;Een huishouden bestaat uit één of meer personen die op hetzelfde adres wonen en een economisch-consumptieve eenheid vormen. (CORA);;;RELATIESOORT.GRO;Relaties
 RELATIEROLSOORT;AAN;Aanvrager;VERVALLEN - Gebruik Woningzoekende.;;1-1-2022;;Relaties
 RELATIEROLSOORT;AFW;Afwijkende betaler;VERVALLEN - Gebruik Relatiesoort BET.;;1-1-2022;;Relaties
