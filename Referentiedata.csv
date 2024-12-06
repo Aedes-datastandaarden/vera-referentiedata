@@ -1768,6 +1768,8 @@ PUNTENMUTATIESOORT;SZW;Zware sanctie;Zware sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSM;Terugdraaien milde sanctie;Terugdraaien milde sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSN;Terugdraaien no-show sanctie;Terugdraaien no-show sanctie;;;;Woonruimteverdeling
 PUNTENMUTATIESOORT;TSZ;Terugdraaien zware sanctie;Terugdraaien zware sanctie;;;;Woonruimteverdeling
+RECHTVANOPSTAL;ZRO;Zelfstandig recht van opstal;Dit recht staat op zichzelf en is niet afhankelijk van een ander gebruiksrecht op de onroerende zaak. Het geeft de opstalhouder het recht om gebouwen, werken of beplantingen op, in of boven de grond van een ander te hebben zonder dat deze eigendom worden van de grondeigenaar.;06-12-2024;;;Vastgoed
+RECHTVANOPSTAL;ARO;Afhankelijk recht van opstal;Dit recht is gekoppeld aan een ander gebruiksrecht, zoals erfpacht, huur of pacht. Als het onderliggende gebruiksrecht eindigt, eindigt ook het recht van opstal.;06-12-2024;;;Vastgoed
 RECLAMATIESOORT;BEZ;Bezwaar;Een ingediend bezwaar over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESOORT;KLA;Klacht;Een klacht over de uitvoering van de corporatie van het woonruimteverdeelproces.;16-3-2023;;;Woonruimteverdeling
 RECLAMATIESTATUS;AFG;Afgewezen;De reclamatie is afgewezen door commissie.;16-3-2023;;;Woonruimteverdeling
