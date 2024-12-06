@@ -316,28 +316,57 @@ CLUSTERSOORT;STR;Strategisch;;;;;Vastgoed
 CLUSTERSOORT;VVE;Vereniging van Eigenaars;;;;;Vastgoed
 CLUSTERSOORT;WIJ;Wijk;Cluster van eenheden die samen een wijk vormen, anders dan de officiële CBS-wijk;;;;Vastgoed
 CLUSTERSOORT;WRD;Waardering;Cluster van eenheden dat wordt gewaardeerd conform de uitgangspunten van het Handboek Marktwaarde Verhuurde Staat (MVS).;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;APD;Achterpad;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;CAS;Casco;Gevel e.d.;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;CEH;Centrale hal;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;DAK;Dak;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;GAL;Galerij;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;LIF;Lift;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;ONG;Onderdoorgang;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;PAG;Parkeergarage;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;ROR;Recreatie-/ontmoetingsruimte;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;SPP;Speelplaats;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;STK;Stortkoker;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;TER;Terrein;Parkeerterrein, buitenterrein;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;TRH;Trappenhuis;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;TRU;Technische ruimte;;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;TUI;Tuin;Gemeenschappelijke tuin;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;BDK;Gemeenschappelijke badkamer;Gemeenschappelijke badkamer;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;BAL;Gemeenschappelijk balkon;Gemeenschappelijk balkon;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;BER;Gemeenschappelijke berging;Gemeenschappelijke berging of berginsgsgang;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;FTS;Gemeenschappelijke fietsenstalling;Gemeenschappelijke fietsenstalling;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;KEU;Gemeenschappeijke keuken;Gemeenschappelijke keuken;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;TOI;Gemeenschappelijke toilet;Gemeenschappelijk toilet;;;;Vastgoed
-COLLECTIEFOBJECTSOORT;WAS;Wasruimte;Een gemeenschappelijke wasruimte.;25-10-2024;;;Vastgoed
+COLLECTIEFOBJECTSOORT;APD;Achterpad;Een smalle doorgang achter woningen, vaak gebruikt als toegang tot tuinen of bergingen.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;ATU;Achtertuin;Tuin gelegen aan de achterzijde van de woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;BAL;Gemeenschappelijk balkon;Balkon dat gedeeld wordt door meerdere bewoners of gebruikers.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;BAT;Badkamer met toilet;Een gecombineerde sanitaire ruimte met een douche, bad en toilet in één vertrek.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;BDK;Gemeenschappelijke badkamer;Sanitaire ruimte gedeeld door meerdere gebruikers, bedoeld voor wassen en douchen.;;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;BER;Gemeenschappelijke berging;Ruimte bedoeld voor het opslaan van goederen en gedeeld door meerdere bewoners.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;BIJ;Bijkeuken;Ruimte grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;CAS;Casco;Constructieve basis van een gebouw, zoals muren en dak zonder verdere afwerking.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;CEH;Centrale hal;Een grote gemeenschappelijke hal, vaak als entree voor een gebouw.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;DAK;Dak;Bovenzijde van een gebouw die bescherming biedt tegen weersinvloeden.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;DOU;Doucheruimte;Sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;FTS;Gemeenschappelijke fietsenstalling;Ruimte bestemd voor het stallen van fietsen en gedeeld door meerdere gebruikers.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;GAK;Gemeenschappelijk dakterras;Een buitenruimte op het dak, gedeeld door meerdere gebruikers en bedoeld voor recreatie.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;GAL;Galerij;Een overdekte gang aan de buitenzijde van een gebouw, vaak verbonden met appartementen.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;GAN;Gang;Een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;22-11-2024;;RUIMTESOORT.VRK;Vastgoed
+COLLECTIEFOBJECTSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;22-11-2024;;RUIMTESOORT.VRK;Vastgoed
+COLLECTIEFOBJECTSOORT;KEL;Kelder;Dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;KEU;Gemeenschappeijke keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;LIF;Lift;Een mechanisch systeem dat personen of goederen verticaal verplaatst binnen een gebouw.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;ONG;Onderdoorgang;Een overdekte doorgang onder een gebouw of constructie.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemeenschappelijke ruimte of voorziening die niet nader is gespecifeerd als collectiefobjectsoort. Bijvoorbeeld gemeenschappelijke hobbyruimte.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;PAG;Parkeergarage;VERVALLEN: Gebruik PP1;;22-11-2024;;Vastgoed
+COLLECTIEFOBJECTSOORT;PP1;Parkeerplek type 1;Parkeerplek Type I: parkeerplek in afgesloten parkeergarage behorende tot het complex.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 2;Parkeerplek Type II: parkeerplek buiten behorende tot het complex met dak.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP3;Parkeerplek type 3;Parkeerplek Type III: parkeerplek buiten behorende tot het complex of de woning zonder dak.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;ROR;Recreatie-/ontmoetingsruimte;Ruimte waar bewoners samenkomen voor recreatie of sociale activiteiten.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;SER;Serre;Glazen veranda verbonden aan een woning.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;SPP;Speelplaats;Buitenruimte ingericht voor spel en recreatie van kinderen.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;STK;Stortkoker;Installatie om afval of goederen naar beneden te transporteren, meestal naar een verzamelpunt.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;TER;Terrein;Een stuk grond behorend bij een gebouw of complex.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;TES;Terras;Buitenruimte: deel van een buitenruimte met een vlakke oppervlakte die wordt gebruikt om op te zitten, te eten, te drinken of andere activiteiten te doen.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;TOI;Gemeenschappelijke toilet;Sanitaire ruimte met een toilet, gedeeld door meerdere bewoners of gebruikers.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;TRH;Trappenhuis;Een ruimte in een gebouw die trappen bevat en toegang biedt tot verschillende verdiepingen.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;TRU;Technische ruimte;Een afgesloten ruimte voor installaties zoals verwarmings- of ventilatiesystemen.;;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;TUI;Tuin;Gemeenschappelijke buitenruimte, vaak groen aangelegd, voor recreatief gebruik.;;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;TUS;Tussenkamer;Ruimte gelegen tussen en verbonden met twee andere kamers.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;VLI;Vliering;Ruimte onder het dak zonder vaste trap, met onvoldoende oppervlakte en/of stahoogte voor een verblijfsruimte en uitsluitend geschikt voor opslag.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;VTU;Voortuin;Tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;WAS;Wasruimte;Een gemeenschappelijke wasruimte.;25-10-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;WOK;Woonkamer/keuken;Ruimte met een gecombineerde functie van keuken en woonkamer;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;WOO;Woonkamer;De kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken.;22-11-24;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;WSL;Woon-/slaapkamer;Ruimte met een gecombineerde functie van woonkamer en slaapkamer.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;LOG;Loggia;Een inpandig balkon.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;ZOL;Zolder;Ruimte onder het dak met vaste trap, die qua oppervlakte en stahoogte geschikt is om als vertrek te worden gekwalificeerd, maar die niet voldoet aan de afwerkingseisen.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;ZVT;Zoldervertrek;Ruimte onder het dak, die zowel qua oppervlakte en stahoogte als afwerking geschikt is om als vertrek te worden gekwalificeerd;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 COMMUNICATIEKANAAL;APP;Whatsapp;;;;;Relaties
 COMMUNICATIEKANAAL;BAL;Balie;;;;;Relaties
 COMMUNICATIEKANAAL;BEZ;Huisbezoek;;;;;Relaties
@@ -1831,7 +1860,7 @@ RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun v
 RUIMTEDETAILSOORT;OBR;Overige ruimte;VERVALLEN - Gebruik OBU;24-4-2023;29-11-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OBU;Overige buitenruimte;Overige buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;29-11-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ORU;Overige ruimte;Overige ruimte die niet nader is gespecifeerd als ruimtedetailsoort.;29-11-2024;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemeenschappelijke ruimte of voorziening die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld gemeenschappelijke hobbyruimte, wasruimte.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
+RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;VERVALLEN.;24-4-2023;22-11-2024;;Vastgoed
 RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats.;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
