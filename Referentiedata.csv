@@ -1376,6 +1376,7 @@ MEETEENHEID;MIN;Minuten;Aantal uitgedrukt in minuten, bijvoorbeeld 15 minuten re
 MEETEENHEID;MTR;Meter;;;;;Financiën
 MEETEENHEID;STU;Stuks;Aantal uitgedrukt per stuk, bijvoorbeeld 2 stuks deurklink, 10 stuks schroeven, etc.;;;;Financiën
 MEETEENHEID;UUR;Uren;Aantal uitgedrukt in uren, bijvoorbeeld 2,5 uur werktijd. 15 minuten kan uitgedrukt worden in 0,25 uur;;;;Financiën
+MEETEENHEID;EUR;Euro;Aantal uitgedrukt in euro's;;;;Financiën
 MONITORINTERVAL;UUR;Uur;;06-12-2024;;;Energie
 MONITORINTERVAL;DAG;Dag;;06-12-2024;;;Energie
 MONITORINTERVAL;WEE;Week;;06-12-2024;;;Energie
