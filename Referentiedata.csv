@@ -127,7 +127,7 @@ BETALINGSREGELINGEINDEREDEN;VOL;Regeling voldoet niet;De betalingsregeling is (v
 BETALINGSREGELINGSTATUS;AAN;Aangevraagd;Aangemaakt, maar nog niet toegekend of in werking getreden.;;;;Financiën
 BETALINGSREGELINGSTATUS;ACT;Actief;Toegekend en momenteel lopend.;;;;Financiën
 BETALINGSREGELINGSTATUS;ANN;Geannuleerd;Tussentijds gestopt voordat deze volledig was afgerond.;;;;Financiën
-BETALINGSREGELINGSTATUS;BEE;Beëindigd;Volledig afgerond; alle betalingsverplichtingen zijn voldaan.;;;;Financiën
+BETALINGSREGELINGSTATUS;BEE;Beëindigd;Volledig afgerond, alle betalingsverplichtingen zijn voldaan.;;;;Financiën
 BETALINGSREGELINGSTATUS;BEV;Bevroren;Tijdelijk opgeschort vanwege onmogelijkheid om aan de verplichtingen te voldoen.;;;;Financiën
 BETALINGSREGELINGSTATUS;VER;Verwijderd;Verwijderd omdat deze niet was toegekend of verkeerd of onterecht was vastgelegd.;13-12-2024;;;Financiën
 BOEKINGDETAILSOORT;AAN;Aanmaning;Boeking voor het verzoek tot betalen aan een huurder of debiteur van een of meer openstaande achterstallige vorderingen, dan wel de ontvangst naar aanleiding daarvan.;;;;Financiën
