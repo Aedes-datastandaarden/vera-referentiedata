@@ -1509,14 +1509,14 @@ OPLEIDINGSNIVEAU;VWO;Voorbereidend wetenschappelijk onderwijs;;;;;Relaties
 OPLEIDINGSNIVEAU;WBA;WO Bachelor;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
 OPLEIDINGSNIVEAU;WMA;WO Master;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
 OPLEIDINGSNIVEAU;WPM;WO Postinitiële master;Centraal Register Opleidingen Hoger Onderwijs (CROHO);;;;Relaties
-OPPERVLAKTESOORT;BVO;Bruto vloeroppervlakte;De bruto oppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
-OPPERVLAKTESOORT;FNO;Functioneel nuttig oppervlakte;De woon- of werkoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
-OPPERVLAKTESOORT;GBO;Gebruiksoppervlakte;De gebruiksoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
-OPPERVLAKTESOORT;GNO;Gerealiseerd nuttig oppervlakte;De gerealiseerd nuttig oppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;BVO;Bruto vloeroppervlakte;De bruto vloeroppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;FNO;Functioneel nuttig oppervlakte;De woon- of werkoppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;GBO;Gebruiksoppervlakte;De gebruiksoppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;GNO;Gerealiseerd nuttig oppervlakte;De gerealiseerd nuttig oppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;GTZ;Gebruiksoppervlakte thermische zone;Gebruiksoppervlakte van de thermische zone, afgebakend volgens NTA 8800;31-05-2024;;;Vastgoed
-OPPERVLAKTESOORT;NVO;Netto vloeroppervlakte;De netto vloeroppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
-OPPERVLAKTESOORT;VVO;Verhuurbare vloeroppervlakte;De verhuurbare vloeroppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
-OPPERVLAKTESOORT;WOW;De woon of werk oppervlakte;De gebruiksoppervlakte van een eenheid(verblijfsobject) in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;NVO;Netto vloeroppervlakte;De netto vloeroppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;VVO;Verhuurbare vloeroppervlakte;De verhuurbare vloeroppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;WOW;De woon of werk oppervlakte;De gebruiksoppervlakte van in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPZEGTERMIJN;12M;12 maanden;Voor de overeenkomst geldt een opzegtermijn van 12 maanden.;;;;Overeenkomsten
 OPZEGTERMIJN;14D;14 dagen;Voor de overeenkomst geldt een opzegtermijn van 14 dagen.;22-9-2023;;;Overeenkomsten
 OPZEGTERMIJN;1M;1 maand;Voor de overeenkomst geldt een opzegtermijn van 1 maand.;;;;Overeenkomsten
