@@ -124,11 +124,12 @@ BETALINGSREGELINGEINDEREDEN;AFB;Afbetaald;De betalingsregeling is beëindigd omd
 BETALINGSREGELINGEINDEREDEN;ONI;Oninbaar;De betalingsregeling is beëindigd omdat deze oninbaar is gebleken.;;;;Financiën
 BETALINGSREGELINGEINDEREDEN;SAN;Restschuld gesaneerd;De betalingsregeling is beëindigd omdat de restschuld is gesaneerd.;;;;Financiën
 BETALINGSREGELINGEINDEREDEN;VOL;Regeling voldoet niet;De betalingsregeling is (voortijdig) beëindigd omdat de regeling niet voldoet in de specifieke situatie.;;;;Financiën
-BETALINGSREGELINGSTATUS;AAN;Aangevraagd;Ook wel aangemaakt.;;;;Financiën
-BETALINGSREGELINGSTATUS;ACT;Actief;Toegekende betalingsregeling die loopt.;;;;Financiën
-BETALINGSREGELINGSTATUS;ANN;Geannuleerd;Tussentijds gestopte regeling.;;;;Financiën
-BETALINGSREGELINGSTATUS;BEE;Beëindigd;Ook wel afgerond. Alle betalingsverplichtingen zijn voldaan.;;;;Financiën
-BETALINGSREGELINGSTATUS;BEV;Bevroren;Tussentijds bevroren betalingsregeling omdat het niet mogelijk is om te voldoen aan de regeling.;;;;Financiën
+BETALINGSREGELINGSTATUS;AAN;Aangevraagd;Aangemaakt, maar nog niet toegekend of in werking getreden.;;;;Financiën
+BETALINGSREGELINGSTATUS;ACT;Actief;Toegekend en momenteel lopend.;;;;Financiën
+BETALINGSREGELINGSTATUS;ANN;Geannuleerd;Tussentijds gestopt voordat deze volledig was afgerond.;;;;Financiën
+BETALINGSREGELINGSTATUS;BEE;Beëindigd;Volledig afgerond; alle betalingsverplichtingen zijn voldaan.;;;;Financiën
+BETALINGSREGELINGSTATUS;BEV;Bevroren;Tijdelijk opgeschort vanwege onmogelijkheid om aan de verplichtingen te voldoen.;;;;Financiën
+BETALINGSREGELINGSTATUS;VER;Verwijderd;Verwijderd omdat deze niet was toegekend of verkeerd of onterecht was vastgelegd.;13-12-2024;;;Financiën
 BOEKINGDETAILSOORT;AAN;Aanmaning;Boeking voor het verzoek tot betalen aan een huurder of debiteur van een of meer openstaande achterstallige vorderingen, dan wel de ontvangst naar aanleiding daarvan.;;;;Financiën
 BOEKINGDETAILSOORT;AFB;Afboeking;Boeking voor afboeken van het totale saldo van een openstaande vordering.;;;;Financiën
 BOEKINGDETAILSOORT;BAN;Bank;Boeking voor  een ontvangst of uitbetaling die via een bankrekening is ontvangen of uitgevoerd.;;;;Financiën
