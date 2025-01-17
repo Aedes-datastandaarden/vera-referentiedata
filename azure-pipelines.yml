@@ -9,7 +9,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  ReleaseNo: '4.1.{Date}'
+  ReleaseNo: '4.2.{Date}'
 
 parameters:
   - name: BuildType
