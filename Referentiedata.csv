@@ -1918,6 +1918,7 @@ RUIMTEDETAILSOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor wasmachin
 RUIMTEDETAILSOORT;WOK;Woonkamer/keuken;Vertrek: ruimte met een gecombineerde functie van keuken en woonkamer;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;WOO;Woonkamer;Vertrek: de kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken en bevindt zich meestal op de begane grond, voor zover het niet gaat om een appartement in een flat.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;WSL;Woon-/slaapkamer;Vertrek: ruimte met een gecombineerde functie van woonkamer en slaapkamer.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;WSK;Woon-/slaapkamer/keuken;Vertrek: een ruimte waarin de functies van woonkamer, slaapkamer en keuken gecombineerd worden. Deze ruimte biedt voorzieningen voor koken, slapen en dagelijkse activiteiten.;24-1-2025;;RUIMTESOORT.VTK;vastgoed
 RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;LOG;Loggia;Buitenruimte: een inpandig balkon.;12-01-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: ruimte onder het dak met vaste trap, die qua oppervlakte en stahoogte geschikt is om als vertrek te worden gekwalificeerd, maar die niet voldoet aan de afwerkingseisen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
