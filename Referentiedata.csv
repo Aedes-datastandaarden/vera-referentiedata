@@ -1429,6 +1429,7 @@ ONDERHOUDSOORT;PRJ;Projectmatig;Opdracht tot het uitvoeren van onderhoudswerkzaa
 ONDERHOUDSOORT;REP;Reparatie;Opdracht tot het uitvoeren van reparatiewerkzaamheden naar aanleiding van een geconstateerd defect;;;;Onderhoud
 ONDERHOUDSOORT;WMO;WMO Aanpassing;Bij benodigde aanpassing van de woning bij de zittende huurder (door ouderdom, invaliditeit aanbrengen van WMO-aanpassing);;;;Onderhoud
 ONDERHOUDSOORT;WOV;Woningverbetering;Bij aanpassing op verzoek van de huurder voor verbetering van het woongenot. Voorbeeld is het voortijdig vervangen van de wc-pot door een luxe uiitvoering;;;;Onderhoud
+ONDERHOUDSOORT;LEE;Leefbaarheid;Bij benodigde aanpassing van de woning om de leefbaarheid te verhogen;24-01-25;;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud
@@ -1473,7 +1474,7 @@ ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketens
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
-ONDERHOUDSPECIALISME;VOC;Specialist Vochtwering;Specialist voor schimmel en vocht bestrijding;;;;Onderhoud
+ONDERHOUDSPECIALISME;VOC;Specialist Vochtwering;Een specialist in vochtwering is een professional die zich richt op het onderzoeken, identificeren, behandelen en voorkomen van vochtproblemen in gebouwen. Deze experts kunnen helpen bij problemen zoals optrekkend vocht, condensatie, lekkages en schimmelvorming. Ze gebruiken verschillende technieken en materialen om vocht buiten te houden en de structurele integriteit van een gebouw te behouden.;;;;Onderhoud
 ONDERHOUDSPECIALISME;WIT;Specialist Witgoed;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;WTW;Specialist MV/WTW;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;ZAN;Zandleverancier;VERVALLEN - Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige. Gebruik hiervoor HOV Hovenier.;;8-9-2023;;Onderhoud
