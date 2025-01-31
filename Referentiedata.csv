@@ -835,7 +835,7 @@ ENERGIEPRESTATIESOORT;EI;Energie-index;De tussen 1-1-2015 en 1-1-2021 afgegeven 
 ENERGIEPRESTATIESOORT;EP2;Primair energieverbruik - woningbouw;Het conform NTA8800 berekende jaarlijkse primair (gebouwgebonden) energiegebruik in kWh/m2 gebruiksoppervlak, exclusief eventuele energiemaatregelen op gebiedsniveau (EMG). Dit is de optelsom van de het energieverbruik voor verwarming, koeling, warmtapwaterbereiding, ventilatoren, verlichting en bevochtiging. Dit betreft de EP2 EMG forf. score, waarop het afgegeven energielabel met ingang van 1-1-2021 is gebaseerd. Tevens één van de indicatoren die benodigd zijn voor het bepalen van de maximale energieprestatievergoeding (EPV).;6-2-2023;;;Energie
 ENERGIEPRESTATIESOORT;OPG;Opgewekte duurzame elektriciteit;"De totale jaarlijkse hoeveelheid opgewekte hoeveelheid duurzame energie door zonnepanelen in kWh/jaar die beschikbaar is voor huishoudelijk gebruik, uitgedrukt in kWh elektrische energie per jaar (kWh_e/jr). Dit is één van de indicatoren die benodigd zijn voor het bepalen van de maximale energieprestatievergoeding (EPV). Belangrijk om te vermelden is dat het hier gaat om wat contractueel aan de huurder is beloofd. Dit is niet een uitkomst van de energielabelberekening. Er zit wel een berekening aan ten grondslag, maar die is niet genormeerd. Als het geen EPV woning betreft zal hier dus ""0"" moeten staan, ook al liggen er PV-panelen op het dak. ";22-9-2023;;;Energie
 ENERGIEPRESTATIESOORT;VEL;Voorlopig energielabel;Het tot 1-1-2015 door de overheid afgegeven 'Oude' energielabel. Dit is geen officieel energieprestatiecertificaat. Als er een voorlopig energielabel is toegekend zal er geen energie-index of andere waarde bij de energieprestatie horen.;6-2-2023;;;Energie
-ENERGIEPRESTATIESOORT;NEW;Netto warmtevraag;De volgende de NEN7120 berekende netto warmtevraag.;17-1-2025;;;
+ENERGIEPRESTATIESOORT;NEW;Netto warmtevraag;De volgende de NEN7120 berekende netto warmtevraag.;17-1-2025;;;Energie
 ENERGIEPRESTATIESOORT;WAR;Warmtebehoefte ruimteverwarming;De volgens de NTA8800 berekende warmtebehoefte voor ruimteverwarming, gegeven het woningtype (ook wel: warmtevraag), uitgedrukt in kWh thermische energie per m2 per jaar (kWh_th/m2/jr). Dit is één van de indicatoren die benodigd zijn voor het bepalen van de maximale energieprestatievergoeding (EPV).;22-9-2023;;;Energie
 ENERGIEPRESTATIESTATUS;DEF;Definitief;Een definitieve energieprestatie is een bij de Rijksoverheid afgemelde energieprestatie, wat leidt tot een officieel geldig label.;10-2-2023;;;Energie
 ENERGIEPRESTATIESTATUS;VOO;Voorlopig;Een voorlopige energieprestatie wordt ook wel 'pré-label' genoemd en is een op basis van woningkenmerken afgeleide (theoretische) prestatie;10-2-2023;;;Energie
@@ -1379,15 +1379,15 @@ MEETEENHEID;MTR;Meter;;;;;Financiën
 MEETEENHEID;STU;Stuks;Aantal uitgedrukt per stuk, bijvoorbeeld 2 stuks deurklink, 10 stuks schroeven, etc.;;;;Financiën
 MEETEENHEID;UUR;Uren;Aantal uitgedrukt in uren, bijvoorbeeld 2,5 uur werktijd. 15 minuten kan uitgedrukt worden in 0,25 uur;;;;Financiën
 MEETEENHEID;EUR;Euro;Aantal uitgedrukt in euro's;03-01-2025;;;Financiën
-MONITORINTERVAL;5MI;5 minuten;;17-1-2025;;;
-MONITORINTERVAL;KWT;Kwartier;;17-1-2025;;;
+MONITORINTERVAL;5MI;5 minuten;;17-1-2025;;;Energie
+MONITORINTERVAL;KWT;Kwartier;;17-1-2025;;;Energie
 MONITORINTERVAL;UUR;Uur;;06-12-2024;;;Energie
 MONITORINTERVAL;DAG;Dag;;06-12-2024;;;Energie
 MONITORINTERVAL;WEE;Week;;06-12-2024;;;Energie
 MONITORINTERVAL;MAA;Maand;;06-12-2024;;;Energie
 MONITORINTERVAL;KWA;Kwartaal;;06-12-2024;;;Energie
 MONITORINTERVAL;JAA;Jaar;;06-12-2024;;;Energie
-MONITORINTERVAL;VAR;Variabel;;17-1-2025;;;
+MONITORINTERVAL;VAR;Variabel;;17-1-2025;;;Energie
 MONITORWAARDESOORT;ENH;ElektriciteitNetgebruikHoog;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door slimme meter. kWh (cumulatief).;06-12-2024;;;Energie
 MONITORWAARDESOORT;ENL;ElektriciteitNetgebruikLaag;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door slimme meter. kWh (cumulatief).;06-12-2024;;;Energie
 MONITORWAARDESOORT;EBV;ElektriciteitsgebruikBoilervat;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door Gateway of via Portal. kWh (cumulatief). Spiraal zit in boilervat.;06-12-2024;;;Energie
