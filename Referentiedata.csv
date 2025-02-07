@@ -1568,6 +1568,7 @@ OVEREENKOMSTDETAILSOORT;FLE;Flexcontract;Huurovereenkomst voor een flexwoning: d
 OVEREENKOMSTDETAILSOORT;INS;Inschrijving;VERVALLEN - Gebruik overeenkomstsoort Inschrijving.;;22-9-2023;;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;JON;Jongerencontract;Jongeren tussen 18 en 28 jaar kunnen een huurcontract voor vijf jaar krijgen voor een geschikte woning voor jongeren.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;KGA;Koopgarant;Verkoop van een woning tegen lagere prijs dan de marktwaarde en de garantie dat de corporatie of ontwikkelaar de woning binnen 3 maanden zal terugkopen indien gewenst.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;MID;Midstay;Midstay betreft tijdelijke huur voor een middellange periode, doorgaans tussen zes maanden en drie jaar. In tegenstelling tot een regulier Tijdelijk contract (TIJ) kent Midstay specifieke contractvoorwaarden die afhangen van wet- en regelgeving of gemeentelijk beleid.;07-02-2025;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;MGE;MGE constructie;Verkoop met Maatschappelijk Gebonden Eigendom.;;;OVEREENKOMSTSOORT.KOO;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;NIE;Nieuwsbrief;Nieuwsbrief voor marketing doeleinden.;;;OVEREENKOMSTSOORT.SER;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;NUL;Nul-uren contract;Nul-uren arbeidsovereenkomst;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
