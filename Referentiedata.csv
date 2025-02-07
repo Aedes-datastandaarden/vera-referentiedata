@@ -1937,7 +1937,7 @@ RUIMTEDETAILSOORT;WSK;Woon-/slaapkamer/keuken;Vertrek: een ruimte waarin de func
 RUIMTEDETAILSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;LOG;Loggia;Buitenruimte: een inpandig balkon.;12-01-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ZOL;Zolder;Overige ruimte: ruimte onder het dak met vaste trap, die qua oppervlakte en stahoogte geschikt is om als vertrek te worden gekwalificeerd, maar die niet voldoet aan de afwerkingseisen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;ZVT;Zoldervertrek;Vertrek: ruimte onder het dak, die zowel qua oppervlakte en stahoogte als afwerking geschikt is om als vertrek te worden gekwalificeerd;22-11-2024;;RUIMTESOORT.VTK;vastgoed
+RUIMTEDETAILSOORT;ZVT;Zoldervertrek;Vertrek: ruimte onder het dak, die zowel qua oppervlakte en stahoogte als afwerking geschikt is om als vertrek te worden gekwalificeerd;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 RUIMTELIGGING;NOO;Noord;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;NOS;Noordoost;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;NWE;Noordwest;;24-4-2023;;;Vastgoed
