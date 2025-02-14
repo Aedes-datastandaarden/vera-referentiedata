@@ -2016,6 +2016,8 @@ UITEXPLOITATIEREDEN;PLA;Planmatig onderhoud;De eenheid is (tijdelijk) uit exploi
 UITEXPLOITATIEREDEN;REN;Renovatie;De eenheid is (tijdelijk) uit exploitatie genomen omdat deze wordt gerenoveerd;30-6-2023;;;Vastgoed
 UITEXPLOITATIEREDEN;SAM;Samengevoegd;De eenheid is uit exploitatie genomen omdat deze is samengevoegd met een andere eenheid;;;;Vastgoed
 UITEXPLOITATIEREDEN;SLO;Sloop;De eenheid is uit exploitatie genomen in afwachting van sloop;;;;Vastgoed
+UITEXPLOITATIEREDEN;SPL;Splitsing;De eenheid is uit exploitatie genomen omdat de eenheid is gespitst in meerdere eenheden.;14-02-2025;;;Vastgoed
+UITEXPLOITATIEREDEN;TER;Terugkoopverplichting;De eenheid is niet meer in exploitatie omdat deze is verkocht met een terugkoopverplichting.;14-02-2025;;;Vastgoed
 UITEXPLOITATIEREDEN;TRA;Transformatie;De eenheid is (tijdelijk) uit exploitatie genomen in afwachting van transformatie / sanering;;;;Vastgoed
 UITEXPLOITATIEREDEN;UIT;Uitruil;De eenheid is uit exploitatie genomen nadat deze is uitgeruild met een andere vastgoedeigenaar;;;;Vastgoed
 UITEXPLOITATIEREDEN;VAB;Verkoop aan belegger;De eenheid is niet meer in exploitatie omdat deze permanent is verkocht aan een belegger;30-6-2023;;;Vastgoed
