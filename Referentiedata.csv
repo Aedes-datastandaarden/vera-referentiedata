@@ -807,15 +807,23 @@ EENHEIDSTATUS;ONT;In ontwikkeling;De eenheid is (nog) niet in exploitatie omdat 
 EENHEIDSTATUS;UIT;Uit exploitatie;De eenheid is niet (meer) in exploitatie bij de corporatie. Gebruik in combinatie met Uit Exploitatiereden om te verantwoorden met welke reden de eenheid uit exploitatie is.;30-6-2023;;;Vastgoed
 EENHEIDSTATUS;VEH;Verhuurd;De eenheid is verhuurd voor bepaalde of onbepaalde duur;;;;Vastgoed
 EENHEIDSTATUS;VEK;Verkocht;VERVALLEN - Gebruik de status Uit Exploitatie, in combinatie met een uit exploitatiereden.;;30-6-2023;;Vastgoed
-EINDEDETAILREDEN;FAI;Faillissement;Een overeenkomst is beëindigd wegens faillissement;;;EINDEREDEN.ONT;Overeenkomsten
-EINDEDETAILREDEN;NOO;Noorderzon;Een overeenkomst is beëindigd omdat de huurder(s) met de noorderzon is (zijn) vertrokken;;;EINDEREDEN.ONT;Overeenkomsten
-EINDEDETAILREDEN;ONT;Ontruiming;Een overeenkomst is beëindigd omdat de woning is ontruimd;;;EINDEREDEN.ONT;Overeenkomsten
-EINDEDETAILREDEN;OVE;Overlijden;Een overeenkomst is beëindigd wegens overlijden;;;EINDEREDEN.ONT;Overeenkomsten
+EINDEDETAILREDEN;FAI;Faillissement;Een overeenkomst is beëindigd wegens faillissement.;;;EINDEREDEN.ONT;Overeenkomsten
+EINDEDETAILREDEN;HER;Herstructurering;Een overeenkomst is beëindigd wegens herstructurering.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;KOO;Koop eigen woning;Een overeenkomst is beëindigd wegens koop eigen woning.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;LEE;Leefbaarheid;Een overeenkomst is beëindigd wegens redenen van leefbaarheid. Bijvoorbeeld geluidsoverlast, onveiligheid, slechte voorzieningen of negatieve sociale dynamiek.;14-02-205;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;MED;Medische reden;Een overeenkomst is beëindigd wegens medische redenen.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;NOO;Noorderzon;Een overeenkomst is beëindigd omdat de huurder(s) met de noorderzon is (zijn) vertrokken.;;;EINDEREDEN.ONT;Overeenkomsten
+EINDEDETAILREDEN;ONT;Ontruiming;Een overeenkomst is beëindigd omdat de woning is ontruimd.;;;EINDEREDEN.ONT;Overeenkomsten
+EINDEDETAILREDEN;OVE;Overlijden;Een overeenkomst is beëindigd wegens overlijden.;;;EINDEREDEN.ONT;Overeenkomsten
+EINDEDETAILREDEN;PAS;Meer passende woning;Een overeenkomst is beëindigd vanwege verhuizing naar een meer passende woning. Bijvoorbeeld bij gezinsuitbreiding, leeftijdsgerelateerde aanpassingen, locatievoorkeur, financiële redenen of woonstijl.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
 EINDEDETAILREDEN;REG;Regulier;Er is geen bijzondere aanleiding voor het beëindigen van een overeenkomst, of de reden is niet bekend.;;;EINDEREDEN.OPZ;Overeenkomsten
-EINDEDETAILREDEN;TER;Terugkoop;Een overeenkomst is beëindigd wegens terugkoop;;;EINDEREDEN.OPZ;Overeenkomsten
-EINDEDETAILREDEN;VER;Verkoop;Een overeenkomst is beëindigd wegens verkoop;;;EINDEREDEN.OPZ;Overeenkomsten
-EINDEDETAILREDEN;WIJ;Wijziging tenaamstelling;Een overeenkomst is beëindigd omdat de tenaamstelling is gewijzigd (en is vervangen door een nieuwe overeenkomst);;;EINDEREDEN.OPZ;Overeenkomsten
-EINDEDETAILREDEN;WON;Woningruil;Een overeenkomst is beëindigd wegens woningruil;;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;TER;Terugkoop;Een overeenkomst is beëindigd wegens terugkoop.;;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;TIJ;Tijdelijk;Een overeenkomst is beëindigd wegens het einde van de looptijd.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;VER;Verkoop;Een overeenkomst is beëindigd wegens verkoop.;;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;VOO;Voorzieningen;Een overeenkomst is beëindigd wegens voorzieningen. Bijvoorbeeld parkeergelegenheid, buurtvoorzieningen, groen en recreatie.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;WER;Werk;Een overeenkomst is beëindigd wegens werk buiten de regio.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;WIJ;Wijziging tenaamstelling;Een overeenkomst is beëindigd omdat de tenaamstelling is gewijzigd (en is vervangen door een nieuwe overeenkomst).;;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;WON;Woningruil;Een overeenkomst is beëindigd wegens woningruil.;;;EINDEREDEN.OPZ;Overeenkomsten
 EINDEREDEN;ONT;Ontbinding;Een overeenkomst wordt of is beëindigd omdat de andere partij haar afspraken onder de overeenkomst niet nakomt.;;;;Overeenkomsten
 EINDEREDEN;OPZ;Opzegging;Een overeenkomst wordt of is beëindigd omdat een van de partijen deze opzegt. Dit is alleen mogelijk bij bepaalde benoemde overeenkomsten, zoals een huurovereenkomst of een arbeidsovereenkomst.;;;;Overeenkomsten
 EINDEREDEN;VER;Vernietiging;Een overeenkomst wordt of is beëindigd (eventueel met terugwerkende kracht) omdat sprake is van een zogenaamd wilsgebrek (bedreiging, bedrog, dwaling, misbruik van omstandigheden);;;;Overeenkomsten
