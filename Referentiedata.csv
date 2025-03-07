@@ -342,9 +342,9 @@ COLLECTIEFOBJECTSOORT;ONG;Onderdoorgang;Een overdekte doorgang onder een gebouw 
 COLLECTIEFOBJECTSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;Gemeenschappelijke ruimte of voorziening die niet nader is gespecifeerd als collectiefobjectsoort. Bijvoorbeeld gemeenschappelijke hobbyruimte.;22-11-2024;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 COLLECTIEFOBJECTSOORT;PAG;Parkeergarage;VERVALLEN: Gebruik PP1;;22-11-2024;;Vastgoed
-COLLECTIEFOBJECTSOORT;PP1;Parkeerplek type 1;Parkeerplek Type I: parkeerplek in afgesloten parkeergarage behorende tot het complex.;;;RUIMTESOORT.GEM;Vastgoed
-COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 2;Parkeerplek Type II: parkeerplek buiten behorende tot het complex met dak.;;;RUIMTESOORT.GEM;Vastgoed
-COLLECTIEFOBJECTSOORT;PP3;Parkeerplek type 3;Parkeerplek Type III: parkeerplek buiten behorende tot het complex of de woning zonder dak.;;;RUIMTESOORT.GEM;Vastgoed
+COLLECTIEFOBJECTSOORT;PP1;Parkeerplek type 1;Parkeerplek Type I: parkeerplek in afgesloten parkeergarage behorende tot het complex.;;07-03-2025;RUIMTESOORT.OVR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP2;Parkeerplek type 2;Parkeerplek Type II: parkeerplek buiten behorende tot het complex met dak.;;07-03-2025;RUIMTESOORT.BTR;Vastgoed
+COLLECTIEFOBJECTSOORT;PP3;Parkeerplek type 3;Parkeerplek Type III: parkeerplek buiten behorende tot het complex of de woning zonder dak.;;07-03-2025;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;IAP;Inpandige afgesloten parkeergarage;Inpandige en afgesloten parkeergarage behorend tot het complex met niet specifiek toegewezen parkeerplekken. Binnen de WWD vallen deze parkeerplekken onder het type Parkeerplek type I;07-03-2025;;RUIMTESOORT.GEM;Vastgoed
 COLLECTIEFOBJECTSOORT;UAP;Uitpandige afgesloten parkeergarage;Uitpandige en afgesloten parkeergarage met behorend tot het complex met niet specifiek toegewezen parkeerplekken. Binnen de WWD vallen deze parkeerplekken onder het type Parkeerplek Type II;07-03-2025;;RUIMTESOORT.GEM;Vastgoed
 COLLECTIEFOBJECTSOORT;PCO;Parkeerterrein behorend bij complex;Parkeerterrein behorend bij een complex met niet specifiek toegewezen parkeerplekken. Binnen de WWD vallen deze parkeerplekken onder het type Parkeerplek Type III;07-03-2025;;RUIMTESOORT.GEM;Vastgoed
