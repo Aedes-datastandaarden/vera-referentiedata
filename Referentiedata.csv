@@ -146,6 +146,8 @@ BOEKINGDETAILSOORT;TER;Terugbetaling;Boeking van de betaling aan een huurder of 
 BOEKINGDETAILSOORT;VOU;Voucher;Boeking van toename of afname van een saldo binnen een spaarsysteem, die huurders kunnen inwisselen bij de corporatie of soms ook bij ondernemers in de buurt.;;;;Financiën
 BOEKINGSOORT;BEP;Belastingen en premies SV;Boeking van af te dragen / afdracht van loonheffing, premies en sociale verzekeringswetten op salarissen, btw op belastbare verhuur en verlegde btw op onderhoudsfacturen.;;;;Financiën
 BOEKINGSOORT;BUD;Budget;Boeking voor opvoer of wijziging van een budget of budgetregel;;;;Financiën
+BOEKINGSOORT;CON;Ontvangsten van crediteuren;Boeking van een ontvangen bedrag van een crediteur zonder gekoppelde inkoopfactuur, zoals een restitutie, creditnota of terugbetaling.;28-3-2025;;;Financiën
+BOEKINGSOORT;CVO;Vordering op crediteuren;Boeking van een te vorderen bedrag op een crediteur zonder gekoppelde inkoopfactuur, zoals een terugvordering van een te veel betaalde factuur of een correctie.;28-3-2025;;;Financiën
 BOEKINGSOORT;MEM;Memoriaal;Boeking voor het corrigeren of afboeken van het saldo van een boeking of groep van boekingen, meestal van soort VOR.;;;;Financiën
 BOEKINGSOORT;OHD;Onderhoud;Boeking ten behoeve van of voortkomend uit de onderhoudsadministratie.;;;;Financiën
 BOEKINGSOORT;ONT;Ontvangst;Boeking van een ontvangen bedrag in relatie tot een andere boeking of groep van boekingen, zoals een vordering, aanmaning, borg, betalingsregelingtermijn of eindafrekening.;;;;Financiën
