@@ -1418,6 +1418,9 @@ MONITORINTERVAL;MAA;Maand;;06-12-2024;;;Energie
 MONITORINTERVAL;KWA;Kwartaal;;06-12-2024;;;Energie
 MONITORINTERVAL;JAA;Jaar;;06-12-2024;;;Energie
 MONITORINTERVAL;VAR;Variabel;;17-1-2025;;;Energie
+MONITORLOGREGELSOORT;FOU;Fout;De severity of de monitorlogregelsoort is een fout.;28-3-2025;;;Energie
+MONITORLOGREGELSOORT;INF;Informatie;De severity of de monitorlogregelsoort is informatie.;28-3-2025;;;Energie
+MONITORLOGREGELSOORT;WAA;Waarschuwing;De severity of de monitorlogregelsoort is een waarschuwing.;28-3-2025;;;Energie
 MONITORWAARDESOORT;ENH;ElektriciteitNetgebruikHoog;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door slimme meter. kWh (cumulatief).;06-12-2024;;;Energie
 MONITORWAARDESOORT;ENL;ElektriciteitNetgebruikLaag;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door slimme meter. kWh (cumulatief).;06-12-2024;;;Energie
 MONITORWAARDESOORT;EBV;ElektriciteitsgebruikBoilervat;Gegevens zijn in resolutie van 5, 15 of meer minuten. Aangeleverd door Gateway of via Portal. kWh (cumulatief). Spiraal zit in boilervat.;06-12-2024;;;Energie
