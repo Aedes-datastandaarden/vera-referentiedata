@@ -130,6 +130,9 @@ BETALINGSREGELINGSTATUS;ANN;Geannuleerd;Tussentijds gestopt voordat deze volledi
 BETALINGSREGELINGSTATUS;BEE;Beëindigd;Volledig afgerond, alle betalingsverplichtingen zijn voldaan.;;;;Financiën
 BETALINGSREGELINGSTATUS;BEV;Bevroren;Tijdelijk opgeschort vanwege onmogelijkheid om aan de verplichtingen te voldoen.;;;;Financiën
 BETALINGSREGELINGSTATUS;VER;Verwijderd;Verwijderd omdat deze niet was toegekend of verkeerd of onterecht was vastgelegd.;13-12-2024;;;Financiën
+BEWAKINGSSTATUS;INC;In incasso;De overeenkomst is in behandeling bij een incassobureau.;4-4-2025;;;Financiën
+BEWAKINGSSTATUS;NOR;Normale bewaking;Er is sprake van standaard bewaking en opvolging binnen het reguliere incassoproces;4-4-2025;;;Financiën
+BEWAKINGSSTATUS;ONH;On hold;De bewaking is tijdelijk gepauzeerd, bijvoorbeeld bij bezwaar of tijdelijk uitstel;4-4-2025;;;Financiën
 BOEKINGDETAILSOORT;AAN;Aanmaning;Boeking voor het verzoek tot betalen aan een huurder of debiteur van een of meer openstaande achterstallige vorderingen, dan wel de ontvangst naar aanleiding daarvan.;;;;Financiën
 BOEKINGDETAILSOORT;AFB;Afboeking;Boeking voor afboeken van het totale saldo van een openstaande vordering.;;;;Financiën
 BOEKINGDETAILSOORT;BAN;Bank;Boeking voor  een ontvangst of uitbetaling die via een bankrekening is ontvangen of uitgevoerd.;;;;Financiën
