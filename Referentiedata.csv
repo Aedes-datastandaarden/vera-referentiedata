@@ -916,6 +916,7 @@ GROOTBOEKREKENINGSOORT;RGS Referentiecode;RGS Omschrijving (verkort);;;;;Financi
 GROOTBOEKREKENINGSTATUS;ACT;Actief;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;BLK;Geblokkeerd;;;;;Financiën
 GROOTBOEKREKENINGSTATUS;HIS;Historisch;;;;;Financiën
+HUUROPZEGGINGHUURDERSAFSPRAAK;CON;Delen contactgegevens;Contactgegevens mogen gedeeld worden met kandidaat huurders, zodat ze contact kunnen opnemen voor een bezichtiging of overname van spullen.;11-04-2025;;;Overeenkomsten
 HUURGESCHILREDEN;BEZ;Bezwaarschrift;VERVALLEN - Gebruik Huurgeschilsoort.;;1-1-2022;;Overeenkomsten
 HUURGESCHILREDEN;INK;Inkomen;VERVALLEN - Gebruik Huurgeschilsoort.;;1-1-2022;;Overeenkomsten
 HUURGESCHILREDEN;OND;Onderhoud;VERVALLEN - Gebruik Huurgeschilsoort.;;1-1-2022;;Overeenkomsten
