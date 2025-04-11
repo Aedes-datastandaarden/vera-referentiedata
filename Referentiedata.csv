@@ -115,8 +115,13 @@ BETAALGEGEVENSOORT;TRA;TransferMate;Het betaalgegeven van een relatie, behorende
 BETAALWIJZEDEELSOORT;MAX;Maximaal bedrag;Het maximale bedrag dat door de betaler wordt bijgedragen aan de huur. Bijvoorbeeld de ouders van de student dragen maximaal EUR 300 bij aan de huur.;;;;Financiën
 BETAALWIJZEDEELSOORT;PER;Percentage;Het percentage van de huur dat door de betaler wordt bijgedragen. Bijvoorbeeld een stel waarbij beiden de helft van de huur betalen.;;;;Financiën
 BETAALWIJZEDEELSOORT;RES;Restant bedrag;Het restant van de huur dat door de betreffende betaler wordt bijgedragen. Bijvoorbeeld de student die het restant van de huur betaalt na aftrek van de bijdrage van zijn/haar ouders.;;;;Financiën
-BETAALWIJZESOORT;HND;Handmatige overboeking;Een door de betaler geïnitieerde betaling, via een bankoverboeking , een voldaan betaalverzoek of via een PIN-betaling.;;;;Financiën
+BETAALWIJZESOORT;CON;Contant;Een door de betaler geïniteerde betaling, via contante betaling.;11-04-2025;;;Financiën
+BETAALWIJZESOORT;HND;Handmatige overboeking;VERVALLEN - Een door de betaler geïnitieerde betaling, via een bankoverboeking, een voldaan betaalverzoek of via een PIN-betaling.;;11-04-2025;;Financiën
 BETAALWIJZESOORT;INC;Incasso;Een door de ontvanger geïnitieerde incasso, er moet een Incassomachtiging aan ten grondslag liggen.;;;;Financiën
+BETAALWIJZESOORT;MAI;E-mail;Een door de betaler geïniteerde betaling, door middel van een betaallink via e-mail.;11-04-2025;;;Financiën
+BETAALWIJZESOORT;ONL;Online;Een door de betaler geïniteerde betaling, door online betaling. Bijvoorbeeld door middel van iDEAL.;11-04-2025;;;Financiën
+BETAALWIJZESOORT;OVB;Overboeking;Een door de betaler geïniteerde betaling, door (periodieke) overboeking.;11-04-2025;;;Financiën
+BETAALWIJZESOORT;PIN;Pin-betaling;Een door de betaler geïniteerde betaling, via PIN-betaling;11-04-2025;;;Financiën
 BETALERSOORT;DER;Derden;VERVALLEN;;1-1-2022;;Financiën
 BETALERSOORT;HUU;Huurder;VERVALLEN;;1-1-2022;;Financiën
 BETALERSOORT;VGE;Vastgoedeigenaar;VERVALLEN;;1-1-2022;;Financiën
