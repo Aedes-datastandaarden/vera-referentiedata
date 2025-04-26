@@ -1156,10 +1156,10 @@ KWALITEITSMETINGVERZOEKSOORT;OND;Onderhoud;Kwaliteitsmetingverzoek betreffende o
 KWALITEITSMETINGVERZOEKSOORT;OVR;Overig;Kwaliteitsmetingverzoek betreffende overige onderwerpen;14-6-2024;;;Kwaliteit
 KWALITEITSMETINGVERZOEKSOORT;REP;Reparaties;Kwaliteitsmetingverzoek betreffende reparaties;14-6-2024;;;Kwaliteit
 KWALITEITSMETINGVERZOEKSOORT;WOO;Woonomgeving;Kwaliteitsmetingverzoek betreffende woonomgeving;14-6-2024;;;Kwaliteit
-KWALITEITSNIVEAU;EEN;Eenvoudig;Woning met een afwerkingsniveau dat lager is dan de vastgestelde basiskwaliteit, vaak toegepast in situaties waarin ingrijpende aanpassingen aan het complex gepland zijn.
-KWALITEITSNIVEAU;HOO;Hoogwaardig;Woning waarbij in de afwerking en voorzieningen nadrukkelijk gekozen is voor een hoger comfortniveau gericht op specifieke doelgroepen.
-KWALITEITSNIVEAU;LUX;Luxe;Woning met een afwerkings- en voorzieningenniveau dat de basiskwaliteit overstijgt.
-KWALITEITSNIVEAU;STA;Standaard;Woning die bij mutatie wordt hersteld of opgewaardeerd tot de vastgestelde basiskwaliteit.
+KWALITEITSNIVEAU;EEN;Eenvoudig;Woning met een afwerkingsniveau dat lager is dan de vastgestelde basiskwaliteit, vaak toegepast in situaties waarin ingrijpende aanpassingen aan het complex gepland zijn.;;;;Vastgoed
+KWALITEITSNIVEAU;HOO;Hoogwaardig;Woning waarbij in de afwerking en voorzieningen nadrukkelijk gekozen is voor een hoger comfortniveau gericht op specifieke doelgroepen.;;;;Vastgoed
+KWALITEITSNIVEAU;LUX;Luxe;Woning met een afwerkings- en voorzieningenniveau dat de basiskwaliteit overstijgt.;;;;Vastgoed
+KWALITEITSNIVEAU;STA;Standaard;Woning die bij mutatie wordt hersteld of opgewaardeerd tot de vastgestelde basiskwaliteit.;;;;Vastgoed
 LENINGAFLOSVORM;ANN;Annuitair;Jaarlijks wordt met deze vorm een vast bedrag afgelost. Samenstelling van rente en aflossing.;;;;Financiën
 LENINGAFLOSVORM;FIX;Fixe;;;;;Financiën
 LENINGAFLOSVORM;LIN;Lineair;Met deze vorm van lenen wordt een vast bedrag als aflossing betaald. Hierdoor wordt de totale lasten (rente + aflossing) steeds lager.;;;;Financiën
