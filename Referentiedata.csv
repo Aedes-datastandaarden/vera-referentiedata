@@ -1631,7 +1631,7 @@ OVEREENKOMSTSTATUS;VER;Vernietigd;De aanduiding dat de overeenkomst is vernietig
 OVEREENKOMSTSTATUS;VOO;Voorlopig;De overeenkomst is nog voorlopig en moet goedgekeurd worden door de verhuurder en huurder voordat deze definitief is. Bij een voorlopige overeenkomst moeten bijvoorbeeld nog bewijsstukken aangeleverd worden.;;;;Overeenkomsten
 OVEREENKOMSTSTATUS;VOP;Voorlopig opgezegd;De overeenkomst is opgezegd door de huurder maar is nog wel actief en de opzegging is ook nog niet definitief gemaakt.;;;;Overeenkomsten
 OVEREENKOMSTVERSTURENSTATUS;AFL;Afgeleverd;De overeenkomst is technisch succesvol afgeleverd, bijvoorbeeld via e-mail of portaal.;4-4-2025;;;Overeenkomsten
-OVEREENKOMSTVERSTURENSTATUS;GEA;Geannuleerd;De verzending is geannuleerd, bijvoorbeeld omdat de overeenkomst is aangepast of ingetrokken.;4-4-2025;;;Overeenkomst
+OVEREENKOMSTVERSTURENSTATUS;GEA;Geannuleerd;De verzending is geannuleerd, bijvoorbeeld omdat de overeenkomst is aangepast of ingetrokken.;4-4-2025;;;Overeenkomsten
 OVEREENKOMSTVERSTURENSTATUS;MIS;Mislukt;Het versturen is mislukt, bijvoorbeeld door een technische fout of ontbrekende gegevens.;4-4-2025;;;Overeenkomsten
 OVEREENKOMSTVERSTURENSTATUS;NVT;Niet verstuurd;De overeenkomst is nog niet verstuurd. Dit is de initiële status.;4-4-2025;;;Overeenkomsten
 OVEREENKOMSTVERSTURENSTATUS;VER;Verstuurd;De overeenkomst is succesvol verstuurd naar de betrokkene(n).;4-4-2025;;;Overeenkomsten
