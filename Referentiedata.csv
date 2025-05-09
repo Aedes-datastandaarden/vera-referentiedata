@@ -1990,7 +1990,7 @@ SIGNALERINGDETAILSOORT;AGS;Agressie;Algemeen signaal van agressief gedrag, nog n
 SIGNALERINGDETAILSOORT;AMB;Ambulante begeleiding;De relatie krijgt in de eigen omgeving externe hulp om zo zelfstandig mogelijk te blijven functioneren.;1-1-2024;;SIGNALERINGSOORT.ONB;Relaties
 SIGNALERINGDETAILSOORT;BEL;Beledigend;De relatie uit zich op een kleinerende of respectloze manier richting medewerkers, zonder direct dreigend te zijn.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;BET;Betalingsachterstand;Er is sprake van één of meerdere gemiste huurbetalingen.;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;De relatie staat onder financieel beheer via een bewindvoerder.;;;SIGNALERINGSOORT.SCH;Relaties
+SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;De relatie staat onder financieel beheer via een bewindvoerder.;;;;Relaties
 SIGNALERINGDETAILSOORT;BEZ;Bezoek met twee;Bij contactmomenten of huisbezoeken is er vanwege veiligheid of eerdere ervaringen besloten dat de medewerker niet alleen op bezoek gaat, maar samen met een collega of derde persoon.;;;;Relaties
 SIGNALERINGDETAILSOORT;BRA;Brandstichting;Opzettelijke of vermoedelijke brandstichting, al dan niet strafrechtelijk vervolgd.;;;SIGNALERINGSOORT.AGR;Relaties
 SIGNALERINGDETAILSOORT;DEU;Deurwaarder;Een deurwaarder is ingeschakeld voor incasso van openstaande huurschuld.;;;SIGNALERINGSOORT.SCH;Relaties
