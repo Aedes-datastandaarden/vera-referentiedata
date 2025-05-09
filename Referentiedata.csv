@@ -1986,23 +1986,34 @@ SANCTIESOORT;ZWA;Zware sanctie;Zware sanctie, verlies van alle zoek-, situatie e
 SANCTIESTATUS;AAN;Aangemaakt;Aangemaakt;;;;Woonruimteverdeling
 SANCTIESTATUS;DEF;Definitief;Definitief (na 1e van de volgende kalendermaand);;;;Woonruimteverdeling
 SANCTIESTATUS;ING;Ingetrokken;Ingetrokken;;;;Woonruimteverdeling
-SIGNALERINGDETAILSOORT;AGS;Agressie;;;;SIGNALERINGSOORT.AGR;Relaties
-SIGNALERINGDETAILSOORT;AMB;Ambulante begeleiding;De relatie krijgt in de eigen omgeving externe hulp om zo zelfstandig mogelijk te blijven functioneren.;1-1-2024;;;Relaties
-SIGNALERINGDETAILSOORT;BET;Betalingsachterstand;;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;BRA;Brandstichting;;;;SIGNALERINGSOORT.AGR;Relaties
-SIGNALERINGDETAILSOORT;DEU;Deurwaarder;;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;DRU;Drugshandel;;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGDETAILSOORT;GEL;Geluidsoverlast;;;;SIGNALERINGSOORT.OVE;Relaties
-SIGNALERINGDETAILSOORT;HEN;Hennepkwekerij;;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGDETAILSOORT;MUT;Mutatieschade;;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;OND;Onderverhuur;;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGDETAILSOORT;PRO;Prostitutie;;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGDETAILSOORT;VER;Vervuiling;;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGSOORT;AGR;Agressie;;;;;Relaties
-SIGNALERINGSOORT;ONE;Oneigenlijk gebruik woning;;;;;Relaties
-SIGNALERINGSOORT;OVE;Overlast;;;;;Relaties
-SIGNALERINGSOORT;SCH;Huurschuld;;;;;Relaties
+SIGNALERINGDETAILSOORT;AGS;Agressie;Algemeen signaal van agressief gedrag, nog niet gespecificeerd als verbaal, fysiek of schriftelijk.;;;SIGNALERINGSOORT.AGR;Relaties
+SIGNALERINGDETAILSOORT;AMB;Ambulante begeleiding;De relatie krijgt in de eigen omgeving externe hulp om zo zelfstandig mogelijk te blijven functioneren.;1-1-2024;;SIGNALERINGSOORT.ONB;Relaties
+SIGNALERINGDETAILSOORT;BEL;Beledigend;De relatie uit zich op een kleinerende of respectloze manier richting medewerkers, zonder direct dreigend te zijn.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
+SIGNALERINGDETAILSOORT;BET;Betalingsachterstand;Er is sprake van één of meerdere gemiste huurbetalingen.;;;SIGNALERINGSOORT.SCH;Relaties
+SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;De relatie staat onder financieel beheer via een bewindvoerder.;;;SIGNALERINGSOORT.SCH;Relaties
+SIGNALERINGDETAILSOORT;BEZ;Bezoek met twee;Bij contactmomenten of huisbezoeken is er vanwege veiligheid of eerdere ervaringen besloten dat de medewerker niet alleen op bezoek gaat, maar samen met een collega of derde persoon.;;;;Relaties
+SIGNALERINGDETAILSOORT;BRA;Brandstichting;Opzettelijke of vermoedelijke brandstichting, al dan niet strafrechtelijk vervolgd.;;;SIGNALERINGSOORT.AGR;Relaties
+SIGNALERINGDETAILSOORT;DEU;Deurwaarder;Een deurwaarder is ingeschakeld voor incasso van openstaande huurschuld.;;;SIGNALERINGSOORT.SCH;Relaties
+SIGNALERINGDETAILSOORT;DRU;Drugshandel;Handel in drugs vanuit of in de woning.;;;SIGNALERINGSOORT.ONE;Relaties
+SIGNALERINGDETAILSOORT;FYS;Fysiek;Fysieke agressie zoals duwen, slaan, spugen of andere vormen van lichamelijk geweld.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
+SIGNALERINGDETAILSOORT;GEL;Geluidsoverlast;Overmatige geluidshinder, bijvoorbeeld door harde muziek, geschreeuw of blaffende honden.;;;SIGNALERINGSOORT.OVE;Relaties
+SIGNALERINGDETAILSOORT;HEN;Hennepkwekerij;Illegale teelt van hennep in of rond de woning.;;;SIGNALERINGSOORT.ONE;Relaties
+SIGNALERINGDETAILSOORT;INT;Intimiderend;De relatie probeert medewerkers onder druk te zetten of angst aan te jagen, bijvoorbeeld door dreigende lichaamstaal of suggestieve uitspraken.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
+SIGNALERINGDETAILSOORT;MUT;Mutatieschade;Beschadigingen aan de woning die geconstateerd zijn bij einde huur.;;;SIGNALERINGSOORT.SCH;Relaties
+SIGNALERINGDETAILSOORT;ONA;Onacceptabele toon;De toon van de communicatie is onbeschoft of denigrerend, wat het gesprek verstoort of de medewerker ondermijnt.;9-5-2025-;;SIGNALERINGSOORT.WAN;Relaties
+SIGNALERINGDETAILSOORT;OND;Onderverhuur;Het (gedeeltelijk) verhuren van de woning aan derden zonder toestemming.;;;SIGNALERINGSOORT.ONE;Relaties
+SIGNALERINGDETAILSOORT;PRO;Prostitutie;De woning wordt (mogelijk) gebruikt voor prostitutie of seksgerelateerde diensten.;;;SIGNALERINGSOORT.ONE;Relaties
+SIGNALERINGDETAILSOORT;RAC;Racistich;De relatie uit zich op een discriminerende of racistische manier richting een medewerker.;9-5-2025;;SIGNALERINGSOORT.WAN;relaties
+SIGNALERINGDETAILSOORT;SCH;Schriftelijk;Agressie die schriftelijk geuit is, bijvoorbeeld via brief, e-mail of formulier.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
+SIGNALERINGDETAILSOORT;SEU;Seksueel ongepast;Er is sprake van seksueel getinte opmerkingen of gedrag dat als ongewenst wordt ervaren.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
+SIGNALERINGDETAILSOORT;VEB;Verbaal;Mondeling geuite agressie, zoals schelden, dreigen of beledigen.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
+SIGNALERINGDETAILSOORT;VER;Vervuiling;Ernstige vervuiling in of rondom de woning, wat overlast of onveilige situaties veroorzaakt.;;;SIGNALERINGSOORT.ONE;Relaties
+SIGNALERINGSOORT;AGR;Agressie;Situaties waarbij sprake is van verbale of fysieke agressie richting personen of eigendommen.;;;;Relaties
+SIGNALERINGSOORT;ONB;Ondersteuningsbehoefte;Situaties waarin een relatie hulp ontvangt of nodig heeft die wij als verhuurder moeten meenemen in ons contact, beheer of dienstverlening.;9-5-2025;;;Relaties
+SIGNALERINGSOORT;ONE;Oneigenlijk gebruik woning;Het gebruik van een woning in strijd met het huurcontract, zoals onderverhuur of zakelijk gebruik.;;;;Relaties
+SIGNALERINGSOORT;OVE;Overlast;Klachten over hinderlijk gedrag zoals geluidsoverlast, vervuiling of intimiderend gedrag.;;;;Relaties
+SIGNALERINGSOORT;SCH;Huurschuld;Situaties waarin sprake is van een betalingsachterstand in de huur.;;;;Relaties
+SIGNALERINGSOORT;WAN;Wangedrag naar medewerkers;Ongewenst gedrag gericht op medewerkers, zoals belediging, bedreiging of intimidatie.;9-5-2025;;;Relaties
 SIGNALERINGSTATUS;ACT;Actief;;;;;Relaties
 SIGNALERINGSTATUS;PAS;Passief;;;;;Relaties
 SIGNALERINGSTATUS;VER;Vervallen;;;;;Relaties
