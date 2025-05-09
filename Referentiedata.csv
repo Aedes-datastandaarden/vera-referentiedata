@@ -2003,7 +2003,7 @@ SIGNALERINGDETAILSOORT;MUT;Mutatieschade;Beschadigingen aan de woning die gecons
 SIGNALERINGDETAILSOORT;ONA;Onacceptabele toon;De toon van de communicatie is onbeschoft of denigrerend, wat het gesprek verstoort of de medewerker ondermijnt.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;OND;Onderverhuur;Het (gedeeltelijk) verhuren van de woning aan derden zonder toestemming.;;;SIGNALERINGSOORT.ONE;Relaties
 SIGNALERINGDETAILSOORT;PRO;Prostitutie;De woning wordt (mogelijk) gebruikt voor prostitutie of seksgerelateerde diensten.;;;SIGNALERINGSOORT.ONE;Relaties
-SIGNALERINGDETAILSOORT;RAC;Racistich;De relatie uit zich op een discriminerende of racistische manier richting een medewerker.;9-5-2025;;SIGNALERINGSOORT.WAN;relaties
+SIGNALERINGDETAILSOORT;RAC;Racistich;De relatie uit zich op een discriminerende of racistische manier richting een medewerker.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;SCH;Schriftelijk;Agressie die schriftelijk geuit is, bijvoorbeeld via brief, e-mail of formulier.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
 SIGNALERINGDETAILSOORT;SEU;Seksueel ongepast;Er is sprake van seksueel getinte opmerkingen of gedrag dat als ongewenst wordt ervaren.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;VEB;Verbaal;Mondeling geuite agressie, zoals schelden, dreigen of beledigen.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
