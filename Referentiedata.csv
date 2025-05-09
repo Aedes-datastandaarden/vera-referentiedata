@@ -2000,7 +2000,7 @@ SIGNALERINGDETAILSOORT;GEL;Geluidsoverlast;Overmatige geluidshinder, bijvoorbeel
 SIGNALERINGDETAILSOORT;HEN;Hennepkwekerij;Illegale teelt van hennep in of rond de woning.;;;SIGNALERINGSOORT.ONE;Relaties
 SIGNALERINGDETAILSOORT;INT;Intimiderend;De relatie probeert medewerkers onder druk te zetten of angst aan te jagen, bijvoorbeeld door dreigende lichaamstaal of suggestieve uitspraken.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;MUT;Mutatieschade;Beschadigingen aan de woning die geconstateerd zijn bij einde huur.;;;SIGNALERINGSOORT.SCH;Relaties
-SIGNALERINGDETAILSOORT;ONA;Onacceptabele toon;De toon van de communicatie is onbeschoft of denigrerend, wat het gesprek verstoort of de medewerker ondermijnt.;9-5-2025-;;SIGNALERINGSOORT.WAN;Relaties
+SIGNALERINGDETAILSOORT;ONA;Onacceptabele toon;De toon van de communicatie is onbeschoft of denigrerend, wat het gesprek verstoort of de medewerker ondermijnt.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;OND;Onderverhuur;Het (gedeeltelijk) verhuren van de woning aan derden zonder toestemming.;;;SIGNALERINGSOORT.ONE;Relaties
 SIGNALERINGDETAILSOORT;PRO;Prostitutie;De woning wordt (mogelijk) gebruikt voor prostitutie of seksgerelateerde diensten.;;;SIGNALERINGSOORT.ONE;Relaties
 SIGNALERINGDETAILSOORT;RAC;Racistich;De relatie uit zich op een discriminerende of racistische manier richting een medewerker.;9-5-2025;;SIGNALERINGSOORT.WAN;relaties
