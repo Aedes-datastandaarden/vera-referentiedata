@@ -25,6 +25,9 @@ AANBIEDINGSTATUS;AAN;Aangeboden;Er is aanbieding gedaan aan een of meer kandidat
 AANBIEDINGSTATUS;GEW;Geweigerd;Een kandidaat heeft een verstrekte aanbieding afgewezen.;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;ING;Ingetrokken;Een aan een kandidaat verstrekte aanbieding is ingetrokken.;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;TOE;Toegewezen;Een eenheid is toegewezen aan een kandidaat.;;;;Woonruimteverdeling
+AANGEMERKTHUURTOESLAG;AAN;Aangemerkt;De eenheid is aangemerkt voor huurtoeslag.;;;;Vastgoed
+AANGEMERKTHUURTOESLAG;NIE;Niet aangemerkt;De eenheid is niet aangemerkt voor huurtoeslag.;;;;Vastgoed
+AANGEMERKTHUURTOESLAG;ONB;Onbekend;Het is niet bekend of de eenheid is aangemerkt voor huurtoeslag.;;;;Vastgoed
 AANVULLENDEDOELGROEP;BSTU;Buitenlandse studenten;Woonruimte is bestemd voor en/of huurder is een uit het buitenland afkomstige student aan een instelling voor hoger of wetenschappelijk onderwijs;;;DOELGROEP.STU;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;DAK;ex-dak- en thuislozen;Woonruimte is bestemd voor en/of huurder is een ex-dak- of thuisloze, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;GEB;Personen met een Geringe Ergonomische Beperking;Woonruimte is bestemd voor mensen met een geringe ergonomische beperking. Ook wel GEB-woningen genoemd.;22-9-2023;;;Vastgoed, Woonruimteverdeling
