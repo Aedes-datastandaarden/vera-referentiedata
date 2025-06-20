@@ -1780,6 +1780,7 @@ PUBLICATIEDETAILMODEL;LEE;Leefstijl;Eenheden in kwetsbare buurten waarbij leefst
 PUBLICATIEDETAILMODEL;LOT;Loting;Binnen het aanbodmodel wordt geloot nadat eerst een selectie heeft plaatsgevonden.;;;PUBLICATIEMODEL.AAN;Woonruimteverdeling
 PUBLICATIEDETAILMODEL;OMK;Omklapcontract;Ccontract dat de eerste periode, bijv. een jaar, op naam van een zorgaanbieder of begeleidende instantie staat, die de woning doorverhuurt aan een kandidaat die moet leren zelfstandig te wonen: als dit goed uitpakt wordt het contract omgeklapt, d.w.z. komt het op zijn eigen naam te staan.;;;PUBLICATIEMODEL.DIS;Woonruimteverdeling
 PUBLICATIEDETAILMODEL;SNE;Snelzoek;Eenheden voor huishoudens die snel een woning nodig hebben en daar geen eisen aan stellen.;;;PUBLICATIEMODEL.LOT;Woonruimteverdeling
+PUBLICATIEDETAILMODEL;TWE;Tweehurenbeleid;De eenheid valt onder tweehurenbeleid.;20-6-2025;;;Woonruimteverdeling
 PUBLICATIEDETAILSTATUS;BES;Woning krijgt andere bestemming;Woning krijgt andere bestemming.;;;PUBLICATIESTATUS.ING;Woonruimteverdeling
 PUBLICATIEDETAILSTATUS;GTW;Geen toewijzing;Geen toewijzing;;;PUBLICATIESTATUS.AFG;Woonruimteverdeling
 PUBLICATIEDETAILSTATUS;HAN;Woning wordt handmatig bemiddeld;Woning wordt handmatig bemiddeld.;;;PUBLICATIESTATUS.ING;Woonruimteverdeling
