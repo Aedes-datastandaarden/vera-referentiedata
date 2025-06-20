@@ -111,6 +111,8 @@ BEGROTINGVERSIE;OOB;Oorspronkelijk budget;Oorspronkelijk bedrag van een budgetre
 BESTEMMING;HUU;Huur;Eenheid is bestemd voor verhuur bij mutatie.;;;;Vastgoed
 BESTEMMING;KOO;Koop;Eenheid is bestemd voor verkoop bij mutatie.;;;;Vastgoed
 BESTEMMING;SLO;Sloop;Eenheid is bestemd voor sloop bij mutatie.;;;;Vastgoed
+BESTEMMING;SPL;Splitsen;Eenheid is bestemd voor splitsing in meerdere eenheden;;;;Vastgoed
+BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid;;;;Vastgoed
 BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een bankrekening.;;;;Relaties
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card.;;;;Relaties
 BETAALGEGEVENSOORT;PAY;Paypal account;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een paypal account.;;;;Relaties
