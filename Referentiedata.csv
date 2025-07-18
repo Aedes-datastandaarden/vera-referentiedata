@@ -325,16 +325,17 @@ BURGERLIJKESTAAT;PAB;Partnerschap beëindigd;;;;;Relaties
 BURGERLIJKESTAAT;PAR;Partnerschap;Geregistreerd partnerschap;;;;Relaties
 BURGERLIJKESTAAT;SAM;Samenwonend;Langdurig huishouden voerend;;;;Relaties
 BURGERLIJKESTAAT;WED;Weduwe/weduwnaar;;;;;Relaties
-CLUSTERSOORT;BUU;Buurt;Cluster van eenheden die samen een buurt vormen, anders dan de officiële CBS-buurt;;;;Vastgoed
-CLUSTERSOORT;FIN;Financieel;;;;;Vastgoed
-CLUSTERSOORT;MAR;Markt;;;;;Vastgoed
-CLUSTERSOORT;OND;Onderhoud;;;;;Vastgoed
-CLUSTERSOORT;PRO;Project;;;;;Vastgoed
+CLUSTERSOORT;BUU;Buurt;Cluster van eenheden die samen een buurt vormen, anders dan de officiële CBS-buurt.;;;;Vastgoed
+CLUSTERSOORT;FIN;Financieel;Cluster van eenheden ten behoeve van financiële administratie en rapportage.;;;;Vastgoed
+CLUSTERSOORT;MAR;Markt;Cluster van eenheden ten behoeve van de woonruimteverdeling.;;;;Vastgoed
+CLUSTERSOORT;OND;Onderhoud;Cluster van eenheden ten behoeve van onderhoudsplanning en -uitvoering.;;;;Vastgoed
+CLUSTERSOORT;PRO;Project;Cluster van eenheden die samen één project vormen, bijvoorbeeld bij ontwikkeling of renovatie.;;;;Vastgoed
 CLUSTERSOORT;RAY;Rayon;Cluster van eenheden die samen een niet-officieel geografisch gebied, of organisatorische eenheid, vormen;;;;Vastgoed
 CLUSTERSOORT;SER;Servicekosten;Cluster van eenheden t.b.v. afrekening servicekosten;;;;Vastgoed
 CLUSTERSOORT;STO;Verbruikskosten;Cluster van eenheden t.b.v. afrekening verbruik van water, elektriciteit, gas, warmte.;;;;Vastgoed
-CLUSTERSOORT;STR;Strategisch;;;;;Vastgoed
-CLUSTERSOORT;VVE;Vereniging van Eigenaars;;;;;Vastgoed
+CLUSTERSOORT;STR;Strategisch;Cluster van eenheden die op strategisch niveau worden samengevoegd voor beleids- of sturingsdoeleinden.;;;;Vastgoed
+CLUSTERSOORT;VEX;Vastgoedexploitatie;Cluster van eenheden zoals gebruikt in de Vastgoed Exploitatie Wijzer, gericht op het analyseren en sturen van de exploitatie van vastgoedobjecten.;18-7-2025;;;Vastgoed
+CLUSTERSOORT;VVE;Vereniging van Eigenaars;Cluster van eenheden die behoren tot één Vereniging van Eigenaars.;;;;Vastgoed
 CLUSTERSOORT;WIJ;Wijk;Cluster van eenheden die samen een wijk vormen, anders dan de officiële CBS-wijk;;;;Vastgoed
 CLUSTERSOORT;WRD;Waardering;Cluster van eenheden dat wordt gewaardeerd conform de uitgangspunten van het Handboek Marktwaarde Verhuurde Staat (MVS).;;;;Vastgoed
 COLLECTIEFOBJECTSOORT;APD;Achterpad;Een smalle doorgang achter woningen, vaak gebruikt als toegang tot tuinen of bergingen.;;;RUIMTESOORT.BTR;Vastgoed
