@@ -2288,27 +2288,27 @@ ZAAKSTATUSSOORT;GEA;Geannuleerd;De afhandeling van de zaak geannuleerd;30-09-202
 ZAAKSTATUSSOORT;GES;Gesloten;De zaak is afgerond en gesloten;30-09-2022;;;Dossier
 ZAAKSTATUSSOORT;INB;In behandeling;De zaak is in behandeling genomen door of in behandeling gegeven aan iemand, maar er zijn nog geen stappen in de uitvoering gezet;30-09-2022;;;Dossier
 ZAAKSTATUSSOORT;INU;In uitvoering;De zaak is in uitvoering;30-09-2022;;;Dossier
-ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Sociale melding over agressie/bedreiging;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Sociale melding over Bedrijfsmatig gebruik woning;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;BET;Betalingsregeling;Opstellen of naleven van een betalingsregeling;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
-ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Overlast door huisdieren;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;DRU;Dealen/drugspanden;Sociale melding over Dealen/drugspanden;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;GEL;Geluidsoverlast;Sociale melding over Geluidsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;HAN;Omgevingsoverlast;Sociale melding over Omgevingsoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;HEN;Hennepkwekerij;Sociale melding over Hennepkwekerij;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;HUA;Huurachterstand;Oplossen van achterstallige huurbetaling;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
-ZAAKTYPEDETAILSOORT;HUR;Huurverhoging;Jaarlijkse huurverhoging;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
-ZAAKTYPEDETAILSOORT;KLI;Oneigenlijk gebruik gemeenschappelijke ruimte;Sociale melding over Oneigenlijk gebruik gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;ONG;Ongedierte;Sociale melding over Ongedierte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;ONR;Onrechtmatige bewoning;Sociale melding over Onrechtmatige bewoning;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;ONV;Onveiligheid gemeenschappelijke ruimte;Sociale melding over Onveiligheid gemeenschappelijke ruimte;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;OVE;Overige;Sociale melding over Overige;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;PSY;Psychische problematiek;Sociale melding over Psychische problematiek;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;RUZ;Burenruzie;Sociale melding over Burenruzie;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;STA;Stankoverlast;Sociale melding over Stankoverlast;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Sociale melding over Vandalisme;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Sociale melding over Verslavingsproblematiek;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;VUI;Vervuiling;Sociale melding over Vervuiling;11-11-2022;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Afhandelen van melding over agressie of bedreiging.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Behandelen van melding over bedrijfsmatig gebruik van een woning.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;BET;Betalingsregeling;Opstellen of naleven van een betalingsregeling.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Behandelen van overlast door huisdieren.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;DRU;Dealen/drugspanden;Afhandelen van melding over dealen of drugspanden.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;GEL;Geluidsoverlast;Behandelen van melding over geluidsoverlast.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;HAN;Omgevingsoverlast;Afhandelen van melding over omgevingsoverlast.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;HEN;Hennepkwekerij;Afhandelen van melding over hennepkwekerij.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;HUA;Huurachterstand;Oplossen van achterstallige huurbetaling.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;HUR;Huurverhoging;Afhandelen van bezwaar of klacht over huurverhoging.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;KLI;Oneigenlijk gebruik gemeenschappelijke ruimte;Behandelen van melding over oneigenlijk gebruik van gemeenschappelijke ruimte.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONG;Ongedierte;Afhandelen van melding over ongedierte.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONR;Onrechtmatige bewoning;Onderzoeken van onrechtmatige bewoning.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;ONV;Onveiligheid gemeenschappelijke ruimte;Behandelen van melding over onveilige gemeenschappelijke ruimte.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;OVE;Overige;Afhandelen van overige sociale meldingen.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;PSY;Psychische problematiek;Begeleiden bij psychische problematiek.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;RUZ;Burenruzie;Behandelen van melding over burenruzie.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;STA;Stankoverlast;Afhandelen van melding over stankoverlast.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Afhandelen van melding over vandalisme.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Begeleiden bij verslavingsproblematiek.;;;ZAAKTYPESOORT.SOC;Dossier
+ZAAKTYPEDETAILSOORT;VUI;Vervuiling;Afhandelen van melding over vervuiling;11-11-2022;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;VERVALLEN;;10-11-2022;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPESOORT;FIN;Financiële problematiek;Zaken met betrekking tot financiële achterstanden, betalingsproblemen of gerelateerde problematiek;05-09-2025;;;Dossier
 ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiatief van de corporatie verbeteren van de buurt;30-09-2022;;;Dossier
