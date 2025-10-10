@@ -2290,14 +2290,14 @@ ZAAKSTATUSSOORT;INB;In behandeling;De zaak is in behandeling genomen door of in 
 ZAAKSTATUSSOORT;INU;In uitvoering;De zaak is in uitvoering;30-09-2022;;;Dossier
 ZAAKTYPEDETAILSOORT;AGR;Agressie/bedreiging;Afhandelen van melding over agressie of bedreiging.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;BED;Bedrijfsmatig gebruik woning;Behandelen van melding over bedrijfsmatig gebruik van een woning.;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;BET;Betalingsregeling;Opstellen of naleven van een betalingsregeling.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;BET;Betalingsregeling;Opstellen of naleven van een betalingsregeling.;10-10-2025;;ZAAKTYPESOORT.FIN;Dossier
 ZAAKTYPEDETAILSOORT;DIE;Huisdieren;Behandelen van overlast door huisdieren.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;DRU;Dealen/drugspanden;Afhandelen van melding over dealen of drugspanden.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;GEL;Geluidsoverlast;Behandelen van melding over geluidsoverlast.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;HAN;Omgevingsoverlast;Afhandelen van melding over omgevingsoverlast.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;HEN;Hennepkwekerij;Afhandelen van melding over hennepkwekerij.;;;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPEDETAILSOORT;HUA;Huurachterstand;Oplossen van achterstallige huurbetaling.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
-ZAAKTYPEDETAILSOORT;HUR;Huurverhoging;Afhandelen van bezwaar of klacht over huurverhoging.;05-09-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;HUA;Huurachterstand;Oplossen van achterstallige huurbetaling.;10-10-2025;;ZAAKTYPESOORT.FIN;Dossier
+ZAAKTYPEDETAILSOORT;HUR;Huurverhoging;Afhandelen van bezwaar of klacht over huurverhoging.;10-10-2025;;ZAAKTYPESOORT.FIN;Dossier
 ZAAKTYPEDETAILSOORT;KLI;Oneigenlijk gebruik gemeenschappelijke ruimte;Behandelen van melding over oneigenlijk gebruik van gemeenschappelijke ruimte.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;ONG;Ongedierte;Afhandelen van melding over ongedierte.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;ONR;Onrechtmatige bewoning;Onderzoeken van onrechtmatige bewoning.;;;ZAAKTYPESOORT.SOC;Dossier
@@ -2310,7 +2310,7 @@ ZAAKTYPEDETAILSOORT;VAN;Vandalisme;Afhandelen van melding over vandalisme.;;;ZAA
 ZAAKTYPEDETAILSOORT;VER;Verslavingsproblematiek;Begeleiden bij verslavingsproblematiek.;;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUI;Vervuiling;Afhandelen van melding over vervuiling;11-11-2022;;ZAAKTYPESOORT.SOC;Dossier
 ZAAKTYPEDETAILSOORT;VUIL;Vervuiling;VERVALLEN;;10-11-2022;ZAAKTYPESOORT.SOC;Dossier
-ZAAKTYPESOORT;FIN;Financiële problematiek;Zaken met betrekking tot financiële achterstanden, betalingsproblemen of gerelateerde problematiek;05-09-2025;;;Dossier
+ZAAKTYPESOORT;FIN;Financiële problematiek;Zaken met betrekking tot financiële achterstanden, betalingsproblemen of gerelateerde problematiek;10-10-2025;;;Dossier
 ZAAKTYPESOORT;LEE;Leefbaarheid;Op initiatief van de corporatie verbeteren van de buurt;30-09-2022;;;Dossier
 ZAAKTYPESOORT;OMG;Omgevingsoverlast;Overlast in de omgeving;30-09-2022;;;Dossier
 ZAAKTYPESOORT;ORG;Klacht over organisatie;Klachten over de corporatie als organisatie;;;;Dossier
