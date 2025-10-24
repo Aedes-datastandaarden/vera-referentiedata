@@ -2001,6 +2001,12 @@ RUIMTELIGGING;WES;West;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;ZOO;Zuidoost;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;ZUI;Zuid;;24-4-2023;;;Vastgoed
 RUIMTELIGGING;ZWE;Zuidwest;;24-4-2023;;;Vastgoed
+RUIMTETOEGANG;ADS;Afsluitbaar;De ruimte is fysiek afsluitbaar, bijvoorbeeld met een sleutel, pas of tag. Toegang moet actief worden verleend of geregeld.;24-10-2025;;;Vastgoed
+RUIMTETOEGANG;COR;Collectieve ruimte;Een ruimte die gedeeld wordt door meerdere verblijfsobjecten binnen een complex, maar zelf geen zelfstandig verhuurd object is. De ruimte is doorgaans bereikbaar zonder dat bewoners aanwezig hoeven te zijn (bijv. via een complexloper of algemene toegang). Voorbeelden: fietsenstalling, containerruimte, technische ruimte.;24-10-2025;;;Vastgoed
+RUIMTETOEGANG;GER;Gedeelde ruimte;Een ruimte die gedeeld wordt door meerdere huurders binnen één verblijfsobject. Toegang verloopt via het privédeel van het verblijfsobject. Bewoners moeten aanwezig zijn of toegang verlenen.;24-10-2025;;;Vastgoed
+RUIMTETOEGANG;GEM;Gemeenschappelijke ruimte;Een ruimte waarvan meerdere verblijfsobjecten gezamenlijk exclusief gebruiksrecht hebben. Vaak bereikbaar vanuit een gedeeld deel van het gebouw, niet openbaar, maar zonder dat individuele toestemming per bewoner vereist is. Bijvoorbeeld een gezamenlijke ontmoetingsruimte of binnentuin voor bewoners van hetzelfde complex.;24-10-2025;;;Vastgoed
+RUIMTETOEGANG;PUT;Publiektoegankelijk;De ruimte is vrij toegankelijk voor iedereen, ook zonder sleutel of toestemming. Bijvoorbeeld een open galerij of publieke tuin.;24-10-2025;;;Vastgoed
+RUIMTETOEGANG;VLU;Vluchtroute;De ruimte of doorgang maakt deel uit van een nood- of vluchtroute en moet te allen tijde toegankelijk zijn conform veiligheidsvoorschriften.;24-10-2025;;;Vastgoed
 RUIMTESOORT;BTR;Buitenruimte;Een buitenruimte is een ruimte die volgens de woningwaardering als (privé) buitenruimte wordt gezien. Nader te specificeren met ruimtedetailsoort.;24-4-2023;;;Vastgoed
 RUIMTESOORT;GEM;Gemeenschappelijke ruimten en voorzieningen;Een gemeenschappelijk ruimte of voorziening is een ruimte die volgens de woningwaardering als gemeenschappelijke ruimte of voorziening wordt gezien;24-4-2023;;;Vastgoed
 RUIMTESOORT;OVR;Overige ruimten;Een ruimte die geen buitenruimte is, en die geen vertrek is volgens de definitie van de woningwaardering. Nader te specificeren met ruimtedetailsoort.;24-4-2023;;;Vastgoed
