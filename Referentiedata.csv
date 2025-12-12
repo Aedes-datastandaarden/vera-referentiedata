@@ -122,7 +122,7 @@ BESTEMMING;KAM;Kamergewijze verhuur;Eenheid is bestemd voor kamergewijze verhuur
 BESTEMMING;KOO;Koop;Eenheid is bestemd voor verkoop bij mutatie.;;;;Vastgoed
 BESTEMMING;SLO;Sloop;Eenheid is bestemd voor sloop bij mutatie.;;;;Vastgoed
 BESTEMMING;SPL;Splitsen;Eenheid is bestemd voor splitsing bij mutatie, waarbij de wijze van splitsen (zacht, bouwkundig en/of kadastraal/juridisch) nog niet is bepaald.;;;;Vastgoed
-BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;12-12-2025;;;Vastgoed
+BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;;;;Vastgoed
 BESTEMMING;ZAC;Zachte splitsing;Eenheid is bestemd voor zachte splitsing (meerdere huishoudens binnen één juridische eenheid) bij mutatie.;12-12-2025;;;Vastgoed
 BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een bankrekening.;;;;Relaties
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card.;;;;Relaties
