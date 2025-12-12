@@ -117,12 +117,12 @@ BEGROTINGVERSIE;MUB;Mutatie budget;Gewijzigd bedrag van een budgetregel voor een
 BEGROTINGVERSIE;OOB;Oorspronkelijk budget;Oorspronkelijk bedrag van een budgetregel voor een jaar of een periode.;;;;Financiën
 BESTEMMING;BOU;Bouwkundig splitsen;Eenheid is bestemd om bouwkundig gesplitst te worden in meerdere zelfstandige eenheden bij mutatie.;12-12-2025;;;Vastgoed
 BESTEMMING;HUU;Huur;Eenheid is bestemd voor verhuur bij mutatie.;;;;Vastgoed
-BESTEMMING;KAD;Kadastraal/juridisch splitsen;Eenheid is bestemd om kadastraal en juridisch gesplitst te worden in meerdere eenheden bij mutatie.;;;;Vastgoed
+BESTEMMING;KAD;Kadastraal/juridisch splitsen;Eenheid is bestemd om kadastraal en juridisch gesplitst te worden in meerdere eenheden bij mutatie.;12-12-2025;;;Vastgoed
 BESTEMMING;KAM;Kamergewijze verhuur;Eenheid is bestemd voor kamergewijze verhuur bij mutatie.;12-12-2025;;;Vastgoed
 BESTEMMING;KOO;Koop;Eenheid is bestemd voor verkoop bij mutatie.;;;;Vastgoed
 BESTEMMING;SLO;Sloop;Eenheid is bestemd voor sloop bij mutatie.;;;;Vastgoed
 BESTEMMING;SPL;Splitsen;Eenheid is bestemd voor splitsing bij mutatie, waarbij de wijze van splitsen (zacht, bouwkundig en/of kadastraal/juridisch) nog niet is bepaald.;;;;Vastgoed
-BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;;;;Vastgoed
+BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;12-12-2025;;;Vastgoed
 BESTEMMING;ZAC;Zachte splitsing;Eenheid is bestemd voor zachte splitsing (meerdere huishoudens binnen één juridische eenheid) bij mutatie.;12-12-2025;;;Vastgoed
 BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een bankrekening.;;;;Relaties
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card.;;;;Relaties
