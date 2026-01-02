@@ -579,7 +579,9 @@ DOELGROEP;EEN;Persoon;Woonruimte is bestemd voor en/of huurder vormt een eenpers
 DOELGROEP;GEK;Gezin met kinderen;VERVALLEN - Gebruik GEZ.;21-04-2023;23-06-2023;;Vastgoed, Woonruimteverdeling
 DOELGROEP;GEZ;Gezin;Leefverband van één of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en opvoeding van één of meer kinderen.;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;HZO;Huishouden zonder kinderen;Huishouden zonder kinderen - Eén of meerdere volwassen personen (tot een bepaald maximum leeftijd) die samen een huishouden vormen en (nog) geen kinderen verzorgen.;23-06-2023;;;Vastgoed, Woonruimteverdeling
-DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;;;Vastgoed, Woonruimteverdeling
+DOELGROEP;JON;Jongeren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke maximum leeftijd;;31-12-2025;;Vastgoed, Woonruimteverdeling
+DOELGROEP;J20;Jongeren 18-20;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een leeftijd tussen 18 en 20;01-01-2026;;;Vastgoed, Woonruimteverdeling
+DOELGROEP;JVO;Jongeren 21-28;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een leeftijd tussen 21 en 28;01-01-2026;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;MEE;Meergezins;VERVALLEN - Gebruik een Eenheid(detail)soort.;;06-10-2023;;Vastgoed, Woonruimteverdeling
 DOELGROEP;SEN;Senioren;Woonruimte is bestemd voor en/of huurder heeft op het moment van toewijzing een specifieke minimum leeftijd;;;;Vastgoed, Woonruimteverdeling
 DOELGROEP;STA;Starter;Woonruimte is bestemd voor en/of huurder betreft een starter op de woningmarkt;;;;Vastgoed, Woonruimteverdeling
