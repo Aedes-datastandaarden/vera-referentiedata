@@ -713,7 +713,7 @@ EENHEIDDETAILSTATUS;ANT;Verhuurd antikraak;De eenheid wordt verhuurd onder de vo
 EENHEIDDETAILSTATUS;BOU;Bouwplannen;Eenheid is in ontwikkeling, nog in de planfase;;;EENHEIDSTATUS.ONT;Vastgoed
 EENHEIDDETAILSTATUS;BRU;Bruikleen;De eenheid wordt verhuurd onder een bruikleen constructie;;;EENHEIDSTATUS.VEH;Vastgoed
 EENHEIDDETAILSTATUS;EPA;Wacht op Energie Prestatie Advies;Frictieleegstand, ontstaan doordat er nog gewacht wordt op de afgifte van een EPA label;;;EENHEIDSTATUS.LEE;Vastgoed
-EENHEIDDETAILSTATUS;FRI;Frictieleegstand;VERVALLEN - Gebruik Eenheiddetailstatus NIH, NIB, EPA, MOH of STR.;;1-1-2022;EENHEIDSTATUS.LEE;Vastgoed
+EENHEIDDETAILSTATUS;FRI;Frictieleegstand;VERVALLEN - Gebruik Eenheiddetailstatus NIH, NIB, EPA, MUT of STR.;;1-1-2022;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;MUT;Mutatie;Frictieleegstand wegens mutatieonderhoud. De eenheid is in exploitatie, maar niet verhuurd. Aansluitende verhuur is niet mogelijk omdat eerst nog onderhoud in de woning plaatsvindt.;;;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;NIB;Wacht op nieuwe huurder - niet-regulier;Frictieleegstand, ontstaan doordat er nog geen nieuwe huurder is gevonden, waarbij geldt dat er sprake is van een niet-regulier toewijzingsproces of een niet-reguliere beoogd huurder. Het betreft de leegstand vanaf het moment waarop de woning klaar is voor verhuur (nadat eventueel mutatieonderhoud is afgerond) totdat de overeenkomst met een nieuwe, niet-reguliere, huurder ingaat.;;;EENHEIDSTATUS.LEE;Vastgoed
 EENHEIDDETAILSTATUS;NIE;Nieuwbouw;Eenheid is in ontwikkeling, realisatie-/bouwfase is gestart;;;EENHEIDSTATUS.ONT;Vastgoed
