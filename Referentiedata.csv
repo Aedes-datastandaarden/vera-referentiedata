@@ -1975,27 +1975,34 @@ RUIMTEDETAILSOORT;ATU;Achtertuin;Buitenruimte: tuin gelegen aan de achterzijde v
 RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning, dat wil zeggen een ruimte die speciaal is ingericht voor lichaamsverzorging. Een badkamer moet voldoen aan: en waterdichte vloerafwerking, De ruimte heeft over ten minste 50% van de oppervlakte een vrije hoogte van 2,00 m (gemeten vanaf de vloer tot het zichtbare plafond), Waterdichte afwerking tot 1,50 m hoogte voor badruimte en 1,80 m voor doucheruimte, Een wastafel inclusief (tweehands-)mengkraan en een spiegel, Een douche of bad met aansluitpunten voor warm en koud water (niet zijnde een warmwaterapparaat) en voorzien van een warm- en koudwaterkraan of een mengkraan. Een bad in een vertrek met een niet-waterdichte vloer wordt door de Huurcommissie wel gewaardeerd, omdat het bad zelf als een waterdichte afwerking wordt gezien.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;BEG;Bergruimte;Een ruimte binnen de schil van een woning en/of met toegang vanuit de woning. Vaak gebruikt voor het opslaan van goederen, gereedschappen, of andere items, vaak voorzien van planken, rekken of kasten voor organisatie.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;CAR;Carport;;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;CAR;Carport;Overdekte, open stallingsruimte voor één of meerdere voertuigen, meestal grenzend aan of nabij de woning, zonder volledig afsluitbare wanden.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;CON;Containerruimte;Een speciaal ingerichte ruimte voor het tijdelijk opslaan van afval- of opslagcontainers, vaak voorzien van ventilatie, brandveiligheid en gemakkelijke toegang voor lediging en transport.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;DAK;Dakterras;Een dakterras.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GAK;Gemeenschappelijk dakterras;Buitenruimte: een gemeenschappelijk dakterras;12-01-2024;25-10-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;GAN;Gang;Verkeersruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;24-4-2023;;RUIMTESOORT.VRK;Vastgoed
+RUIMTEDETAILSOORT;GAL;Galerij;Een aan de buitenkant van een gebouw hangende open gang, gebruikt als verbindingsroute tussen verschillende delen van het gebouw. Deze verschaft toegang tot afzonderlijke gebruiksfuncties.;16-1-2026;;RUIMTESOORT.VRK;Vastgoed
 RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;GPN;Gemeenschappelijke parkeerruimte niet specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, en zonder privé plek. Al dan niet evenveel parkeerplekken als eenheden.;7-6-2024;25-10-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GPS;Gemeenschappelijke parkeerruimte specifieke plek;Buitenruimte: een afsluitbare gemeenschappelijke parkeerruimte, zonder dak, met privé plek.;7-6-2024;25-10-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GTU;Gemeenschappelijke tuin;;24-4-2023;25-10-2024;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;GDA;Gemeenschappelijk dakterras;;19-1-2024;06-09-2024;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;HAL;Hal;Verkeersruimte bijv. entree, Hal, overloop, speelhal etc.;24-4-2023;;RUIMTESOORT.VRK;Vastgoed
+RUIMTEDETAILSOORT;KAS;Kast;Een opbergruimte, behorende tot de aangrenzende ruimte, onderdeel uitmakend van de bouwconstructie.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;KEL;Kelder;Overige ruimte: dat gedeelte van een gebouw dat onder de grond (onder het maaiveld) is gelegen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;KEU;Keuken;Vertrek of plaats in een gebouw waarin mensen hun voedsel bereiden of laten bereiden;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;LIF;Liftschacht;De ruimte in een bouwkundige liftschacht;16-1-2026;;RUIMTESOORT.VRK;Vastgoed
+RUIMTEDETAILSOORT;MET;Meterruimte;Een ruimte binnen een gebouw waar meters voor gas, elektriciteit, water, of andere nutsvoorzieningen worden geïnstalleerd en onderhouden, meestal toegankelijk voor nutsbedrijven voor het aflezen en onderhouden van de meters.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;OBR;Overige ruimte;VERVALLEN - Gebruik OBU;24-4-2023;29-11-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OBU;Overige buitenruimte;Overige buitenruimte die niet nader is gespecifeerd als ruimtedetailsoort. Bijvoorbeeld een platje.;29-11-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;ORU;Overige ruimte;Overige ruimte die niet nader is gespecifeerd als ruimtedetailsoort.;29-11-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;OGR;Overige gemeenschappelijke ruimte of voorziening;VERVALLEN.;24-4-2023;22-11-2024;;Vastgoed
 RUIMTEDETAILSOORT;OPN;Open parkeergarage niet specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) zonder een specifiek toegewezen parkeerplaats. Geldig voor Woningwaardering tot Juli 2024;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;OPS;Open parkeergarage specifieke plek;Buitenruimte: een tot het complex behorende open parkeergarage (een open ruimte, dus geen wanden maar wel een dak, bijvoorbeeld onder een complex appartementen) met voor elke woning een specifiek toegewezen parkeerplaats. Geldig voor Woningwaardering tot Juli 2024;7-6-2024;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;OVE;Overloop;Een overgangsgebied die ruimtes met een trap verbindt. Niet gelegen op de onderste bouwlaag van een adres.;16-1-2026;;RUIMTESOORT.VRK;Vastgoed
 RUIMTEDETAILSOORT;OVT;Overig vertrek;Vertrek dat niet nader gespecifeerd is als ruimtedetailsoort. Bijvoorbeeld eetkamer, hobbykamer, studeerkamer etc. Dit vertrek wordt beschouwd als 'kamer' en telt mee in het aantal kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;PAK;Parkeerkelder;VERVALLEN - Gebruik PSP.;24-4-2023;7-6-2024;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;PAR;Parkeerplaats;Eigen parkeerplaats of oprit bij de woning;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
@@ -2003,9 +2010,11 @@ RUIMTEDETAILSOORT;PNS;Parkeergarage niet specifieke plek;Overige ruimte: een ges
 RUIMTEDETAILSOORT;PSP;Specifieke parkeerplek in parkeergarage;Overige ruimte: een gesloten parkeergarage (bijvoorbeeld in de onderbouw van een appartementencomplex) met een specifiek tot de woning behorende, afgebakende parkeerplaats.;7-6-2024;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;REC;Recreatieruimte;Een ruimte binnen de eenheid die recreatie als gebruiksdoel heeft. Bijvoorbeeld binnen een zorginstelling.;24-4-2023;;RUIMTESOORT.GEM;Vastgoed
 RUIMTEDETAILSOORT;RON;Tuin Rondom;Buitenruimte: tuin gelegen rondom de eenheid. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
+RUIMTEDETAILSOORT;SCA;Schacht;Een verticale doorgang of ruimte binnen een gebouw, gebruikt voor ventilatie, bekabeling of leidingen vaak voorzien van brandwerende materialen en afsluitingen.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;SCH;Schuur;Overige ruimte: veelal vrijstaand gebouw, dat gebruikt wordt om goederen of voedsel in op te slaan, en ook als werkruimte kan dienen, maar niet als woning bedoeld is.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;SER;Serre;Vertrek: glazen veranda verbonden aan een woning. Dit vertrek wordt beschouwd als 'kamer' en telt mee in het aantal kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;SLA;Slaapkamer;Vertrek: ruimte in een woning waarin men kan slapen. Dit vertrek wordt beschouwd als 'kamer' en telt mee in het aantal kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;TEC;Technische ruimte;Een ruimte binnen een gebouw waar technische installaties worden geplaatst en onderhouden, zoals  Verwarmingsinstallaties, ventilatie- of airconditioningsystemen, datacenters, of telecomapparatuur. Niet te gebruiken als meterruimte of liftmachineruimte.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vlakke oppervlakte die wordt gebruikt om op te zitten, te eten, te drinken of andere activiteiten te doen.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TOI;Toiletruimte;Overige ruimte: Sanitaire ruimte met een toilet.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;TUI;Tuin;Buitenruimte: indien geen specificatie/verbijzondering bekend is van tuin kan voor deze algemenere duiding van tuin gebruikt worden.;14-6-2024;;RUIMTESOORT.BTR;Vastgoed
