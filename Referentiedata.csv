@@ -735,14 +735,14 @@ EENHEIDENERGIEVOORZIENING;NOM;Nul-op-de-meter eenheid;De eenheid voldoet aan de 
 EENHEIDENERGIEVOORZIENING;OPL;Oplaadpunt;Oplaadpunt voor auto;;;;Vastgoed
 EENHEIDENERGIEVOORZIENING;OPS;Oplaadpunt scootmobiel;Oplaadpunt voor scootmobiel, als deze in of aan de woning is bevestigd. Een oplaadpunt kan ook als afzonderlijke eenheid worden geëxploiteerd, gebruik dan Eenheiddetailsoort Scootmobielplek;;;;Vastgoed
 EENHEIDENERGIEVOORZIENING;ZON;Zonnepanelen;;;;;Vastgoed
-EENHEIDINTERIEUR;GEM;Gemeubileerd;;;;;Vastgoed
-EENHEIDINTERIEUR;GES;Gestoffeerd;;;;;Vastgoed
-EENHEIDINTERIEUR;HOU;Houten vloer;;;;;Vastgoed
-EENHEIDINTERIEUR;LAM;Laminaat;;;;;Vastgoed
-EENHEIDINTERIEUR;PLA;Plavuizen;Plavuizen of tegels;;;;Vastgoed
-EENHEIDINTERIEUR;PVC;Pvc vloer;Een PVC-vloer is een vloerbedekking gemaakt van polyvinylchloride (PVC), een synthetisch materiaal dat bekend staat om zijn duurzaamheid, waterbestendigheid en veelzijdigheid.;27-09-2024;;;Vastgoed
-EENHEIDINTERIEUR;VLB;Vloerbedekking;;;;;Vastgoed
-EENHEIDINTERIEUR;ZEL;Zelf inrichten;;;;;Vastgoed
+EENHEIDINTERIEUR;GEM;Gemeubileerd;De eenheid wordt (deels) gemeubileerd aangeboden, inclusief meubels zoals bed, bank, tafel en/of kasten.;;;;Vastgoed
+EENHEIDINTERIEUR;GES;Gestoffeerd;De eenheid wordt gestoffeerd aangeboden, meestal inclusief vloerafwerking en raambekleding. Geen losse meubels inbegrepen.;;;;Vastgoed
+EENHEIDINTERIEUR;HOU;Houten vloer;Vloerafwerking bestaande uit hout, zoals parket of houten planken.;;;;Vastgoed
+EENHEIDINTERIEUR;LAM;Laminaat;Vloerafwerking bestaande uit laminaat.;;;;Vastgoed
+EENHEIDINTERIEUR;PLA;Plavuizen;Vloerafwerking bestaande uit plavuizen of tegels (bijv. keramisch).;;;;Vastgoed
+EENHEIDINTERIEUR;PVC;Pvc vloer;Vloerafwerking bestaande uit PVC (polyvinylchloride), slijtvast en onderhoudsvriendelijk, vaak uitgevoerd in stroken of tegels.;27-09-2024;;;Vastgoed
+EENHEIDINTERIEUR;VLB;Vloerbedekking;Vloerafwerking bestaande uit vloerbedekking, zoals tapijt of kamerbreed tapijt.;;;;Vastgoed
+EENHEIDINTERIEUR;ZEL;Zelf inrichten;De eenheid wordt kaal aangeboden, inrichting en vloerafwerking zijn niet inbegrepen.;;;;Vastgoed
 EENHEIDISOLATIE;DAK;Dakisolatie;;;;;Vastgoed
 EENHEIDISOLATIE;DGL;Normaal dubbelglas;Dubbel glas waarbij de spouw tussen de glasplaten is gevuld met droge lucht.;;;;Vastgoed
 EENHEIDISOLATIE;HR;HR-glas;Dit is dubbelglas met een isolatiecoating op de ramen. De spouw is ook gevuld met droge lucht.;19-04-2024;;;Vastgoed
