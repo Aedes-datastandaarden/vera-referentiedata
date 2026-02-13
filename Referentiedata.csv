@@ -1729,7 +1729,7 @@ PRIJSCOMPONENTDETAILSOORT;SCH;Schoonmaak van gemeenschappelijke ruimten;De perio
 PRIJSCOMPONENTDETAILSOORT;SIG;Signaallevering (o.a. CAI);Periodieke kosten voor signaallevering (o.a. CAI);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;STV;Schoorsteenvegen;Periodieke kosten voor het vegen van de schoorsteen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;SUB;Subsidiabele servicekosten;VERVALLEN - Gebruik Prijscomponentsubsidiesoort.;;1-1-2022;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;SUC;Subsidiecomponent algemeen;Component voor het administreren van structurele subsidies die niet onder huurtoeslag of servicekosten vallen.;;;PRIJSCOMPONENTSOORT.HUA;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;SUC;Subsidie algemeen;Component voor het administreren van structurele subsidies die niet onder huurtoeslag of servicekosten vallen.;13-2-2026;;PRIJSCOMPONENTSOORT.HUA;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;TBE;Technisch beheer;Periodieke kosten voor technisch beheer van eenheid of complex, anders dan reguliere beheerder(s) kosten.;13-2-2026;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;VER;Verenigingskosten;Periodieke kosten voor lidmaatschap van  verenigingen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;VOL;Volkstuin;Periodieke kosten voor het gebruik van een volkstuin;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
