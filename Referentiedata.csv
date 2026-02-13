@@ -1687,9 +1687,9 @@ PRIJSCOMPONENTDETAILSOORT;AKO;Administratiekosten;Administratiekosten zijn de ko
 PRIJSCOMPONENTDETAILSOORT;ALA;Alarm bewaking;Periodieke kosten voor het alarm en de bewaking van de woning;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BED;Servicekosten bedrijfsruimten;Periodieke kosten voor services m.b.t. bedrijfsruimten;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BEH;Beheerder(s);Periodieke kosten voor de beheerder(s) van de eenheid en/of het complex;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;BER;Berging;Periodieke kosten voor het gebruik van een afzonderlijke berging.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;BER;Berging;Periodieke kosten voor het gebruik van een afzonderlijke berging.;13-2-2026;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;BOR;Borg;Een door de huurder betaalde waarborgsom die dient als zekerheid voor de verhuurder.;;;PRIJSCOMPONENTSOORT.EEN;Overeenkomsten
-PRIJSCOMPONENTDETAILSOORT;CAM;Cameratoezicht;Periodieke kosten voor camerabeveiliging of cameraregistratie in of rondom het complex.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;CAM;Cameratoezicht;Periodieke kosten voor camerabeveiliging of cameraregistratie in of rondom het complex.;13-2-2026;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;DIE;Dienst- en recreatieruimten;De periodieke kosten voor reparaties en groot onderhoud aan dienstruimten en recreatieruimten. Deze kosten komen meestal voor bij senioren- of bejaardenwoningen. Het gaat niet om de inventaris, het schoonmaken van de ruimten of onderhoud aan de tuin.;;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;ELE;Electriciteit;Elektriciteit is een vorm van energie die voortkomt uit de beweging of het stromen van elektrische ladingen, meestal door een geleider zoals koper of aluminium. Het is een fundamenteel natuurkundig verschijnsel dat wordt gebruikt als energiebron voor talloze toepassingen in ons dagelijks leven en de industrie.;;;PRIJSCOMPONENTSOORT.VER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;ELI;Elektrische installaties;Periodieke kosten voor het gebruik van elektrische installaties;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
