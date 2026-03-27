@@ -2208,8 +2208,8 @@ VOORRANGSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medisch
 VOORRANGSOORT;URG;Urgentie;Er is voorrang voor woningzoekenden met een urgentie.;;;;Woonruimteverdeling
 VOORRANGSREGELINGSTATUS;AAN;Aangevraagd;De voorrangsregeling is aangevraagd door de woningzoekende.;27-03-2026;;;Woonruimteverdeling
 VOORRANGSREGELINGSTATUS;GEC;Gecontroleerd;De voorrangsregeling is gecontroleerd door een medewerker of komt uit een authentieke bron.;27-03-2026;;;Woonruimteverdeling
-VOORRANGSREGELINGSTATUS;AFG;Afgewezen;De voorrangsregeling is afgewezen door een medewerkers.;27-03-2026;;;Woonruimteverdeling
-VOORRANGSREGELINGSTATUS;VER;Beindigd;De voorrangsregeling is beindigd. Of door een mederwerker of door automatische processen.;27-03-2026;;;Woonruimteverdeling
+VOORRANGSREGELINGSTATUS;AFG;Afgewezen;De voorrangsregeling is afgewezen door een medewerker.;27-03-2026;;;Woonruimteverdeling
+VOORRANGSREGELINGSTATUS;VER;Beïndigd;De voorrangsregeling is beïndigd. Of door een medewerker of door automatische processen.;27-03-2026;;;Woonruimteverdeling
 VRAGENLIJSTREGELHERKOMST;AED;Aedes-benchmark;De herkomst van de vraag is van de Aedes benchmark.;;;;Kwaliteit
 VRAGENLIJSTREGELHERKOMST;KWH;KWH Keurmerk;De herkomst van de vraag is van KWH in het kader van het eigen keurmerk.;;;;Kwaliteit
 VRAGENLIJSTREGELHERKOMST;EIG;Eigen vraag;De kwaliteitsmetingsvraag is door de eigen organisatie opgesteld;;;;Kwaliteit
