@@ -1193,8 +1193,8 @@ LENINGCONVERSIEOPTIE;TRI;Trigger-gabaseerd;Conversie is uitsluitend mogelijk bij
 LENINGCONVERSIEOPTIE;EIN;Einddatum;Conversie is mogelijk op of rond de einddatum/vervaldatum van de lening conform de leningsovereenkomst.;3-4-2026;;;Financiën
 LENINGCONVERSIEOPTIE;VOO;Voorwaardelijk;Conversie is uitsluitend mogelijk indien aan vooraf vastgelegde voorwaarden wordt voldaan (los van een specifieke trigger).;3-4-2026;;;Financiën
 LENINGDETAILSOORT;COL;Collegiaal;De lening is verstrekt aan of ontvangen van een andere woningcorporatie.;;;;Financiën
-LENINGDETAILSOORT;CON;Converteerbaar;;;10-4-2026;;Financiën
-LENINGDETAILSOORT;EXT;Extendible;De financier (geldverstrekker) kan de lening verlengen.;;10-4-2026;;Financiën
+LENINGDETAILSOORT;CON;Converteerbaar;;;5-6-2026;;Financiën
+LENINGDETAILSOORT;EXT;Extendible;De financier (geldverstrekker) kan de lening verlengen.;;5-6-2026;;Financiën
 LENINGDETAILSOORT;HYP;Hypothecaire lening;Een lening waarbij onroerend goed als onderpand is verstrekt aan de geldverstrekker.;;;;Financiën
 LENINGDETAILSOORT;INT;Intern;De lening betreft een interne lening. Bijvoorbeeld tussen een toegelaten instelling en een dochtermaatschappij.;;;;Financiën
 LENINGDETAILSOORT;OBL;Obligatielening;Een lening die is aangegaan door uitgifte van obligaties aan investeerders.;;;;Financiën
