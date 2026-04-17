@@ -344,6 +344,7 @@ CLUSTERSOORT;VEX;Vastgoedexploitatie;Cluster van eenheden zoals gebruikt in de V
 CLUSTERSOORT;VVE;Vereniging van Eigenaars;Cluster van eenheden die behoren tot één Vereniging van Eigenaars.;;;;Vastgoed
 CLUSTERSOORT;WIJ;Wijk;Cluster van eenheden die samen een wijk vormen, anders dan de officiële CBS-wijk;;;;Vastgoed
 CLUSTERSOORT;WRD;Waardering;Cluster van eenheden dat wordt gewaardeerd conform de uitgangspunten van het Handboek Marktwaarde Verhuurde Staat (MVS).;;;;Vastgoed
+CLUSTERSOORT;WGP;Wbmgp;Wet bijzondere maatregelen grootstedelijke problematiek;;;;Vastgoed
 COLLECTIEFOBJECTSOORT;APD;Achterpad;Een smalle doorgang achter woningen, vaak gebruikt als toegang tot tuinen of bergingen.;;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;ATR;Atrium / Patio;Niet overdekt atrium of patio;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;ATU;Achtertuin;Tuin gelegen aan de achterzijde van de woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
