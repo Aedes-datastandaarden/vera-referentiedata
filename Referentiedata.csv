@@ -1991,7 +1991,7 @@ RUIMTEDETAILSOORT;BAD;Badkamer;Vertrek: voor een sanitaire ruimte in een woning,
 RUIMTEDETAILSOORT;BAL;Balkon;Een balkon.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;BAT;Badkamer met toilet;Gecombineerde badkamer/toilet;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;BEG;Bergruimte;Een ruimte binnen de schil van een woning en/of met toegang vanuit de woning. Vaak gebruikt voor het opslaan van goederen, gereedschappen, of andere items, vaak voorzien van planken, rekken of kasten voor organisatie.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
-RUIMTEDETAILSOORT;BER;Berging;Berging voor eigen gebruik, overige ruimte;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
+RUIMTEDETAILSOORT;BER;Berging;Niet direct vanuit de woning toegankelijke overige ruimte (uitpandig). Bijvoorbeeld voor opslag van fietsen, gereedschap, huisraad of scootmobielen;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;BIJ;Bijkeuken;Overige ruimte: grenzend aan de eigenlijke keuken die voor ondersteunende huishoudelijke handelingen gebruikt wordt, zoals wassen, drogen en strijken, maar ook voor het opbergen en bewaren van (etens)voorraden en schoonmaakspullen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;CAR;Carport;Overdekte, open stallingsruimte voor één of meerdere voertuigen, meestal grenzend aan of nabij de woning, zonder volledig afsluitbare wanden.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;CON;Containerruimte;Een speciaal ingerichte ruimte voor het tijdelijk opslaan van afval- of opslagcontainers, vaak voorzien van ventilatie, brandveiligheid en gemakkelijke toegang voor lediging en transport.;16-1-2026;;RUIMTESOORT.OVR;Vastgoed
