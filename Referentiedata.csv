@@ -1186,14 +1186,27 @@ KWALITEITSNIVEAU;STA;Standaard;Woning die bij mutatie wordt hersteld of opgewaar
 LENINGAFLOSVORM;ANN;Annuitair;Jaarlijks wordt met deze vorm een vast bedrag afgelost. Samenstelling van rente en aflossing.;;;;Financiën
 LENINGAFLOSVORM;FIX;Fixe;;;;;Financiën
 LENINGAFLOSVORM;LIN;Lineair;Met deze vorm van lenen wordt een vast bedrag als aflossing betaald. Hierdoor wordt de totale lasten (rente + aflossing) steeds lager.;;;;Financiën
-LENINGDETAILSOORT;COL;Collegiaal;;;;;Financiën
-LENINGDETAILSOORT;CON;Converteerbaar;;;;;Financiën
-LENINGDETAILSOORT;EXT;Extendible;De financier (geldverstrekker) kan de lening verlengen.;;;;Financiën
-LENINGDETAILSOORT;HYP;Hypothecaire lening;;;;;Financiën
+LENINGCONVERSIEOPTIE;AUT;Automatisch;Conversie vindt automatisch plaats bij het optreden van een contractueel vastgelegd moment of gebeurtenis.;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;FIN;Op initiatief financier;De financier (geldverstrekker) heeft het recht om conversie te initiëren conform de leningsovereenkomst.;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;SCH;Op initiatief schuldenaar;De schuldenaar heeft het recht om conversie te initiëren conform de leningsovereenkomst.;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;GEZ;Gezamenlijk;Conversie is alleen mogelijk met instemming van zowel financier als schuldenaar.;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;TRI;Trigger-gabaseerd;Conversie is uitsluitend mogelijk bij een contractueel vastgelegde trigger (bijv. financieringsronde, exit, covenant-breach).;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;EIN;Einddatum;Conversie is mogelijk op of rond de einddatum/vervaldatum van de lening conform de leningsovereenkomst.;3-4-2026;;;Financiën
+LENINGCONVERSIEOPTIE;VOO;Voorwaardelijk;Conversie is uitsluitend mogelijk indien aan vooraf vastgelegde voorwaarden wordt voldaan (los van een specifieke trigger).;3-4-2026;;;Financiën
+LENINGDETAILSOORT;COL;Collegiaal;De lening is verstrekt aan of ontvangen van een andere woningcorporatie.;;;;Financiën
+LENINGDETAILSOORT;CON;Converteerbaar;;;5-6-2026;;Financiën
+LENINGDETAILSOORT;EXT;Extendible;De financier (geldverstrekker) kan de lening verlengen.;;5-6-2026;;Financiën
+LENINGDETAILSOORT;HYP;Hypothecaire lening;Een lening waarbij onroerend goed als onderpand is verstrekt aan de geldverstrekker.;;;;Financiën
 LENINGDETAILSOORT;INT;Intern;De lening betreft een interne lening. Bijvoorbeeld tussen een toegelaten instelling en een dochtermaatschappij.;;;;Financiën
-LENINGDETAILSOORT;OBL;Obligatielening;;;;;Financiën
+LENINGDETAILSOORT;OBL;Obligatielening;Een lening die is aangegaan door uitgifte van obligaties aan investeerders.;;;;Financiën
 LENINGSOORT;KRE;Kredietfaciliteit;;;;;Financiën
 LENINGSOORT;LEN;Lening;;;;;Financiën
+LENINGVERLENGINGSOPTIE;EEN;Eenmalig;De looptijd van de lening kan éénmalig worden verlengd conform de leningsovereenkomst.;3-4-2026;;;Financiën
+LENINGVERLENGINGSOPTIE;MEE;Meervoudig;De looptijd van de lening kan meerdere malen worden verlengd conform de leningsovereenkomst.;3-4-2026;;;Financiën
+LENINGVERLENGINGSOPTIE;FIN;Op initiatief financier;De financier (geldverstrekker) heeft het recht de looptijd eenzijdig te verlengen.;3-4-2026;;;Financiën
+LENINGVERLENGINGSOPTIE;SCH;Op initiatief schuldenaar;De schuldenaar heeft het recht de looptijd eenzijdig te verlengen.;3-4-2026;;;Financiën
+LENINGVERLENGINGSOPTIE;GEZ;Gezamenlijk;Verlenging van de looptijd is alleen mogelijk met instemming van zowel financier als schuldenaar.;3-4-2026;;;Financiën
+LENINGVERLENGINGSOPTIE;VOO;Voorwaardelijk;Verlenging van de looptijd is uitsluitend mogelijk indien aan vooraf vastgelegde voorwaarden wordt voldaan.;3-4-2026;;;Financiën
 LOOPTIJDSOORT;BRE;Breakout-optie huurder;Een contractueel vastgelegd moment of periode waarop de huurder het recht heeft om de huurovereenkomst tussentijds te beëindigen, los van de reguliere expiratiedatum, mits wordt voldaan aan de afgesproken voorwaarden (zoals opzegtermijn).;23-1-2026;;;Overeenkomsten
 LOOPTIJDSOORT;EXH;Expiratie huurder;De datum waarop de lopende huurperiode eindigt voor de huurder, indien de huurder de huurovereenkomst niet tijdig opzegt conform de voor de huurder geldende opzeg- en verlengingsafspraken.;23-1-2026;;;Overeenkomsten
 LOOPTIJDSOORT;EXV;Expiratie verhuurder;De datum waarop de lopende huurperiode eindigt voor de verhuurder, indien de verhuurder de huurovereenkomst niet tijdig opzegt conform de voor de verhuurder geldende opzeg- en verlengingsafspraken.;23-1-2026;;;Overeenkomsten
