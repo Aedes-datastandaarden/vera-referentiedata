@@ -3,3 +3,7 @@
 
 # Visual Studio
 .vs
+.DS_Store
+*.user
+*.userosscache
+*.sln.docstates 
