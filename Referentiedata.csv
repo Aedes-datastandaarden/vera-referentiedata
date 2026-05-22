@@ -901,7 +901,7 @@ EXTERNEINCASSOEINDEREDEN;TER;Teruggenomen door opdrachtgever;De externe-incassor
 EXTERNEINCASSOEINDEREDEN;OVD;Overgedragen aan andere partij;De externe-incassoregeling is beëindigd omdat het dossier is overgedragen aan een andere incassopartij, bijvoorbeeld een deurwaarder.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;ONT;Onterecht uit handen gegeven;De externe-incassoregeling is beëindigd omdat achteraf bleek dat de vordering niet (volledig) terecht was.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;OTR;Ontruiming;De externe-incassoregeling is beëindigd omdat het dossier is afgesloten na gerechtelijke ontruiming van de huurder.;22-05-2026;;;Financiën
-EXTERNEINCASSOEINDEREDEN;BVO;Betalingsvonnis;De externe-incassoregeling is beëindigd omdat een betalingsvonnis is behaald; verdere afhandeling vindt plaats in de executiefase.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;BVO;Betalingsvonnis;De externe-incassoregeling is beëindigd omdat een betalingsvonnis is behaald, verdere afhandeling vindt plaats in de executiefase.;22-05-2026;;;Financiën
 EXTERNEINCASSOSTARTREDEN;ACH;Achterstand zittende huurder;De externe-incassoregeling is ontstaan na uitputting van het minnelijk traject bij een zittende huurder met betalingsachterstand.;22-05-2026;;;Financiën
 EXTERNEINCASSOSTARTREDEN;RVE;Restschuld vertrokken huurder;De externe-incassoregeling is ontstaan vanwege een openstaande vordering na regulier einde van de huurovereenkomst.;22-05-2026;;;Financiën
 EXTERNEINCASSOSTARTREDEN;RON;Restschuld na ontruiming;De externe-incassoregeling is ontstaan vanwege een restantvordering na gerechtelijke ontruiming.;22-05-2026;;;Financiën
