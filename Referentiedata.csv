@@ -893,7 +893,7 @@ EXTERNEINCASSOEINDEREDEN;ONI;Oninbaar;De externe-incassoregeling is beëindigd o
 EXTERNEINCASSOEINDEREDEN;SAN;Restschuld gesaneerd;De externe-incassoregeling is beëindigd omdat de restschuld is gesaneerd via een minnelijk schuldregelingstraject.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;WSO;WSNP onderbroken;De externe-incassoregeling is beëindigd omdat het WSNP-traject van de debiteur tussentijds is beëindigd zonder schone lei.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;WSS;WSNP schone lei;De externe-incassoregeling is beëindigd omdat het WSNP-traject van de debiteur is afgesloten met schone lei.;22-05-2026;;;Financiën
-EXTERNEINCASSOEINDEREDEN;FAI;Faillissement;De externe-incassoregeling is beëindigd omdat de debiteur in staat van faillissement verkeert; verdere afhandeling via de curator.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;FAI;Faillissement;De externe-incassoregeling is beëindigd omdat de debiteur in staat van faillissement verkeert, verdere afhandeling via de curator.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;OVL;Overlijden debiteur;De externe-incassoregeling is beëindigd vanwege overlijden van de debiteur zonder voldoende verhaal in de nalatenschap.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;VRJ;Verjaard;De externe-incassoregeling is beëindigd omdat de wettelijke verjaringstermijn is verstreken.;22-05-2026;;;Financiën
 EXTERNEINCASSOEINDEREDEN;KWI;Kwijtgescholden;De externe-incassoregeling is beëindigd omdat de vordering geheel of gedeeltelijk is kwijtgescholden door de schuldeiser.;22-05-2026;;;Financiën
