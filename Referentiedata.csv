@@ -79,8 +79,8 @@ AFWEZIGHEIDSOORT;ZOR;Zorgverlof;;26-08-2022;;;Organisatie
 AFWEZIGHEIDSOORT;ZWA;Zwangerschapsverlof;;26-08-2022;;;Organisatie
 AKTESOORT;NOT;Notariële akte;Akte vastgelegd bij de notaris.;;;;Vastgoed
 AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgesteld (onderhands);;;;Vastgoed
-ARCHIEFNOMINATIE;BEW;Bewaren;De registratie wordt blijvend bewaard. Er is geen vernietigingsdatum vastgesteld.;;;;Algemeen
-ARCHIEFNOMINATIE;VER;Vernietigen;De registratie wordt vernietigd na een bepaalde periode. De vernietigingsdatum is vastgesteld op basis van de geldende bewaartermijnen.;;;;Algemeen 
+ARCHIEFNOMINATIE;BEW;Bewaren;De registratie wordt blijvend bewaard. Er is geen vernietigingsdatum vastgesteld.;22-05-2026;;;;Algemeen
+ARCHIEFNOMINATIE;VER;Vernietigen;De registratie wordt vernietigd na een bepaalde periode. De vernietigingsdatum is vastgesteld op basis van de geldende bewaartermijnen.;22-05-2026;;;;Algemeen 
 ARCHIEFSTATUS;ACT;Actueel;De registratie is actueel en wordt gebruikt in operationele processen. Dit is de standaardstatus voor alle nieuwe en lopende registraties.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;GEA;Gearchiveerd;De registratie is niet meer operationeel actief, maar wordt nog bewaard conform de geldende bewaartermijn. De gegevens zijn raadpleegbaar, maar veelal niet meer wijzigbaar.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;BEW;Bewaarplichtig;De registratie valt onder een wettelijke, fiscale of contractuele bewaarplicht en mag niet vernietigd worden, ongeacht de standaard bewaartermijn.;22-05-2026;;;Algemeen
