@@ -357,6 +357,7 @@ COLLECTIEFOBJECTSOORT;CAS;Casco;Constructieve basis van een gebouw, zoals muren 
 COLLECTIEFOBJECTSOORT;CEH;Centrale hal;Een grote gemeenschappelijke hal, vaak als entree voor een gebouw.;;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;DAK;Dak;Bovenzijde van een gebouw die bescherming biedt tegen weersinvloeden.;;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;DOU;Doucheruimte;Sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;ETS;Entresol;Tussenverdieping of halve verdieping gelegen tussen twee bouwlagen.;29-05-2026;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;FTS;Gemeenschappelijke fietsenstalling;Ruimte bestemd voor het stallen van fietsen en gedeeld door meerdere gebruikers.;;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;GAK;Gemeenschappelijk dakterras;Een buitenruimte op het dak, gedeeld door meerdere gebruikers en bedoeld voor recreatie.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;GAL;Galerij;Een overdekte gang aan de buitenzijde van een gebouw, vaak verbonden met appartementen.;;;RUIMTESOORT.BTR;Vastgoed
@@ -2038,6 +2039,7 @@ RUIMTEDETAILSOORT;CON;Containerruimte;Een speciaal ingerichte ruimte voor het ti
 RUIMTEDETAILSOORT;DAK;Dakterras;Een dakterras.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;GAK;Gemeenschappelijk dakterras;Buitenruimte: een gemeenschappelijk dakterras;12-01-2024;25-10-2024;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;DOU;Doucheruimte;Vertrek: sanitaire ruimte met een douche.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;ETS;Entresol;Tussenverdieping of halve verdieping gelegen tussen twee bouwlagen.;29-05-2026;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;GAN;Gang;Verkeersruimte : is een betrekkelijk smalle en lange ruimte omgeven door muren en afgedekt door een plafond of zoldering, in een gebouw, als verbinding van vertrekken waarvan de deuren erop uitkomen.;24-4-2023;;RUIMTESOORT.VRK;Vastgoed
 RUIMTEDETAILSOORT;GAL;Galerij;Een aan de buitenkant van een gebouw hangende open gang, gebruikt als verbindingsroute tussen verschillende delen van het gebouw. Deze verschaft toegang tot afzonderlijke gebruiksfuncties.;16-1-2026;;RUIMTESOORT.VRK;Vastgoed
 RUIMTEDETAILSOORT;GAR;Garage;Overige ruimte: een overdekte en afsluitbare ruimte om voertuigen in te stallen.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
