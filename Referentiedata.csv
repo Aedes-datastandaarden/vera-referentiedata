@@ -887,6 +887,33 @@ ENERGIEPRESTATIEVERGOEDINGSOORT;BAS;EPV Basis;De maximale EPV geldt voor: een wo
 ENERGIEPRESTATIEVERGOEDINGSOORT;HOO;EPV Hoogwaardig;De maximale EPV geldt voor: een woning die ten minste duurzame energie levert voor het volledige gebouwgebonden deel én ten minste 2100 kWh/jaar voor het gebruikersgebonden deel (EGW) of een woning die ten minste duurzame energie levert voor het volledige gebouwgebonden deel én 530 kWh/jaar voor het gebruikersgebonden deel (MGW).;22-9-2023;;;Energie
 EXTERNEINCASSOSOORT;DEU;Deurwaarder;;;;;Financiën
 EXTERNEINCASSOSOORT;INC;Incassobureau;;;;;Financiën
+EXTERNEINCASSOEINDEREDEN;AFB;Afbetaald;De externe-incassoregeling is beëindigd omdat de vordering volledig is voldaan.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;GED;Gedeeltelijk voldaan;De externe-incassoregeling is beëindigd, een deel is voldaan en het restant is oninbaar verklaard.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;ONI;Oninbaar;De externe-incassoregeling is beëindigd omdat de vordering oninbaar is gebleken.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;SAN;Restschuld gesaneerd;De externe-incassoregeling is beëindigd omdat de restschuld is gesaneerd via een minnelijk schuldregelingstraject.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;WSO;WSNP onderbroken;De externe-incassoregeling is beëindigd omdat het WSNP-traject van de debiteur tussentijds is beëindigd zonder schone lei.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;WSS;WSNP schone lei;De externe-incassoregeling is beëindigd omdat het WSNP-traject van de debiteur is afgesloten met schone lei.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;FAI;Faillissement;De externe-incassoregeling is beëindigd omdat de debiteur in staat van faillissement verkeert, verdere afhandeling via de curator.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;OVL;Overlijden debiteur;De externe-incassoregeling is beëindigd vanwege overlijden van de debiteur zonder voldoende verhaal in de nalatenschap.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;VRJ;Verjaard;De externe-incassoregeling is beëindigd omdat de wettelijke verjaringstermijn is verstreken.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;KWI;Kwijtgescholden;De externe-incassoregeling is beëindigd omdat de vordering geheel of gedeeltelijk is kwijtgescholden door de schuldeiser.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;TER;Teruggenomen door opdrachtgever;De externe-incassoregeling is beëindigd omdat de corporatie het dossier heeft teruggehaald.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;OVD;Overgedragen aan andere partij;De externe-incassoregeling is beëindigd omdat het dossier is overgedragen aan een andere incassopartij, bijvoorbeeld een deurwaarder.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;ONT;Onterecht uit handen gegeven;De externe-incassoregeling is beëindigd omdat achteraf bleek dat de vordering niet (volledig) terecht was.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;OTR;Ontruiming;De externe-incassoregeling is beëindigd omdat het dossier is afgesloten na gerechtelijke ontruiming van de huurder.;22-05-2026;;;Financiën
+EXTERNEINCASSOEINDEREDEN;BVO;Betalingsvonnis;De externe-incassoregeling is beëindigd omdat een betalingsvonnis is behaald, verdere afhandeling vindt plaats in de executiefase.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;ACH;Achterstand zittende huurder;De externe-incassoregeling is ontstaan na uitputting van het minnelijk traject bij een zittende huurder met betalingsachterstand.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;RVE;Restschuld vertrokken huurder;De externe-incassoregeling is ontstaan vanwege een openstaande vordering na regulier einde van de huurovereenkomst.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;RON;Restschuld na ontruiming;De externe-incassoregeling is ontstaan vanwege een restantvordering na gerechtelijke ontruiming.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;RNN;Regeling niet nagekomen;De externe-incassoregeling is ontstaan omdat een eerder getroffen betalingsregeling niet is nagekomen.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;ONV;Debiteur onvindbaar;De externe-incassoregeling is ontstaan omdat de debiteur niet bereikbaar of traceerbaar is.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;EAR;Eindafrekening servicekosten;De externe-incassoregeling is ontstaan vanwege een vordering uit de servicekosten- of stookkostenafrekening.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;SCH;Schade- of herstelvordering;De externe-incassoregeling is ontstaan vanwege een vordering voor opleverschade, mutatiekosten of vandalisme.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;BOE;Contractuele boete of vergoeding;De externe-incassoregeling is ontstaan vanwege een contractuele boete of vergoeding, bijvoorbeeld bij onrechtmatige bewoning of hennepkwekerij.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;VON;Tenuitvoerlegging vonnis;De externe-incassoregeling is ontstaan voor de tenuitvoerlegging van een in eigen beheer behaald vonnis.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;OLA;Overlast;De externe-incassoregeling is ontstaan in samenhang met een overlastdossier dat tot een vordering heeft geleid.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;WHT;Wacht op huurtoeslag;De externe-incassoregeling is ontstaan omdat betaling uitblijft in afwachting van toekenning of uitbetaling van huurtoeslag.;22-05-2026;;;Financiën
+EXTERNEINCASSOSTARTREDEN;WUI;Wacht op uitkering;De externe-incassoregeling is ontstaan omdat betaling uitblijft in afwachting van toekenning of uitbetaling van een uitkering.;22-05-2026;;;Financiën
 EXTERNEINCASSOSTATUS;ACT;Actief;;;;;Financiën
 EXTERNEINCASSOSTATUS;EIN;Beëindigd;;;;;Financiën
 EXTERNEINCASSOSTATUS;NIE;Nieuw;;;;;Financiën
