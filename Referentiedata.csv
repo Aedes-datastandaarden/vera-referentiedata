@@ -2151,6 +2151,20 @@ SIGNALERINGSOORT;WAN;Wangedrag naar medewerkers;Ongewenst gedrag gericht op mede
 SIGNALERINGSTATUS;ACT;Actief;;;;;Relaties
 SIGNALERINGSTATUS;PAS;Passief;;;;;Relaties
 SIGNALERINGSTATUS;VER;Vervallen;;;;;Relaties
+STREEFHUURAFWIJKINGREDEN;SLO;Sloop;De eenheid is bestemd voor sloop.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;WNS;Wensportefeuille;Afwijking i.v.m. de wensportefeuille.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;JON;Jongerenlabel;Afwijking i.v.m. een jongerenlabel.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;UNI;Uniformiteit omliggende woningen;Afwijking voor uniformiteit met omliggende woningen.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;DIF;Differentiatie;Buurtplan/beschikbaarheid/leefbaarheid.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;WMO;WMO-woning;Afwijking i.v.m. een WMO-woning.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;REN;Geplande renovatie;Afwijking i.v.m. een geplande renovatie.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;ZOR;Zorggerelateerde inzet;Inzet voor zorggerelateerde voorzieningen.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;DER;Afspraken met derden;Afwijking o.b.v. afspraken met derden.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;AAN;Aanpassing woning nodig;Afwijking i.v.m. een benodigde woningaanpassing.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGREDEN;GEM;Gemeentelijke afspraken;Afwijking o.b.v. gemeentelijke afspraken.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGSTATUS;CON;Concept;Het afwijkingsbesluit is in concept.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGSTATUS;ACT;Actief;De afwijking is actief.;12-6-2026;;;Vastgoed
+STREEFHUURAFWIJKINGSTATUS;VER;Vervallen;De afwijking is vervallen.;12-6-2026;;;Vastgoed
 TAAL;DUI;Duits;;;;;Woonruimteverdeling
 TAAL;ENG;Engels;;;;;Woonruimteverdeling
 TAAL;FRA;Frans;;;;;Woonruimteverdeling
