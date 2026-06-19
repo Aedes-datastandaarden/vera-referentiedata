@@ -398,6 +398,7 @@ COLLECTIEFOBJECTSOORT;TRH;Trappenhuis;Een ruimte in een gebouw die trappen bevat
 COLLECTIEFOBJECTSOORT;TRU;Technische ruimte;Een afgesloten ruimte voor installaties zoals verwarmings- of ventilatiesystemen.;;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;TUI;Tuin;Gemeenschappelijke buitenruimte, vaak groen aangelegd, voor recreatief gebruik.;;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;TUS;Tussenkamer;Ruimte gelegen tussen en verbonden met twee andere kamers.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;VID;Vide;Een open ruimte binnen een gebouw, zonder fysieke afscheiding met de bouwlaag eronder. Bestemd om een een ruimtelijk gevoel te creëren.;19-6-2026;;RUIMTESOORT.VTK;Vastgoed
 COLLECTIEFOBJECTSOORT;VLI;Vliering;Ruimte onder het dak zonder vaste trap, met onvoldoende oppervlakte en/of stahoogte voor een verblijfsruimte en uitsluitend geschikt voor opslag.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;VTU;Voortuin;Tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;WAS;Wasruimte;Een gemeenschappelijke wasruimte.;25-10-2024;;RUIMTESOORT.OVR;Vastgoed
@@ -2084,6 +2085,7 @@ RUIMTEDETAILSOORT;TER;Terras;Buitenruimte: deel van een buitenruimte met een vla
 RUIMTEDETAILSOORT;TOI;Toiletruimte;Overige ruimte: Sanitaire ruimte met een toilet.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;TUI;Tuin;Buitenruimte: indien geen specificatie/verbijzondering bekend is van tuin kan voor deze algemenere duiding van tuin gebruikt worden.;14-6-2024;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;TUS;Tussenkamer;Vertrek: ruimte gelegen tussen en verbonden met twee andere kamers. Dit vertrek wordt beschouwd als 'kamer' en telt mee in het aantal kamers.;24-4-2023;;RUIMTESOORT.VTK;Vastgoed
+RUIMTEDETAILSOORT;VID;Vide;Een open ruimte binnen een gebouw, zonder fysieke afscheiding met de bouwlaag eronder. Bestemd om een een ruimtelijk gevoel te creëren.;19-6-2026;;RUIMTESOORT.VTK;Vastgoed
 RUIMTEDETAILSOORT;VLI;Vliering;Overige ruimte: ruimte onder het dak zonder vaste trap, met onvoldoende oppervlakte en/of stahoogte voor een verblijfsruimte en uitsluitend geschikt voor opslag.;4-8-2023;;RUIMTESOORT.OVR;Vastgoed
 RUIMTEDETAILSOORT;VTU;Voortuin;Buitenruimte: tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 RUIMTEDETAILSOORT;WAS;Wasruimte;Overige ruimte: Specifieke ruimte voor wasmachine, droger, strijken, voor eigen gebruik.;24-4-2023;;RUIMTESOORT.OVR;Vastgoed
