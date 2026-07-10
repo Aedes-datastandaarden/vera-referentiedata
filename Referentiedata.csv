@@ -1763,6 +1763,7 @@ PRIJSCOMPONENTDETAILSOORT;IGA;Individuele garage;Inpandige parkeerplek individue
 PRIJSCOMPONENTDETAILSOORT;INS;Installaties;Periodieke kosten voor het gebruik van andere installaties dan elektrische installaties;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;INV;Inventaris;Periodieke kosten voor het gebruik van inventaris;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;KAL;Kale huur;Basisbedrag voor het gebruik van de woning;1-9-2023;;PRIJSCOMPONENTSOORT.NET;Overeenkomsten
+PRIJSCOMPONENTDETAILSOORT;KOR;Korting;Tijdelijke of structurele korting op de huurprijs, bijvoorbeeld een gewenningskorting of korting tijdens renovatie.;10-7-2026;;PRIJSCOMPONENTSOORT.HUA;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LAA;Laadpaal;Periodieke kosten voor het gebruik van een laadpaal voor elektrische auto;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LIF;Liftkosten;Periodieke kosten voor het gebruik van de lift(en);4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
 PRIJSCOMPONENTDETAILSOORT;LIN;Linnenpakket;Periodieke kosten voor het gebruik van linnen;4-11-2022;;PRIJSCOMPONENTSOORT.SER;Overeenkomsten
