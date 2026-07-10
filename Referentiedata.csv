@@ -1670,6 +1670,7 @@ ORGANISATIEVORM;VOF;Vennootschap onder firma;Vennootschap onder firma (vof) (Han
 ORGANISATIEVORM;VVE;Vereniging van eigenaars;Vereniging van eigenaars (Handelsregisterwet: art 6, 1, b);;;;Relaties
 OVEREENKOMSTDETAILSOORT;BEP;Bepaalde tijd;Arbeidsovereenkomst voor bepaalde tijd.;26-08-2022;;OVEREENKOMSTSOORT.ARB;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;BOG;Bedrijfsonroerendgoed;Verhuur van vastgoed voor zakelijke doeleinden.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
+OVEREENKOMSTDETAILSOORT;BRU;Bruikleen;Overeenkomst waarbij een eenheid tijdelijk en om niet in gebruik wordt gegeven. De bruiklener betaalt geen huur maar hooguit een vergoeding voor gebruikskosten en geniet geen huurbescherming.;10-7-2026;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;CAM;Campuscontract;Een campuscontract is een huurovereenkomst die direct is gekoppeld aan een inschrijving bij een onderwijsinstelling. Bij beeindiging inschrijving eindigt ook de overeenkomst.;;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;FLE;Flexcontract;Huurovereenkomst voor een flexwoning: de einddatum van de omgevingsvergunning die voor de woning is afgegeven is een opzeggrond voor de huurovereenkomst (artikel 7:271 lid 4 BW).;28-7-2023;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
 OVEREENKOMSTDETAILSOORT;FRI;Friends-contract;Huurovereenkomst waarbij twee of meer vrienden samen een woning huren onder één contract. Ze zijn gezamenlijk verantwoordelijk voor de huur en mogen bij vertrek van een huisgenoot samen een vervanger aandragen.;9-5-2025;;OVEREENKOMSTSOORT.HUU;Overeenkomsten
