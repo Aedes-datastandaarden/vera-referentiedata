@@ -1809,7 +1809,7 @@ PRIJSCOMPONENTSOORT;SER;Service;Aanvullende kosten zoals: huismeester, glasfonds
 PRIJSCOMPONENTSOORT;STA;Starterslening;;;;;Overeenkomsten
 PRIJSCOMPONENTSOORT;VER;Verbruik;Water, Warmte, Electriciteit, etc.;;;;Overeenkomsten
 PRIJSCOMPONENTSUBSIDIESOORT;NSU;Niet subsidiabel prijscomponent;Het prijscomponent komt NIET in aanmerking voor subsidie omdat deze niet opgenomen is in de Wet op de huurtoeslag;;;;Overeenkomsten
-PRIJSCOMPONENTSUBSIDIESOORT;SUB;Subsidiabel prijscomponent;Het prijscomponent komt in aanmerking voor subsidie en valt binnen de Wet op de huurtoeslag.  Gebruik eventueel PRIJSCOMPONENTDETAILSOORT om een nadere verbijzondering aan te duiden. De volgende prijscomponentdetailsoorten zijn subsidiabel: SCH - Schoonmaak van gemeenschappelijke ruimten / ENE - Energie voor gemeenschappelijke ruimten /  HUI - Huismeester / DIE - Dienst- en recreatieruimten;;;;Overeenkomsten
+PRIJSCOMPONENTSUBSIDIESOORT;SUB;Subsidiabel prijscomponent;Het prijscomponent komt in aanmerking voor subsidie en valt binnen de Wet op de huurtoeslag.  Gebruik eventueel PRIJSCOMPONENTDETAILSOORT om een nadere verbijzondering aan te duiden.;;;;Overeenkomsten
 PRIJSCOMPONENTWIJZIGINGSREDEN;INK;Jaarlijkse huuraanpassing -inkomensafhankelijk;Jaarlijkse huuraanpassing - met inkomensafhankelijke huurverhoging;;;;Overeenkomsten
 PRIJSCOMPONENTWIJZIGINGSREDEN;JAA;Jaarlijkse huuraanpassing -niet inkomensafhankelijk;Jaarlijkse huuraanpassing - zonder inkomensafhankelijke huurverhoging;;;;Overeenkomsten
 PRIJSCOMPONENTWIJZIGINGSREDEN;MUT;Nieuwe verhuring;Nieuwe verhuring, inclusief de eerste verhuring van een eenheid;;;;Overeenkomsten
