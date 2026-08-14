@@ -1568,11 +1568,13 @@ ONDERHOUDSORDERSTATUS;TEC;Technisch gereed;De order is technisch gereed en de ui
 ONDERHOUDSORDERSTATUS;WOG;Wacht op goedkeuring;Order wordt voordat deze gegund kan worden intern eerst beoordeeld.;;;;Onderhoud
 ONDERHOUDSPECIALISME;ALA;Specialist Alarminstallaties;Specialisme die zich bezig houdt met de installatie en onderhoud van alarminstallaties en andere beveiligingsystemen;;;;Onderhoud
 ONDERHOUDSPECIALISME;ASB;Specialist Asbestsanering;Inventarisatie en sanering van asbest;;;;Onderhoud
+ONDERHOUDSPECIALISME;BET;Specialist Betonreparatie;Specialist die betonconstructies inspecteert, herstelt en beschermt. Werkzaamheden omvatten onder andere betonreparatie, corrosiebestrijding en constructief herstel van betonnen onderdelen.;14-08-2026;;;Onderhoud
 ONDERHOUDSPECIALISME;BLI;Specialist Bliksemgeleider;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;BLU;Specialist Blusmiddelen;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;BRA;Specialist Brandmeldinstallatie;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;CVI;CV Installateur;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;DAK;Dakdekker;Specialist die dakbedekking aanbrengt op platte en licht hellende daken. Gespecialiseerd in het toepassen en verwerken van diverse materialen die gebruikt worden om deze daken waterdicht en bestand te maken tegen verschillende weersinvloeden;;;;Onderhoud
+ONDERHOUDSPECIALISME;DVS;Specialist Dakveiligheidssystemen;Specialist op het gebied van inspectie, onderhoud, keuring en herstel van dakveiligheidsvoorzieningen zoals ankerpunten, valbeveiliging, veiligheidslijnen, dakladders en dakrandbeveiliging.;14-08-2026;;;Onderhoud
 ONDERHOUDSPECIALISME;DOM;Specialist Domotica;Specialist op het gebied van installatie en onderhoud van domotica-systemen;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELA;Elektriciën allrounder;De allrounder elektricien kan kleine elektra-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
 ONDERHOUDSPECIALISME;ELE;Elektriciën;Een volwaardige elektriciënRelatie met Ketenstandaard: competentiecode ELE - Electra;;;;Onderhoud
@@ -1582,6 +1584,8 @@ ONDERHOUDSPECIALISME;GLA;Glaszetter;Binnen Ketenstandaard is hier op dit moment 
 ONDERHOUDSPECIALISME;HOV;Hovenier;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;HYD;Specialist Hydrofoor;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;INS;Inspecteur;Medewerker die een inspectie uit gaat voeren. Dit kan voorafgaand aan de opdracht zijn (bijvoorbeeld bij mutatie of reparatie) maar ook achteraf (steekproef-controle)Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor beschikbaar;;;;Onderhoud
+ONDERHOUDSPECIALISME;INT;Specialist Interieur;Specialist die onderhouds-, herstel- en aanpassingswerkzaamheden uitvoert aan interieuronderdelen van gebouwen, zoals afwerking, inrichting, scheidingswanden en interieurvoorzieningen.;14-08-2026;;;Onderhoud
+ONDERHOUDSPECIALISME;ISO;Specialist Isolatie;Specialist die isolatiewerkzaamheden uitvoert en onderhoud verricht aan dak-, gevel-, vloer- en leidingisolatie ter verbetering van energieprestatie en comfort.;14-08-2026;;;Onderhoud
 ONDERHOUDSPECIALISME;LIF;Specialist Lift;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;LOA;Loodgieter allrounder;De allrounder loodgieter kan kleine loodgieter-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode LOO  - Loodgieter;;;;Onderhoud
 ONDERHOUDSPECIALISME;LOO;Loodgieter;Een volwaardige loodgieter. Relatie met Ketenstandaard: competentiecode LOO  - Loodgieter;;;;Onderhoud
@@ -1594,6 +1598,7 @@ ONDERHOUDSPECIALISME;STU;Stucadoor;Een volwaardige stucadoor. Relatie met Ketens
 ONDERHOUDSPECIALISME;TAL;Timmerman allrounder;De allrounder timmerman kan kleine timmer-werkzaamheden uitvoeren.Relatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
 ONDERHOUDSPECIALISME;TEG;Tegelzetter;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;TIM;Timmerman;Een volwaardige timmermanRelatie met Ketenstandaard: competentiecode TIM - Timmerman;;;;Onderhoud
+ONDERHOUDSPECIALISME;VLO;Specialist Vloeren;Specialist op het gebied van aanleg, herstel, onderhoud en vervanging van vloerafwerkingen, waaronder tegelvloeren, gietvloeren, galerijcoatings en overige vloerbedekkingen.;14-08-2026;;Onderhoud
 ONDERHOUDSPECIALISME;VOC;Specialist Vochtwering;Een specialist in vochtwering is een professional die zich richt op het onderzoeken, identificeren, behandelen en voorkomen van vochtproblemen in gebouwen. Deze experts kunnen helpen bij problemen zoals optrekkend vocht, condensatie, lekkages en schimmelvorming. Ze gebruiken verschillende technieken en materialen om vocht buiten te houden en de structurele integriteit van een gebouw te behouden.;;;;Onderhoud
 ONDERHOUDSPECIALISME;WIT;Specialist Witgoed;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
 ONDERHOUDSPECIALISME;WTW;Specialist MV/WTW;Binnen Ketenstandaard is hier op dit moment geen specifieke codering voor, vooralsnog gebruik maken van competentiecode OVE - Overige;;;;Onderhoud
