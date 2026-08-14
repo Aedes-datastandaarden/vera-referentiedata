@@ -521,6 +521,7 @@ DEFECTSOORT;BEK;Beklad;;;;;Onderhoud
 DEFECTSOORT;BET;Betonrot;;;;;Onderhoud
 DEFECTSOORT;BEV;Bevroren;;;;;Onderhoud
 DEFECTSOORT;BIJ;Bijen;;;;;Onderhoud
+DEFECTSOORT;BKA;Beslag kapot;Het beslag van de deur/het kozijn/ etc. is kapot;14-08-2026;;;Onderhoud
 DEFECTSOORT;BLI;Blijft branden;;;;;Onderhoud
 DEFECTSOORT;BOK;Boktorren;;;;;Onderhoud
 DEFECTSOORT;BRE;Breuk / scheur;Voor glasbruik: gebruik GLA;;;;Onderhoud
