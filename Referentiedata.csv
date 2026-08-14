@@ -570,6 +570,7 @@ DEFECTSOORT;STO;Storing;;;;;Onderhoud
 DEFECTSOORT;TEM;Onjuiste temperatuur;;;;;Onderhoud
 DEFECTSOORT;TIJ;Tijdschakelklok werkt niet;;;;;Onderhoud
 DEFECTSOORT;TOC;Tocht;;;;;Onderhoud
+DEFECTSOORT;VER;Verbrand;Element is verbrand;14-08-2026;;;Onderhoud
 DEFECTSOORT;VBI;Verf laat los (binnen);;;;;Onderhoud
 DEFECTSOORT;VBU;Verf laat los (buiten);;;;;Onderhoud
 DEFECTSOORT;VLO;Vlooien;;;;;Onderhoud
