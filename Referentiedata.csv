@@ -2282,6 +2282,7 @@ VOORRANGDETAILSOORT;SER;Servicewoning;Woningen bij een zorginstelling of verplee
 VOORRANGDETAILSOORT;SOC;Sociaal;De woonsituatie is levensontwrichtend of levensbedreigend voor een of meer gezinsleden.;;;VOORRANGSOORT.URG;Woonruimteverdeling
 VOORRANGDETAILSOORT;STA;Statushouder;Urgentie wegens het verkrijgen van een verblijfsstatus;;;VOORRANGSOORT.URG;Woonruimteverdeling
 VOORRANGDETAILSOORT;UIT;uitstroom maatschappelijke instelling;Urgentie wegens het uitstromen bij een maatschappelijke instelling;;;VOORRANGSOORT.URG;Woonruimteverdeling
+VOORRANGDETAILSOORT;DOO;Doorstroombevordering;Doorstromers uit sociale huurwoning hebben voorrang om doorstroom te bevorderen.;;;VOORRANGSOORT.DOO;Woonruimteverdeling-
 VOORRANGSOORT;BIN;Binding;Er is voorrang voor woningzoekenden met binding tot een bepaald gebied. Bijvoorbeeld regionaal voor mensen die in het regionaal samenwerkingsverband wonen en/of werken, lokaal voor mensen die in de gemeente wonen.;;;;Woonruimteverdeling
 VOORRANGSOORT;GRO;Groep;Er is voorrang voor woningzoekenden die tot een bepaalde groep behoren waar geen binding, urgentie of indicatie van toepassing is.;;;;Woonruimteverdeling
 VOORRANGSOORT;IND;Indicatie;Er is voorrang voor woningzoekenden met een (medische) indicatie.;;;;Woonruimteverdeling
