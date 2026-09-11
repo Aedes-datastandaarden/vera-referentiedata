@@ -6,7 +6,6 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-
 EXPECTED_FIELDS = {
     "Soort",
     "Code",
@@ -14,6 +13,8 @@ EXPECTED_FIELDS = {
     "Omschrijving",
     "Begindatum",
     "Einddatum",
+    "Parent",
+    "Informatiedomein"
 }
 
 DATE_FORMAT = "%d-%m-%Y"
