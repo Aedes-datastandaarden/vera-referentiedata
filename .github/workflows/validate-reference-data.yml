@@ -51,9 +51,9 @@ jobs:
           git cat-file -t "${BASE_SHA}"
 
           echo "Checking whether the CSV exists in the base commit:"
-          git cat-file -e "${BASE_SHA}:referentiedata.csv"
+          git cat-file -e "${BASE_SHA}:Referentiedata.csv"
 
-          git show "${BASE_SHA}:referentiedata.csv" \
+          git show "${BASE_SHA}:Referentiedata.csv" \
             > /tmp/referentiedata-base.csv
 
           echo "Base CSV size:"
@@ -63,7 +63,7 @@ jobs:
           head -n 1 /tmp/referentiedata-base.csv | cat -A
 
           echo "Current CSV header:"
-          head -n 1 referentiedata.csv | cat -A
+          head -n 1 Referentiedata.csv | cat -A
     
       - name: Validate reference data
         run: |
