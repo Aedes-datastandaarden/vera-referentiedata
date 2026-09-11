@@ -28,12 +28,43 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Retrieve CSV from base branch
+      # - name: Retrieve CSV from base branch
+      #   env:
+      #     BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      #   run: |
+      #     git show "${BASE_SHA}:Referentiedata.csv" > /tmp/referentiedata-base.csv
+
+      - name: Extract reference data from target branch
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
-          git show "${BASE_SHA}:Referentiedata.csv" > /tmp/referentiedata-base.csv
+          set -euo pipefail
 
+          echo "Event: ${{ github.event_name }}"
+          echo "Base ref: ${{ github.event.pull_request.base.ref }}"
+          echo "Base SHA: ${BASE_SHA}"
+
+          echo "Current checkout:"
+          git rev-parse HEAD
+
+          echo "Checking whether the base commit exists:"
+          git cat-file -t "${BASE_SHA}"
+
+          echo "Checking whether the CSV exists in the base commit:"
+          git cat-file -e "${BASE_SHA}:referentiedata.csv"
+
+          git show "${BASE_SHA}:referentiedata.csv" \
+            > /tmp/referentiedata-base.csv
+
+          echo "Base CSV size:"
+          wc -c /tmp/referentiedata-base.csv
+
+          echo "Base CSV header:"
+          head -n 1 /tmp/referentiedata-base.csv | cat -A
+
+          echo "Current CSV header:"
+          head -n 1 referentiedata.csv | cat -A
+    
       - name: Validate reference data
         run: |
           python .github/scripts/validate_reference_data.py \
