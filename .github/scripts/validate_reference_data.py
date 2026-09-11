@@ -97,7 +97,7 @@ def read_csv(file_path):
     ) as csv_file:
         reader = csv.DictReader(
             csv_file,
-            delimiter=",",
+            delimiter=";",
         )
 
         if reader.fieldnames is None:
