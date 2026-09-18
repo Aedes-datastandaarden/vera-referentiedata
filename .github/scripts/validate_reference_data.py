@@ -223,6 +223,22 @@ def parse_date(
         return None
 
 
+def has_valid_date_format(date_value):
+    """
+    Return whether a populated date uses the expected format.
+    """
+
+    if not date_value:
+        return False
+
+    try:
+        datetime.strptime(date_value, DATE_FORMAT)
+    except ValueError:
+        return False
+
+    return True
+
+
 def validate_date_order(
     start_date_value,
     end_date_value,
@@ -312,6 +328,8 @@ def validate_existing_reference_value(
 
     Rules:
     - Begindatum cannot be modified or removed.
+        - Begindatum may be corrected when its original value has an
+            invalid date format.
     - An empty Einddatum may be populated once.
     - A populated Einddatum cannot be modified.
     - A populated Einddatum cannot be removed.
@@ -328,7 +346,16 @@ def validate_existing_reference_value(
     current_start_date = current_row["Begindatum"]
     current_end_date = current_row["Einddatum"]
 
-    if current_start_date != base_start_date:
+    is_start_date_format_correction = (
+        current_start_date != base_start_date
+        and not has_valid_date_format(base_start_date)
+        and has_valid_date_format(current_start_date)
+    )
+
+    if (
+        current_start_date != base_start_date
+        and not is_start_date_format_correction
+    ):
         errors.append(
             f"Line {line_number}, existing reference value "
             f"{format_key(reference_key)}: Begindatum cannot be modified "
