@@ -82,9 +82,9 @@ AKTESOORT;OND;Onderhandse akte;Akte die door twee of meer partijen is vastgestel
 ARCHIEFNOMINATIE;BEW;Bewaren;De registratie wordt blijvend bewaard. Er is geen vernietigingsdatum vastgesteld.;22-05-2026;;;Algemeen
 ARCHIEFNOMINATIE;VER;Vernietigen;De registratie wordt vernietigd na een bepaalde periode. De vernietigingsdatum is vastgesteld op basis van de geldende bewaartermijnen.;22-05-2026;;;Algemeen 
 ARCHIEFSTATUS;ACT;Actueel;De registratie is actueel en wordt gebruikt in operationele processen. Dit is de standaardstatus voor alle nieuwe en lopende registraties.;22-05-2026;;;Algemeen
-ARCHIEFSTATUS;GEA;Gearchiveerd;De registratie is niet meer operationeel actief, maar wordt nog bewaard conform de geldende bewaartermijn. De gegevens zijn raadpleegbaar, maar veelal niet meer wijzigbaar.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;BEW;Bewaarplichtig;De registratie valt onder een wettelijke, fiscale of contractuele bewaarplicht en mag niet vernietigd worden, ongeacht de standaard bewaartermijn.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;GEB;Geblokkeerd;De registratie is tijdelijk geblokkeerd, bijvoorbeeld vanwege een lopend onderzoek, juridische procedure, bezwaar of een AVG-verzoek. Vernietiging en wijziging zijn opgeschort tot de blokkade opgeheven wordt.;22-05-2026;;;Algemeen
+ARCHIEFSTATUS;GEA;Gearchiveerd;De registratie is niet meer operationeel actief, maar wordt nog bewaard conform de geldende bewaartermijn. De gegevens zijn raadpleegbaar, maar veelal niet meer wijzigbaar.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;OVE;Overgedragen;De registratie is overgedragen aan een externe archiefbewaarder, bijvoorbeeld een streekarchief of het Nationaal Archief. De verantwoordelijkheid voor beheer en raadpleging ligt niet langer bij de organisatie zelf.;22-05-2026;;;Algemeen
 ARCHIEFSTATUS;VER;Vernietigd;De registratie is conform de geldende bewaartermijn definitief vernietigd. Alleen de noodzakelijke metadata (bijvoorbeeld het feit dat vernietiging heeft plaatsgevonden) is nog beschikbaar voor verantwoording.;22-05-2026;;;Algemeen
 AUTHENTIEKGEGEVENBRON;BRP;Basisregistratie Personen;Gegevens zijn afkomstig van de BRP (Basisregistratie Personen).;24-10-2025;;;Dossier
@@ -403,7 +403,7 @@ COLLECTIEFOBJECTSOORT;VLI;Vliering;Ruimte onder het dak zonder vaste trap, met o
 COLLECTIEFOBJECTSOORT;VTU;Voortuin;Tuin gelegen voor de voorgevellijn, waar meestal de voordeur van een woning is gelegen. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;24-4-2023;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;WAS;Wasruimte;Een gemeenschappelijke wasruimte.;25-10-2024;;RUIMTESOORT.OVR;Vastgoed
 COLLECTIEFOBJECTSOORT;WOK;Woonkamer/keuken;Ruimte met een gecombineerde functie van keuken en woonkamer;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
-COLLECTIEFOBJECTSOORT;WOO;Woonkamer;De kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken.;22-11-24;;RUIMTESOORT.VTK;Vastgoed
+COLLECTIEFOBJECTSOORT;WOO;Woonkamer;De kamer in een huis waar het dagelijkse gezinsleven zich afspeelt. Het is een van de grootste vertrekken.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 COLLECTIEFOBJECTSOORT;WSL;Woon-/slaapkamer;Ruimte met een gecombineerde functie van woonkamer en slaapkamer.;22-11-2024;;RUIMTESOORT.VTK;Vastgoed
 COLLECTIEFOBJECTSOORT;ZIJ;Zijtuin;Buitenruimte: tuin gelegen aan de zijkant van een woning. Deze waarde kan gebruikt worden voor de woningwaardering indien deze duiding van tuin bekend is.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
 COLLECTIEFOBJECTSOORT;LOG;Loggia;Een inpandig balkon.;22-11-2024;;RUIMTESOORT.BTR;Vastgoed
@@ -857,7 +857,7 @@ EENHEIDSTATUS;VEK;Verkocht;VERVALLEN - Gebruik de status Uit Exploitatie, in com
 EINDEDETAILREDEN;FAI;Faillissement;Een overeenkomst is beëindigd wegens faillissement.;;;EINDEREDEN.ONT;Overeenkomsten
 EINDEDETAILREDEN;HER;Herstructurering;Een overeenkomst is beëindigd vanwege herstructurering van de woonomgeving. Dit kan bijvoorbeeld het gevolg zijn van sloop, renovatie of grootschalige gebiedsontwikkeling, waardoor de huidige woning niet langer beschikbaar is.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
 EINDEDETAILREDEN;KOO;Koop eigen woning;Een overeenkomst is beëindigd wegens koop eigen woning.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
-EINDEDETAILREDEN;LEE;Leefbaarheid;Een overeenkomst is beëindigd wegens redenen van leefbaarheid. Bijvoorbeeld geluidsoverlast, onveiligheid, slechte voorzieningen of negatieve sociale dynamiek.;14-02-205;;EINDEREDEN.OPZ;Overeenkomsten
+EINDEDETAILREDEN;LEE;Leefbaarheid;Een overeenkomst is beëindigd wegens redenen van leefbaarheid. Bijvoorbeeld geluidsoverlast, onveiligheid, slechte voorzieningen of negatieve sociale dynamiek.;14-02-2025;;EINDEREDEN.OPZ;Overeenkomsten
 EINDEDETAILREDEN;NOO;Noorderzon;Een overeenkomst is beëindigd omdat de huurder(s) met de noorderzon is (zijn) vertrokken.;;;EINDEREDEN.ONT;Overeenkomsten
 EINDEDETAILREDEN;ONT;Ontruiming;Een overeenkomst is beëindigd omdat de woning is ontruimd.;;;EINDEREDEN.ONT;Overeenkomsten
 EINDEDETAILREDEN;OVE;Overlijden;Een overeenkomst is beëindigd wegens overlijden.;;;EINDEREDEN.ONT;Overeenkomsten
@@ -1123,7 +1123,7 @@ INSPECTIERAPPORTSTATUS;VAL;Vervallen;;;;;Onderhoud
 INSTALLATIESOORT;ABF;Aanbelfunctie met video- en audioverbinding;Een aanbelfunctie met video- en audioverbinding waarbij de voordeur automatisch kan worden geopend vanuit de woning wordt gewaardeerd met 0,25 punt. Hieronder wordt een systeem verstaan dat tweewegcommunicatie mogelijk maakt met beeld en geluid tussen degene die aanbelt en een aanwezige in de woonruimte. Daarbij dient er tevens sprake te zijn van de mogelijkheid tot het openen van de (gemeenschappelijke) voordeur vanuit de woonruimte (op afstand) die toegang geeft tot het complex waarvan de woning onderdeel uitmaakt.;24-01-2025;;;Vastgoed
 INSTALLATIESOORT;EGV;Elektrische gordijnen;Installatie van domotica voor elektrische gordijnen.;31-01-2025;;;Vastgoed
 INSTALLATIESOORT;SPR;Spraakgestuurde apparaten;Installatie van domotica voor spraakgestuurde apparaten (licht,verwarming,deuren).;31-01-2025;;;Vastgoed
-INSTALLATIESOORT;NPS;Noodoproepsysteem;Installatie voor noodoproepen;31-01-2025.;;;Vastgoed
+INSTALLATIESOORT;NPS;Noodoproepsysteem;Installatie voor noodoproepen;31-01-2025;;;Vastgoed
 INSTALLATIESOORT;IAF;Inbouw afzuiginstallatie;Bij een afzuiginstallatie gaat het om een luchtafvoer met afzuiging naar buiten de woning of op basis van recirculatie met actieve koolstof- en vetfilters. Een afzuiginstallatie kan zowel een afzuig- of recirculatiekap boven de kookinstallatie zijn, als een in het aanrecht geïntegreerd afzuigsysteem.;26-07-2024;;;Vastgoed
 INSTALLATIESOORT;IKI;Inbouw kookplaat inductie;Een inbouw inductiekookplaat is een keukenapparaat dat in het werkblad wordt geïntegreerd. Het gebruikt magnetische velden om pannen direct te verwarmen, wat resulteert in snelle opwarming, nauwkeurige temperatuurcontrole, en verhoogde energie-efficiëntie in vergelijking met traditionele kookplaten.;26-07-2024;;;Vastgoed
 INSTALLATIESOORT;IKK;Inbouw kookplaat keramisch;Een inbouw keramische kookplaat is een keukenapparaat dat in het werkblad wordt geïntegreerd. Het verwarmt door elektrische spiralen onder een glad glazen oppervlak, waardoor het een gelijkmatige warmteverdeling biedt en gemakkelijk schoon te maken is, maar trager opwarmt dan inductie.;26-07-2024;;;Vastgoed
@@ -1549,7 +1549,7 @@ ONDERHOUDSOORT;PRJ;Projectmatig;Opdracht tot het uitvoeren van onderhoudswerkzaa
 ONDERHOUDSOORT;REP;Reparatie;Opdracht tot het uitvoeren van reparatiewerkzaamheden naar aanleiding van een geconstateerd defect;;;;Onderhoud
 ONDERHOUDSOORT;WMO;WMO Aanpassing;Bij benodigde aanpassing van de woning bij de zittende huurder (door ouderdom, invaliditeit aanbrengen van WMO-aanpassing);;;;Onderhoud
 ONDERHOUDSOORT;WOV;Woningverbetering;Bij aanpassing op verzoek van de huurder voor verbetering van het woongenot. Voorbeeld is het voortijdig vervangen van de wc-pot door een luxe uiitvoering;;;;Onderhoud
-ONDERHOUDSOORT;LEE;Leefbaarheid;Bij benodigde aanpassing van de woning om de leefbaarheid te verhogen;24-01-25;;;Onderhoud
+ONDERHOUDSOORT;LEE;Leefbaarheid;Bij benodigde aanpassing van de woning om de leefbaarheid te verhogen;24-01-2025;;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;AFK;Afkoop;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;GAR;Garantie;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud
 ONDERHOUDSORDERAFREKENWIJZE;NCE;Nacalculatie eenheidsprijzen;VERVALLEN - Gebruik Afrekenwijzesoort.;;14-4-2023;;Onderhoud

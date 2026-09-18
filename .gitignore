@@ -7,3 +7,6 @@
 *.user
 *.userosscache
 *.sln.docstates 
+__pycache__/
+*.py[cod]
+*$py.class
