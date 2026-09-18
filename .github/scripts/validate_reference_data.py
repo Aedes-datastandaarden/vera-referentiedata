@@ -19,6 +19,7 @@ EXPECTED_FIELDS = {
 
 DATE_FORMAT = "%d-%m-%Y"
 DATE_FORMAT_DESCRIPTION = "DD-MM-JJJJ"
+OBSOLETE_DESCRIPTION_MARKER = "VERVALLEN"
 
 
 def parse_arguments():
@@ -72,14 +73,17 @@ def read_csv(file_path):
     """
     Read a CSV file and return its rows as a dictionary.
 
-    The combination of Soort and Code is used as the unique key.
+    The combination of Soort and Code is used as the unique key,
+    except for rows whose Omschrijving contains VERVALLEN.
 
     The following structural validations are also performed:
     - the file exists;
     - all expected columns are present;
     - Soort is populated;
     - Code is populated;
-    - the combination of Soort and Code is unique.
+        - the combination of Soort and Code is unique, unless Omschrijving
+            contains VERVALLEN;
+        - rows whose Omschrijving contains VERVALLEN have Einddatum populated.
     """
 
     path = Path(file_path)
@@ -89,6 +93,7 @@ def read_csv(file_path):
 
     rows_by_key = {}
     duplicate_keys = []
+    obsolete_rows_without_end_date = []
 
     with path.open(
         mode="r",
@@ -143,6 +148,14 @@ def read_csv(file_path):
 
             reference_key = (soort, code)
 
+            if OBSOLETE_DESCRIPTION_MARKER in normalized_row["Omschrijving"]:
+                if not normalized_row["Einddatum"]:
+                    obsolete_rows_without_end_date.append(
+                        (line_number, reference_key)
+                    )
+
+                continue
+
             if reference_key in rows_by_key:
                 duplicate_keys.append(reference_key)
                 continue
@@ -151,6 +164,18 @@ def read_csv(file_path):
                 "line_number": line_number,
                 "data": normalized_row,
             }
+
+    if obsolete_rows_without_end_date:
+        formatted_rows = [
+            f"line {line_number}, {format_key(reference_key)}"
+            for line_number, reference_key in obsolete_rows_without_end_date
+        ]
+
+        raise ValueError(
+            f"The following rows in '{file_path}' contain "
+            f"'{OBSOLETE_DESCRIPTION_MARKER}' in Omschrijving but do not "
+            f"have Einddatum populated: {'; '.join(formatted_rows)}"
+        )
 
     if duplicate_keys:
         formatted_duplicates = sorted(
