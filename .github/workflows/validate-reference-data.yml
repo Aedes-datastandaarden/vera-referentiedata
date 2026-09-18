@@ -28,13 +28,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Retrieve CSV from base branch
+      - name: Retrieve Referentiedata.csv from base branch
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           git show "${BASE_SHA}:Referentiedata.csv" > /tmp/referentiedata-base.csv
     
-      - name: Validate reference data
+      - name: Validate Referentiedata.csv
         run: |
           python .github/scripts/validate_reference_data.py \
             --base-file /tmp/referentiedata-base.csv \
