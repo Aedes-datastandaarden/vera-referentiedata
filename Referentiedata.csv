@@ -25,9 +25,9 @@ AANBIEDINGSTATUS;AAN;Aangeboden;Er is aanbieding gedaan aan een of meer kandidat
 AANBIEDINGSTATUS;GEW;Geweigerd;Een kandidaat heeft een verstrekte aanbieding afgewezen.;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;ING;Ingetrokken;Een aan een kandidaat verstrekte aanbieding is ingetrokken.;;;;Woonruimteverdeling
 AANBIEDINGSTATUS;TOE;Toegewezen;Een eenheid is toegewezen aan een kandidaat.;;;;Woonruimteverdeling
-AANGEMERKTHUURTOESLAG;AAN;Aangemerkt;De eenheid is aangemerkt voor huurtoeslag.;;;;Vastgoed
-AANGEMERKTHUURTOESLAG;NIE;Niet aangemerkt;De eenheid is niet aangemerkt voor huurtoeslag.;;;;Vastgoed
-AANGEMERKTHUURTOESLAG;ONB;Onbekend;Het is niet bekend of de eenheid is aangemerkt voor huurtoeslag.;;;;Vastgoed
+AANGEMERKTHUURTOESLAG;AAN;Aangemerkt;De eenheid is aangemerkt voor huurtoeslag.;30-5-2025;;;Vastgoed
+AANGEMERKTHUURTOESLAG;NIE;Niet aangemerkt;De eenheid is niet aangemerkt voor huurtoeslag.;30-5-2025;;;Vastgoed
+AANGEMERKTHUURTOESLAG;ONB;Onbekend;Het is niet bekend of de eenheid is aangemerkt voor huurtoeslag.;30-5-2025;;;Vastgoed
 AANVULLENDEDOELGROEP;BSTU;Buitenlandse studenten;Woonruimte is bestemd voor en/of huurder is een uit het buitenland afkomstige student aan een instelling voor hoger of wetenschappelijk onderwijs;;;DOELGROEP.STU;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;DAK;ex-dak- en thuislozen;Woonruimte is bestemd voor en/of huurder is een ex-dak- of thuisloze, eventueel met (behoefte aan) begeleiding.;;;;Vastgoed, Woonruimteverdeling
 AANVULLENDEDOELGROEP;GEB;Personen met een Geringe Ergonomische Beperking;Woonruimte is bestemd voor mensen met een geringe ergonomische beperking. Ook wel GEB-woningen genoemd.;22-9-2023;;;Vastgoed, Woonruimteverdeling
@@ -129,8 +129,8 @@ BESTEMMING;KAD;Kadastraal/juridisch splitsen;Eenheid is bestemd om kadastraal en
 BESTEMMING;KAM;Kamergewijze verhuur;Eenheid is bestemd voor kamergewijze verhuur bij mutatie.;12-12-2025;;;Vastgoed
 BESTEMMING;KOO;Koop;Eenheid is bestemd voor verkoop bij mutatie.;;;;Vastgoed
 BESTEMMING;SLO;Sloop;Eenheid is bestemd voor sloop bij mutatie.;;;;Vastgoed
-BESTEMMING;SPL;Splitsen;Eenheid is bestemd voor splitsing bij mutatie, waarbij de wijze van splitsen (zacht, bouwkundig en/of kadastraal/juridisch) nog niet is bepaald.;;;;Vastgoed
-BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;;;;Vastgoed
+BESTEMMING;SPL;Splitsen;Eenheid is bestemd voor splitsing bij mutatie, waarbij de wijze van splitsen (zacht, bouwkundig en/of kadastraal/juridisch) nog niet is bepaald.;20-6-2025;;;Vastgoed
+BESTEMMING;SAM;Samenvoegen;Eenheid is bestemd samengevoegd te worden met een andere eenheid bij mutatie.;20-6-2025;;;Vastgoed
 BESTEMMING;ZAC;Zachte splitsing;Eenheid is bestemd voor zachte splitsing (meerdere huishoudens binnen één juridische eenheid) bij mutatie.;12-12-2025;;;Vastgoed
 BETAALGEGEVENSOORT;BAN;Bankrekening;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een bankrekening.;;;;Relaties
 BETAALGEGEVENSOORT;CRE;Creditcard;Het betaalgegeven van een relatie, behorende bij een overeenkomst,  is een credit card.;;;;Relaties
@@ -1998,7 +1998,7 @@ RELATIEROLSOORT;COL;Wooncoöperatie-lid;Lid van een wooncoöperatie. Niet te ver
 RELATIEROLSOORT;CON;Contractant;VERVALLEN - Gebruik Huurder, Eigenaar, Woningzoekende of Leverancier.;;1-1-2022;;Relaties
 RELATIEROLSOORT;COO;Wooncoöperatie;Een wooncoöperatie is een vereniging waarvan de leden tevens eigenaren zijn en die voorziet in bepaalde materiële behoefte van de deelnemers.De wooncoöperatie is de meest verregaande vorm van zelforganisatie waarin bewoners voor het onderhoud en beheer van hun woningen zelf verantwoordelijk zijn. Sinds 1 juli 2015 maakt de wooncoöperatie deel uit van de Woningwet: Groepen met interesse kunnen ondersteuning krijgen bij het opstellen van een plan en dat indienen bij hun corporatie. Er zijn daarnaast steeds meer groepen die zelf een stuk grond willen bebouwen en de woningen aan hun leden willen verhure (CORA).  Niet te verwarren met de relatierolsoort Wooncoöperatie-lid;;;;Relaties
 RELATIEROLSOORT;CPE;Contactpersoon;Een contactpersoon is een natuurlijke persoon die één of meer relaties, eenheden, of clusters vertegenwoordigt;;;;Relaties
-RELATIEROLSOORT;CUR;Curator;Een door de rechter benoemde persoon die de financiële, juridische en persoonlijke belangen behartigt van iemand die dat zelf niet meer kan (onder curatele staat), of die het beheer en de afwikkeling van een faillissement op zich neemt.;;;;Relaties
+RELATIEROLSOORT;CUR;Curator;Een door de rechter benoemde persoon die de financiële, juridische en persoonlijke belangen behartigt van iemand die dat zelf niet meer kan (onder curatele staat), of die het beheer en de afwikkeling van een faillissement op zich neemt.;26-6-2026;;;Relaties
 RELATIEROLSOORT;DEU;Deurwaarder;De relatie is de deurwaarder van een andere relatie.  (Huurder Jansen heeft een huurschuld en wordt extern geincasseerd door deurwaarder Karelse);;;;Relaties
 RELATIEROLSOORT;EIG;Eigenaar;Een eigenaar van vastgoed kan een VVE-lid zijn indien het eigendom een appartementsrecht betreft. Indien sprake is van bloot eigendom, dan is de eigenaar geen VVE-lid. De eigenaar kan het appartementsrecht of bloot eigendom hebben gekocht van de woningcorporatie (CORA). Bij een koop-/verkooptransactie heeft de eigenaar tevens de rol van verkoper.;;;;Relaties
 RELATIEROLSOORT;ERF;Erfpachter;De erfpachter is de persoon of organisatie die eigenaar is van het object waarop de erfpacht rust. De erfpachter betaalt de canon. Erfpacht is overdraagbaar en gaat over met de verkoop van de woning, het appartement of ander onroerend goed (CORA);;;;Relaties
@@ -2138,9 +2138,9 @@ SIGNALERINGDETAILSOORT;AMB;Ambulante begeleiding;De relatie krijgt in de eigen o
 SIGNALERINGDETAILSOORT;BEL;Beledigend;De relatie uit zich op een kleinerende of respectloze manier richting medewerkers, zonder direct dreigend te zijn.;9-5-2025;;SIGNALERINGSOORT.WAN;Relaties
 SIGNALERINGDETAILSOORT;BET;Betalingsachterstand;Er is sprake van één of meerdere gemiste huurbetalingen.;;;SIGNALERINGSOORT.SCH;Relaties
 SIGNALERINGDETAILSOORT;BEW;Bewindvoerder;De relatie staat onder financieel beheer via een bewindvoerder.;;;;Relaties
-SIGNALERINGDETAILSOORT;BEZ;Bezoek met twee;Bij contactmomenten of huisbezoeken is er vanwege veiligheid of eerdere ervaringen besloten dat de medewerker niet alleen op bezoek gaat, maar samen met een collega of derde persoon.;;;;Relaties
+SIGNALERINGDETAILSOORT;BEZ;Bezoek met twee;Bij contactmomenten of huisbezoeken is er vanwege veiligheid of eerdere ervaringen besloten dat de medewerker niet alleen op bezoek gaat, maar samen met een collega of derde persoon.;16-5-2025;;;Relaties
 SIGNALERINGDETAILSOORT;BRA;Brandstichting;Opzettelijke of vermoedelijke brandstichting, al dan niet strafrechtelijk vervolgd.;;;SIGNALERINGSOORT.AGR;Relaties
-SIGNALERINGDETAILSOORT;CUR;Onder curatele;De relatie is door de rechter officieel handelingsonbekwaam verklaard omdat diegene (door bijvoorbeeld een geestelijke stoornis, dementie of verslaving) niet meer voor de eigen financiële en persoonlijke belangen kan zorgen.;;;;Relaties
+SIGNALERINGDETAILSOORT;CUR;Onder curatele;De relatie is door de rechter officieel handelingsonbekwaam verklaard omdat diegene (door bijvoorbeeld een geestelijke stoornis, dementie of verslaving) niet meer voor de eigen financiële en persoonlijke belangen kan zorgen.;26-6-2026;;;Relaties
 SIGNALERINGDETAILSOORT;DEU;Deurwaarder;Een deurwaarder is ingeschakeld voor incasso van openstaande huurschuld.;;;SIGNALERINGSOORT.SCH;Relaties
 SIGNALERINGDETAILSOORT;DRU;Drugshandel;Handel in drugs vanuit of in de woning.;;;SIGNALERINGSOORT.ONE;Relaties
 SIGNALERINGDETAILSOORT;FYS;Fysiek;Fysieke agressie zoals duwen, slaan, spugen of andere vormen van lichamelijk geweld.;9-5-2025;;SIGNALERINGSOORT.AGR;Relaties
