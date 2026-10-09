@@ -1036,7 +1036,39 @@ INCASSOMOMENT;028;28e dag van de maand;28e dag van de maand;;;;Overeenkomsten
 INCASSOMOMENT;029;29e dag van de maand;29e dag van de maand;;;;Overeenkomsten
 INCASSOMOMENT;030;30e dag van de maand;30e dag van de maand;;;;Overeenkomsten
 INCASSOMOMENT;031;31e dag van de maand;31e dag van de maand;;;;Overeenkomsten
-INCASSOMOMENT;LAA;Laatste dag;Laatste dag van de maand, door de verwerkende partij (de bank) te bepalen op basis van de kalendermaand (28e, 29e, 30e of 31e dag van de maand);;;;Overeenkomsten
+INCASSOMOMENT;LAA;Laatste dag van de maand;Laatste dag van de maand, door de verwerkende partij (de bank) te bepalen op basis van de kalendermaand (28e, 29e, 30e of 31e dag van de maand);;;;Overeenkomsten
+INCASSOMOMENT;101;1e dag van de vorige maand;1e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;102;2e dag van de vorige maand;2e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;103;3e dag van de vorige maand;3e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;104;4e dag van de vorige maand;4e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;105;5e dag van de vorige maand;5e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;106;6e dag van de vorige maand;6e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;107;7e dag van de vorige maand;7e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;108;8e dag van de vorige maand;8e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;109;9e dag van de vorige maand;9e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;110;10e dag van de vorige maand;10e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;111;11e dag van de vorige maand;11e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;112;12e dag van de vorige maand;12e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;113;13e dag van de vorige maand;13e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;114;14e dag van de vorige maand;14e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;115;15e dag van de vorige maand;15e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;116;16e dag van de vorige maand;16e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;117;17e dag van de vorige maand;17e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;118;18e dag van de vorige maand;18e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;119;19e dag van de vorige maand;19e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;120;20e dag van de vorige maand;20e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;121;21e dag van de vorige maand;21e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;122;22e dag van de vorige maand;22e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;123;23e dag van de vorige maand;23e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;124;24e dag van de vorige maand;24e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;125;25e dag van de vorige maand;25e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;126;26e dag van de vorige maand;26e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;127;27e dag van de vorige maand;27e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;128;28e dag van de vorige maand;28e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;129;29e dag van de vorige maand;29e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;130;30e dag van de vorige maand;30e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;131;31e dag van de vorige maand;31e dag van de vorige maand;9-10-2026;;;Overeenkomsten
+INCASSOMOMENT;1LA;Laatste dag van de vorige maand;Laatste dag van de vorige maand, door de verwerkende partij (de bank) te bepalen op basis van de kalendermaand (28e, 29e, 30e of 31e dag van de maand);9-10-2026;;;Overeenkomsten
 INCASSOWIJZE;ELK;Elektronisch;VERVALLEN - Gebruik Betaalwijzesoort.;;1-1-2022;;Financiën
 INCASSOWIJZE;HND;Handmatig;VERVALLEN - Gebruik Betaalwijzesoort.;;1-1-2022;;Financiën
 INCASSOWIJZE;INC;Incasso;VERVALLEN - Gebruik Betaalwijzesoort.;;1-1-2022;;Financiën
