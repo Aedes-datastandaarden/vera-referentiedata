@@ -841,7 +841,7 @@ EENHEIDSANITAIR;BAD;Ligbad;;;;;Vastgoed
 EENHEIDSANITAIR;DOU;Aparte douche;;;;;Vastgoed
 EENHEIDSANITAIR;TOI;Apart toilet;;;;;Vastgoed
 EENHEIDSOORT;BED;Bedrijfsruimte;Bedrijfsruimte en winkels;;;;Vastgoed
-EENHEIDSOORT;INT;Intramuraal zorgvastgoed;Bij intramuraal zorgvastgoed wordt de bewoners van het gebouw een integraal pakket van zorg met verblijf geboden (op grond van Wet Langdurige Zorg (WLZ) of Zorgverzekeringswet (ZVW) in een beschermde omgeving. De cliënten hebben géén huurcontract en er is dus geen sprake van toewijzing van woonruimte. Het kan bijvoorbeeld gaan om een verpleeg- of verzorgingshuis, instelling voor gehandicapten of instelling voor cliënten met langdurige psychische problemen.;;;;Vastgoed
+EENHEIDSOORT;INT;Intramuraal zorgvastgoed;Er is sprake van intramuraal zorgvastgoed bij verhuureenheden die niet bestemd zijn om afzonderlijk aan een bewoner te worden verhuurd. Deze eenheden worden gezamenlijk aan één zorgpartij verhuurd door middel van een zorgovereenkomst.;;;;Vastgoed
 EENHEIDSOORT;MOG;Maatschappelijk vastgoed;Gebouwen met een maatschappelijke gebruiksbestemming zoals bedoeld in artikel 49 van de Woningwet. Ook wel Maatschappelijk Onroerend goed (MOG).  Voorbeelden zijn buurtcentra, scholen en bibliotheken.;;;;Vastgoed
 EENHEIDSOORT;OVE;Overig;Restcategorie voor ligplaatsen, bergingen, bouwkavels, plantsoenen etc.;;;;Vastgoed
 EENHEIDSOORT;PAR;Parkeergelegenheid;Parkeergelegenheden, Garage, parkeerplaatsen individueel of collectief;;;;Vastgoed
