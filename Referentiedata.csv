@@ -1681,6 +1681,8 @@ OPPERVLAKTESOORT;GTZ;Gebruiksoppervlakte thermische zone;Gebruiksoppervlakte van
 OPPERVLAKTESOORT;NVO;Netto vloeroppervlakte;De netto vloeroppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;VVO;Verhuurbare vloeroppervlakte;De verhuurbare vloeroppervlakte in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
 OPPERVLAKTESOORT;WOW;De woon of werk oppervlakte;De gebruiksoppervlakte van in gehele vierkante meters, gemeten conform NEN 2580.;23-06-2023;;;Vastgoed
+OPPERVLAKTESOORT;OPV;Oppervlakte vertrekken (WWS);De oppervlakte in vierkante meters van ruimten die volgens de woningwaardering als vertrek gelden, gemeten volgens bijlage I van het Besluit huurprijzen woonruimte en het Beleidsboek waarderingsstelsel van de Huurcommissie. Verkeersruimten, overige ruimten en buitenruimten vallen hier niet onder.;16-10-2026;;;Vastgoed
+OPPERVLAKTESOORT;OOR;Oppervlakte overige ruimten (WWS);De oppervlakte in vierkante meters van ruimten die volgens de woningwaardering als overige ruimte gelden, gemeten volgens bijlage I van het Besluit huurprijzen woonruimte en het Beleidsboek waarderingsstelsel van de Huurcommissie. Het gaat om ruimten die geen vertrek, verkeersruimte of buitenruimte zijn en die minstens 2 m² groot en 1,50 m hoog zijn, zoals een zolder, berging of kelder.;16-10-2026;;;Vastgoed
 OPZEGTERMIJN;12M;12 maanden;Voor de overeenkomst geldt een opzegtermijn van 12 maanden.;;;;Overeenkomsten
 OPZEGTERMIJN;14D;14 dagen;Voor de overeenkomst geldt een opzegtermijn van 14 dagen.;22-9-2023;;;Overeenkomsten
 OPZEGTERMIJN;1M;1 maand;Voor de overeenkomst geldt een opzegtermijn van 1 maand.;;;;Overeenkomsten
