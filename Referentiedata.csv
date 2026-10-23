@@ -1861,6 +1861,14 @@ PRIJSCOMPONENTWIJZIGINGSREDEN;JAA;Jaarlijkse huuraanpassing -niet inkomensafhank
 PRIJSCOMPONENTWIJZIGINGSREDEN;MUT;Nieuwe verhuring;Nieuwe verhuring, inclusief de eerste verhuring van een eenheid;;;;Overeenkomsten
 PRIJSCOMPONENTWIJZIGINGSREDEN;NIE;Nieuw component;Nieuw prijscomponent bij een eenheid of een overeenkomst;;;;Overeenkomsten
 PRIJSCOMPONENTWIJZIGINGSREDEN;REN;Renovatie of woningverbetering;Huuraanpassing als gevolg van een renovatie of woningverbetering;;;;Overeenkomsten
+PRIJSPERIODE;EEN;Eenmalig;Het bedrag wordt eenmalig in rekening gebracht en heeft geen betrekking op een terugkerende periode. Bijvoorbeeld administratiekosten bij het aangaan van een overeenkomst of een waarborgsom.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;DAG;Dag;Het bedrag heeft betrekking op een dag of nacht. Bijvoorbeeld een prijs per nacht bij kortdurende verhuur.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;WEE;Week;Het bedrag heeft betrekking op een week.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;4WE;4 weken;Het bedrag heeft betrekking op een periode van 4 aaneengesloten weken.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;MAA;Maand;Het bedrag heeft betrekking op een kalendermaand.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;KWA;Kwartaal;Het bedrag heeft betrekking op een kwartaal van 3 aaneengesloten kalendermaanden.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;HLJ;Halfjaar;Het bedrag heeft betrekking op een halfjaar van 6 aaneengesloten kalendermaanden.;23-10-2026;;;Overeenkomsten
+PRIJSPERIODE;JAR;Jaar;Het bedrag heeft betrekking op een jaar van 12 aaneengesloten kalendermaanden.;23-10-2026;;;Overeenkomsten
 PROJECTBUDGETREGELREGELSOORT;KDT;Kostendetailregel;Projectbudgetregel is een kostenregel binnen de stichtingskosten hiërarchie;;;;Projectontwikkeling
 PROJECTBUDGETREGELREGELSOORT;ODT;Opbrengstendetailregel;Projectbudgetregel is een opbrengstenregel binnen de stichtingskosten hiërarchie;;;;Projectontwikkeling
 PROJECTBUDGETREGELREGELSOORT;STR;Subtotaalregel;Projectbudgetregel is een optelling van één of meer onderliggende kosten- of opbrengstenregels binnen de stichtingskosten hiërarchie;;;;Projectontwikkeling
