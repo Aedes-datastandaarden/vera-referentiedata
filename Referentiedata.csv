@@ -837,9 +837,9 @@ EENHEIDPRIJSCONDITIE;ISE;Inclusief servicekosten;De vraagprijs is inclusief serv
 EENHEIDPRIJSCONDITIE;IST;Inclusief stookkosten;De vraagprijs is inclusief kosten (voorschot) voor de verwarming van het vastgoed.;;;;Vastgoed
 EENHEIDPRIJSCONDITIE;KKO;Kosten Koper;De vraagprijs is op basis van kosten koper. De kosten met betrekking tot de onroerend goed overdracht zijn voor de koper.;;;;Vastgoed
 EENHEIDPRIJSCONDITIE;VON;Vrij op naam;De kosten voor de overdracht van de woning zijn voor rekening van de verkoper. Het betreft hier de BTW of overdrachtsbelasting, de kadastrale kosten en de notariskosten voor de transportakte.;;;;Vastgoed
-EENHEIDSANITAIR;BAD;Ligbad;;;;;Vastgoed
-EENHEIDSANITAIR;DOU;Aparte douche;;;;;Vastgoed
-EENHEIDSANITAIR;TOI;Apart toilet;;;;;Vastgoed
+EENHEIDSANITAIR;BAD;Ligbad;;;13-11-2026;;Vastgoed
+EENHEIDSANITAIR;DOU;Aparte douche;;;13-11-2026;;Vastgoed
+EENHEIDSANITAIR;TOI;Apart toilet;;;13-11-2026;;Vastgoed
 EENHEIDSOORT;BED;Bedrijfsruimte;Bedrijfsruimte en winkels;;;;Vastgoed
 EENHEIDSOORT;INT;Intramuraal zorgvastgoed;Er is sprake van intramuraal zorgvastgoed bij verhuureenheden die niet bestemd zijn om afzonderlijk aan een bewoner te worden verhuurd. Deze eenheden worden gezamenlijk aan één zorgpartij verhuurd door middel van een zorgovereenkomst.;;;;Vastgoed
 EENHEIDSOORT;MOG;Maatschappelijk vastgoed;Gebouwen met een maatschappelijke gebruiksbestemming zoals bedoeld in artikel 49 van de Woningwet. Ook wel Maatschappelijk Onroerend goed (MOG).  Voorbeelden zijn buurtcentra, scholen en bibliotheken.;;;;Vastgoed
