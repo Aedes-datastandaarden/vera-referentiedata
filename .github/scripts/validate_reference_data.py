@@ -52,7 +52,32 @@ def parse_arguments():
         help="Modified CSV file from the pull request.",
     )
 
+    parser.add_argument(
+        "--base-commit",
+        help="Commit SHA of the base file, used for logging.",
+    )
+
+    parser.add_argument(
+        "--current-commit",
+        help="Commit SHA of the current file, used for logging.",
+    )
+
     return parser.parse_args()
+
+
+def print_compared_versions(args):
+    """
+    Log which file versions are being compared, including the commit
+    SHAs when they are provided on the command line.
+    """
+
+    base_commit = args.base_commit or "unknown"
+    current_commit = args.current_commit or "unknown"
+
+    print("Comparing reference data versions:")
+    print(f"- Base file: {args.base_file} (commit {base_commit})")
+    print(f"- Current file: {args.current_file} (commit {current_commit})")
+    print()
 
 
 def format_key(reference_key):
@@ -526,6 +551,8 @@ def main():
     """
 
     args = parse_arguments()
+
+    print_compared_versions(args)
 
     try:
         base_rows = read_csv(args.base_file)
