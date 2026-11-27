@@ -93,10 +93,12 @@ def format_key(reference_key):
 
 def read_csv(file_path):
     """
-    Leest een CSV-bestand en retourneert de regels als dictionary,
-    waarbij de combinatie van Soort, Code en Naam als unieke sleutel
-    wordt gebruikt, met uitzondering van regels waarvan de Omschrijving
-    VERVALLEN bevat.
+    Leest een CSV-bestand en retourneert twee waarden:
+    - een dictionary met de regels, waarbij de combinatie van Soort,
+      Code en Naam als unieke sleutel wordt gebruikt, met uitzondering
+      van regels waarvan de Omschrijving VERVALLEN bevat;
+    - de verzameling sleutels van regels waarvan de Omschrijving
+      VERVALLEN bevat.
 
     Ook worden de volgende structuurcontroles uitgevoerd:
     - het bestand bestaat;
@@ -117,6 +119,7 @@ def read_csv(file_path):
 
     rows_by_key = {}
     duplicate_keys = []
+    obsolete_keys = set()
     obsolete_rows_without_end_date = []
 
     with path.open(
@@ -180,6 +183,8 @@ def read_csv(file_path):
             reference_key = (soort, code, naam)
 
             if OBSOLETE_DESCRIPTION_MARKER in normalized_row["Omschrijving"]:
+                obsolete_keys.add(reference_key)
+
                 if not normalized_row["Einddatum"]:
                     obsolete_rows_without_end_date.append(
                         (line_number, reference_key)
@@ -220,7 +225,7 @@ def read_csv(file_path):
             f"{'; '.join(formatted_duplicates)}"
         )
 
-    return rows_by_key
+    return rows_by_key, obsolete_keys
 
 
 def parse_date(date_value, field_name, reference_key, line_number, errors):
@@ -393,7 +398,12 @@ def validate_existing_reference_value(
     )
 
 
-def validate_deleted_reference_values(base_rows, current_rows, errors):
+def validate_deleted_reference_values(
+    base_rows,
+    current_rows,
+    current_obsolete_keys,
+    errors,
+):
     """
     Controleert of bestaande referentiewaarden uit het CSV-bestand zijn
     verwijderd.
@@ -402,11 +412,16 @@ def validate_deleted_reference_values(base_rows, current_rows, errors):
     worden. Ze moeten door middel van een Einddatum obsolete worden
     verklaard.
 
+    Regels die in het huidige bestand als VERVALLEN zijn gemarkeerd,
+    tellen niet als verwijderd.
+
     Als verwijderen in jullie proces wel is toegestaan, kan deze functie
     en de aanroep ervan worden verwijderd.
     """
 
-    deleted_keys = sorted(set(base_rows) - set(current_rows))
+    deleted_keys = sorted(
+        set(base_rows) - set(current_rows) - current_obsolete_keys
+    )
 
     for reference_key in deleted_keys:
         base_entry = base_rows[reference_key]
@@ -420,7 +435,7 @@ def validate_deleted_reference_values(base_rows, current_rows, errors):
         )
 
 
-def validate_reference_data(base_rows, current_rows):
+def validate_reference_data(base_rows, current_rows, current_obsolete_keys):
     """
     Vergelijkt de oorspronkelijke en actuele referentiedata.
 
@@ -448,6 +463,7 @@ def validate_reference_data(base_rows, current_rows):
     validate_deleted_reference_values(
         base_rows=base_rows,
         current_rows=current_rows,
+        current_obsolete_keys=current_obsolete_keys,
         errors=errors,
     )
 
@@ -522,12 +538,13 @@ def main():
     print_compared_versions(args)
 
     try:
-        base_rows = read_csv(args.base_file)
-        current_rows = read_csv(args.current_file)
+        base_rows, _ = read_csv(args.base_file)
+        current_rows, current_obsolete_keys = read_csv(args.current_file)
 
         errors = validate_reference_data(
             base_rows=base_rows,
             current_rows=current_rows,
+            current_obsolete_keys=current_obsolete_keys,
         )
 
         if errors:
