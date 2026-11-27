@@ -35,7 +35,12 @@ jobs:
           git show "${BASE_SHA}:Referentiedata.csv" > /tmp/referentiedata-base.csv
     
       - name: Validate Referentiedata.csv
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           python .github/scripts/validate_reference_data.py \
             --base-file /tmp/referentiedata-base.csv \
-            --current-file Referentiedata.csv
+            --current-file Referentiedata.csv \
+            --base-commit "${BASE_SHA}" \
+            --current-commit "${HEAD_SHA}"
