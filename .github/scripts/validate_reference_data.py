@@ -6,6 +6,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+
 EXPECTED_FIELDS = {
     "Soort",
     "Code",
@@ -13,27 +14,21 @@ EXPECTED_FIELDS = {
     "Omschrijving",
     "Begindatum",
     "Einddatum",
-    "Parent",
-    "Informatiedomein"
 }
 
 DATE_FORMAT = "%d-%m-%Y"
 DATE_FORMAT_DESCRIPTION = "DD-MM-JJJJ"
-OBSOLETE_DESCRIPTION_MARKER = "VERVALLEN"
 
 
 def parse_arguments():
     """
-    Read the command-line arguments.
-
-    The base file contains the reference data from the target branch.
-    The current file contains the reference data from the pull request.
+    Leest de argumenten waarmee het script wordt aangeroepen.
     """
 
     parser = argparse.ArgumentParser(
         description=(
-            "Compare two versions of the reference data file and validate "
-            "the lifecycle rules for start and end dates."
+            "Vergelijk twee versies van het referentiedatabestand en "
+            "valideer de levenscyclusregels voor begin- en einddatums."
         )
     )
 
@@ -41,15 +36,15 @@ def parse_arguments():
         "--base-file",
         required=True,
         help=(
-            "CSV file from the target branch of the pull request, "
-            "for example main."
+            "Het CSV-bestand uit de doelbranch van de Pull Request, "
+            "bijvoorbeeld main."
         ),
     )
 
     parser.add_argument(
         "--current-file",
         required=True,
-        help="Modified CSV file from the pull request.",
+        help="Het gewijzigde CSV-bestand uit de Pull Request.",
     )
 
     parser.add_argument(
@@ -65,60 +60,25 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def print_compared_versions(args):
-    """
-    Log which file versions are being compared, including the commit
-    SHAs when they are provided on the command line.
-    """
-
-    base_commit = args.base_commit or "unknown"
-    current_commit = args.current_commit or "unknown"
-
-    print("Comparing reference data versions:")
-    print(f"- Base file: {args.base_file} (commit {base_commit})")
-    print(f"- Current file: {args.current_file} (commit {current_commit})")
-    print()
-
-
-def format_key(reference_key):
-    """
-    Format a reference key for human-readable validation messages.
-
-    A reference key consists of:
-    - Soort
-    - Code
-    """
-
-    soort, code = reference_key
-
-    return f"Soort='{soort}', Code='{code}'"
-
-
 def read_csv(file_path):
     """
-    Read a CSV file and return its rows as a dictionary.
+    Leest een CSV-bestand en retourneert de regels als dictionary,
+    waarbij Code als unieke sleutel wordt gebruikt.
 
-    The combination of Soort and Code is used as the unique key,
-    except for rows whose Omschrijving contains VERVALLEN.
-
-    The following structural validations are also performed:
-    - the file exists;
-    - all expected columns are present;
-    - Soort is populated;
-    - Code is populated;
-        - the combination of Soort and Code is unique, unless Omschrijving
-            contains VERVALLEN;
-        - rows whose Omschrijving contains VERVALLEN have Einddatum populated.
+    Ook worden de volgende structuurcontroles uitgevoerd:
+    - het bestand bestaat;
+    - de verwachte kolommen zijn aanwezig;
+    - Code is gevuld;
+    - Code is uniek.
     """
 
     path = Path(file_path)
 
     if not path.exists():
-        raise ValueError(f"File does not exist: {file_path}")
+        raise ValueError(f"Bestand bestaat niet: {file_path}")
 
-    rows_by_key = {}
-    duplicate_keys = []
-    obsolete_rows_without_end_date = []
+    rows_by_code = {}
+    duplicate_codes = []
 
     with path.open(
         mode="r",
@@ -132,7 +92,7 @@ def read_csv(file_path):
 
         if reader.fieldnames is None:
             raise ValueError(
-                f"CSV file does not contain column headers: {file_path}"
+                f"CSV-bestand bevat geen kolomkoppen: {file_path}"
             )
 
         actual_fields = {
@@ -145,7 +105,7 @@ def read_csv(file_path):
 
         if missing_fields:
             raise ValueError(
-                f"CSV file '{file_path}' is missing the following columns: "
+                f"CSV-bestand '{file_path}' mist de volgende kolommen: "
                 f"{', '.join(sorted(missing_fields))}"
             )
 
@@ -156,81 +116,40 @@ def read_csv(file_path):
                 if key is not None
             }
 
-            soort = normalized_row["Soort"]
             code = normalized_row["Code"]
-
-            if not soort:
-                raise ValueError(
-                    f"Empty Soort found in '{file_path}' "
-                    f"on line {line_number}."
-                )
 
             if not code:
                 raise ValueError(
-                    f"Empty Code found in '{file_path}' "
-                    f"on line {line_number}."
+                    f"Lege Code gevonden in '{file_path}' "
+                    f"op regel {line_number}."
                 )
 
-            reference_key = (soort, code)
-
-            if OBSOLETE_DESCRIPTION_MARKER in normalized_row["Omschrijving"]:
-                if not normalized_row["Einddatum"]:
-                    obsolete_rows_without_end_date.append(
-                        (line_number, reference_key)
-                    )
-
+            if code in rows_by_code:
+                duplicate_codes.append(code)
                 continue
 
-            if reference_key in rows_by_key:
-                duplicate_keys.append(reference_key)
-                continue
-
-            rows_by_key[reference_key] = {
+            rows_by_code[code] = {
                 "line_number": line_number,
                 "data": normalized_row,
             }
 
-    if obsolete_rows_without_end_date:
-        formatted_rows = [
-            f"line {line_number}, {format_key(reference_key)}"
-            for line_number, reference_key in obsolete_rows_without_end_date
-        ]
+    if duplicate_codes:
+        unique_duplicates = sorted(set(duplicate_codes))
 
         raise ValueError(
-            f"The following rows in '{file_path}' contain "
-            f"'{OBSOLETE_DESCRIPTION_MARKER}' in Omschrijving but do not "
-            f"have Einddatum populated: {'; '.join(formatted_rows)}"
+            f"De volgende codes komen meerdere keren voor in "
+            f"'{file_path}': {', '.join(unique_duplicates)}"
         )
 
-    if duplicate_keys:
-        formatted_duplicates = sorted(
-            format_key(reference_key)
-            for reference_key in set(duplicate_keys)
-        )
-
-        raise ValueError(
-            f"The following combinations of Soort and Code occur more than "
-            f"once in '{file_path}': "
-            f"{'; '.join(formatted_duplicates)}"
-        )
-
-    return rows_by_key
+    return rows_by_code
 
 
-def parse_date(
-    date_value,
-    field_name,
-    reference_key,
-    line_number,
-    errors,
-):
+def parse_date(date_value, field_name, code, line_number, errors):
     """
-    Convert a populated date to a datetime object.
+    Converteert een ingevulde datum naar een datetime-object.
 
-    Return None if the date is empty.
-
-    Add a validation error and return None if the date does not have
-    the expected format.
+    Als de datum leeg is, wordt None teruggegeven.
+    Als het formaat ongeldig is, wordt een validatiefout toegevoegd.
     """
 
     if not date_value:
@@ -240,48 +159,33 @@ def parse_date(
         return datetime.strptime(date_value, DATE_FORMAT)
     except ValueError:
         errors.append(
-            f"Line {line_number}, {format_key(reference_key)}: "
-            f"{field_name} '{date_value}' does not use the expected "
-            f"format {DATE_FORMAT_DESCRIPTION}."
+            f"Regel {line_number}, code '{code}': "
+            f"{field_name} '{date_value}' heeft niet het verwachte "
+            f"formaat {DATE_FORMAT_DESCRIPTION}."
         )
 
         return None
 
 
-def has_valid_date_format(date_value):
-    """
-    Return whether a populated date uses the expected format.
-    """
-
-    if not date_value:
-        return False
-
-    try:
-        datetime.strptime(date_value, DATE_FORMAT)
-    except ValueError:
-        return False
-
-    return True
-
-
 def validate_date_order(
     start_date_value,
     end_date_value,
-    reference_key,
+    code,
     line_number,
     errors,
 ):
     """
-    Validate that the end date is not before the start date.
+    Controleert dat de einddatum niet vóór de begindatum ligt.
 
-    This validation is only performed when both dates are populated
-    and have a valid format.
+    Deze controle wordt alleen uitgevoerd als beide datums:
+    - gevuld zijn;
+    - een geldig datumformaat hebben.
     """
 
     start_date = parse_date(
         date_value=start_date_value,
         field_name="Begindatum",
-        reference_key=reference_key,
+        code=code,
         line_number=line_number,
         errors=errors,
     )
@@ -289,36 +193,29 @@ def validate_date_order(
     end_date = parse_date(
         date_value=end_date_value,
         field_name="Einddatum",
-        reference_key=reference_key,
+        code=code,
         line_number=line_number,
         errors=errors,
     )
 
-    if (
-        start_date is not None
-        and end_date is not None
-        and end_date < start_date
-    ):
-        errors.append(
-            f"Line {line_number}, {format_key(reference_key)}: "
-            f"Einddatum '{end_date_value}' cannot be before "
-            f"Begindatum '{start_date_value}'."
-        )
+    if start_date is not None and end_date is not None:
+        if end_date < start_date:
+            errors.append(
+                f"Regel {line_number}, code '{code}': "
+                f"Einddatum '{end_date_value}' mag niet vóór "
+                f"Begindatum '{start_date_value}' liggen."
+            )
 
 
-def validate_new_reference_value(
-    reference_key,
-    current_entry,
-    errors,
-):
+def validate_new_code(code, current_entry, errors):
     """
-    Validate a new reference value.
+    Valideert een nieuwe referentiewaarde.
 
-    Rules:
-    - Begindatum is required.
-    - Begindatum must use the format DD-MM-YYYY.
-    - An optional Einddatum must use the format DD-MM-YYYY.
-    - Einddatum cannot be before Begindatum.
+    Regels:
+    - Begindatum is verplicht.
+    - Begindatum moet het formaat DD-MM-JJJJ hebben.
+    - Een eventuele Einddatum moet het formaat DD-MM-JJJJ hebben.
+    - Einddatum mag niet vóór Begindatum liggen.
     """
 
     current_row = current_entry["data"]
@@ -329,36 +226,34 @@ def validate_new_reference_value(
 
     if not current_start_date:
         errors.append(
-            f"Line {line_number}, new reference value "
-            f"{format_key(reference_key)}: Begindatum is required."
+            f"Regel {line_number}, nieuwe code '{code}': "
+            f"Begindatum is verplicht."
         )
 
     validate_date_order(
         start_date_value=current_start_date,
         end_date_value=current_end_date,
-        reference_key=reference_key,
+        code=code,
         line_number=line_number,
         errors=errors,
     )
 
 
-def validate_existing_reference_value(
-    reference_key,
+def validate_existing_code(
+    code,
     base_entry,
     current_entry,
     errors,
 ):
     """
-    Validate an existing reference value.
+    Valideert een bestaande referentiewaarde.
 
-    Rules:
-    - Begindatum cannot be modified or removed.
-        - Begindatum may be corrected when its original value has an
-            invalid date format.
-    - An empty Einddatum may be populated once.
-    - A populated Einddatum cannot be modified.
-    - A populated Einddatum cannot be removed.
-    - Einddatum cannot be before Begindatum.
+    Regels:
+    - Begindatum mag niet worden gewijzigd of verwijderd.
+    - Een lege Einddatum mag één keer worden gevuld.
+    - Een gevulde Einddatum mag niet worden gewijzigd.
+    - Een gevulde Einddatum mag niet worden verwijderd.
+    - Einddatum mag niet vóór Begindatum liggen.
     """
 
     base_row = base_entry["data"]
@@ -371,39 +266,30 @@ def validate_existing_reference_value(
     current_start_date = current_row["Begindatum"]
     current_end_date = current_row["Einddatum"]
 
-    is_start_date_format_correction = (
-        current_start_date != base_start_date
-        and not has_valid_date_format(base_start_date)
-        and has_valid_date_format(current_start_date)
-    )
-
-    if (
-        current_start_date != base_start_date
-        and not is_start_date_format_correction
-    ):
+    # Een bestaande begindatum mag nooit worden gewijzigd of verwijderd.
+    if current_start_date != base_start_date:
         errors.append(
-            f"Line {line_number}, existing reference value "
-            f"{format_key(reference_key)}: Begindatum cannot be modified "
-            f"or removed. Old='{base_start_date}', "
-            f"new='{current_start_date}'."
+            f"Regel {line_number}, bestaande code '{code}': "
+            f"Begindatum mag niet worden gewijzigd of verwijderd. "
+            f"Oud='{base_start_date}', nieuw='{current_start_date}'."
         )
 
-    # Allowed transitions for Einddatum:
+    # Een lege einddatum mag één keer worden gevuld.
     #
-    # empty     -> empty
-    # empty     -> populated
-    # populated -> same value
+    # De volgende situaties zijn toegestaan:
+    # - leeg    -> leeg
+    # - leeg    -> gevuld
+    # - gevuld  -> dezelfde waarde
     #
-    # Disallowed transitions:
-    #
-    # populated -> empty
-    # populated -> different value
+    # De volgende situaties zijn niet toegestaan:
+    # - gevuld  -> leeg
+    # - gevuld  -> andere waarde
 
     if base_end_date and not current_end_date:
         errors.append(
-            f"Line {line_number}, existing reference value "
-            f"{format_key(reference_key)}: Einddatum cannot be removed. "
-            f"Old value='{base_end_date}'."
+            f"Regel {line_number}, bestaande code '{code}': "
+            f"Einddatum mag niet worden verwijderd. "
+            f"Oude waarde='{base_end_date}'."
         )
 
     elif (
@@ -412,73 +298,68 @@ def validate_existing_reference_value(
         and current_end_date != base_end_date
     ):
         errors.append(
-            f"Line {line_number}, existing reference value "
-            f"{format_key(reference_key)}: a populated Einddatum cannot "
-            f"be modified. Old='{base_end_date}', "
-            f"new='{current_end_date}'."
+            f"Regel {line_number}, bestaande code '{code}': "
+            f"Een eenmaal gevulde Einddatum mag niet worden gewijzigd. "
+            f"Oud='{base_end_date}', nieuw='{current_end_date}'."
         )
 
     validate_date_order(
         start_date_value=current_start_date,
         end_date_value=current_end_date,
-        reference_key=reference_key,
+        code=code,
         line_number=line_number,
         errors=errors,
     )
 
 
-def validate_deleted_reference_values(
-    base_rows,
-    current_rows,
-    errors,
-):
+def validate_deleted_codes(base_rows, current_rows, errors):
     """
-    Validate that existing reference values have not been deleted.
+    Controleert of bestaande codes uit het CSV-bestand zijn verwijderd.
 
-    Reference values should normally be made obsolete by populating
-    Einddatum, rather than by physically deleting their CSV row.
+    Referentiewaarden horen normaal gesproken niet fysiek verwijderd te
+    worden. Ze moeten door middel van een Einddatum obsolete worden
+    verklaard.
+
+    Als verwijderen in jullie proces wel is toegestaan, kan deze functie
+    en de aanroep ervan worden verwijderd.
     """
 
-    deleted_keys = sorted(set(base_rows) - set(current_rows))
+    deleted_codes = sorted(set(base_rows) - set(current_rows))
 
-    for reference_key in deleted_keys:
-        base_entry = base_rows[reference_key]
-        original_line_number = base_entry["line_number"]
+    for code in deleted_codes:
+        base_entry = base_rows[code]
+        line_number = base_entry["line_number"]
 
         errors.append(
-            f"Reference value {format_key(reference_key)} from original "
-            f"line {original_line_number} has been deleted. Do not "
-            f"physically delete a reference value. Populate Einddatum "
-            f"instead."
+            f"Code '{code}' uit de oorspronkelijke regel {line_number} "
+            f"is verwijderd. Verwijder referentiewaarden niet fysiek, "
+            f"maar voorzie ze van een Einddatum."
         )
 
 
 def validate_reference_data(base_rows, current_rows):
     """
-    Compare the original and current reference data.
-
-    The comparison uses the combination of Soort and Code as the
-    unique identifier.
+    Vergelijkt de oorspronkelijke en actuele referentiedata.
     """
 
     errors = []
 
-    for reference_key, current_entry in current_rows.items():
-        if reference_key not in base_rows:
-            validate_new_reference_value(
-                reference_key=reference_key,
+    for code, current_entry in current_rows.items():
+        if code not in base_rows:
+            validate_new_code(
+                code=code,
                 current_entry=current_entry,
                 errors=errors,
             )
         else:
-            validate_existing_reference_value(
-                reference_key=reference_key,
-                base_entry=base_rows[reference_key],
+            validate_existing_code(
+                code=code,
+                base_entry=base_rows[code],
                 current_entry=current_entry,
                 errors=errors,
             )
 
-    validate_deleted_reference_values(
+    validate_deleted_codes(
         base_rows=base_rows,
         current_rows=current_rows,
         errors=errors,
@@ -489,14 +370,14 @@ def validate_reference_data(base_rows, current_rows):
 
 def print_validation_errors(errors):
     """
-    Print validation errors to the GitHub Actions log.
+    Toont validatiefouten in de GitHub Actions-log.
 
-    The ::error:: prefix causes GitHub Actions to display the message
-    as an error annotation.
+    De prefix ::error:: zorgt ervoor dat GitHub de melding als fout
+    herkenbaar weergeeft.
     """
 
     print()
-    print("Reference data validation failed:")
+    print("Validatie van referentiedata is mislukt:")
     print()
 
     for error in errors:
@@ -504,50 +385,50 @@ def print_validation_errors(errors):
         print(f"- {error}")
 
     print()
-    print(f"Number of validation errors: {len(errors)}")
+    print(f"Aantal validatiefouten: {len(errors)}")
 
 
 def print_validation_success(base_rows, current_rows):
     """
-    Print a summary after successful validation.
+    Toont een korte samenvatting na een geslaagde validatie.
     """
 
-    new_keys = sorted(set(current_rows) - set(base_rows))
+    new_codes = sorted(set(current_rows) - set(base_rows))
 
-    newly_populated_end_dates = sorted(
-        reference_key
-        for reference_key in current_rows
-        if reference_key in base_rows
-        and not base_rows[reference_key]["data"]["Einddatum"]
-        and current_rows[reference_key]["data"]["Einddatum"]
+    newly_completed_end_dates = sorted(
+        code
+        for code in current_rows
+        if code in base_rows
+        and not base_rows[code]["data"]["Einddatum"]
+        and current_rows[code]["data"]["Einddatum"]
     )
 
-    print("Reference data validation succeeded.")
-    print(f"Number of validated rows: {len(current_rows)}")
-    print(f"Number of new reference values: {len(new_keys)}")
+    print("Validatie van referentiedata is geslaagd.")
+    print(f"Aantal gecontroleerde regels: {len(current_rows)}")
+    print(f"Aantal nieuwe codes: {len(new_codes)}")
     print(
-        "Number of existing reference values with a newly populated "
-        f"Einddatum: {len(newly_populated_end_dates)}"
+        "Aantal bestaande codes met een nieuw ingevulde Einddatum: "
+        f"{len(newly_completed_end_dates)}"
     )
 
-    if new_keys:
+    if new_codes:
         print()
-        print("New reference values:")
+        print("Nieuwe codes:")
 
-        for reference_key in new_keys:
-            print(f"- {format_key(reference_key)}")
+        for code in new_codes:
+            print(f"- {code}")
 
-    if newly_populated_end_dates:
+    if newly_completed_end_dates:
         print()
-        print("Reference values for which Einddatum was populated:")
+        print("Codes waarvoor de Einddatum is ingevuld:")
 
-        for reference_key in newly_populated_end_dates:
-            print(f"- {format_key(reference_key)}")
+        for code in newly_completed_end_dates:
+            print(f"- {code}")
 
 
 def main():
     """
-    Main entry point for the validation script.
+    Hoofdfunctie van het validatiescript.
     """
 
     args = parse_arguments()
@@ -576,12 +457,12 @@ def main():
 
     except ValueError as error:
         print(f"::error::{error}")
-        print(f"Validation error: {error}")
+        print(f"Validatiefout: {error}")
         return 1
 
     except Exception as error:
-        print(f"::error::Unexpected error: {error}")
-        print(f"Unexpected error: {error}")
+        print(f"::error::Onverwachte fout: {error}")
+        print(f"Onverwachte fout: {error}")
         return 1
 
 
