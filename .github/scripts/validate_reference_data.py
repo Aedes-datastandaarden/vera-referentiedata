@@ -60,6 +60,21 @@ def parse_arguments():
     return parser.parse_args()
 
 
+def print_compared_versions(args):
+    """
+    Logt welke bestandsversies worden vergeleken, inclusief de commit
+    SHA's wanneer deze als argument zijn meegegeven.
+    """
+
+    base_commit = args.base_commit or "onbekend"
+    current_commit = args.current_commit or "onbekend"
+
+    print("Vergeleken versies van de referentiedata:")
+    print(f"- Basisbestand: {args.base_file} (commit {base_commit})")
+    print(f"- Huidig bestand: {args.current_file} (commit {current_commit})")
+    print()
+
+
 def read_csv(file_path):
     """
     Leest een CSV-bestand en retourneert de regels als dictionary,
